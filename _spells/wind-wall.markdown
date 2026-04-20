@@ -3,8 +3,7 @@ layout: post
 title:  "Wind Wall"
 sources: [PHB 2024]
 tags: [druid, ranger, level3, concentration, action, evocation]
-subtags: [{artificer: artillerist}]
----
+subtags: [{artificer: artillerist}, {dragonmark: storm}]---
 
 **3rd-level evocation**
 

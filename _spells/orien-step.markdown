@@ -2,8 +2,8 @@
 layout: post
 title:  "Orien Step"
 sources: [Frontiers 2024]
-tags: [artificer, dragonmark-passage, cantrip, bonus, transmutation]
-subtags: [{artificer: cartographer}]
+tags: [artificer, dragonmark, cantrip, bonus, transmutation]
+subtags: [{artificer: cartographer}, {dragonmark: passage}]
 ---
 
 **Transmutation cantrip**

@@ -106,5 +106,30 @@
      subtag: patron-stone-sovereign
 - name: Wizard
   tag: wizard
-- name: Dragonmark (Mark of Passage)
-  tag: dragonmark-passage
+- name: Dragonmark
+  tag: dragonmark
+  subclasses:
+   - name: Mark of Detection
+     subtag: detection
+   - name: Mark of Finding
+     subtag: finding
+   - name: Mark of Handling
+     subtag: handling
+   - name: Mark of Healing
+     subtag: healing
+   - name: Mark of Hospitality
+     subtag: hospitality
+   - name: Mark of Making
+     subtag: making
+   - name: Mark of Passage
+     subtag: passage
+   - name: Mark of Scribing
+     subtag: scribing
+   - name: Mark of Sentinel
+     subtag: sentinel
+   - name: Mark of Shadow
+     subtag: shadow
+   - name: Mark of Storm
+     subtag: storm
+   - name: Mark of Warding
+     subtag: warding

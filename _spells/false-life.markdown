@@ -3,6 +3,7 @@ layout: post
 title:  "False Life"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level1, action, necromancy]
+subtags: [{dragonmark: healing}]
 ---
 
 **1st-level necromancy**

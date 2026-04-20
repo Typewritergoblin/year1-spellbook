@@ -3,6 +3,7 @@ layout: post
 title:  "Major Image"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level3, concentration, action, illusion]
+subtags: [{dragonmark: shadow}]
 ---
 
 **3rd-level illusion**

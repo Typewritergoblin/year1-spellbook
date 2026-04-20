@@ -3,8 +3,7 @@ layout: post
 title:  "Nondetection"
 sources: [PHB 2024]
 tags: [bard, ranger, wizard, level3, action, abjuration]
-subtags: [{cleric: domain-trickery}, {cleric: domain-knowledge}]
----
+subtags: [{cleric: domain-trickery}, {cleric: domain-knowledge}, {dragonmark: detection}]---
 
 **3rd-level abjuration**
 

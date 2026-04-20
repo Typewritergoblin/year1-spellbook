@@ -3,6 +3,7 @@ layout: post
 title:  "Leomund's Tiny Hut"
 sources: [PHB 2024]
 tags: [bard, wizard, level3, ritual, long, evocation]
+subtags: [{dragonmark: hospitality}]
 ---
 
 **3rd-level evocation**

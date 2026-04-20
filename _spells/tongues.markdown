@@ -3,8 +3,7 @@ layout: post
 title:  "Tongues"
 sources: [PHB 2024]
 tags: [bard, cleric, sorcerer, warlock, wizard, level3, action, divination]
-subtags: [{cleric: domain-commerce}, {cleric: domain-knowledge}]
----
+subtags: [{cleric: domain-commerce}, {cleric: domain-knowledge}, {dragonmark: scribing}]---
 
 **3rd-level divination**
 

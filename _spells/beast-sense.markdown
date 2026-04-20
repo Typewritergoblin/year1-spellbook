@@ -3,6 +3,7 @@ layout: post
 title:  "Beast Sense"
 sources: [PHB 2024]
 tags: [druid, ranger, level2, ritual, concentration, action, divination]
+subtags: [{dragonmark: handling}]
 ---
 
 **2nd-level divination**

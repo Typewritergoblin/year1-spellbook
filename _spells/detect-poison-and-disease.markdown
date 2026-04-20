@@ -3,6 +3,7 @@ layout: post
 title:  "Detect Poison and Disease"
 sources: [PHB 2024]
 tags: [cleric, druid, paladin, ranger, level1, ritual, concentration, action, divination]
+subtags: [{dragonmark: detection}]
 ---
 
 **1st-level divination**

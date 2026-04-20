@@ -3,6 +3,7 @@ layout: post
 title:  "Awaken"
 sources: [PHB 2024]
 tags: [bard, druid, level5, long, transmutation]
+subtags: [{dragonmark: handling}]
 ---
 
 **5th-level transmutation**

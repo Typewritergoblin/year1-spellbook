@@ -3,6 +3,7 @@ layout: post
 title:  "Goodberry"
 sources: [PHB 2024]
 tags: [druid, ranger, level1, action, conjuration]
+subtags: [{dragonmark: hospitality}]
 ---
 
 **1st-level conjuration**

@@ -3,6 +3,7 @@ layout: post
 title:  "Hallucinatory Terrain"
 sources: [PHB 2024]
 tags: [bard, druid, warlock, wizard, level4, long, illusion]
+subtags: [{dragonmark: shadow}]
 ---
 
 **4th-level illusion**

@@ -3,6 +3,7 @@ layout: post
 title:  "Feather Fall"
 sources: [PHB 2024]
 tags: [artificer, bard, sorcerer, wizard, level1, reaction, transmutation]
+subtags: [{dragonmark: storm}]
 ---
 
 **1st-level transmutation**

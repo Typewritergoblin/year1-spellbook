@@ -3,6 +3,7 @@ layout: post
 title:  "Elemental Weapon"
 sources: [PHB 2024]
 tags: [artificer, druid, paladin, ranger, level3, concentration, action, transmutation]
+subtags: [{dragonmark: making}]
 ---
 
 **3rd-level transmutation**

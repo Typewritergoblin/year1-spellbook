@@ -3,6 +3,7 @@ layout: post
 title:  "Magic Mouth"
 sources: [PHB 2024]
 tags: [artificer, bard, wizard, level2, ritual, long, illusion]
+subtags: [{dragonmark: scribing}]
 ---
 
 **2nd-level illusion**

@@ -3,8 +3,7 @@ layout: post
 title:  "Legend Lore"
 sources: [PHB 2024]
 tags: [bard, cleric, wizard, level5, long, divination]
-subtags: [{cleric: domain-commerce}, {cleric: domain-knowledge}, {paladin: oath-glory}, {sorcerer: draconic}]
----
+subtags: [{cleric: domain-commerce}, {cleric: domain-knowledge}, {paladin: oath-glory}, {sorcerer: draconic}, {dragonmark: detection}]---
 
 **5th-level divination**
 

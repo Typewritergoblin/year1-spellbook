@@ -3,6 +3,7 @@ layout: post
 title:  "Message"
 sources: [PHB 2024]
 tags: [artificer, bard, druid, sorcerer, wizard, cantrip, action, transmutation]
+subtags: [{dragonmark: scribing}]
 ---
 
 **Transmutation cantrip**

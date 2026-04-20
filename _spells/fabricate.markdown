@@ -3,6 +3,7 @@ layout: post
 title:  "Fabricate"
 sources: [PHB 2024]
 tags: [artificer, wizard, level4, long, transmutation]
+subtags: [{dragonmark: making}]
 ---
 
 **4th-level transmutation**

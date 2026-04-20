@@ -3,6 +3,7 @@ layout: post
 title:  "Find Steed"
 sources: [PHB 2024]
 tags: [paladin, level2, action, conjuration]
+subtags: [{dragonmark: passage}]
 ---
 
 **2nd-level conjuration**

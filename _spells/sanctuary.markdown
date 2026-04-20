@@ -3,6 +3,7 @@ layout: post
 title:  "Sanctuary"
 sources: [PHB 2024]
 tags: [artificer, cleric, level1, bonus, abjuration]
+subtags: [{dragonmark: warding}]
 ---
 
 **1st-level abjuration**

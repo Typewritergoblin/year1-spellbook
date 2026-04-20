@@ -3,6 +3,7 @@ layout: post
 title:  "Thunderclap"
 sources: [PHB 2024]
 tags: [artificer, bard, druid, sorcerer, warlock, wizard, cantrip, action, evocation]
+subtags: [{dragonmark: storm}]
 ---
 
 **Evocation cantrip**

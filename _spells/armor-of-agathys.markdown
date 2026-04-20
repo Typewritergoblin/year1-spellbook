@@ -3,6 +3,7 @@ layout: post
 title:  "Armor of Agathys"
 sources: [PHB 2024]
 tags: [warlock, level1, bonus, abjuration]
+subtags: [{dragonmark: warding}]
 ---
 
 **1st-level abjuration**

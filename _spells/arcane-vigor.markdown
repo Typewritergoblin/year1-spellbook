@@ -3,6 +3,7 @@ layout: post
 title:  "Arcane Vigor"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level2, bonus, abjuration]
+subtags: [{dragonmark: healing}]
 ---
 
 **2nd-level abjuration**

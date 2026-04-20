@@ -3,8 +3,7 @@ layout: post
 title:  "Magic Circle"
 sources: [PHB 2024]
 tags: [cleric, paladin, warlock, wizard, level3, long, abjuration]
-subtags: [{warlock: patron-stone-sovereign}]
----
+subtags: [{warlock: patron-stone-sovereign}, {dragonmark: warding}]---
 
 **3rd-level abjuration**
 

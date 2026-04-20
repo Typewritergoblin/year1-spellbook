@@ -3,6 +3,7 @@ layout: post
 title:  "Find Traps"
 sources: [PHB 2024]
 tags: [cleric, druid, ranger, level2, action, divination]
+subtags: [{dragonmark: detection}]
 ---
 
 **2nd-level divination**

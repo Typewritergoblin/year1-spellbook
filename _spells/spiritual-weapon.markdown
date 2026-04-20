@@ -3,8 +3,7 @@ layout: post
 title:  "Spiritual Weapon"
 sources: [PHB 2024]
 tags: [cleric, level2, concentration, bonus, evocation]
-subtags: [{cleric: domain-war}]
----
+subtags: [{cleric: domain-war}, {dragonmark: making}]---
 
 **2nd-level evocation**
 

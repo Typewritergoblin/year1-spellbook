@@ -3,6 +3,7 @@ layout: post
 title:  "Longstrider"
 sources: [PHB 2024]
 tags: [artificer, bard, druid, ranger, wizard, level1, action, transmutation]
+subtags: [{dragonmark: finding}]
 ---
 
 **1st-level transmutation**

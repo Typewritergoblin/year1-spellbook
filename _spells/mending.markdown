@@ -3,6 +3,7 @@ layout: post
 title:  "Mending"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, sorcerer, wizard, cantrip, long, transmutation]
+subtags: [{dragonmark: making}]
 ---
 
 **Transmutation cantrip**

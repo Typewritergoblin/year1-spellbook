@@ -3,8 +3,7 @@ layout: post
 title:  "Locate Object"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, paladin, ranger, wizard, level2, concentration, action, divination]
-subtags: [{cleric: domain-commerce}]
----
+subtags: [{cleric: domain-commerce}, {dragonmark: finding}]---
 
 **2nd-level divination**
 

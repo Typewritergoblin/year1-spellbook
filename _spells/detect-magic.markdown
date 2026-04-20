@@ -3,8 +3,7 @@ layout: post
 title:  "Detect Magic"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, paladin, ranger, sorcerer, warlock, wizard, level1, ritual, concentration, action, divination]
-subtags: [{cleric: domain-knowledge}]
----
+subtags: [{cleric: domain-knowledge}, {dragonmark: detection}]---
 
 **1st-level divination**
 

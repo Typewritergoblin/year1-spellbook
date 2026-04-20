@@ -3,6 +3,7 @@ layout: post
 title:  "Speak with Plants"
 sources: [PHB 2024]
 tags: [bard, druid, ranger, level3, action, transmutation]
+subtags: [{dragonmark: finding}]
 ---
 
 **3rd-level transmutation**

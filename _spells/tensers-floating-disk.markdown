@@ -3,6 +3,7 @@ layout: post
 title:  "Tenser's Floating Disk"
 sources: [PHB 2024]
 tags: [wizard, level1, ritual, action, conjuration]
+subtags: [{dragonmark: making}]
 ---
 
 **1st-level conjuration**

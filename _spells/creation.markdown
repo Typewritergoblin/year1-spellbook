@@ -3,6 +3,7 @@ layout: post
 title:  "Creation"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level5, long, illusion]
+subtags: [{dragonmark: making}]
 ---
 
 **5th-level illusion**

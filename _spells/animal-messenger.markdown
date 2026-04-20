@@ -3,6 +3,7 @@ layout: post
 title:  "Animal Messenger"
 sources: [PHB 2024]
 tags: [bard, druid, ranger, level2, ritual, action, enchantment]
+subtags: [{dragonmark: scribing}]
 ---
 
 **2nd-level enchantment**

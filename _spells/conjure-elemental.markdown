@@ -3,8 +3,7 @@ layout: post
 title:  "Conjure Elemental"
 sources: [PHB 2024]
 tags: [druid, wizard, level5, concentration, action, conjuration]
-subtags: [{druid: circle-sea}]
----
+subtags: [{druid: circle-sea}, {dragonmark: storm}]---
 
 **5th-level conjuration**
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Minor Illusion"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, cantrip, action, illusion]
+subtags: [{dragonmark: shadow}]
 ---
 
 **Illusion cantrip**

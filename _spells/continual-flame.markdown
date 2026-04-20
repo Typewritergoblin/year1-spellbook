@@ -3,6 +3,7 @@ layout: post
 title:  "Continual Flame"
 sources: [PHB 2024]
 tags: [artificer, cleric, druid, wizard, level2, action, evocation]
+subtags: [{dragonmark: making}]
 ---
 
 **2nd-level evocation**

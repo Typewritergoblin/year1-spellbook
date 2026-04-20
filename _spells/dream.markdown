@@ -3,6 +3,7 @@ layout: post
 title:  "Dream"
 sources: [PHB 2024]
 tags: [bard, warlock, wizard, level5, long, illusion]
+subtags: [{dragonmark: scribing}]
 ---
 
 **5th-level illusion**

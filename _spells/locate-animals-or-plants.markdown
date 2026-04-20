@@ -3,6 +3,7 @@ layout: post
 title:  "Locate Animals or Plants"
 sources: [PHB 2024]
 tags: [bard, druid, ranger, level2, ritual, action, divination]
+subtags: [{dragonmark: finding}]
 ---
 
 **2nd-level divination**

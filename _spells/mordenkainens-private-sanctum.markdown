@@ -3,6 +3,7 @@ layout: post
 title:  "Mordenkainen's Private Sanctum"
 sources: [PHB 2024]
 tags: [artificer, wizard, level4, long, abjuration]
+subtags: [{dragonmark: hospitality}]
 ---
 
 **4th-level abjuration**

@@ -3,8 +3,7 @@ layout: post
 title:  "Locate Creature"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, paladin, ranger, wizard, level4, concentration, action, divination]
-subtags: [{ranger: bloodhound}]
----
+subtags: [{ranger: bloodhound}, {dragonmark: finding}]---
 
 **4th-level divination**
 

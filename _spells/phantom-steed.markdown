@@ -3,6 +3,7 @@ layout: post
 title:  "Phantom Steed"
 sources: [PHB 2024]
 tags: [wizard, level3, ritual, long, illusion]
+subtags: [{dragonmark: passage}]
 ---
 
 **3rd-level illusion**
