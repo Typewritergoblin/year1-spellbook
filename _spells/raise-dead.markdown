@@ -3,6 +3,7 @@ layout: post
 title:  "Raise Dead"
 sources: [PHB 2024]
 tags: [bard, cleric, paladin, level5, long, necromancy]
+subtags: [{artificer: alchemist}]
 ---
 
 **5th-level necromancy**

@@ -3,6 +3,7 @@ layout: post
 title:  "Charm Person"
 sources: [PHB 2024]
 tags: [bard, druid, sorcerer, warlock, wizard, level1, action, enchantment]
+subtags: [{cleric: domain-trickery}, {cleric: domain-commerce}, {ranger: fey-wanderer}]
 ---
 
 **1st-level enchantment**

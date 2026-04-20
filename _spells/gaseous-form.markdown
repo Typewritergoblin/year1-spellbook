@@ -3,6 +3,7 @@ layout: post
 title:  "Gaseous Form"
 sources: [PHB 2024]
 tags: [sorcerer, warlock, wizard, level3, concentration, action, transmutation]
+subtags: [{paladin: oath-noble-genies}, {artificer: alchemist}]
 ---
 
 **3rd-level transmutation**

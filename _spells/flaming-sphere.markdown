@@ -3,6 +3,7 @@ layout: post
 title:  "Flaming Sphere"
 sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level2, concentration, action, conjuration]
+subtags: [{artificer: alchemist}]
 ---
 
 **2nd-level conjuration**

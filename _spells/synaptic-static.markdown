@@ -3,6 +3,7 @@ layout: post
 title:  "Synaptic Static"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level5, action, enchantment]
+subtags: [{cleric: domain-knowledge}, {cleric: domain-mind}]
 ---
 
 **5th-level enchantment**

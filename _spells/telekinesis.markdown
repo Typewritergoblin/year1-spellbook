@@ -3,6 +3,7 @@ layout: post
 title:  "Telekinesis"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level5, concentration, action, transmutation]
+subtags: [{cleric: domain-mind}, {sorcerer: aberrant}, {warlock: patron-great-old-one}]
 ---
 
 **5th-level transmutation**

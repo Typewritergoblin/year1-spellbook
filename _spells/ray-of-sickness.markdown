@@ -3,6 +3,7 @@ layout: post
 title:  "Ray of Sickness"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level1, action, necromancy]
+subtags: [{druid: circle-land-tropical}, {artificer: alchemist}]
 ---
 
 **1st-level necromancy**

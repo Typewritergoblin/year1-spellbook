@@ -3,6 +3,7 @@ layout: post
 title:  "Yolande's Regal Presence"
 sources: [PHB 2024]
 tags: [bard, wizard, level5, concentration, action, enchantment]
+subtags: [{paladin: oath-glory}]
 ---
 
 **5th-level enchantment**

@@ -3,6 +3,7 @@ layout: post
 title:  "Command"
 sources: [PHB 2024]
 tags: [bard, cleric, paladin, level1, action, enchantment]
+subtags: [{cleric: domain-knowledge}, {cleric: domain-mind}, {sorcerer: draconic}, {warlock: patron-fiend}]
 ---
 
 **1st-level enchantment**

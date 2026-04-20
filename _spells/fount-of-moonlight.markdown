@@ -3,6 +3,7 @@ layout: post
 title:  "Fount of Moonlight"
 sources: [PHB 2024]
 tags: [bard, druid, level4, concentration, action, evocation]
+subtags: [{druid: circle-moon}]
 ---
 
 **4th-level evocation**

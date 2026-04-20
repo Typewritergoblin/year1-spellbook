@@ -3,6 +3,7 @@ layout: post
 title:  "Ice Storm"
 sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level4, action, evocation]
+subtags: [{cleric: domain-tempest}, {paladin: oath-ancients}, {druid: circle-land-polar}, {druid: circle-sea}, {ranger: winter-walker}, {artificer: artillerist}]
 ---
 
 **4th-level evocation**

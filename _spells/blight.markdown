@@ -3,6 +3,7 @@ layout: post
 title:  "Blight"
 sources: [PHB 2024]
 tags: [druid, sorcerer, warlock, wizard, level4, action, necromancy]
+subtags: [{druid: circle-land-arid}]
 ---
 
 **4th-level necromancy**

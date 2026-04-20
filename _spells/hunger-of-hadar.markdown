@@ -3,6 +3,7 @@ layout: post
 title:  "Hunger of Hadar"
 sources: [PHB 2024]
 tags: [warlock, level3, concentration, action, conjuration]
+subtags: [{sorcerer: aberrant}, {warlock: patron-great-old-one}]
 ---
 
 **3rd-level conjuration**

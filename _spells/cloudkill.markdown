@@ -3,6 +3,7 @@ layout: post
 title:  "Cloudkill"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level5, concentration, action, conjuration]
+subtags: [{artificer: alchemist}]
 ---
 
 **5th-level conjuration**

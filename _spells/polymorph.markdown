@@ -3,6 +3,7 @@ layout: post
 title:  "Polymorph"
 sources: [PHB 2024]
 tags: [bard, druid, sorcerer, wizard, level4, concentration, action, transmutation]
+subtags: [{druid: circle-land-tropical}]
 ---
 
 **4th-level transmutation**

@@ -3,6 +3,7 @@ layout: post
 title:  "Evard's Black Tentacles"
 sources: [PHB 2024]
 tags: [wizard, level4, concentration, action, conjuration]
+subtags: [{sorcerer: aberrant}]
 ---
 
 **4th-level conjuration**

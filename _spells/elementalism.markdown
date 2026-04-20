@@ -3,6 +3,7 @@ layout: post
 title:  "Elementalism"
 sources: [PHB 2024]
 tags: [artificer, druid, sorcerer, wizard, cantrip, action, transmutation]
+subtags: [{paladin: oath-noble-genies}]
 ---
 
 **Transmutation cantrip**

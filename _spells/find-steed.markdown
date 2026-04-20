@@ -28,9 +28,3 @@ The steed resembles a Large, rideable animal of your choice, such as a horse, a 
 In addition to the noted usage of the spell's level in the steed's Traits and Actions, the following attributes are also affected.
 
 Otherworldly Steed**AC**10 + 1 per spell level**HP**5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell’s level)**Speed**60 ft., Fly 60 ft. (requires level 4+ spell)**PB**equals your Proficiency Bonus
-
-**Foundry Note**
-
-The **Summon Flying Steed** activity should be used when consuming a fourth level or higher spell slot and is configured to apply the Fly Speed.
-
-When using a second or third level spell slot, the **Summon Steed** activity should be used instead.

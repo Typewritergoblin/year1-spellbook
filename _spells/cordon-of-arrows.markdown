@@ -20,7 +20,3 @@ You touch up to four nonmagical Arrows or Bolts and plant them in the ground in 
 When you cast this spell, you can designate any creatures you choose, and the spell ignores them.
 
 **Using a Higher-Level Spell Slot.** The amount of ammunition that can be affected increases by two for each spell slot level above 2.
-
-**Foundry Note**
-
-The **Cast** activity will reset the limited uses of this item according to how many pieces of ammunition are affected and can be fired by the **Save** activity.

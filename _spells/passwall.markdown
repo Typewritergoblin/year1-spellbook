@@ -3,6 +3,7 @@ layout: post
 title:  "Passwall"
 sources: [PHB 2024]
 tags: [wizard, level5, action, transmutation]
+subtags: [{artificer: armorer}]
 ---
 
 **5th-level transmutation**

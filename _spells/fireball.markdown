@@ -3,6 +3,7 @@ layout: post
 title:  "Fireball"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level3, action, evocation]
+subtags: [{cleric: domain-light}, {druid: circle-land-arid}, {warlock: patron-fiend}, {artificer: artillerist}]
 ---
 
 **3rd-level evocation**

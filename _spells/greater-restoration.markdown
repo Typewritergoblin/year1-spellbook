@@ -3,6 +3,7 @@ layout: post
 title:  "Greater Restoration"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, paladin, ranger, level5, action, abjuration]
+subtags: [{cleric: domain-life}, {sorcerer: clockwork}, {sorcerer: spellfire}, {warlock: patron-celestial}]
 ---
 
 **5th-level abjuration**

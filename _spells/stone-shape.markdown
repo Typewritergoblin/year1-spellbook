@@ -3,6 +3,7 @@ layout: post
 title:  "Stone Shape"
 sources: [PHB 2024]
 tags: [artificer, cleric, druid, wizard, level4, action, transmutation]
+subtags: [{warlock: patron-stone-sovereign}]
 ---
 
 **4th-level transmutation**

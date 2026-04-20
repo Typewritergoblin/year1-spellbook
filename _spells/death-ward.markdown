@@ -3,6 +3,7 @@ layout: post
 title:  "Death Ward"
 sources: [PHB 2024]
 tags: [cleric, paladin, level4, action, abjuration]
+subtags: [{cleric: domain-life}, {artificer: alchemist}]
 ---
 
 **4th-level abjuration**

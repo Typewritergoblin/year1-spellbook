@@ -3,6 +3,7 @@ layout: post
 title:  "Aura of Vitality"
 sources: [PHB 2024]
 tags: [cleric, druid, paladin, level3, concentration, action, abjuration]
+subtags: [{sorcerer: spellfire}, {artificer: battle-smith}]
 ---
 
 **3rd-level abjuration**

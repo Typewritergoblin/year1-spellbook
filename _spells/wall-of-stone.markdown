@@ -3,6 +3,7 @@ layout: post
 title:  "Wall of Stone"
 sources: [PHB 2024]
 tags: [artificer, druid, sorcerer, wizard, level5, concentration, action, evocation]
+subtags: [{druid: circle-land-arid}, {warlock: patron-stone-sovereign}]
 ---
 
 **5th-level evocation**

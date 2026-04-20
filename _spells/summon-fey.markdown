@@ -3,6 +3,7 @@ layout: post
 title:  "Summon Fey"
 sources: [PHB 2024]
 tags: [druid, ranger, warlock, wizard, level3, concentration, action, conjuration]
+subtags: [{ranger: fey-wanderer}]
 ---
 
 **3rd-level conjuration**

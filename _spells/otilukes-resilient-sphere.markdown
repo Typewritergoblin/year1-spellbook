@@ -3,6 +3,7 @@ layout: post
 title:  "Otiluke's Resilient Sphere"
 sources: [PHB 2024]
 tags: [artificer, wizard, level4, concentration, action, abjuration]
+subtags: [{sorcerer: nemesis}]
 ---
 
 **4th-level abjuration**

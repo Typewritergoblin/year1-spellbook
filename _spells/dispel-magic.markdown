@@ -3,6 +3,7 @@ layout: post
 title:  "Dispel Magic"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, paladin, ranger, sorcerer, warlock, wizard, level3, action, abjuration]
+subtags: [{cleric: domain-knowledge}, {paladin: oath-devotion}, {sorcerer: clockwork}, {sorcerer: spellfire}]
 ---
 
 **3rd-level abjuration**

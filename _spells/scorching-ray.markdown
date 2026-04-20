@@ -3,6 +3,7 @@ layout: post
 title:  "Scorching Ray"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level2, action, evocation]
+subtags: [{cleric: domain-light}, {sorcerer: spellfire}, {warlock: patron-fiend}, {artificer: artillerist}]
 ---
 
 **2nd-level evocation**

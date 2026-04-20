@@ -3,6 +3,7 @@ layout: post
 title:  "Suggestion"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level2, concentration, action, enchantment]
+subtags: [{warlock: patron-fiend}]
 ---
 
 **2nd-level enchantment**

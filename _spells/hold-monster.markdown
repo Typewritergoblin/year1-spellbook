@@ -3,6 +3,7 @@ layout: post
 title:  "Hold Monster"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level5, concentration, action, enchantment]
+subtags: [{cleric: domain-war}, {paladin: oath-vengeance}, {druid: circle-sea}]
 ---
 
 **5th-level enchantment**

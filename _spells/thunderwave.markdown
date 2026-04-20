@@ -3,6 +3,7 @@ layout: post
 title:  "Thunderwave"
 sources: [PHB 2024]
 tags: [bard, druid, sorcerer, wizard, level1, action, evocation]
+subtags: [{cleric: domain-tempest}, {druid: circle-sea}, {artificer: armorer}, {artificer: artillerist}]
 ---
 
 **1st-level evocation**

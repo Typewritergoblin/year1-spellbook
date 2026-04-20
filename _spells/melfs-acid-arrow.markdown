@@ -3,6 +3,7 @@ layout: post
 title:  "Melf's Acid Arrow"
 sources: [PHB 2024]
 tags: [wizard, level2, action, evocation]
+subtags: [{artificer: alchemist}]
 ---
 
 **2nd-level evocation**

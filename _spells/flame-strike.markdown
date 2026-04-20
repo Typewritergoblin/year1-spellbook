@@ -3,6 +3,7 @@ layout: post
 title:  "Flame Strike"
 sources: [PHB 2024]
 tags: [cleric, level5, action, evocation]
+subtags: [{cleric: domain-light}, {paladin: oath-devotion}, {sorcerer: spellfire}]
 ---
 
 **5th-level evocation**

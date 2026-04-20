@@ -3,6 +3,7 @@ layout: post
 title:  "Healing Word"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, level1, bonus, abjuration]
+subtags: [{artificer: alchemist}]
 ---
 
 **1st-level abjuration**

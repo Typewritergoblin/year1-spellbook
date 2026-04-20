@@ -3,6 +3,7 @@ layout: post
 title:  "Magic Missile"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level1, action, evocation]
+subtags: [{artificer: armorer}]
 ---
 
 **1st-level evocation**

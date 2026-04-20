@@ -3,6 +3,7 @@ layout: post
 title:  "Wall of Force"
 sources: [PHB 2024]
 tags: [wizard, level5, concentration, action, evocation]
+subtags: [{sorcerer: clockwork}, {artificer: armorer}, {artificer: artillerist}]
 ---
 
 **5th-level evocation**

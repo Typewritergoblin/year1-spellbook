@@ -3,6 +3,7 @@ layout: post
 title:  "Spike Growth"
 sources: [PHB 2024]
 tags: [druid, ranger, level2, concentration, action, transmutation]
+subtags: [{warlock: patron-stone-sovereign}]
 ---
 
 **2nd-level transmutation**

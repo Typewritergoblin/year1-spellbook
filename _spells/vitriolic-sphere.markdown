@@ -3,6 +3,7 @@ layout: post
 title:  "Vitriolic Sphere"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level4, action, evocation]
+subtags: [{artificer: alchemist}]
 ---
 
 **4th-level evocation**

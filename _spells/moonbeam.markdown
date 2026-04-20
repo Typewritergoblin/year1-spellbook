@@ -3,6 +3,7 @@ layout: post
 title:  "Moonbeam"
 sources: [PHB 2024]
 tags: [druid, level2, concentration, action, evocation]
+subtags: [{paladin: oath-ancients}, {druid: circle-moon}]
 ---
 
 **2nd-level evocation**

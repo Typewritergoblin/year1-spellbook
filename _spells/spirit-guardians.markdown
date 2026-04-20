@@ -3,6 +3,7 @@ layout: post
 title:  "Spirit Guardians"
 sources: [PHB 2024]
 tags: [cleric, level3, concentration, action, conjuration]
+subtags: [{cleric: domain-war}]
 ---
 
 **3rd-level conjuration**

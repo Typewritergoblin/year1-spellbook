@@ -3,6 +3,7 @@ layout: post
 title:  "Disguise Self"
 sources: [PHB 2024]
 tags: [artificer, bard, sorcerer, wizard, level1, action, illusion]
+subtags: [{cleric: domain-trickery}, {ranger: gloom-stalker}]
 ---
 
 **1st-level illusion**

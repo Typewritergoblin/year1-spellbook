@@ -3,6 +3,7 @@ layout: post
 title:  "Chromatic Orb"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level1, action, evocation]
+subtags: [{paladin: oath-noble-genies}, {sorcerer: draconic}]
 ---
 
 **1st-level evocation**

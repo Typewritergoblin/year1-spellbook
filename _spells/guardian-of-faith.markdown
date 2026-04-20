@@ -3,6 +3,7 @@ layout: post
 title:  "Guardian of Faith"
 sources: [PHB 2024]
 tags: [cleric, level4, action, conjuration]
+subtags: [{paladin: oath-devotion}, {warlock: patron-celestial}]
 ---
 
 **4th-level conjuration**

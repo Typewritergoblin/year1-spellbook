@@ -3,6 +3,7 @@ layout: post
 title:  "Fly"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, warlock, wizard, level3, concentration, action, transmutation]
+subtags: [{paladin: oath-noble-genies}, {sorcerer: draconic}]
 ---
 
 **3rd-level transmutation**

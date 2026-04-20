@@ -14,129 +14,90 @@
 - name: Cleric
   tag: cleric
   subclasses:
-   - name: Arcana Domain
-     subtag: arcana
-   - name: Death Domain
-     subtag: death
-   - name: Forge Domain
-     subtag: forge
-   - name: Grave Domain
-     subtag: grave
+   - name: Commerce Domain
+     subtag: domain-commerce
    - name: Knowledge Domain
-     subtag: knowledge
+     subtag: domain-knowledge
    - name: Life Domain
-     subtag: life
+     subtag: domain-life
    - name: Light Domain
-     subtag: light
-   - name: Nature Domain
-     subtag: nature
-   - name: Order Domain
-     subtag: order
-   - name: Peace Domain
-     subtag: peace
+     subtag: domain-light
+   - name: Mind Domain
+     subtag: domain-mind
    - name: Tempest Domain
-     subtag: tempest
+     subtag: domain-tempest
    - name: Trickery Domain
-     subtag: trickery
-   - name: Twilight Domain
-     subtag: twilight
+     subtag: domain-trickery
    - name: War Domain
-     subtag: war
+     subtag: domain-war
 - name: Druid
   tag: druid
   subclasses:
-   - name: "Circle of the Land — Arctic"
-     subtag: arctic
-   - name: "Circle of the Land — Coast"
-     subtag: coast
-   - name: "Circle of the Land — Desert"
-     subtag: desert
-   - name: "Circle of the Land — Forest"
-     subtag: forest
-   - name: "Circle of the Land — Grassland"
-     subtag: grassland
-   - name: "Circle of the Land — Mountain"
-     subtag: mountain
-   - name: "Circle of the Land — Swamp"
-     subtag: swamp
-   - name: "Circle of the Land — The Underdark"
-     subtag: underdark
-   - name: Circle of Spores
-     subtag: spores
-   - name: Circle of Wildfire
-     subtag: wildfire
+   - name: Circle of the Forged
+     subtag: circle-forged
+   - name: "Circle of the Land — Arid"
+     subtag: circle-land-arid
+   - name: "Circle of the Land — Polar"
+     subtag: circle-land-polar
+   - name: "Circle of the Land — Temperate"
+     subtag: circle-land-temperate
+   - name: "Circle of the Land — Tropical"
+     subtag: circle-land-tropical
+   - name: Circle of the Moon
+     subtag: circle-moon
+   - name: Circle of the Sea
+     subtag: circle-sea
+   - name: Circle of Stars
+     subtag: circle-stars
 - name: Paladin
   tag: paladin
   subclasses:
-   - name: Oath of Conquest
-     subtag: conquest
+   - name: Oath of the Ancients
+     subtag: oath-ancients
    - name: Oath of Devotion
-     subtag: devotion
+     subtag: oath-devotion
    - name: Oath of Glory
-     subtag: glory
-   - name: Oath of Redemption
-     subtag: redemption
-   - name: Oath of The Ancients
-     subtag: ancients
-   - name: Oath of The Crown
-     subtag: crown
-   - name: Oath of The Watchers
-     subtag: watchers
+     subtag: oath-glory
+   - name: Oath of the Noble Genies
+     subtag: oath-noble-genies
    - name: Oath of Vengeance
-     subtag: vengeance
-   - name: Oathbreaker
-     subtag: oathbreaker
+     subtag: oath-vengeance
 - name: Ranger
   tag: ranger
   subclasses:
+   - name: Bloodhound
+     subtag: bloodhound
    - name: Fey Wanderer
      subtag: fey-wanderer
    - name: Gloom Stalker
      subtag: gloom-stalker
-   - name: Horizon Walker
-     subtag: horizon-walker
-   - name: Monster Slayer
-     subtag: monster-slayer
-   - name: Swarmkeeper
-     subtag: swarmkeeper
+   - name: Winter Walker
+     subtag: winter-walker
 - name: Sorcerer
   tag: sorcerer
   subclasses:
    - name: Aberrant Mind
-     subtag: aberrant-mind
-   - name: Clockwork Soul
-     subtag: clockwork-soul
+     subtag: aberrant
+   - name: Clockwork Sorcery
+     subtag: clockwork
+   - name: Draconic Sorcery
+     subtag: draconic
+   - name: Nemesis Sorcery
+     subtag: nemesis
+   - name: Spellfire Sorcery
+     subtag: spellfire
 - name: Warlock
   tag: warlock
   subclasses:
-    - name: The Archfey
-      subtag: fey
-    - name: The Celestial
-      subtag: celestial
-    - name: The Fathomless
-      subtag: fathomless
-    - name: The Fiend
-      subtag: fiend
-    - name: "The Genie — Dao"
-      subtag: genie-dao
-    - name: "The Genie — Djinni"
-      subtag: genie-djinni
-    - name: "The Genie — Efreeti"
-      subtag: genie-efreeti
-    - name: "The Genie — Marid"
-      subtag: genie-marid
-    - name: The Great Old One
-      subtag: great-old-one
-    - name: The Hexblade
-      subtag: hexblade
-    - name: The Undead
-      subtag: undead
-    - name: The Undying
-      subtag: undying
+   - name: Archfey Patron
+     subtag: patron-archfey
+   - name: Celestial Patron
+     subtag: patron-celestial
+   - name: Fiend Patron
+     subtag: patron-fiend
+   - name: Great Old One Patron
+     subtag: patron-great-old-one
+   - name: Stone Sovereign Patron
+     subtag: patron-stone-sovereign
 - name: Wizard
   tag: wizard
-  subclasses:
-   - name: Chronurgy
-     subtag: chronurgy
-   - name: Graviturgy
-     subtag: graviturgy

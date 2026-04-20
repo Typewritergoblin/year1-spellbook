@@ -3,6 +3,7 @@ layout: post
 title:  "Tasha's Hideous Laughter"
 sources: [PHB 2024]
 tags: [bard, warlock, wizard, level1, concentration, action, enchantment]
+subtags: [{warlock: patron-great-old-one}]
 ---
 
 **1st-level enchantment**

@@ -3,6 +3,7 @@ layout: post
 title:  "Circle of Power"
 sources: [PHB 2024]
 tags: [artificer, cleric, paladin, wizard, level5, concentration, action, abjuration]
+subtags: [{sorcerer: nemesis}]
 ---
 
 **5th-level abjuration**

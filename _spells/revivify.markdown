@@ -3,6 +3,7 @@ layout: post
 title:  "Revivify"
 sources: [PHB 2024]
 tags: [artificer, cleric, druid, paladin, ranger, level3, action, necromancy]
+subtags: [{cleric: domain-life}, {warlock: patron-celestial}]
 ---
 
 **3rd-level necromancy**

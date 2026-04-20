@@ -3,6 +3,7 @@ layout: post
 title:  "Dragon's Breath"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level2, concentration, bonus, transmutation]
+subtags: [{sorcerer: draconic}]
 ---
 
 **2nd-level transmutation**

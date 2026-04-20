@@ -3,6 +3,7 @@ layout: post
 title:  "Charm Monster"
 sources: [PHB 2024]
 tags: [bard, druid, sorcerer, warlock, wizard, level4, action, enchantment]
+subtags: [{sorcerer: draconic}]
 ---
 
 **4th-level enchantment**

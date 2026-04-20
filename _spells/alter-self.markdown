@@ -3,6 +3,7 @@ layout: post
 title:  "Alter Self"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level2, concentration, action, transmutation]
+subtags: [{sorcerer: draconic}]
 ---
 
 **2nd-level transmutation**
@@ -18,10 +19,6 @@ tags: [artificer, sorcerer, wizard, level2, concentration, action, transmutation
 You alter your physical form. Choose one of the following options. Its effects last for the duration, during which you can take a Magic action to replace the option you chose with a different one.
 
 **Aquatic Adaptation.** You sprout gills and grow webs between your fingers. You can breathe underwater and gain a Swim Speed equal to your Speed.
-
-**Foundry Note**
-
-The Active Effect provided by the **Aquatic Adaptation** activity upgrades the character's Swim Speed to a value of "1" to indicate equivalence to (walk) Speed.
 
 **Change Appearance.** You alter your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and other distinguishing characteristics. You can make yourself appear as a member of another species, though none of your statistics change. You can’t appear as a creature of a different size, and your basic shape stays the same; if you’re bipedal, you can’t use this spell to become quadrupedal, for instance. For the duration, you can take a Magic action to change your appearance in this way again.
 

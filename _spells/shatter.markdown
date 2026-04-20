@@ -3,6 +3,7 @@ layout: post
 title:  "Shatter"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level2, action, evocation]
+subtags: [{druid: circle-sea}, {artificer: armorer}, {artificer: artillerist}]
 ---
 
 **2nd-level evocation**

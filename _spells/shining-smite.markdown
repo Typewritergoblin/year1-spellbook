@@ -3,6 +3,7 @@ layout: post
 title:  "Shining Smite"
 sources: [PHB 2024]
 tags: [paladin, level2, concentration, bonus, transmutation]
+subtags: [{artificer: battle-smith}]
 ---
 
 **2nd-level transmutation**

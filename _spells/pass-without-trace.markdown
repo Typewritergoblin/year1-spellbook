@@ -3,6 +3,7 @@ layout: post
 title:  "Pass without Trace"
 sources: [PHB 2024]
 tags: [druid, ranger, level2, concentration, action, abjuration]
+subtags: [{cleric: domain-trickery}]
 ---
 
 **2nd-level abjuration**

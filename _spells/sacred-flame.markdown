@@ -3,6 +3,7 @@ layout: post
 title:  "Sacred Flame"
 sources: [PHB 2024]
 tags: [cleric, cantrip, action, evocation]
+subtags: [{warlock: patron-celestial}]
 ---
 
 **Evocation cantrip**

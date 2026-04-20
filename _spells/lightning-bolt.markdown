@@ -3,6 +3,7 @@ layout: post
 title:  "Lightning Bolt"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level3, action, evocation]
+subtags: [{cleric: domain-tempest}, {druid: circle-land-temperate}, {druid: circle-sea}, {artificer: armorer}]
 ---
 
 **3rd-level evocation**

@@ -3,6 +3,7 @@ layout: post
 title:  "Seeming"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level5, action, illusion]
+subtags: [{ranger: gloom-stalker}, {warlock: patron-archfey}]
 ---
 
 **5th-level illusion**

@@ -3,6 +3,7 @@ layout: post
 title:  "Steel Wind Strike"
 sources: [PHB 2024]
 tags: [ranger, wizard, level5, action, conjuration]
+subtags: [{cleric: domain-war}]
 ---
 
 **5th-level conjuration**

@@ -3,6 +3,7 @@ layout: post
 title:  "Alarm"
 sources: [PHB 2024]
 tags: [artificer, ranger, wizard, level1, ritual, long, abjuration]
+subtags: [{ranger: bloodhound}, {sorcerer: clockwork}]
 ---
 
 **1st-level abjuration**

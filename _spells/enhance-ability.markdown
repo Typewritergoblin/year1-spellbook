@@ -3,6 +3,7 @@ layout: post
 title:  "Enhance Ability"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, ranger, sorcerer, wizard, level2, concentration, action, transmutation]
+subtags: [{paladin: oath-glory}]
 ---
 
 **2nd-level transmutation**

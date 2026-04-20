@@ -3,6 +3,7 @@ layout: post
 title:  "Bane"
 sources: [PHB 2024]
 tags: [bard, cleric, warlock, level1, concentration, action, enchantment]
+subtags: [{paladin: oath-vengeance}]
 ---
 
 **1st-level enchantment**

@@ -3,6 +3,7 @@ layout: post
 title:  "Banishing Smite"
 sources: [PHB 2024]
 tags: [paladin, level5, concentration, bonus, conjuration]
+subtags: [{paladin: oath-noble-genies}, {artificer: battle-smith}]
 ---
 
 **5th-level conjuration**

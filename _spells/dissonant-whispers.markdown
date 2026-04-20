@@ -3,6 +3,7 @@ layout: post
 title:  "Dissonant Whispers"
 sources: [PHB 2024]
 tags: [bard, level1, action, enchantment]
+subtags: [{cleric: domain-mind}, {sorcerer: aberrant}, {warlock: patron-great-old-one}]
 ---
 
 **1st-level enchantment**

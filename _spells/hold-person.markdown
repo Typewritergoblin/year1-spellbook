@@ -3,6 +3,7 @@ layout: post
 title:  "Hold Person"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, sorcerer, warlock, wizard, level2, concentration, action, enchantment]
+subtags: [{paladin: oath-vengeance}, {druid: circle-land-polar}, {ranger: winter-walker}, {ranger: bloodhound}]
 ---
 
 **2nd-level enchantment**

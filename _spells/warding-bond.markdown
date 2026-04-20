@@ -3,6 +3,7 @@ layout: post
 title:  "Warding Bond"
 sources: [PHB 2024]
 tags: [cleric, paladin, level2, action, abjuration]
+subtags: [{artificer: battle-smith}]
 ---
 
 **2nd-level abjuration**

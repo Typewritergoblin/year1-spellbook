@@ -3,6 +3,7 @@ layout: post
 title:  "Geas"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, paladin, wizard, level5, long, enchantment]
+subtags: [{warlock: patron-fiend}]
 ---
 
 **5th-level enchantment**

@@ -3,6 +3,7 @@ layout: post
 title:  "Rary's Telepathic Bond"
 sources: [PHB 2024]
 tags: [bard, wizard, level5, ritual, action, divination]
+subtags: [{cleric: domain-commerce}, {sorcerer: aberrant}]
 ---
 
 **5th-level divination**

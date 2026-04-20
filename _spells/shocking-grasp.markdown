@@ -3,6 +3,7 @@ layout: post
 title:  "Shocking Grasp"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, cantrip, action, evocation]
+subtags: [{druid: circle-land-temperate}]
 ---
 
 **Evocation cantrip**

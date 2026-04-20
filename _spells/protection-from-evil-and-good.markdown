@@ -3,6 +3,7 @@ layout: post
 title:  "Protection from Evil and Good"
 sources: [PHB 2024]
 tags: [cleric, druid, paladin, warlock, wizard, level1, concentration, action, abjuration]
+subtags: [{paladin: oath-devotion}, {sorcerer: clockwork}]
 ---
 
 **1st-level abjuration**

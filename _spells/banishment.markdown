@@ -3,6 +3,7 @@ layout: post
 title:  "Banishment"
 sources: [PHB 2024]
 tags: [cleric, paladin, sorcerer, warlock, wizard, level4, concentration, action, abjuration]
+subtags: [{cleric: domain-knowledge}, {paladin: oath-vengeance}]
 ---
 
 **4th-level abjuration**

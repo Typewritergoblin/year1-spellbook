@@ -3,6 +3,7 @@ layout: post
 title:  "Divination"
 sources: [PHB 2024]
 tags: [cleric, druid, wizard, level4, ritual, action, divination]
+subtags: [{cleric: domain-commerce}]
 ---
 
 **4th-level divination**

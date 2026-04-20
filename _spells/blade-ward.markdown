@@ -3,6 +3,7 @@ layout: post
 title:  "Blade Ward"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, cantrip, concentration, action, abjuration]
+subtags: [{druid: circle-forged}]
 ---
 
 **Abjuration cantrip**

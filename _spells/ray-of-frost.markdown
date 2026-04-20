@@ -3,6 +3,7 @@ layout: post
 title:  "Ray of Frost"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, cantrip, action, evocation]
+subtags: [{druid: circle-land-polar}, {druid: circle-sea}]
 ---
 
 **Evocation cantrip**

@@ -3,6 +3,7 @@ layout: post
 title:  "Guiding Bolt"
 sources: [PHB 2024]
 tags: [cleric, level1, action, evocation]
+subtags: [{cleric: domain-war}, {paladin: oath-glory}, {druid: circle-stars}, {sorcerer: spellfire}, {warlock: patron-celestial}]
 ---
 
 **1st-level evocation**

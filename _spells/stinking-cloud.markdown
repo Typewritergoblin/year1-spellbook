@@ -3,6 +3,7 @@ layout: post
 title:  "Stinking Cloud"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level3, concentration, action, conjuration]
+subtags: [{druid: circle-land-tropical}, {warlock: patron-fiend}]
 ---
 
 **3rd-level conjuration**

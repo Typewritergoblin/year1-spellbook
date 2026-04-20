@@ -3,6 +3,7 @@ layout: post
 title:  "Tree Stride"
 sources: [PHB 2024]
 tags: [druid, ranger, level5, concentration, action, conjuration]
+subtags: [{paladin: oath-ancients}, {druid: circle-land-temperate}]
 ---
 
 **5th-level conjuration**

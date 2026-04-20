@@ -3,6 +3,7 @@ layout: post
 title:  "Light"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, sorcerer, wizard, cantrip, action, evocation]
+subtags: [{warlock: patron-celestial}]
 ---
 
 **Evocation cantrip**

@@ -130,6 +130,12 @@ def format_components(components, material_text):
 
 
 def html_to_markdown(html):
+    # Strip Foundry-specific <section class="secret"> blocks entirely
+    html = re.sub(r'<section class="secret"[^>]*>.*?</section>', "", html, flags=re.DOTALL)
+    # Deduplicate: if the description is doubled, keep only the first half
+    mid = len(html) // 2
+    if html[:mid].strip() == html[mid:].strip():
+        html = html[:mid]
     # Convert <strong> and <em>
     text = re.sub(r"<strong>(.*?)</strong>", r"**\1**", html, flags=re.DOTALL)
     text = re.sub(r"<em>(.*?)</em>", r"*\1*", text, flags=re.DOTALL)
@@ -172,8 +178,29 @@ def build_tags(classes, level, is_ritual, is_concentration, activation, school_f
     return tags
 
 
+def parse_subclass_tag(tag):
+    """Returns (parent_class, subtag_value) from a subclass tag string.
+    For ranger-/sorc-/artificer- prefixes the class is already in the tag,
+    so strip the prefix to avoid redundant URLs like ranger-ranger-bloodhound."""
+    if tag.startswith("domain-"):
+        return ("cleric", tag)
+    if tag.startswith("circle-"):
+        return ("druid", tag)
+    if tag.startswith("oath-"):
+        return ("paladin", tag)
+    if tag.startswith("patron-"):
+        return ("warlock", tag)
+    if tag.startswith("ranger-"):
+        return ("ranger", tag[len("ranger-"):])
+    if tag.startswith("sorc-"):
+        return ("sorcerer", tag[len("sorc-"):])
+    if tag.startswith("artificer-"):
+        return ("artificer", tag[len("artificer-"):])
+    return (None, tag)
+
+
 def parse_class_list(path):
-    """Returns dict: spell_name (title-cased) → list of class strings."""
+    """Returns dict: spell_name → (classes list, subtags list of {class: subtag} dicts)."""
     class_map = {}
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
@@ -184,9 +211,16 @@ def parse_class_list(path):
             if len(parts) < 4 or not parts[1]:
                 continue
             name = parts[1]
-            classes_raw = parts[3]
-            classes = [c.strip() for c in classes_raw.split(",") if c.strip()]
-            class_map[name] = classes
+            classes = [c.strip() for c in parts[3].split(",") if c.strip()]
+            subclass_tags = []
+            if len(parts) >= 5 and parts[4]:
+                for raw in parts[4].split(","):
+                    raw = raw.strip()
+                    if raw:
+                        parent, subtag = parse_subclass_tag(raw)
+                        if parent:
+                            subclass_tags.append({parent: subtag})
+            class_map[name] = (classes, subclass_tags)
     return class_map
 
 
@@ -235,13 +269,21 @@ def main():
         rng = spell.get("range", {})
         description_html = spell.get("description", "")
 
-        classes = class_map.get(title, [])
+        classes, subclass_tags = class_map.get(title, ([], []))
         if not classes:
             no_classes.append(title)
 
         tags = build_tags(classes, level, is_ritual, is_concentration, activation, school_full)
         tags_yaml = "[" + ", ".join(tags) + "]"
         sources_yaml = "[PHB 2024]"
+
+        subtags_yaml = ""
+        if subclass_tags:
+            items = ", ".join(
+                "{" + f"{list(d.keys())[0]}: {list(d.values())[0]}" + "}"
+                for d in subclass_tags
+            )
+            subtags_yaml = f"subtags: [{items}]\n"
 
         casting_time = format_activation(activation)
         duration_str = format_duration(duration, is_concentration)
@@ -258,7 +300,7 @@ layout: post
 title:  "{title}"
 sources: {sources_yaml}
 tags: {tags_yaml}
----
+{subtags_yaml}---
 
 {level_school_line}
 

@@ -3,6 +3,7 @@ layout: post
 title:  "Commune with Nature"
 sources: [PHB 2024]
 tags: [druid, ranger, level5, ritual, long, divination]
+subtags: [{paladin: oath-ancients}]
 ---
 
 **5th-level divination**

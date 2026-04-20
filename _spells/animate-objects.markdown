@@ -3,6 +3,7 @@ layout: post
 title:  "Animate Objects"
 sources: [PHB 2024]
 tags: [artificer, bard, sorcerer, wizard, level5, concentration, action, transmutation]
+subtags: [{druid: circle-forged}]
 ---
 
 **5th-level transmutation**

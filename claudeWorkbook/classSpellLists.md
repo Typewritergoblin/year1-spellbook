@@ -2,397 +2,475 @@
 
 Master reference of all spells available to each class, sorted by spell level and then alphabetically.
 
-| Spell Name | Spell Level | Classes Available |
-| --- | --- | --- |
-| Acid Splash | Cantrip | Artificer, Sorcerer, Wizard |
-| Blade Ward | Cantrip | Bard, Sorcerer, Warlock, Wizard |
-| Chill Touch | Cantrip | Sorcerer, Warlock, Wizard |
-| Dancing Lights | Cantrip | Artificer, Bard, Sorcerer, Wizard |
-| Druidcraft | Cantrip | Druid |
-| Eldritch Blast | Cantrip | Warlock |
-| Elementalism | Cantrip | Artificer, Druid, Sorcerer, Wizard |
-| Fire Bolt | Cantrip | Artificer, Sorcerer, Wizard |
-| Friends | Cantrip | Bard, Sorcerer, Warlock, Wizard |
-| Guidance | Cantrip | Artificer, Cleric, Druid |
-| Light | Cantrip | Artificer, Bard, Cleric, Sorcerer, Wizard |
-| Mage Hand | Cantrip | Artificer, Bard, Sorcerer, Warlock, Wizard |
-| Mending | Cantrip | Artificer, Bard, Cleric, Druid, Sorcerer, Wizard |
-| Message | Cantrip | Artificer, Bard, Druid, Sorcerer, Wizard |
-| Mind Sliver | Cantrip | Sorcerer, Warlock, Wizard |
-| Minor Illusion | Cantrip | Bard, Sorcerer, Warlock, Wizard |
-| Poison Spray | Cantrip | Artificer, Druid, Sorcerer, Warlock, Wizard |
-| Prestidigitation | Cantrip | Artificer, Bard, Sorcerer, Warlock, Wizard |
-| Produce Flame | Cantrip | Druid |
-| Ray of Frost | Cantrip | Artificer, Sorcerer, Wizard |
-| Resistance | Cantrip | Artificer, Cleric, Druid |
-| Sacred Flame | Cantrip | Cleric |
-| Shillelagh | Cantrip | Druid |
-| Shocking Grasp | Cantrip | Artificer, Sorcerer, Wizard |
-| Sorcerous Burst | Cantrip | Sorcerer |
-| Spare the Dying | Cantrip | Artificer, Cleric, Druid |
-| Starry Wisp | Cantrip | Bard, Druid |
-| Thaumaturgy | Cantrip | Cleric |
-| Thorn Whip | Cantrip | Artificer, Druid |
-| Thunderclap | Cantrip | Artificer, Bard, Druid, Sorcerer, Warlock, Wizard |
-| Toll the Dead | Cantrip | Cleric, Warlock, Wizard |
-| True Strike | Cantrip | Artificer, Bard, Sorcerer, Warlock, Wizard |
-| Vicious Mockery | Cantrip | Bard |
-| Word of Radiance | Cantrip | Cleric |
-| Alarm | 1 | Artificer, Ranger, Wizard |
-| Animal Friendship | 1 | Bard, Druid, Ranger |
-| Armor of Agathys | 1 | Warlock |
-| Arms of Hadar | 1 | Warlock |
-| Bane | 1 | Bard, Cleric, Warlock |
-| Bless | 1 | Cleric, Paladin |
-| Burning Hands | 1 | Sorcerer, Wizard |
-| Charm Person | 1 | Bard, Druid, Sorcerer, Warlock, Wizard |
-| Chromatic Orb | 1 | Sorcerer, Wizard |
-| Color Spray | 1 | Bard, Sorcerer, Wizard |
-| Command | 1 | Bard, Cleric, Paladin |
-| Compelled Duel | 1 | Paladin |
-| Comprehend Languages | 1 | Bard, Sorcerer, Warlock, Wizard |
-| Create or Destroy Water | 1 | Cleric, Druid |
-| Cure Wounds | 1 | Artificer, Bard, Cleric, Druid, Paladin, Ranger |
-| Detect Evil and Good | 1 | Cleric, Paladin |
-| Detect Magic | 1 | Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard |
-| Detect Poison and Disease | 1 | Cleric, Druid, Paladin, Ranger |
-| Disguise Self | 1 | Artificer, Bard, Sorcerer, Wizard |
-| Dissonant Whispers | 1 | Bard |
-| Divine Favor | 1 | Paladin |
-| Divine Smite | 1 | Paladin |
-| Ensnaring Strike | 1 | Ranger |
-| Entangle | 1 | Druid, Ranger |
-| Expeditious Retreat | 1 | Artificer, Sorcerer, Warlock, Wizard |
-| Faerie Fire | 1 | Artificer, Bard, Druid |
-| False Life | 1 | Artificer, Sorcerer, Wizard |
-| Feather Fall | 1 | Artificer, Bard, Sorcerer, Wizard |
-| Find Familiar | 1 | Wizard |
-| Fog Cloud | 1 | Druid, Ranger, Sorcerer, Wizard |
-| Goodberry | 1 | Druid, Ranger |
-| Grease | 1 | Artificer, Sorcerer, Wizard |
-| Guiding Bolt | 1 | Cleric |
-| Hail of Thorns | 1 | Ranger |
-| Healing Word | 1 | Bard, Cleric, Druid |
-| Hellish Rebuke | 1 | Warlock |
-| Heroism | 1 | Bard, Paladin |
-| Hex | 1 | Warlock |
-| Hunter's Mark | 1 | Ranger |
-| Ice Knife | 1 | Druid, Sorcerer, Wizard |
-| Identify | 1 | Artificer, Bard, Wizard |
-| Illusory Script | 1 | Bard, Warlock, Wizard |
-| Inflict Wounds | 1 | Cleric |
-| Jump | 1 | Artificer, Druid, Ranger, Sorcerer, Wizard |
-| Longstrider | 1 | Artificer, Bard, Druid, Ranger, Wizard |
-| Mage Armor | 1 | Sorcerer, Wizard |
-| Magic Missile | 1 | Sorcerer, Wizard |
-| Protection from Evil and Good | 1 | Cleric, Druid, Paladin, Warlock, Wizard |
-| Purify Food and Drink | 1 | Artificer, Cleric, Druid, Paladin |
-| Ray of Sickness | 1 | Sorcerer, Wizard |
-| Sanctuary | 1 | Artificer, Cleric |
-| Searing Smite | 1 | Paladin |
-| Shield | 1 | Sorcerer, Wizard |
-| Shield of Faith | 1 | Cleric, Paladin |
-| Silent Image | 1 | Bard, Sorcerer, Wizard |
-| Sleep | 1 | Bard, Sorcerer, Wizard |
-| Speak with Animals | 1 | Bard, Druid, Ranger, Warlock |
-| Tasha's Hideous Laughter | 1 | Bard, Warlock, Wizard |
-| Tenser's Floating Disk | 1 | Wizard |
-| Thunderous Smite | 1 | Paladin |
-| Thunderwave | 1 | Bard, Druid, Sorcerer, Wizard |
-| Unseen Servant | 1 | Bard, Warlock, Wizard |
-| Witch Bolt | 1 | Sorcerer, Warlock, Wizard |
-| Wrathful Smite | 1 | Paladin |
-| Aid | 2 | Artificer, Bard, Cleric, Druid, Paladin, Ranger |
-| Alter Self | 2 | Artificer, Sorcerer, Wizard |
-| Animal Messenger | 2 | Bard, Druid, Ranger |
-| Arcane Lock | 2 | Artificer, Wizard |
-| Arcane Vigor | 2 | Artificer, Sorcerer, Wizard |
-| Augury | 2 | Cleric, Druid, Wizard |
-| Barkskin | 2 | Druid, Ranger |
-| Beast Sense | 2 | Druid, Ranger |
-| Blindness/Deafness | 2 | Bard, Cleric, Sorcerer, Wizard |
-| Blur | 2 | Artificer, Sorcerer, Wizard |
-| Calm Emotions | 2 | Bard, Cleric |
-| Cloud of Daggers | 2 | Bard, Sorcerer, Warlock, Wizard |
-| Continual Flame | 2 | Artificer, Cleric, Druid, Wizard |
-| Cordon of Arrows | 2 | Ranger |
-| Crown of Madness | 2 | Bard, Sorcerer, Warlock, Wizard |
-| Darkness | 2 | Sorcerer, Warlock, Wizard |
-| Darkvision | 2 | Artificer, Druid, Ranger, Sorcerer, Wizard |
-| Detect Thoughts | 2 | Bard, Sorcerer, Wizard |
-| Dragon's Breath | 2 | Artificer, Sorcerer, Wizard |
-| Enhance Ability | 2 | Artificer, Bard, Cleric, Druid, Ranger, Sorcerer, Wizard |
-| Enlarge/Reduce | 2 | Artificer, Bard, Druid, Sorcerer, Wizard |
-| Enthrall | 2 | Bard, Warlock |
-| Find Steed | 2 | Paladin |
-| Find Traps | 2 | Cleric, Druid, Ranger |
-| Flame Blade | 2 | Druid, Sorcerer |
-| Flaming Sphere | 2 | Druid, Sorcerer, Wizard |
-| Gentle Repose | 2 | Cleric, Paladin, Wizard |
-| Gust of Wind | 2 | Druid, Ranger, Sorcerer, Wizard |
-| Heat Metal | 2 | Artificer, Bard, Druid |
-| Hold Person | 2 | Bard, Cleric, Druid, Sorcerer, Warlock, Wizard |
-| Homunculus Servant | 2 | Artificer |
-| Invisibility | 2 | Artificer, Bard, Sorcerer, Warlock, Wizard |
-| Knock | 2 | Bard, Sorcerer, Wizard |
-| Lesser Restoration | 2 | Artificer, Bard, Cleric, Druid, Paladin, Ranger |
-| Levitate | 2 | Artificer, Sorcerer, Wizard |
-| Locate Animals or Plants | 2 | Bard, Druid, Ranger |
-| Locate Object | 2 | Bard, Cleric, Druid, Paladin, Ranger, Wizard |
-| Magic Mouth | 2 | Artificer, Bard, Wizard |
-| Magic Weapon | 2 | Artificer, Paladin, Ranger, Sorcerer, Wizard |
-| Melf's Acid Arrow | 2 | Wizard |
-| Mind Spike | 2 | Sorcerer, Warlock, Wizard |
-| Mirror Image | 2 | Bard, Sorcerer, Warlock, Wizard |
-| Misty Step | 2 | Sorcerer, Warlock, Wizard |
-| Moonbeam | 2 | Druid |
-| Nystul's Magic Aura | 2 | Wizard |
-| Pass without Trace | 2 | Druid, Ranger |
-| Phantasmal Force | 2 | Bard, Sorcerer, Wizard |
-| Prayer of Healing | 2 | Cleric, Paladin |
-| Protection from Poison | 2 | Artificer, Cleric, Druid, Paladin, Ranger |
-| Ray of Enfeeblement | 2 | Warlock, Wizard |
-| Rope Trick | 2 | Artificer, Wizard |
-| Scorching Ray | 2 | Sorcerer, Wizard |
-| See Invisibility | 2 | Artificer, Bard, Sorcerer, Wizard |
-| Shatter | 2 | Bard, Sorcerer, Wizard |
-| Shining Smite | 2 | Paladin |
-| Silence | 2 | Bard, Cleric, Ranger |
-| Spider Climb | 2 | Artificer, Sorcerer, Warlock, Wizard |
-| Spike Growth | 2 | Druid, Ranger |
-| Spiritual Weapon | 2 | Cleric |
-| Suggestion | 2 | Bard, Sorcerer, Warlock, Wizard |
-| Summon Beast | 2 | Druid, Ranger |
-| Warding Bond | 2 | Cleric, Paladin |
-| Web | 2 | Artificer, Sorcerer, Wizard |
-| Zone of Truth | 2 | Bard, Cleric, Paladin |
-| Animate Dead | 3 | Cleric, Wizard |
-| Aura of Vitality | 3 | Cleric, Druid, Paladin |
-| Beacon of Hope | 3 | Cleric |
-| Bestow Curse | 3 | Bard, Cleric, Wizard |
-| Blinding Smite | 3 | Paladin |
-| Blink | 3 | Artificer, Sorcerer, Wizard |
-| Call Lightning | 3 | Druid |
-| Clairvoyance | 3 | Bard, Cleric, Sorcerer, Wizard |
-| Conjure Animals | 3 | Druid, Ranger |
-| Conjure Barrage | 3 | Ranger |
-| Counterspell | 3 | Sorcerer, Warlock, Wizard |
-| Create Food and Water | 3 | Artificer, Cleric, Paladin |
-| Crusader's Mantle | 3 | Paladin |
-| Daylight | 3 | Cleric, Druid, Paladin, Ranger, Sorcerer |
-| Dispel Magic | 3 | Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard |
-| Elemental Weapon | 3 | Artificer, Druid, Paladin, Ranger |
-| Fear | 3 | Bard, Sorcerer, Warlock, Wizard |
-| Feign Death | 3 | Bard, Cleric, Druid, Wizard |
-| Fireball | 3 | Sorcerer, Wizard |
-| Fly | 3 | Artificer, Sorcerer, Warlock, Wizard |
-| Gaseous Form | 3 | Sorcerer, Warlock, Wizard |
-| Glyph of Warding | 3 | Artificer, Bard, Cleric, Wizard |
-| Haste | 3 | Artificer, Sorcerer, Wizard |
-| Hunger of Hadar | 3 | Warlock |
-| Hypnotic Pattern | 3 | Bard, Sorcerer, Warlock, Wizard |
-| Leomund's Tiny Hut | 3 | Bard, Wizard |
-| Lightning Arrow | 3 | Ranger |
-| Lightning Bolt | 3 | Sorcerer, Wizard |
-| Magic Circle | 3 | Cleric, Paladin, Warlock, Wizard |
-| Major Image | 3 | Bard, Sorcerer, Warlock, Wizard |
-| Mass Healing Word | 3 | Bard, Cleric |
-| Meld into Stone | 3 | Cleric, Druid, Ranger |
-| Nondetection | 3 | Bard, Ranger, Wizard |
-| Phantom Steed | 3 | Wizard |
-| Plant Growth | 3 | Bard, Druid, Ranger |
-| Protection from Energy | 3 | Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard |
-| Remove Curse | 3 | Cleric, Paladin, Warlock, Wizard |
-| Revivify | 3 | Artificer, Cleric, Druid, Paladin, Ranger |
-| Sending | 3 | Bard, Cleric, Wizard |
-| Sleet Storm | 3 | Druid, Sorcerer, Wizard |
-| Slow | 3 | Bard, Sorcerer, Wizard |
-| Speak with Dead | 3 | Bard, Cleric, Wizard |
-| Speak with Plants | 3 | Bard, Druid, Ranger |
-| Spirit Guardians | 3 | Cleric |
-| Stinking Cloud | 3 | Bard, Sorcerer, Wizard |
-| Summon Fey | 3 | Druid, Ranger, Warlock, Wizard |
-| Summon Undead | 3 | Warlock, Wizard |
-| Tongues | 3 | Bard, Cleric, Sorcerer, Warlock, Wizard |
-| Vampiric Touch | 3 | Sorcerer, Warlock, Wizard |
-| Water Breathing | 3 | Artificer, Druid, Ranger, Sorcerer, Wizard |
-| Water Walk | 3 | Artificer, Cleric, Druid, Ranger, Sorcerer |
-| Wind Wall | 3 | Druid, Ranger |
-| Arcane Eye | 4 | Artificer, Wizard |
-| Aura of Life | 4 | Cleric, Paladin |
-| Aura of Purity | 4 | Cleric, Paladin |
-| Banishment | 4 | Cleric, Paladin, Sorcerer, Warlock, Wizard |
-| Blight | 4 | Druid, Sorcerer, Warlock, Wizard |
-| Charm Monster | 4 | Bard, Druid, Sorcerer, Warlock, Wizard |
-| Compulsion | 4 | Bard |
-| Confusion | 4 | Bard, Druid, Sorcerer, Wizard |
-| Conjure Minor Elementals | 4 | Druid, Wizard |
-| Conjure Woodland Beings | 4 | Druid, Ranger |
-| Control Water | 4 | Cleric, Druid, Wizard |
-| Death Ward | 4 | Cleric, Paladin |
-| Dimension Door | 4 | Bard, Sorcerer, Warlock, Wizard |
-| Divination | 4 | Cleric, Druid, Wizard |
-| Dominate Beast | 4 | Druid, Ranger, Sorcerer |
-| Evard's Black Tentacles | 4 | Wizard |
-| Fabricate | 4 | Artificer, Wizard |
-| Fire Shield | 4 | Druid, Sorcerer, Wizard |
-| Fount of Moonlight | 4 | Bard, Druid |
-| Freedom of Movement | 4 | Artificer, Bard, Cleric, Druid, Ranger |
-| Giant Insect | 4 | Druid |
-| Grasping Vine | 4 | Druid, Ranger |
-| Greater Invisibility | 4 | Bard, Sorcerer, Wizard |
-| Guardian of Faith | 4 | Cleric |
-| Hallucinatory Terrain | 4 | Bard, Druid, Warlock, Wizard |
-| Ice Storm | 4 | Druid, Sorcerer, Wizard |
-| Leomund's Secret Chest | 4 | Artificer, Wizard |
-| Locate Creature | 4 | Bard, Cleric, Druid, Paladin, Ranger, Wizard |
-| Mordenkainen's Faithful Hound | 4 | Artificer, Wizard |
-| Mordenkainen's Private Sanctum | 4 | Artificer, Wizard |
-| Otiluke's Resilient Sphere | 4 | Artificer, Wizard |
-| Phantasmal Killer | 4 | Bard, Wizard |
-| Polymorph | 4 | Bard, Druid, Sorcerer, Wizard |
-| Staggering Smite | 4 | Paladin |
-| Stone Shape | 4 | Artificer, Cleric, Druid, Wizard |
-| Stoneskin | 4 | Artificer, Druid, Ranger, Sorcerer, Wizard |
-| Summon Aberration | 4 | Warlock, Wizard |
-| Summon Construct | 4 | Artificer, Wizard |
-| Summon Elemental | 4 | Druid, Ranger, Wizard |
-| Vitriolic Sphere | 4 | Sorcerer, Wizard |
-| Wall of Fire | 4 | Druid, Sorcerer, Wizard |
-| Animate Objects | 5 | Artificer, Bard, Sorcerer, Wizard |
-| Antilife Shell | 5 | Druid |
-| Awaken | 5 | Bard, Druid |
-| Banishing Smite | 5 | Paladin |
-| Bigby's Hand | 5 | Artificer, Sorcerer, Wizard |
-| Circle of Power | 5 | Artificer, Cleric, Paladin, Wizard |
-| Cloudkill | 5 | Sorcerer, Wizard |
-| Commune | 5 | Cleric |
-| Commune with Nature | 5 | Druid, Ranger |
-| Cone of Cold | 5 | Druid, Sorcerer, Wizard |
-| Conjure Elemental | 5 | Druid, Wizard |
-| Conjure Volley | 5 | Ranger |
-| Contact Other Plane | 5 | Warlock, Wizard |
-| Contagion | 5 | Cleric, Druid |
-| Creation | 5 | Artificer, Sorcerer, Wizard |
-| Destructive Wave | 5 | Paladin |
-| Dispel Evil and Good | 5 | Cleric, Paladin |
-| Dominate Person | 5 | Bard, Sorcerer, Wizard |
-| Dream | 5 | Bard, Warlock, Wizard |
-| Flame Strike | 5 | Cleric |
-| Geas | 5 | Bard, Cleric, Druid, Paladin, Wizard |
-| Greater Restoration | 5 | Artificer, Bard, Cleric, Druid, Paladin, Ranger |
-| Hallow | 5 | Cleric |
-| Hold Monster | 5 | Bard, Sorcerer, Warlock, Wizard |
-| Insect Plague | 5 | Cleric, Druid, Sorcerer |
-| Jallarzi's Storm of Radiance | 5 | Warlock, Wizard |
-| Legend Lore | 5 | Bard, Cleric, Wizard |
-| Mass Cure Wounds | 5 | Bard, Cleric, Druid |
-| Mislead | 5 | Bard, Warlock, Wizard |
-| Modify Memory | 5 | Bard, Wizard |
-| Passwall | 5 | Wizard |
-| Planar Binding | 5 | Bard, Cleric, Druid, Warlock, Wizard |
-| Raise Dead | 5 | Bard, Cleric, Paladin |
-| Rary's Telepathic Bond | 5 | Bard, Wizard |
-| Reincarnate | 5 | Druid |
-| Scrying | 5 | Bard, Cleric, Druid, Warlock, Wizard |
-| Seeming | 5 | Bard, Sorcerer, Wizard |
-| Steel Wind Strike | 5 | Ranger, Wizard |
-| Summon Celestial | 5 | Cleric, Paladin |
-| Summon Dragon | 5 | Wizard |
-| Swift Quiver | 5 | Ranger |
-| Synaptic Static | 5 | Bard, Sorcerer, Warlock, Wizard |
-| Telekinesis | 5 | Sorcerer, Wizard |
-| Teleportation Circle | 5 | Bard, Sorcerer, Warlock, Wizard |
-| Tree Stride | 5 | Druid, Ranger |
-| Wall of Force | 5 | Wizard |
-| Wall of Stone | 5 | Artificer, Druid, Sorcerer, Wizard |
-| Yolande's Regal Presence | 5 | Bard, Wizard |
-| Arcane Gate | 6 | Sorcerer, Warlock, Wizard |
-| Blade Barrier | 6 | Cleric |
-| Chain Lightning | 6 | Sorcerer, Wizard |
-| Circle of Death | 6 | Sorcerer, Warlock, Wizard |
-| Conjure Fey | 6 | Druid |
-| Contingency | 6 | Wizard |
-| Create Undead | 6 | Cleric, Warlock, Wizard |
-| Disintegrate | 6 | Sorcerer, Wizard |
-| Drawmij's Instant Summons | 6 | Wizard |
-| Eyebite | 6 | Bard, Sorcerer, Warlock, Wizard |
-| Find the Path | 6 | Bard, Cleric, Druid |
-| Flesh to Stone | 6 | Druid, Sorcerer, Wizard |
-| Forbiddance | 6 | Cleric |
-| Globe of Invulnerability | 6 | Sorcerer, Wizard |
-| Guards and Wards | 6 | Bard, Wizard |
-| Harm | 6 | Cleric |
-| Heal | 6 | Cleric, Druid |
-| Heroes' Feast | 6 | Bard, Cleric, Druid |
-| Magic Jar | 6 | Wizard |
-| Mass Suggestion | 6 | Bard, Sorcerer, Wizard |
-| Move Earth | 6 | Druid, Sorcerer, Wizard |
-| Otiluke's Freezing Sphere | 6 | Sorcerer, Wizard |
-| Otto's Irresistible Dance | 6 | Bard, Wizard |
-| Planar Ally | 6 | Cleric |
-| Programmed Illusion | 6 | Bard, Wizard |
-| Summon Fiend | 6 | Warlock, Wizard |
-| Sunbeam | 6 | Cleric, Druid, Sorcerer, Wizard |
-| Tasha's Bubbling Cauldron | 6 | Warlock, Wizard |
-| Transport via Plants | 6 | Druid |
-| True Seeing | 6 | Bard, Cleric, Sorcerer, Warlock, Wizard |
-| Wall of Ice | 6 | Wizard |
-| Wall of Thorns | 6 | Druid |
-| Wind Walk | 6 | Druid |
-| Word of Recall | 6 | Cleric |
-| Conjure Celestial | 7 | Cleric |
-| Delayed Blast Fireball | 7 | Sorcerer, Wizard |
-| Divine Word | 7 | Cleric |
-| Etherealness | 7 | Bard, Cleric, Sorcerer, Warlock, Wizard |
-| Finger of Death | 7 | Sorcerer, Warlock, Wizard |
-| Fire Storm | 7 | Cleric, Druid, Sorcerer |
-| Forcecage | 7 | Bard, Warlock, Wizard |
-| Mirage Arcane | 7 | Bard, Druid, Wizard |
-| Mordenkainen's Magnificent Mansion | 7 | Bard, Wizard |
-| Mordenkainen's Sword | 7 | Bard, Wizard |
-| Plane Shift | 7 | Cleric, Druid, Sorcerer, Warlock, Wizard |
-| Power Word Fortify | 7 | Bard, Cleric |
-| Prismatic Spray | 7 | Bard, Sorcerer, Wizard |
-| Project Image | 7 | Bard, Wizard |
-| Regenerate | 7 | Bard, Cleric, Druid |
-| Resurrection | 7 | Bard, Cleric |
-| Reverse Gravity | 7 | Druid, Sorcerer, Wizard |
-| Sequester | 7 | Wizard |
-| Simulacrum | 7 | Wizard |
-| Symbol | 7 | Bard, Cleric, Druid, Wizard |
-| Teleport | 7 | Bard, Sorcerer, Wizard |
-| Animal Shapes | 8 | Druid |
-| Antimagic Field | 8 | Cleric, Wizard |
-| Antipathy/Sympathy | 8 | Bard, Druid, Wizard |
-| Befuddlement | 8 | Bard, Druid, Warlock, Wizard |
-| Clone | 8 | Wizard |
-| Control Weather | 8 | Cleric, Druid, Wizard |
-| Demiplane | 8 | Sorcerer, Warlock, Wizard |
-| Dominate Monster | 8 | Bard, Sorcerer, Warlock, Wizard |
-| Earthquake | 8 | Cleric, Druid, Sorcerer |
-| Glibness | 8 | Bard, Warlock |
-| Holy Aura | 8 | Cleric |
-| Incendiary Cloud | 8 | Druid, Sorcerer, Wizard |
-| Maze | 8 | Wizard |
-| Mind Blank | 8 | Bard, Wizard |
-| Power Word Stun | 8 | Bard, Sorcerer, Warlock, Wizard |
-| Sunburst | 8 | Cleric, Druid, Sorcerer, Wizard |
-| Telepathy | 8 | Wizard |
-| Tsunami | 8 | Druid |
-| Astral Projection | 9 | Cleric, Warlock, Wizard |
-| Foresight | 9 | Bard, Druid, Warlock, Wizard |
-| Gate | 9 | Cleric, Sorcerer, Warlock, Wizard |
-| Imprisonment | 9 | Warlock, Wizard |
-| Mass Heal | 9 | Cleric |
-| Meteor Swarm | 9 | Sorcerer, Wizard |
-| Power Word Heal | 9 | Bard, Cleric |
-| Power Word Kill | 9 | Bard, Sorcerer, Warlock, Wizard |
-| Prismatic Wall | 9 | Bard, Wizard |
-| Shapechange | 9 | Druid, Wizard |
-| Storm of Vengeance | 9 | Druid |
-| Time Stop | 9 | Sorcerer, Wizard |
-| True Polymorph | 9 | Bard, Warlock, Wizard |
-| True Resurrection | 9 | Cleric, Druid |
-| Weird | 9 | Warlock, Wizard |
-| Wish | 9 | Sorcerer, Wizard |
+| Spell Name | Spell Level | Classes Available | Subclasses Available |
+| --- | --- | --- | --- |
+| Acid Splash | Cantrip | Artificer, Sorcerer, Wizard | circle-land-tropical |
+| Blade Ward | Cantrip | Bard, Sorcerer, Warlock, Wizard | circle-forged |
+| Chill Touch | Cantrip | Sorcerer, Warlock, Wizard |  |
+| Dancing Lights | Cantrip | Artificer, Bard, Sorcerer, Wizard |  |
+| Druidcraft | Cantrip | Druid |  |
+| Eldritch Blast | Cantrip | Warlock |  |
+| Elementalism | Cantrip | Artificer, Druid, Sorcerer, Wizard | oath-noble-genies |
+| Fire Bolt | Cantrip | Artificer, Sorcerer, Wizard | circle-land-arid |
+| Friends | Cantrip | Bard, Sorcerer, Warlock, Wizard |  |
+| Guidance | Cantrip | Artificer, Cleric, Druid |  |
+| Light | Cantrip | Artificer, Bard, Cleric, Sorcerer, Wizard | patron-celestial |
+| Mage Hand | Cantrip | Artificer, Bard, Sorcerer, Warlock, Wizard |  |
+| Mending | Cantrip | Artificer, Bard, Cleric, Druid, Sorcerer, Wizard |  |
+| Message | Cantrip | Artificer, Bard, Druid, Sorcerer, Wizard |  |
+| Mind Sliver | Cantrip | Sorcerer, Warlock, Wizard | sorc-aberrant |
+| Minor Illusion | Cantrip | Bard, Sorcerer, Warlock, Wizard |  |
+| Poison Spray | Cantrip | Artificer, Druid, Sorcerer, Warlock, Wizard |  |
+| Prestidigitation | Cantrip | Artificer, Bard, Sorcerer, Warlock, Wizard |  |
+| Produce Flame | Cantrip | Druid |  |
+| Ray of Frost | Cantrip | Artificer, Sorcerer, Wizard | circle-land-polar, circle-sea |
+| Resistance | Cantrip | Artificer, Cleric, Druid |  |
+| Sacred Flame | Cantrip | Cleric | patron-celestial |
+| Shillelagh | Cantrip | Druid |  |
+| Shocking Grasp | Cantrip | Artificer, Sorcerer, Wizard | circle-land-temperate |
+| Sorcerous Burst | Cantrip | Sorcerer |  |
+| Spare the Dying | Cantrip | Artificer, Cleric, Druid |  |
+| Starry Wisp | Cantrip | Bard, Druid | circle-moon |
+| Thaumaturgy | Cantrip | Cleric |  |
+| Thorn Whip | Cantrip | Artificer, Druid |  |
+| Thunderclap | Cantrip | Artificer, Bard, Druid, Sorcerer, Warlock, Wizard |  |
+| Toll the Dead | Cantrip | Cleric, Warlock, Wizard |  |
+| True Strike | Cantrip | Artificer, Bard, Sorcerer, Warlock, Wizard |  |
+| Vicious Mockery | Cantrip | Bard |  |
+| Word of Radiance | Cantrip | Cleric |  |
+| Alarm | 1 | Artificer, Ranger, Wizard | ranger-bloodhound, sorc-clockwork |
+| Animal Friendship | 1 | Bard, Druid, Ranger |  |
+| Armor of Agathys | 1 | Warlock |  |
+| Arms of Hadar | 1 | Warlock | sorc-aberrant |
+| Bane | 1 | Bard, Cleric, Warlock | oath-vengeance |
+| Bless | 1 | Cleric, Paladin | domain-life |
+| Burning Hands | 1 | Sorcerer, Wizard | domain-light, circle-land-arid, patron-fiend |
+| Charm Person | 1 | Bard, Druid, Sorcerer, Warlock, Wizard | domain-trickery, domain-commerce, ranger-fey-wanderer |
+| Chromatic Orb | 1 | Sorcerer, Wizard | oath-noble-genies, sorc-draconic |
+| Color Spray | 1 | Bard, Sorcerer, Wizard |  |
+| Command | 1 | Bard, Cleric, Paladin | domain-knowledge, domain-mind, sorc-draconic, patron-fiend |
+| Compelled Duel | 1 | Paladin | sorc-nemesis |
+| Comprehend Languages | 1 | Bard, Sorcerer, Warlock, Wizard | domain-commerce, domain-knowledge |
+| Create or Destroy Water | 1 | Cleric, Druid |  |
+| Cure Wounds | 1 | Artificer, Bard, Cleric, Druid, Paladin, Ranger | domain-life, circle-moon, sorc-spellfire, patron-celestial |
+| Detect Evil and Good | 1 | Cleric, Paladin |  |
+| Detect Magic | 1 | Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard | domain-knowledge |
+| Detect Poison and Disease | 1 | Cleric, Druid, Paladin, Ranger |  |
+| Disguise Self | 1 | Artificer, Bard, Sorcerer, Wizard | domain-trickery, ranger-gloom-stalker |
+| Dissonant Whispers | 1 | Bard | domain-mind, sorc-aberrant, patron-great-old-one |
+| Divine Favor | 1 | Paladin |  |
+| Divine Smite | 1 | Paladin |  |
+| Ensnaring Strike | 1 | Ranger | oath-ancients |
+| Entangle | 1 | Druid, Ranger |  |
+| Expeditious Retreat | 1 | Artificer, Sorcerer, Warlock, Wizard |  |
+| Faerie Fire | 1 | Artificer, Bard, Druid | domain-light, patron-archfey |
+| False Life | 1 | Artificer, Sorcerer, Wizard |  |
+| Feather Fall | 1 | Artificer, Bard, Sorcerer, Wizard |  |
+| Find Familiar | 1 | Wizard |  |
+| Fog Cloud | 1 | Druid, Ranger, Sorcerer, Wizard | circle-land-polar, circle-sea |
+| Goodberry | 1 | Druid, Ranger |  |
+| Grease | 1 | Artificer, Sorcerer, Wizard |  |
+| Guiding Bolt | 1 | Cleric | domain-war, oath-glory, circle-stars, sorc-spellfire, patron-celestial |
+| Hail of Thorns | 1 | Ranger |  |
+| Healing Word | 1 | Bard, Cleric, Druid | artificer-alchemist |
+| Hellish Rebuke | 1 | Warlock |  |
+| Heroism | 1 | Bard, Paladin | oath-glory, artificer-battle-smith |
+| Hex | 1 | Warlock |  |
+| Hunter's Mark | 1 | Ranger | oath-vengeance |
+| Ice Knife | 1 | Druid, Sorcerer, Wizard | domain-tempest, ranger-winter-walker |
+| Identify | 1 | Artificer, Bard, Wizard | domain-knowledge, circle-forged |
+| Illusory Script | 1 | Bard, Warlock, Wizard |  |
+| Inflict Wounds | 1 | Cleric |  |
+| Jump | 1 | Artificer, Druid, Ranger, Sorcerer, Wizard |  |
+| Longstrider | 1 | Artificer, Bard, Druid, Ranger, Wizard |  |
+| Mage Armor | 1 | Sorcerer, Wizard |  |
+| Magic Missile | 1 | Sorcerer, Wizard | artificer-armorer |
+| Protection from Evil and Good | 1 | Cleric, Druid, Paladin, Warlock, Wizard | oath-devotion, sorc-clockwork |
+| Purify Food and Drink | 1 | Artificer, Cleric, Druid, Paladin |  |
+| Ray of Sickness | 1 | Sorcerer, Wizard | circle-land-tropical, artificer-alchemist |
+| Sanctuary | 1 | Artificer, Cleric |  |
+| Searing Smite | 1 | Paladin |  |
+| Shield | 1 | Sorcerer, Wizard | sorc-nemesis, artificer-artillerist, artificer-battle-smith |
+| Shield of Faith | 1 | Cleric, Paladin | domain-war, oath-devotion |
+| Silent Image | 1 | Bard, Sorcerer, Wizard |  |
+| Sleep | 1 | Bard, Sorcerer, Wizard | circle-land-temperate, patron-archfey |
+| Speak with Animals | 1 | Bard, Druid, Ranger, Warlock | oath-ancients |
+| Tasha's Hideous Laughter | 1 | Bard, Warlock, Wizard | patron-great-old-one |
+| Tenser's Floating Disk | 1 | Wizard |  |
+| Thunderous Smite | 1 | Paladin | oath-noble-genies |
+| Thunderwave | 1 | Bard, Druid, Sorcerer, Wizard | domain-tempest, circle-sea, artificer-armorer, artificer-artillerist |
+| Unseen Servant | 1 | Bard, Warlock, Wizard |  |
+| Witch Bolt | 1 | Sorcerer, Warlock, Wizard |  |
+| Wrathful Smite | 1 | Paladin |  |
+| Aid | 2 | Artificer, Bard, Cleric, Druid, Paladin, Ranger | domain-life, oath-devotion, sorc-clockwork, patron-celestial |
+| Alter Self | 2 | Artificer, Sorcerer, Wizard | sorc-draconic |
+| Animal Messenger | 2 | Bard, Druid, Ranger |  |
+| Arcane Lock | 2 | Artificer, Wizard |  |
+| Arcane Vigor | 2 | Artificer, Sorcerer, Wizard |  |
+| Augury | 2 | Cleric, Druid, Wizard | domain-commerce |
+| Barkskin | 2 | Druid, Ranger |  |
+| Beast Sense | 2 | Druid, Ranger |  |
+| Blindness/Deafness | 2 | Bard, Cleric, Sorcerer, Wizard |  |
+| Blur | 2 | Artificer, Sorcerer, Wizard | circle-land-arid |
+| Calm Emotions | 2 | Bard, Cleric | sorc-aberrant, patron-archfey |
+| Cloud of Daggers | 2 | Bard, Sorcerer, Warlock, Wizard |  |
+| Continual Flame | 2 | Artificer, Cleric, Druid, Wizard |  |
+| Cordon of Arrows | 2 | Ranger |  |
+| Crown of Madness | 2 | Bard, Sorcerer, Warlock, Wizard |  |
+| Darkness | 2 | Sorcerer, Warlock, Wizard |  |
+| Darkvision | 2 | Artificer, Druid, Ranger, Sorcerer, Wizard |  |
+| Detect Thoughts | 2 | Bard, Sorcerer, Wizard | domain-knowledge, domain-mind, sorc-aberrant, patron-great-old-one |
+| Dragon's Breath | 2 | Artificer, Sorcerer, Wizard | sorc-draconic |
+| Enhance Ability | 2 | Artificer, Bard, Cleric, Druid, Ranger, Sorcerer, Wizard | oath-glory |
+| Enlarge/Reduce | 2 | Artificer, Bard, Druid, Sorcerer, Wizard |  |
+| Enthrall | 2 | Bard, Warlock |  |
+| Find Steed | 2 | Paladin |  |
+| Find Traps | 2 | Cleric, Druid, Ranger |  |
+| Flame Blade | 2 | Druid, Sorcerer |  |
+| Flaming Sphere | 2 | Druid, Sorcerer, Wizard | artificer-alchemist |
+| Gentle Repose | 2 | Cleric, Paladin, Wizard |  |
+| Gust of Wind | 2 | Druid, Ranger, Sorcerer, Wizard | domain-tempest, circle-sea |
+| Heat Metal | 2 | Artificer, Bard, Druid |  |
+| Hold Person | 2 | Bard, Cleric, Druid, Sorcerer, Warlock, Wizard | oath-vengeance, circle-land-polar, ranger-winter-walker, ranger-bloodhound |
+| Homunculus Servant | 2 | Artificer |  |
+| Invisibility | 2 | Artificer, Bard, Sorcerer, Warlock, Wizard | domain-trickery |
+| Knock | 2 | Bard, Sorcerer, Wizard |  |
+| Lesser Restoration | 2 | Artificer, Bard, Cleric, Druid, Paladin, Ranger | domain-life, sorc-clockwork, sorc-spellfire, patron-celestial |
+| Levitate | 2 | Artificer, Sorcerer, Wizard |  |
+| Locate Animals or Plants | 2 | Bard, Druid, Ranger |  |
+| Locate Object | 2 | Bard, Cleric, Druid, Paladin, Ranger, Wizard | domain-commerce |
+| Magic Mouth | 2 | Artificer, Bard, Wizard |  |
+| Magic Weapon | 2 | Artificer, Paladin, Ranger, Sorcerer, Wizard | domain-war, oath-glory |
+| Melf's Acid Arrow | 2 | Wizard | artificer-alchemist |
+| Mind Spike | 2 | Sorcerer, Warlock, Wizard | domain-knowledge, domain-mind |
+| Mirror Image | 2 | Bard, Sorcerer, Warlock, Wizard | oath-noble-genies, circle-forged, sorc-nemesis, artificer-armorer |
+| Misty Step | 2 | Sorcerer, Warlock, Wizard | domain-tempest, oath-ancients, oath-vengeance, circle-land-temperate, ranger-fey-wanderer, patron-archfey |
+| Moonbeam | 2 | Druid | oath-ancients, circle-moon |
+| Nystul's Magic Aura | 2 | Wizard |  |
+| Pass without Trace | 2 | Druid, Ranger | domain-trickery |
+| Phantasmal Force | 2 | Bard, Sorcerer, Wizard | oath-noble-genies, patron-archfey, patron-great-old-one |
+| Prayer of Healing | 2 | Cleric, Paladin |  |
+| Protection from Poison | 2 | Artificer, Cleric, Druid, Paladin, Ranger |  |
+| Ray of Enfeeblement | 2 | Warlock, Wizard |  |
+| Rope Trick | 2 | Artificer, Wizard | ranger-gloom-stalker |
+| Scorching Ray | 2 | Sorcerer, Wizard | domain-light, sorc-spellfire, patron-fiend, artificer-artillerist |
+| See Invisibility | 2 | Artificer, Bard, Sorcerer, Wizard | domain-light, sorc-nemesis |
+| Shatter | 2 | Bard, Sorcerer, Wizard | circle-sea, artificer-armorer, artificer-artillerist |
+| Shining Smite | 2 | Paladin | artificer-battle-smith |
+| Silence | 2 | Bard, Cleric, Ranger |  |
+| Spider Climb | 2 | Artificer, Sorcerer, Warlock, Wizard |  |
+| Spike Growth | 2 | Druid, Ranger | patron-stone-sovereign |
+| Spiritual Weapon | 2 | Cleric | domain-war |
+| Suggestion | 2 | Bard, Sorcerer, Warlock, Wizard | patron-fiend |
+| Summon Beast | 2 | Druid, Ranger |  |
+| Warding Bond | 2 | Cleric, Paladin | artificer-battle-smith |
+| Web | 2 | Artificer, Sorcerer, Wizard | circle-land-tropical |
+| Zone of Truth | 2 | Bard, Cleric, Paladin | oath-devotion |
+| Animate Dead | 3 | Cleric, Wizard |  |
+| Aura of Vitality | 3 | Cleric, Druid, Paladin | sorc-spellfire, artificer-battle-smith |
+| Beacon of Hope | 3 | Cleric | oath-devotion |
+| Bestow Curse | 3 | Bard, Cleric, Wizard |  |
+| Blinding Smite | 3 | Paladin |  |
+| Blink | 3 | Artificer, Sorcerer, Wizard | patron-archfey |
+| Call Lightning | 3 | Druid | domain-tempest |
+| Clairvoyance | 3 | Bard, Cleric, Sorcerer, Wizard | domain-mind, ranger-bloodhound, patron-great-old-one |
+| Conjure Animals | 3 | Druid, Ranger | circle-moon |
+| Conjure Barrage | 3 | Ranger | artificer-battle-smith |
+| Counterspell | 3 | Sorcerer, Warlock, Wizard | sorc-nemesis |
+| Create Food and Water | 3 | Artificer, Cleric, Paladin |  |
+| Crusader's Mantle | 3 | Paladin | domain-war |
+| Daylight | 3 | Cleric, Druid, Paladin, Ranger, Sorcerer | domain-light, patron-celestial |
+| Dispel Magic | 3 | Artificer, Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Warlock, Wizard | domain-knowledge, oath-devotion, sorc-clockwork, sorc-spellfire |
+| Elemental Weapon | 3 | Artificer, Druid, Paladin, Ranger |  |
+| Fear | 3 | Bard, Sorcerer, Warlock, Wizard | domain-mind, ranger-gloom-stalker, sorc-draconic |
+| Feign Death | 3 | Bard, Cleric, Druid, Wizard |  |
+| Fireball | 3 | Sorcerer, Wizard | domain-light, circle-land-arid, patron-fiend, artificer-artillerist |
+| Fly | 3 | Artificer, Sorcerer, Warlock, Wizard | oath-noble-genies, sorc-draconic |
+| Gaseous Form | 3 | Sorcerer, Warlock, Wizard | oath-noble-genies, artificer-alchemist |
+| Glyph of Warding | 3 | Artificer, Bard, Cleric, Wizard | domain-commerce |
+| Haste | 3 | Artificer, Sorcerer, Wizard | oath-glory, oath-vengeance, circle-forged |
+| Hunger of Hadar | 3 | Warlock | sorc-aberrant, patron-great-old-one |
+| Hypnotic Pattern | 3 | Bard, Sorcerer, Warlock, Wizard | domain-trickery, artificer-armorer |
+| Leomund's Tiny Hut | 3 | Bard, Wizard |  |
+| Lightning Arrow | 3 | Ranger |  |
+| Lightning Bolt | 3 | Sorcerer, Wizard | domain-tempest, circle-land-temperate, circle-sea, artificer-armorer |
+| Magic Circle | 3 | Cleric, Paladin, Warlock, Wizard | patron-stone-sovereign |
+| Major Image | 3 | Bard, Sorcerer, Warlock, Wizard |  |
+| Mass Healing Word | 3 | Bard, Cleric | domain-life, artificer-alchemist |
+| Meld into Stone | 3 | Cleric, Druid, Ranger |  |
+| Nondetection | 3 | Bard, Ranger, Wizard | domain-trickery, domain-knowledge |
+| Phantom Steed | 3 | Wizard |  |
+| Plant Growth | 3 | Bard, Druid, Ranger | oath-ancients, patron-archfey |
+| Protection from Energy | 3 | Artificer, Cleric, Druid, Ranger, Sorcerer, Wizard | oath-glory, oath-ancients, oath-vengeance, sorc-clockwork |
+| Remove Curse | 3 | Cleric, Paladin, Warlock, Wizard | ranger-winter-walker |
+| Revivify | 3 | Artificer, Cleric, Druid, Paladin, Ranger | domain-life, patron-celestial |
+| Sending | 3 | Bard, Cleric, Wizard | sorc-aberrant |
+| Sleet Storm | 3 | Druid, Sorcerer, Wizard | circle-land-polar |
+| Slow | 3 | Bard, Sorcerer, Wizard | sorc-nemesis, patron-stone-sovereign |
+| Speak with Dead | 3 | Bard, Cleric, Wizard |  |
+| Speak with Plants | 3 | Bard, Druid, Ranger |  |
+| Spirit Guardians | 3 | Cleric | domain-war |
+| Stinking Cloud | 3 | Bard, Sorcerer, Wizard | circle-land-tropical, patron-fiend |
+| Summon Fey | 3 | Druid, Ranger, Warlock, Wizard | ranger-fey-wanderer |
+| Summon Undead | 3 | Warlock, Wizard |  |
+| Tongues | 3 | Bard, Cleric, Sorcerer, Warlock, Wizard | domain-commerce, domain-knowledge |
+| Vampiric Touch | 3 | Sorcerer, Warlock, Wizard |  |
+| Water Breathing | 3 | Artificer, Druid, Ranger, Sorcerer, Wizard | circle-sea |
+| Water Walk | 3 | Artificer, Cleric, Druid, Ranger, Sorcerer |  |
+| Wind Wall | 3 | Druid, Ranger | artificer-artillerist |
+| Arcane Eye | 4 | Artificer, Wizard | domain-light, domain-knowledge, sorc-draconic |
+| Aura of Life | 4 | Cleric, Paladin | domain-life |
+| Aura of Purity | 4 | Cleric, Paladin | artificer-battle-smith |
+| Banishment | 4 | Cleric, Paladin, Sorcerer, Warlock, Wizard | domain-knowledge, oath-vengeance |
+| Blight | 4 | Druid, Sorcerer, Warlock, Wizard | circle-land-arid |
+| Charm Monster | 4 | Bard, Druid, Sorcerer, Warlock, Wizard | sorc-draconic |
+| Compulsion | 4 | Bard | oath-glory |
+| Confusion | 4 | Bard, Druid, Sorcerer, Wizard | domain-trickery, domain-knowledge, domain-mind, patron-great-old-one |
+| Conjure Minor Elementals | 4 | Druid, Wizard | oath-noble-genies |
+| Conjure Woodland Beings | 4 | Druid, Ranger |  |
+| Control Water | 4 | Cleric, Druid, Wizard | domain-tempest, circle-sea |
+| Death Ward | 4 | Cleric, Paladin | domain-life, artificer-alchemist |
+| Dimension Door | 4 | Bard, Sorcerer, Warlock, Wizard | domain-trickery, oath-vengeance, ranger-fey-wanderer |
+| Divination | 4 | Cleric, Druid, Wizard | domain-commerce |
+| Dominate Beast | 4 | Druid, Ranger, Sorcerer | patron-archfey |
+| Evard's Black Tentacles | 4 | Wizard | sorc-aberrant |
+| Fabricate | 4 | Artificer, Wizard |  |
+| Fire Shield | 4 | Druid, Sorcerer, Wizard | domain-war, circle-forged, sorc-spellfire, sorc-nemesis, patron-fiend, artificer-armorer, artificer-battle-smith |
+| Fount of Moonlight | 4 | Bard, Druid | circle-moon |
+| Freedom of Movement | 4 | Artificer, Bard, Cleric, Druid, Ranger | domain-war, oath-devotion, oath-glory, circle-land-temperate, sorc-clockwork |
+| Giant Insect | 4 | Druid |  |
+| Grasping Vine | 4 | Druid, Ranger |  |
+| Greater Invisibility | 4 | Bard, Sorcerer, Wizard | ranger-gloom-stalker, patron-archfey, artificer-armorer |
+| Guardian of Faith | 4 | Cleric | oath-devotion, patron-celestial |
+| Hallucinatory Terrain | 4 | Bard, Druid, Warlock, Wizard |  |
+| Ice Storm | 4 | Druid, Sorcerer, Wizard | domain-tempest, oath-ancients, circle-land-polar, circle-sea, ranger-winter-walker, artificer-artillerist |
+| Leomund's Secret Chest | 4 | Artificer, Wizard | domain-commerce |
+| Locate Creature | 4 | Bard, Cleric, Druid, Paladin, Ranger, Wizard | ranger-bloodhound |
+| Mordenkainen's Faithful Hound | 4 | Artificer, Wizard |  |
+| Mordenkainen's Private Sanctum | 4 | Artificer, Wizard |  |
+| Otiluke's Resilient Sphere | 4 | Artificer, Wizard | sorc-nemesis |
+| Phantasmal Killer | 4 | Bard, Wizard | domain-mind |
+| Polymorph | 4 | Bard, Druid, Sorcerer, Wizard | circle-land-tropical |
+| Staggering Smite | 4 | Paladin |  |
+| Stone Shape | 4 | Artificer, Cleric, Druid, Wizard | patron-stone-sovereign |
+| Stoneskin | 4 | Artificer, Druid, Ranger, Sorcerer, Wizard | oath-ancients, patron-stone-sovereign |
+| Summon Aberration | 4 | Warlock, Wizard | sorc-aberrant, patron-great-old-one |
+| Summon Construct | 4 | Artificer, Wizard | sorc-clockwork |
+| Summon Elemental | 4 | Druid, Ranger, Wizard | oath-noble-genies |
+| Vitriolic Sphere | 4 | Sorcerer, Wizard | artificer-alchemist |
+| Wall of Fire | 4 | Druid, Sorcerer, Wizard | domain-light, sorc-spellfire, patron-celestial, patron-fiend, artificer-artillerist |
+| Animate Objects | 5 | Artificer, Bard, Sorcerer, Wizard | circle-forged |
+| Antilife Shell | 5 | Druid |  |
+| Awaken | 5 | Bard, Druid |  |
+| Banishing Smite | 5 | Paladin | oath-noble-genies, artificer-battle-smith |
+| Bigby's Hand | 5 | Artificer, Sorcerer, Wizard | patron-stone-sovereign |
+| Circle of Power | 5 | Artificer, Cleric, Paladin, Wizard | sorc-nemesis |
+| Cloudkill | 5 | Sorcerer, Wizard | artificer-alchemist |
+| Commune | 5 | Cleric | oath-devotion |
+| Commune with Nature | 5 | Druid, Ranger | oath-ancients |
+| Cone of Cold | 5 | Druid, Sorcerer, Wizard | domain-tempest, circle-land-polar, ranger-winter-walker, artificer-artillerist |
+| Conjure Elemental | 5 | Druid, Wizard | circle-sea |
+| Conjure Volley | 5 | Ranger |  |
+| Contact Other Plane | 5 | Warlock, Wizard | oath-noble-genies |
+| Contagion | 5 | Cleric, Druid |  |
+| Creation | 5 | Artificer, Sorcerer, Wizard |  |
+| Destructive Wave | 5 | Paladin |  |
+| Dispel Evil and Good | 5 | Cleric, Paladin |  |
+| Dominate Person | 5 | Bard, Sorcerer, Wizard | domain-trickery, patron-archfey |
+| Dream | 5 | Bard, Warlock, Wizard |  |
+| Flame Strike | 5 | Cleric | domain-light, oath-devotion, sorc-spellfire |
+| Geas | 5 | Bard, Cleric, Druid, Paladin, Wizard | patron-fiend |
+| Greater Restoration | 5 | Artificer, Bard, Cleric, Druid, Paladin, Ranger | domain-life, sorc-clockwork, sorc-spellfire, patron-celestial |
+| Hallow | 5 | Cleric |  |
+| Hold Monster | 5 | Bard, Sorcerer, Warlock, Wizard | domain-war, oath-vengeance, circle-sea |
+| Insect Plague | 5 | Cleric, Druid, Sorcerer | circle-land-tropical, patron-fiend |
+| Jallarzi's Storm of Radiance | 5 | Warlock, Wizard |  |
+| Legend Lore | 5 | Bard, Cleric, Wizard | domain-commerce, domain-knowledge, oath-glory, sorc-draconic |
+| Mass Cure Wounds | 5 | Bard, Cleric, Druid | domain-life, circle-moon, artificer-battle-smith |
+| Mislead | 5 | Bard, Warlock, Wizard | ranger-fey-wanderer, sorc-nemesis |
+| Modify Memory | 5 | Bard, Wizard | domain-trickery, patron-great-old-one |
+| Passwall | 5 | Wizard | artificer-armorer |
+| Planar Binding | 5 | Bard, Cleric, Druid, Warlock, Wizard |  |
+| Raise Dead | 5 | Bard, Cleric, Paladin | artificer-alchemist |
+| Rary's Telepathic Bond | 5 | Bard, Wizard | domain-commerce, sorc-aberrant |
+| Reincarnate | 5 | Druid |  |
+| Scrying | 5 | Bard, Cleric, Druid, Warlock, Wizard | domain-light, domain-knowledge, oath-vengeance, ranger-bloodhound |
+| Seeming | 5 | Bard, Sorcerer, Wizard | ranger-gloom-stalker, patron-archfey |
+| Steel Wind Strike | 5 | Ranger, Wizard | domain-war |
+| Summon Celestial | 5 | Cleric, Paladin | patron-celestial |
+| Summon Dragon | 5 | Wizard | sorc-draconic |
+| Swift Quiver | 5 | Ranger |  |
+| Synaptic Static | 5 | Bard, Sorcerer, Warlock, Wizard | domain-knowledge, domain-mind |
+| Telekinesis | 5 | Sorcerer, Wizard | domain-mind, sorc-aberrant, patron-great-old-one |
+| Teleportation Circle | 5 | Bard, Sorcerer, Warlock, Wizard |  |
+| Tree Stride | 5 | Druid, Ranger | oath-ancients, circle-land-temperate |
+| Wall of Force | 5 | Wizard | sorc-clockwork, artificer-armorer, artificer-artillerist |
+| Wall of Stone | 5 | Artificer, Druid, Sorcerer, Wizard | circle-land-arid, patron-stone-sovereign |
+| Yolande's Regal Presence | 5 | Bard, Wizard | oath-glory |
+| Arcane Gate | 6 | Sorcerer, Warlock, Wizard |  |
+| Blade Barrier | 6 | Cleric |  |
+| Chain Lightning | 6 | Sorcerer, Wizard |  |
+| Circle of Death | 6 | Sorcerer, Warlock, Wizard |  |
+| Conjure Fey | 6 | Druid |  |
+| Contingency | 6 | Wizard |  |
+| Create Undead | 6 | Cleric, Warlock, Wizard |  |
+| Disintegrate | 6 | Sorcerer, Wizard |  |
+| Drawmij's Instant Summons | 6 | Wizard |  |
+| Eyebite | 6 | Bard, Sorcerer, Warlock, Wizard |  |
+| Find the Path | 6 | Bard, Cleric, Druid |  |
+| Flesh to Stone | 6 | Druid, Sorcerer, Wizard |  |
+| Forbiddance | 6 | Cleric |  |
+| Globe of Invulnerability | 6 | Sorcerer, Wizard |  |
+| Guards and Wards | 6 | Bard, Wizard |  |
+| Harm | 6 | Cleric |  |
+| Heal | 6 | Cleric, Druid |  |
+| Heroes' Feast | 6 | Bard, Cleric, Druid |  |
+| Magic Jar | 6 | Wizard |  |
+| Mass Suggestion | 6 | Bard, Sorcerer, Wizard |  |
+| Move Earth | 6 | Druid, Sorcerer, Wizard |  |
+| Otiluke's Freezing Sphere | 6 | Sorcerer, Wizard |  |
+| Otto's Irresistible Dance | 6 | Bard, Wizard |  |
+| Planar Ally | 6 | Cleric |  |
+| Programmed Illusion | 6 | Bard, Wizard |  |
+| Summon Fiend | 6 | Warlock, Wizard |  |
+| Sunbeam | 6 | Cleric, Druid, Sorcerer, Wizard |  |
+| Tasha's Bubbling Cauldron | 6 | Warlock, Wizard |  |
+| Transport via Plants | 6 | Druid |  |
+| True Seeing | 6 | Bard, Cleric, Sorcerer, Warlock, Wizard |  |
+| Wall of Ice | 6 | Wizard |  |
+| Wall of Thorns | 6 | Druid |  |
+| Wind Walk | 6 | Druid |  |
+| Word of Recall | 6 | Cleric |  |
+| Conjure Celestial | 7 | Cleric |  |
+| Delayed Blast Fireball | 7 | Sorcerer, Wizard |  |
+| Divine Word | 7 | Cleric |  |
+| Etherealness | 7 | Bard, Cleric, Sorcerer, Warlock, Wizard |  |
+| Finger of Death | 7 | Sorcerer, Warlock, Wizard |  |
+| Fire Storm | 7 | Cleric, Druid, Sorcerer |  |
+| Forcecage | 7 | Bard, Warlock, Wizard |  |
+| Mirage Arcane | 7 | Bard, Druid, Wizard |  |
+| Mordenkainen's Magnificent Mansion | 7 | Bard, Wizard |  |
+| Mordenkainen's Sword | 7 | Bard, Wizard |  |
+| Plane Shift | 7 | Cleric, Druid, Sorcerer, Warlock, Wizard |  |
+| Power Word Fortify | 7 | Bard, Cleric |  |
+| Prismatic Spray | 7 | Bard, Sorcerer, Wizard |  |
+| Project Image | 7 | Bard, Wizard |  |
+| Regenerate | 7 | Bard, Cleric, Druid |  |
+| Resurrection | 7 | Bard, Cleric |  |
+| Reverse Gravity | 7 | Druid, Sorcerer, Wizard |  |
+| Sequester | 7 | Wizard |  |
+| Simulacrum | 7 | Wizard |  |
+| Symbol | 7 | Bard, Cleric, Druid, Wizard |  |
+| Teleport | 7 | Bard, Sorcerer, Wizard |  |
+| Animal Shapes | 8 | Druid |  |
+| Antimagic Field | 8 | Cleric, Wizard |  |
+| Antipathy/Sympathy | 8 | Bard, Druid, Wizard |  |
+| Befuddlement | 8 | Bard, Druid, Warlock, Wizard |  |
+| Clone | 8 | Wizard |  |
+| Control Weather | 8 | Cleric, Druid, Wizard |  |
+| Demiplane | 8 | Sorcerer, Warlock, Wizard |  |
+| Dominate Monster | 8 | Bard, Sorcerer, Warlock, Wizard |  |
+| Earthquake | 8 | Cleric, Druid, Sorcerer |  |
+| Glibness | 8 | Bard, Warlock |  |
+| Holy Aura | 8 | Cleric |  |
+| Incendiary Cloud | 8 | Druid, Sorcerer, Wizard |  |
+| Maze | 8 | Wizard |  |
+| Mind Blank | 8 | Bard, Wizard |  |
+| Power Word Stun | 8 | Bard, Sorcerer, Warlock, Wizard |  |
+| Sunburst | 8 | Cleric, Druid, Sorcerer, Wizard |  |
+| Telepathy | 8 | Wizard |  |
+| Tsunami | 8 | Druid |  |
+| Astral Projection | 9 | Cleric, Warlock, Wizard |  |
+| Foresight | 9 | Bard, Druid, Warlock, Wizard |  |
+| Gate | 9 | Cleric, Sorcerer, Warlock, Wizard |  |
+| Imprisonment | 9 | Warlock, Wizard |  |
+| Mass Heal | 9 | Cleric |  |
+| Meteor Swarm | 9 | Sorcerer, Wizard |  |
+| Power Word Heal | 9 | Bard, Cleric |  |
+| Power Word Kill | 9 | Bard, Sorcerer, Warlock, Wizard |  |
+| Prismatic Wall | 9 | Bard, Wizard |  |
+| Shapechange | 9 | Druid, Wizard |  |
+| Storm of Vengeance | 9 | Druid |  |
+| Time Stop | 9 | Sorcerer, Wizard |  |
+| True Polymorph | 9 | Bard, Warlock, Wizard |  |
+| True Resurrection | 9 | Cleric, Druid |  |
+| Weird | 9 | Warlock, Wizard |  |
+| Wish | 9 | Sorcerer, Wizard |  |
+
+---
+
+## Subclass Tag Key
+
+### Cleric Domains
+
+| Tag | Subclass |
+| --- | --- |
+| domain-commerce | Commerce Domain |
+| domain-knowledge | Knowledge Domain |
+| domain-life | Life Domain |
+| domain-light | Light Domain |
+| domain-mind | Mind Domain |
+| domain-tempest | Tempest Domain |
+| domain-trickery | Trickery Domain |
+| domain-war | War Domain |
+
+### Paladin Oaths
+
+| Tag | Subclass |
+| --- | --- |
+| oath-ancients | Oath of the Ancients |
+| oath-devotion | Oath of Devotion |
+| oath-glory | Oath of Glory |
+| oath-noble-genies | Oath of the Noble Genies |
+| oath-vengeance | Oath of Vengeance |
+
+### Druid Circles
+
+| Tag | Subclass |
+| --- | --- |
+| circle-forged | Circle of the Forged |
+| circle-land-arid | Circle of the Land (Arid) |
+| circle-land-polar | Circle of the Land (Polar) |
+| circle-land-temperate | Circle of the Land (Temperate) |
+| circle-land-tropical | Circle of the Land (Tropical) |
+| circle-moon | Circle of the Moon |
+| circle-sea | Circle of the Sea |
+| circle-stars | Circle of the Stars |
+
+### Ranger Conclaves
+
+| Tag | Subclass |
+| --- | --- |
+| ranger-bloodhound | Bloodhound |
+| ranger-fey-wanderer | Fey Wanderer |
+| ranger-gloom-stalker | Gloom Stalker |
+| ranger-winter-walker | Winter Walker |
+
+### Sorcerer Origins
+
+| Tag | Subclass |
+| --- | --- |
+| sorc-aberrant | Aberrant Mind (Psionic Sorcery) |
+| sorc-clockwork | Clockwork Sorcery |
+| sorc-draconic | Draconic Sorcery |
+| sorc-nemesis | Nemesis Sorcery |
+| sorc-spellfire | Spellfire Sorcery |
+
+### Warlock Patrons
+
+| Tag | Subclass |
+| --- | --- |
+| patron-archfey | Archfey Patron |
+| patron-celestial | Celestial Patron |
+| patron-fiend | Fiend Patron |
+| patron-great-old-one | Great Old One Patron |
+| patron-stone-sovereign | Stone Sovereign Patron |
+
+### Artificer Specialists
+
+| Tag | Subclass |
+| --- | --- |
+| artificer-alchemist | Alchemist |
+| artificer-armorer | Armorer |
+| artificer-artillerist | Artillerist |
+| artificer-battle-smith | Battle Smith |

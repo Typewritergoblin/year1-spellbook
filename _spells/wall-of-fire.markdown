@@ -3,6 +3,7 @@ layout: post
 title:  "Wall of Fire"
 sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level4, concentration, action, evocation]
+subtags: [{cleric: domain-light}, {sorcerer: spellfire}, {warlock: patron-celestial}, {warlock: patron-fiend}, {artificer: artillerist}]
 ---
 
 **4th-level evocation**

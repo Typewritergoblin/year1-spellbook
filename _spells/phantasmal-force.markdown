@@ -3,6 +3,7 @@ layout: post
 title:  "Phantasmal Force"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level2, concentration, action, illusion]
+subtags: [{paladin: oath-noble-genies}, {warlock: patron-archfey}, {warlock: patron-great-old-one}]
 ---
 
 **2nd-level illusion**

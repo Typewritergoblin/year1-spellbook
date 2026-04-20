@@ -3,6 +3,7 @@ layout: post
 title:  "Mind Spike"
 sources: [PHB 2024]
 tags: [sorcerer, warlock, wizard, level2, concentration, action, divination]
+subtags: [{cleric: domain-knowledge}, {cleric: domain-mind}]
 ---
 
 **2nd-level divination**

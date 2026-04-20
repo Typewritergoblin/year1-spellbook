@@ -3,6 +3,7 @@ layout: post
 title:  "Dominate Person"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level5, concentration, action, enchantment]
+subtags: [{cleric: domain-trickery}, {warlock: patron-archfey}]
 ---
 
 **5th-level enchantment**

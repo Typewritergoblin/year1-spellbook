@@ -3,6 +3,7 @@ layout: post
 title:  "Shield"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level1, reaction, abjuration]
+subtags: [{sorcerer: nemesis}, {artificer: artillerist}, {artificer: battle-smith}]
 ---
 
 **1st-level abjuration**

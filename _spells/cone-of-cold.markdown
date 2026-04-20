@@ -3,6 +3,7 @@ layout: post
 title:  "Cone of Cold"
 sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level5, action, evocation]
+subtags: [{cleric: domain-tempest}, {druid: circle-land-polar}, {ranger: winter-walker}, {artificer: artillerist}]
 ---
 
 **5th-level evocation**

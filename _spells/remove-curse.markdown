@@ -3,6 +3,7 @@ layout: post
 title:  "Remove Curse"
 sources: [PHB 2024]
 tags: [cleric, paladin, warlock, wizard, level3, action, abjuration]
+subtags: [{ranger: winter-walker}]
 ---
 
 **3rd-level abjuration**

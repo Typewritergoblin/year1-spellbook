@@ -3,6 +3,7 @@ layout: post
 title:  "Aura of Life"
 sources: [PHB 2024]
 tags: [cleric, paladin, level4, concentration, action, abjuration]
+subtags: [{cleric: domain-life}]
 ---
 
 **4th-level abjuration**

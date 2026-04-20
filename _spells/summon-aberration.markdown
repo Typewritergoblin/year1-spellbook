@@ -3,6 +3,7 @@ layout: post
 title:  "Summon Aberration"
 sources: [PHB 2024]
 tags: [warlock, wizard, level4, concentration, action, conjuration]
+subtags: [{sorcerer: aberrant}, {warlock: patron-great-old-one}]
 ---
 
 **4th-level conjuration**

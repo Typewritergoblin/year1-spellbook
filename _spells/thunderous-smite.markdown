@@ -3,6 +3,7 @@ layout: post
 title:  "Thunderous Smite"
 sources: [PHB 2024]
 tags: [paladin, level1, bonus, evocation]
+subtags: [{paladin: oath-noble-genies}]
 ---
 
 **1st-level evocation**

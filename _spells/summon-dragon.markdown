@@ -3,6 +3,7 @@ layout: post
 title:  "Summon Dragon"
 sources: [PHB 2024]
 tags: [wizard, level5, concentration, action, conjuration]
+subtags: [{sorcerer: draconic}]
 ---
 
 **5th-level conjuration**

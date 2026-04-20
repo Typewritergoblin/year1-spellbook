@@ -3,6 +3,7 @@ layout: post
 title:  "Fire Shield"
 sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level4, action, evocation]
+subtags: [{cleric: domain-war}, {druid: circle-forged}, {sorcerer: spellfire}, {sorcerer: nemesis}, {warlock: patron-fiend}, {artificer: armorer}, {artificer: battle-smith}]
 ---
 
 **4th-level evocation**

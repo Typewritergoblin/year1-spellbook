@@ -3,6 +3,7 @@ layout: post
 title:  "Blur"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level2, concentration, action, illusion]
+subtags: [{druid: circle-land-arid}]
 ---
 
 **2nd-level illusion**

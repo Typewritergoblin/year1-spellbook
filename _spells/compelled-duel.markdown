@@ -3,6 +3,7 @@ layout: post
 title:  "Compelled Duel"
 sources: [PHB 2024]
 tags: [paladin, level1, concentration, bonus, enchantment]
+subtags: [{sorcerer: nemesis}]
 ---
 
 **1st-level enchantment**

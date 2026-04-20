@@ -3,6 +3,7 @@ layout: post
 title:  "Burning Hands"
 sources: [PHB 2024]
 tags: [sorcerer, wizard, level1, action, evocation]
+subtags: [{cleric: domain-light}, {druid: circle-land-arid}, {warlock: patron-fiend}]
 ---
 
 **1st-level evocation**

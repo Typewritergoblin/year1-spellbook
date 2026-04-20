@@ -3,6 +3,7 @@ layout: post
 title:  "Compulsion"
 sources: [PHB 2024]
 tags: [bard, level4, concentration, action, enchantment]
+subtags: [{paladin: oath-glory}]
 ---
 
 **4th-level enchantment**

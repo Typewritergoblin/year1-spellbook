@@ -3,6 +3,7 @@ layout: post
 title:  "Fire Bolt"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, cantrip, action, evocation]
+subtags: [{druid: circle-land-arid}]
 ---
 
 **Evocation cantrip**

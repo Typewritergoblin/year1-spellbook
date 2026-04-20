@@ -3,6 +3,7 @@ layout: post
 title:  "Sleep"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level1, concentration, action, enchantment]
+subtags: [{druid: circle-land-temperate}, {warlock: patron-archfey}]
 ---
 
 **1st-level enchantment**

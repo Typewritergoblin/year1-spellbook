@@ -3,6 +3,7 @@ layout: post
 title:  "Zone of Truth"
 sources: [PHB 2024]
 tags: [bard, cleric, paladin, level2, action, enchantment]
+subtags: [{paladin: oath-devotion}]
 ---
 
 **2nd-level enchantment**

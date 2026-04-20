@@ -3,6 +3,7 @@ layout: post
 title:  "Augury"
 sources: [PHB 2024]
 tags: [cleric, druid, wizard, level2, ritual, long, divination]
+subtags: [{cleric: domain-commerce}]
 ---
 
 **2nd-level divination**

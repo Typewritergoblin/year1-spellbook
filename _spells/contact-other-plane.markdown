@@ -3,6 +3,7 @@ layout: post
 title:  "Contact Other Plane"
 sources: [PHB 2024]
 tags: [warlock, wizard, level5, ritual, long, divination]
+subtags: [{paladin: oath-noble-genies}]
 ---
 
 **5th-level divination**

@@ -3,6 +3,7 @@ layout: post
 title:  "Fear"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level3, concentration, action, illusion]
+subtags: [{cleric: domain-mind}, {ranger: gloom-stalker}, {sorcerer: draconic}]
 ---
 
 **3rd-level illusion**

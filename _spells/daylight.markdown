@@ -3,6 +3,7 @@ layout: post
 title:  "Daylight"
 sources: [PHB 2024]
 tags: [cleric, druid, paladin, ranger, sorcerer, level3, action, evocation]
+subtags: [{cleric: domain-light}, {warlock: patron-celestial}]
 ---
 
 **3rd-level evocation**

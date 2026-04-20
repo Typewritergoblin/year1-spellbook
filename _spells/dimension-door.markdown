@@ -3,6 +3,7 @@ layout: post
 title:  "Dimension Door"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level4, action, conjuration]
+subtags: [{cleric: domain-trickery}, {paladin: oath-vengeance}, {ranger: fey-wanderer}]
 ---
 
 **4th-level conjuration**

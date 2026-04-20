@@ -3,6 +3,7 @@ layout: post
 title:  "Summon Construct"
 sources: [PHB 2024]
 tags: [artificer, wizard, level4, concentration, action, conjuration]
+subtags: [{sorcerer: clockwork}]
 ---
 
 **4th-level conjuration**

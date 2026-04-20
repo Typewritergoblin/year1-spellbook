@@ -3,6 +3,7 @@ layout: post
 title:  "Plant Growth"
 sources: [PHB 2024]
 tags: [bard, druid, ranger, level3, long, transmutation]
+subtags: [{paladin: oath-ancients}, {warlock: patron-archfey}]
 ---
 
 **3rd-level transmutation**

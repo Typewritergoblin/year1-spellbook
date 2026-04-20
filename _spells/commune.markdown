@@ -3,6 +3,7 @@ layout: post
 title:  "Commune"
 sources: [PHB 2024]
 tags: [cleric, level5, ritual, long, divination]
+subtags: [{paladin: oath-devotion}]
 ---
 
 **5th-level divination**

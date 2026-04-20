@@ -3,6 +3,7 @@ layout: post
 title:  "Phantasmal Killer"
 sources: [PHB 2024]
 tags: [bard, wizard, level4, concentration, action, illusion]
+subtags: [{cleric: domain-mind}]
 ---
 
 **4th-level illusion**

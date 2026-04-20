@@ -24,13 +24,3 @@ If a creature touches the glowing bead before the spell ends, that creature make
 When the bead explodes, flammable objects in the explosion that aren’t being worn or carried start burning.
 
 **Using a Higher-Level Spell Slot.** The base damage increases by 1d6 for each spell slot level above 7.
-
-**Foundry Note**
-
-The limited uses value of this spell tracks the number of rounds that have passed since the initial casting and starts at 0.
-
-The **Turn End Damage Increase** activity will increase that value by 1.
-
-The **Trigger Explosion** activity calculates the total damage based on the limited uses.
-
-If you would prefer manual tracking, you can use **Trigger Explosion's** Situational Bonus dialog to add the extra d6s and ignore the **Turn End Damage** Increase activity.

@@ -3,6 +3,7 @@ layout: post
 title:  "Mind Sliver"
 sources: [PHB 2024]
 tags: [sorcerer, warlock, wizard, cantrip, action, enchantment]
+subtags: [{sorcerer: aberrant}]
 ---
 
 **Enchantment cantrip**

@@ -3,6 +3,7 @@ layout: post
 title:  "Water Breathing"
 sources: [PHB 2024]
 tags: [artificer, druid, ranger, sorcerer, wizard, level3, ritual, action, transmutation]
+subtags: [{druid: circle-sea}]
 ---
 
 **3rd-level transmutation**

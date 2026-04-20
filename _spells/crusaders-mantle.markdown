@@ -3,6 +3,7 @@ layout: post
 title:  "Crusader's Mantle"
 sources: [PHB 2024]
 tags: [paladin, level3, concentration, action, evocation]
+subtags: [{cleric: domain-war}]
 ---
 
 **3rd-level evocation**

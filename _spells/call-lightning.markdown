@@ -3,6 +3,7 @@ layout: post
 title:  "Call Lightning"
 sources: [PHB 2024]
 tags: [druid, level3, concentration, action, conjuration]
+subtags: [{cleric: domain-tempest}]
 ---
 
 **3rd-level conjuration**

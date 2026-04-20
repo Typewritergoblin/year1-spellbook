@@ -3,6 +3,7 @@ layout: post
 title:  "Mass Cure Wounds"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, level5, action, abjuration]
+subtags: [{cleric: domain-life}, {druid: circle-moon}, {artificer: battle-smith}]
 ---
 
 **5th-level abjuration**

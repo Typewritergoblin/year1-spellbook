@@ -3,6 +3,7 @@ layout: post
 title:  "Ensnaring Strike"
 sources: [PHB 2024]
 tags: [ranger, level1, concentration, bonus, conjuration]
+subtags: [{paladin: oath-ancients}]
 ---
 
 **1st-level conjuration**

@@ -3,6 +3,7 @@ layout: post
 title:  "Acid Splash"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, cantrip, action, evocation]
+subtags: [{druid: circle-land-tropical}]
 ---
 
 **Evocation cantrip**

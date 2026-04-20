@@ -3,6 +3,7 @@ layout: post
 title:  "Summon Celestial"
 sources: [PHB 2024]
 tags: [cleric, paladin, level5, concentration, action, conjuration]
+subtags: [{warlock: patron-celestial}]
 ---
 
 **5th-level conjuration**

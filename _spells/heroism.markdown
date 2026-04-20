@@ -3,6 +3,7 @@ layout: post
 title:  "Heroism"
 sources: [PHB 2024]
 tags: [bard, paladin, level1, concentration, action, enchantment]
+subtags: [{paladin: oath-glory}, {artificer: battle-smith}]
 ---
 
 **1st-level enchantment**

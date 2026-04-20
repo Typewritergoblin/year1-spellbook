@@ -3,6 +3,7 @@ layout: post
 title:  "Stoneskin"
 sources: [PHB 2024]
 tags: [artificer, druid, ranger, sorcerer, wizard, level4, concentration, action, transmutation]
+subtags: [{paladin: oath-ancients}, {warlock: patron-stone-sovereign}]
 ---
 
 **4th-level transmutation**

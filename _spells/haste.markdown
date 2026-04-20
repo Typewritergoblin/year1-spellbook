@@ -3,6 +3,7 @@ layout: post
 title:  "Haste"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level3, concentration, action, transmutation]
+subtags: [{paladin: oath-glory}, {paladin: oath-vengeance}, {druid: circle-forged}]
 ---
 
 **3rd-level transmutation**

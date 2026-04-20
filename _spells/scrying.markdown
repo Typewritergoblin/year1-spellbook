@@ -3,6 +3,7 @@ layout: post
 title:  "Scrying"
 sources: [PHB 2024]
 tags: [bard, cleric, druid, warlock, wizard, level5, concentration, long, divination]
+subtags: [{cleric: domain-light}, {cleric: domain-knowledge}, {paladin: oath-vengeance}, {ranger: bloodhound}]
 ---
 
 **5th-level divination**

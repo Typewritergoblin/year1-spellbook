@@ -3,6 +3,7 @@ layout: post
 title:  "Arcane Eye"
 sources: [PHB 2024]
 tags: [artificer, wizard, level4, concentration, action, divination]
+subtags: [{cleric: domain-light}, {cleric: domain-knowledge}, {sorcerer: draconic}]
 ---
 
 **4th-level divination**

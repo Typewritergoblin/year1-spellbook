@@ -3,6 +3,7 @@ layout: post
 title:  "Modify Memory"
 sources: [PHB 2024]
 tags: [bard, wizard, level5, concentration, action, enchantment]
+subtags: [{cleric: domain-trickery}, {warlock: patron-great-old-one}]
 ---
 
 **5th-level enchantment**

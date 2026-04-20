@@ -3,6 +3,7 @@ layout: post
 title:  "Rope Trick"
 sources: [PHB 2024]
 tags: [artificer, wizard, level2, action, transmutation]
+subtags: [{ranger: gloom-stalker}]
 ---
 
 **2nd-level transmutation**

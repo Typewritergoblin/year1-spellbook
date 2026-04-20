@@ -3,6 +3,7 @@ layout: post
 title:  "Insect Plague"
 sources: [PHB 2024]
 tags: [cleric, druid, sorcerer, level5, concentration, action, conjuration]
+subtags: [{druid: circle-land-tropical}, {warlock: patron-fiend}]
 ---
 
 **5th-level conjuration**

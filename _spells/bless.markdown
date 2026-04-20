@@ -3,6 +3,7 @@ layout: post
 title:  "Bless"
 sources: [PHB 2024]
 tags: [cleric, paladin, level1, concentration, action, enchantment]
+subtags: [{cleric: domain-life}]
 ---
 
 **1st-level enchantment**

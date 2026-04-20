@@ -3,6 +3,7 @@ layout: post
 title:  "Blink"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level3, action, transmutation]
+subtags: [{warlock: patron-archfey}]
 ---
 
 **3rd-level transmutation**

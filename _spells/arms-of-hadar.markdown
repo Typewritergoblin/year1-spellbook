@@ -3,6 +3,7 @@ layout: post
 title:  "Arms of Hadar"
 sources: [PHB 2024]
 tags: [warlock, level1, action, conjuration]
+subtags: [{sorcerer: aberrant}]
 ---
 
 **1st-level conjuration**

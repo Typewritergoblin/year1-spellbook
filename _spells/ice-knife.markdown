@@ -3,6 +3,7 @@ layout: post
 title:  "Ice Knife"
 sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level1, action, conjuration]
+subtags: [{cleric: domain-tempest}, {ranger: winter-walker}]
 ---
 
 **1st-level conjuration**

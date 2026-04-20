@@ -3,6 +3,7 @@ layout: post
 title:  "Mirror Image"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level2, action, illusion]
+subtags: [{paladin: oath-noble-genies}, {druid: circle-forged}, {sorcerer: nemesis}, {artificer: armorer}]
 ---
 
 **2nd-level illusion**

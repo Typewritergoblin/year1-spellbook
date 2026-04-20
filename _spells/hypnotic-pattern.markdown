@@ -3,6 +3,7 @@ layout: post
 title:  "Hypnotic Pattern"
 sources: [PHB 2024]
 tags: [bard, sorcerer, warlock, wizard, level3, concentration, action, illusion]
+subtags: [{cleric: domain-trickery}, {artificer: armorer}]
 ---
 
 **3rd-level illusion**
