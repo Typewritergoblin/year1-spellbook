@@ -3,7 +3,8 @@ layout: post
 title:  "Bigby's Hand"
 sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level5, concentration, action, evocation]
-subtags: [{warlock: patron-stone-sovereign}, {dragonmark: sentinel}]---
+subtags: [{warlock: patron-stone-sovereign}, {dragonmark: sentinel}]
+---
 
 **5th-level evocation**
 

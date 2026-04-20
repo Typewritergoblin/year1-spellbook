@@ -3,7 +3,8 @@ layout: post
 title:  "Identify"
 sources: [PHB 2024]
 tags: [artificer, bard, wizard, level1, ritual, long, divination]
-subtags: [{cleric: domain-knowledge}, {druid: circle-forged}, {dragonmark: detection}, {dragonmark: making}]---
+subtags: [{cleric: domain-knowledge}, {druid: circle-forged}, {dragonmark: detection}, {dragonmark: making}]
+---
 
 **1st-level divination**
 

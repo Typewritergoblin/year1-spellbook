@@ -3,7 +3,8 @@ layout: post
 title:  "Freedom of Movement"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, ranger, level4, action, abjuration]
-subtags: [{cleric: domain-war}, {paladin: oath-devotion}, {paladin: oath-glory}, {druid: circle-land-temperate}, {sorcerer: clockwork}, {dragonmark: passage}]---
+subtags: [{cleric: domain-war}, {paladin: oath-devotion}, {paladin: oath-glory}, {druid: circle-land-temperate}, {sorcerer: clockwork}, {dragonmark: passage}]
+---
 
 **4th-level abjuration**
 

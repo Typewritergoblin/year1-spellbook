@@ -3,7 +3,8 @@ layout: post
 title:  "See Invisibility"
 sources: [PHB 2024]
 tags: [artificer, bard, sorcerer, wizard, level2, action, divination]
-subtags: [{cleric: domain-light}, {sorcerer: nemesis}, {dragonmark: detection}]---
+subtags: [{cleric: domain-light}, {sorcerer: nemesis}, {dragonmark: detection}]
+---
 
 **2nd-level divination**
 

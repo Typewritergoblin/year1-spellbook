@@ -3,7 +3,8 @@ layout: post
 title:  "Mass Healing Word"
 sources: [PHB 2024]
 tags: [bard, cleric, level3, bonus, abjuration]
-subtags: [{cleric: domain-life}, {artificer: alchemist}, {dragonmark: healing}]---
+subtags: [{cleric: domain-life}, {artificer: alchemist}, {dragonmark: healing}]
+---
 
 **3rd-level abjuration**
 

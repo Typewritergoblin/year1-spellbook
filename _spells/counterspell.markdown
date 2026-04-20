@@ -3,7 +3,8 @@ layout: post
 title:  "Counterspell"
 sources: [PHB 2024]
 tags: [sorcerer, warlock, wizard, level3, reaction, abjuration]
-subtags: [{sorcerer: nemesis}, {dragonmark: sentinel}]---
+subtags: [{sorcerer: nemesis}, {dragonmark: sentinel}]
+---
 
 **3rd-level abjuration**
 

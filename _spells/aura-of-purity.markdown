@@ -3,7 +3,8 @@ layout: post
 title:  "Aura of Purity"
 sources: [PHB 2024]
 tags: [cleric, paladin, level4, concentration, action, abjuration]
-subtags: [{artificer: battle-smith}, {dragonmark: healing}, {dragonmark: hospitality}]---
+subtags: [{artificer: battle-smith}, {dragonmark: healing}, {dragonmark: hospitality}]
+---
 
 **4th-level abjuration**
 

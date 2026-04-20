@@ -3,7 +3,8 @@ layout: post
 title:  "Control Water"
 sources: [PHB 2024]
 tags: [cleric, druid, wizard, level4, concentration, action, transmutation]
-subtags: [{cleric: domain-tempest}, {druid: circle-sea}, {dragonmark: storm}]---
+subtags: [{cleric: domain-tempest}, {druid: circle-sea}, {dragonmark: storm}]
+---
 
 **4th-level transmutation**
 

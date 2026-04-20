@@ -3,7 +3,8 @@ layout: post
 title:  "Beacon of Hope"
 sources: [PHB 2024]
 tags: [cleric, level3, concentration, action, abjuration]
-subtags: [{paladin: oath-devotion}, {dragonmark: handling}]---
+subtags: [{paladin: oath-devotion}, {dragonmark: handling}]
+---
 
 **3rd-level abjuration**
 

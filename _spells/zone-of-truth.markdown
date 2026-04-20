@@ -3,7 +3,8 @@ layout: post
 title:  "Zone of Truth"
 sources: [PHB 2024]
 tags: [bard, cleric, paladin, level2, action, enchantment]
-subtags: [{paladin: oath-devotion}, {dragonmark: sentinel}]---
+subtags: [{paladin: oath-devotion}, {dragonmark: sentinel}]
+---
 
 **2nd-level enchantment**
 

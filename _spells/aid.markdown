@@ -3,7 +3,8 @@ layout: post
 title:  "Aid"
 sources: [PHB 2024]
 tags: [artificer, bard, cleric, druid, paladin, ranger, level2, action, abjuration]
-subtags: [{cleric: domain-life}, {paladin: oath-devotion}, {sorcerer: clockwork}, {warlock: patron-celestial}, {dragonmark: hospitality}]---
+subtags: [{cleric: domain-life}, {paladin: oath-devotion}, {sorcerer: clockwork}, {warlock: patron-celestial}, {dragonmark: hospitality}]
+---
 
 **2nd-level abjuration**
 

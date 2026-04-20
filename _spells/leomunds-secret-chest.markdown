@@ -3,7 +3,8 @@ layout: post
 title:  "Leomund's Secret Chest"
 sources: [PHB 2024]
 tags: [artificer, wizard, level4, action, conjuration]
-subtags: [{cleric: domain-commerce}, {dragonmark: warding}]---
+subtags: [{cleric: domain-commerce}, {dragonmark: warding}]
+---
 
 **4th-level conjuration**
 

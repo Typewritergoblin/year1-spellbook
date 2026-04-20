@@ -3,7 +3,8 @@ layout: post
 title:  "Greater Invisibility"
 sources: [PHB 2024]
 tags: [bard, sorcerer, wizard, level4, concentration, action, illusion]
-subtags: [{ranger: gloom-stalker}, {warlock: patron-archfey}, {artificer: armorer}, {dragonmark: shadow}]---
+subtags: [{ranger: gloom-stalker}, {warlock: patron-archfey}, {artificer: armorer}, {dragonmark: shadow}]
+---
 
 **4th-level illusion**
 

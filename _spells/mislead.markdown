@@ -3,7 +3,8 @@ layout: post
 title:  "Mislead"
 sources: [PHB 2024]
 tags: [bard, warlock, wizard, level5, concentration, action, illusion]
-subtags: [{ranger: fey-wanderer}, {sorcerer: nemesis}, {dragonmark: shadow}]---
+subtags: [{ranger: fey-wanderer}, {sorcerer: nemesis}, {dragonmark: shadow}]
+---
 
 **5th-level illusion**
 

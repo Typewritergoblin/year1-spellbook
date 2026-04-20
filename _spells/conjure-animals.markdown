@@ -3,7 +3,8 @@ layout: post
 title:  "Conjure Animals"
 sources: [PHB 2024]
 tags: [druid, ranger, level3, concentration, action, conjuration]
-subtags: [{druid: circle-moon}, {dragonmark: handling}]---
+subtags: [{druid: circle-moon}, {dragonmark: handling}]
+---
 
 **3rd-level conjuration**
 

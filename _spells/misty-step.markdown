@@ -3,7 +3,8 @@ layout: post
 title:  "Misty Step"
 sources: [PHB 2024]
 tags: [sorcerer, warlock, wizard, level2, bonus, conjuration]
-subtags: [{cleric: domain-tempest}, {paladin: oath-ancients}, {paladin: oath-vengeance}, {druid: circle-land-temperate}, {ranger: fey-wanderer}, {warlock: patron-archfey}, {dragonmark: passage}]---
+subtags: [{cleric: domain-tempest}, {paladin: oath-ancients}, {paladin: oath-vengeance}, {druid: circle-land-temperate}, {ranger: fey-wanderer}, {warlock: patron-archfey}, {dragonmark: passage}]
+---
 
 **2nd-level conjuration**
 

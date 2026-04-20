@@ -3,7 +3,8 @@ layout: post
 title:  "Shield of Faith"
 sources: [PHB 2024]
 tags: [cleric, paladin, level1, concentration, bonus, abjuration]
-subtags: [{cleric: domain-war}, {paladin: oath-devotion}, {dragonmark: sentinel}]---
+subtags: [{cleric: domain-war}, {paladin: oath-devotion}, {dragonmark: sentinel}]
+---
 
 **1st-level abjuration**
 

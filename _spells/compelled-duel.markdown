@@ -3,7 +3,8 @@ layout: post
 title:  "Compelled Duel"
 sources: [PHB 2024]
 tags: [paladin, level1, concentration, bonus, enchantment]
-subtags: [{sorcerer: nemesis}, {dragonmark: sentinel}]---
+subtags: [{sorcerer: nemesis}, {dragonmark: sentinel}]
+---
 
 **1st-level enchantment**
 

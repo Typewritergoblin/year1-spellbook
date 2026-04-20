@@ -3,7 +3,8 @@ layout: post
 title:  "Conjure Barrage"
 sources: [PHB 2024]
 tags: [ranger, level3, action, conjuration]
-subtags: [{artificer: battle-smith}, {dragonmark: making}]---
+subtags: [{artificer: battle-smith}, {dragonmark: making}]
+---
 
 **3rd-level conjuration**
 
