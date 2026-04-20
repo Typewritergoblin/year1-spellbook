@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 4px solid $brand-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 4px solid var(--brand-color-dark);
+    border-bottom: 1px solid var(--grey-color-light);
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: var(--grey-color-dark);
     }
 }
 
@@ -43,7 +43,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: var(--text-color);
         font-size: 18px;
         line-height: $base-line-height*1.5;
 
@@ -55,7 +55,7 @@
 
     @include media-query($on-palm) {
         position: relative;
-        background-color: $background-color;
+        background-color: var(--background-color);
         text-align: center;
         float: right;
         width: 100%;
@@ -76,7 +76,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: var(--grey-color-dark);
                 }
             }
         }
@@ -109,9 +109,25 @@
                 padding-left: 20px;
             }
             &:not(:last-child) {
-                border-bottom: 1px solid $grey-color-light;
+                border-bottom: 1px solid var(--grey-color-light);
             }
         }
+    }
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1em;
+    padding: 0 10px;
+    color: var(--text-color);
+    line-height: $base-line-height * 1.5;
+    vertical-align: middle;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
     }
 }
 
@@ -121,7 +137,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid var(--grey-color-light);
     padding: $spacing-unit 0;
 }
 
@@ -141,7 +157,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: var(--grey-color);
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -204,9 +220,11 @@
      line-height: $base-line-height;
      width: 33%;
      max-width: 400px;
-     border: 1px solid $brand-color-dark;
+     border: 1px solid var(--brand-color-dark);
      border-radius: 4px;
      margin-left: 8px;
+     background-color: var(--background-color);
+     color: var(--text-color);
  }
 
 .page-content {
@@ -227,7 +245,7 @@ dl.tag-list {
     dt {
         font-weight: bold;
         display: inline-block;
-        color: $grey-color-dark;
+        color: var(--grey-color-dark);
         padding-right: 20px;
     }
     dd {
@@ -238,7 +256,7 @@ dl.tag-list {
 
 .post-list-head{
     font-size: 22px;
-    color: $grey-color-dark;
+    color: var(--grey-color-dark);
     margin-top: $spacing-unit;
     font-family: 'Libertinus Serif Display';
     font-weight: 400;
@@ -257,7 +275,7 @@ dl.tag-list {
 
 .post-meta {
     font-size: $base-font-size;
-    color: $grey-color;
+    color: var(--grey-color);
 }
 
 .post-link {
@@ -355,15 +373,15 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 15px;
-    border: 1px solid #771900;
+    border: 1px solid var(--table-border);
 }
 
 th {
     border: 0;
     padding: 10px 15px;
     font-weight: normal;
-    color: #fff;
-    background-color: #771900;
+    color: var(--table-header-fg);
+    background-color: var(--table-header-bg);
 }
 
 th {

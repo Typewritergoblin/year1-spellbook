@@ -13,16 +13,44 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 $spacing-unit-line: 7px;
 
-$text-color:       #333;
-$background-color: #fdfdfd;
-$brand-color: #4D96B9;
-$brand-color-secondary: #911E00;
-$brand-color-light: lighten($brand-color-secondary, 5%);
-$brand-color-dark: darken($brand-color-secondary, 5%);
+// Source SCSS values used to compute light-theme custom properties
+$_brand-color:     #4D96B9;
+$_brand-secondary: #911E00;
+$_grey:            #828282;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+// CSS custom properties — light theme (default)
+:root {
+  --text-color:         #333333;
+  --background-color:   #fdfdfd;
+  --brand-color:        #{$_brand-color};
+  --brand-color-dark:   #{darken($_brand-secondary, 5%)};
+  --grey-color:         #{$_grey};
+  --grey-color-light:   #{lighten($_grey, 40%)};
+  --grey-color-dark:    #{darken($_grey, 25%)};
+  --link-color:         #{$_brand-color};
+  --link-visited-color: #{darken($_brand-color, 15%)};
+  --code-bg:            #eef;
+  --table-border:       #771900;
+  --table-header-bg:    #771900;
+  --table-header-fg:    #ffffff;
+}
+
+// Navy dark theme
+[data-theme="dark"] {
+  --text-color:         #bcbdd0;
+  --background-color:   #161923;
+  --brand-color:        #2b79a2;
+  --brand-color-dark:   #2b79a2;
+  --grey-color:         #6b7590;
+  --grey-color-light:   #282d3f;
+  --grey-color-dark:    #bcbdd0;
+  --link-color:         #2b79a2;
+  --link-visited-color: #5a9fc2;
+  --code-bg:            #282d3f;
+  --table-border:       #1e2536;
+  --table-header-bg:    #282d3f;
+  --table-header-fg:    #bcbdd0;
+}
 
 $on-palm:          750px;
 $on-laptop:        800px;

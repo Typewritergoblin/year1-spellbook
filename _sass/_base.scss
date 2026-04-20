@@ -18,8 +18,8 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 400;
-    color: $text-color;
-    background-color: $background-color;
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 
@@ -92,15 +92,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: var(--link-color);
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: var(--link-visited-color);
     }
 
     &:hover {
-        color: $text-color;
+        color: var(--text-color);
         text-decoration: underline;
     }
 }
@@ -111,8 +111,8 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
+    color: var(--grey-color);
+    border-left: 4px solid var(--grey-color-light);
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -131,9 +131,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid var(--grey-color-light);
     border-radius: 3px;
-    background-color: #eef;
+    background-color: var(--code-bg);
 }
 
 code {
@@ -201,7 +201,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: var(--grey-color);
         }
     }
 }
