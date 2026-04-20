@@ -9,8 +9,13 @@
      subtag: artillerist
    - name: Battle Smith
      subtag: battle-smith
+   - name: Cartographer
+     subtag: cartographer
 - name: Bard
   tag: bard
+  subclasses:
+   - name: College of the Moon
+     subtag: moon
 - name: Cleric
   tag: cleric
   subclasses:
@@ -101,3 +106,5 @@
      subtag: patron-stone-sovereign
 - name: Wizard
   tag: wizard
+- name: Dragonmark (Mark of Passage)
+  tag: dragonmark-passage

@@ -1,0 +1,2464 @@
+[
+  {
+    "name": "Alustriel's Mooncloak",
+    "system": {
+      "description": {
+        "value": "<p>For the duration, moonlight fills a 20-foot Emanation originating from you with Dim Light. While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.</p><p>While the spell lasts, you can use one of the following options, ending the spell immediately:</p><p><strong>Liberation.</strong> When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.</p><p><strong>Respite.</strong> As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "radius",
+          "size": "20",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 5,
+      "school": "abj",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "materials": {
+        "value": "a moonstone worth 50+ GP",
+        "consumed": false,
+        "cost": 50,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh5AlusMoon0001": {
+          "type": "utility",
+          "_id": "frh5AlusMoon0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "alustriels-mooncloak"
+    },
+    "_id": "frhofAlustrMoon0",
+    "type": "spell",
+    "img": "icons/magic/light/moon-beam-large-white.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 100000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Backlash",
+    "system": {
+      "description": {
+        "value": "<p>You ward yourself against destructive energy, reducing the damage taken by 4d6 plus your spellcasting ability modifier.</p><p>If the triggering damage was from a creature within range, you can force the creature to make a Constitution saving throw. The creature takes 4d6 Force damage on a failed save or half as much damage on a successful one.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage reduction and Force damage from this spell both increase by 1d6 for every spell slot level above 4.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "reaction",
+        "condition": "which you take in response to taking damage",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 4,
+      "school": "abj",
+      "properties": [
+        "vocal"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh4Backlash0001": {
+          "type": "save",
+          "_id": "frh4Backlash0001",
+          "sort": 0,
+          "activation": {
+            "type": "reaction",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 4,
+                "denomination": "6",
+                "bonus": "",
+                "types": [ "force" ],
+                "scaling": { "mode": "level", "number": 1 }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "backlash"
+    },
+    "_id": "frhofBacklash000",
+    "type": "spell",
+    "img": "icons/magic/defensive/shield-barrier-deflect-blue.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 200000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Blade of Disaster",
+    "system": {
+      "description": {
+        "value": "<p>You create a 3-foot-long blade-shaped planar rift that lasts for the duration. The rift appears within range in a space of your choice, and you can immediately make up to two melee spell attacks, each one against a creature or object within 5 feet of the rift. On a hit, the target takes 10d6 Force damage. This attack scores a Critical Hit if the number on the d20 is 18 or higher.</p><p>As a Bonus Action on your later turns, you can move the rift up to 60 feet and repeat the two attacks against a creature or an object within 5 feet of it. You can direct the attacks at the same target or at different ones.</p><p>The blade can harmlessly pass through any barrier, including ones created by spells like Wall of Force.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "bonus",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creatureOrObject",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 9,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh9BladeDis0001": {
+          "type": "attack",
+          "_id": "frh9BladeDis0001",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "attack": {
+            "critical": { "threshold": 18 },
+            "flat": false,
+            "type": {
+              "value": "melee",
+              "classification": "spell"
+            }
+          },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 10,
+                "denomination": "6",
+                "bonus": "",
+                "types": [ "force" ],
+                "scaling": { "mode": "" }
+              }
+            ]
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "blade-of-disaster"
+    },
+    "_id": "frhofBladeDisa00",
+    "type": "spell",
+    "img": "icons/weapons/swords/sword-broken-purple.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 300000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Cacophonic Shield",
+    "system": {
+      "description": {
+        "value": "<p>Thunderous reverberations fill a 10-foot Emanation originating from you for the duration. Whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes 3d6 Thunder damage and has the Deafened condition until the start of your next turn. On a successful save, the creature takes half as much damage only. A creature makes this save only once per turn. When you cast this spell, you can designate creatures to be unaffected by it.</p><p>In addition, you have Resistance to Thunder damage, and ranged attack rolls against you are made with Disadvantage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d6 for each spell slot level above 3.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "10",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "radius",
+          "size": "10",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 3,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh3CacophSh0001": {
+          "type": "save",
+          "_id": "frh3CacophSh0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 3,
+                "denomination": "6",
+                "bonus": "",
+                "types": [ "thunder" ],
+                "scaling": { "mode": "level", "number": 1 }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "cacophonic-shield"
+    },
+    "_id": "frhofCacophShi00",
+    "type": "spell",
+    "img": "icons/magic/sonic/shout-blast-wave-teal.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 400000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Conjure Constructs",
+    "system": {
+      "description": {
+        "value": "<p>You conjure a group of intangible, orderly spirits that appear as a Medium group of modrons or other Constructs in an unoccupied space you can see within range. The spirits last for the duration.</p><p>When you cast this spell and as a Magic action on subsequent turns, you can command the spirits to target one creature or object you can see within 5 feet of the spirits and create one of the following effects:</p><p><strong>Clockwork Force.</strong> The target makes a Dexterity saving throw, taking 3d6 Force damage on a failed save or half as much damage on a successful one.</p><p><strong>Orderly Ward.</strong> The target gains Temporary Hit Points equal to 1d6 plus your spellcasting ability modifier.</p><p>When you move on your turn, you can also move the spirits up to 30 feet to an unoccupied space you can see.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage and Temporary Hit Points both increase by 1d6 for each spell slot level above 3.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "10",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "space",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 3,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "materials": {
+        "value": "a brass cog",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh3ConjCons0001": {
+          "type": "utility",
+          "_id": "frh3ConjCons0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "conjure-constructs"
+    },
+    "_id": "frhofConjConstr0",
+    "type": "spell",
+    "img": "icons/magic/nature/construct-golem-stone.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 500000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Death Armor",
+    "system": {
+      "description": {
+        "value": "<p>For the duration, an inky aura surrounds one creature you touch. The target has Advantage on Death Saving Throws, and once per turn, when a creature within 5 feet of the target hits it with a melee attack roll, the attacker takes 2d4 Necrotic damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "hour"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "touch",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 2,
+      "school": "nec",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "materials": {
+        "value": "an onyx worth 50+ GP",
+        "consumed": true,
+        "cost": 50,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh2DeathArm0001": {
+          "type": "utility",
+          "_id": "frh2DeathArm0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "hour",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "death-armor"
+    },
+    "_id": "frhofDeathArmor0",
+    "type": "spell",
+    "img": "icons/magic/death/undead-arise-skeletons-wave.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 600000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Deryan's Helpful Homunculi",
+    "system": {
+      "description": {
+        "value": "<p>You summon a group of helpful spirits, which lasts for the duration. The spirits appear as homunculi or as another Construct of your choice but are intangible and invulnerable, and they are considered to have proficiency in the Arcana skill and with the set of Artisan's Tools used in the spell's casting.</p><p>If you are crafting an item, the spirits function as a single assistant for your crafting, halving the crafting time.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "8",
+        "units": "hour"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 2,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "ritual"
+      ],
+      "materials": {
+        "value": "powdered gemstones worth 100+ GP, which the spell consumes, and one set of Artisan's Tools with which you have proficiency",
+        "consumed": true,
+        "cost": 100,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh2DeryanHo0001": {
+          "type": "utility",
+          "_id": "frh2DeryanHo0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "hour",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "deryans-helpful-homunculi"
+    },
+    "_id": "frhofDeryanHom00",
+    "type": "spell",
+    "img": "icons/creatures/magical/construct-iron-glowing-blue.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 700000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Dirge",
+    "system": {
+      "description": {
+        "value": "<p>Deathly power fills a 60-foot Emanation originating from you for the duration.</p><p>When you cast this spell, you can designate creatures to be unaffected by it. Any other creature can't regain Hit Points while in the Emanation. Whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, the creature makes a Constitution saving throw. On a failed save, the creature takes 3d10 Necrotic damage and has the Prone condition. On a successful save, the creature takes half as much damage and its Speed is halved. A creature makes this save only once per turn.</p><p><strong>Casting as a Circle Spell.</strong> Casting this as a Circle spell requires a minimum of two secondary casters. If the spell is cast as a Circle spell, its duration becomes Concentration, up to 10 minutes. A creature that fails its save against the spell's effect also gains 1 Exhaustion level. While the creature has Exhaustion levels, finishing a Long Rest neither restores lost Hit Points nor reduces the creature's Exhaustion level. When the spell is cast, each secondary caster must expend a level 4+ spell slot; otherwise, the spell fails.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "radius",
+          "size": "60",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 6,
+      "school": "enc",
+      "properties": [
+        "vocal",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh6DirgeEnc0001": {
+          "type": "save",
+          "_id": "frh6DirgeEnc0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 3,
+                "denomination": "10",
+                "bonus": "",
+                "types": [ "necrotic" ],
+                "scaling": { "mode": "" }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "dirge"
+    },
+    "_id": "frhofDirge000000",
+    "type": "spell",
+    "img": "icons/magic/death/skull-energy-black-teal.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 800000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Doomtide",
+    "system": {
+      "description": {
+        "value": "<p>You create a 20-foot-radius Sphere of inky fog within range. The fog is magical Darkness and lasts for the duration or until a strong wind (such as the one created by the Gust of Wind spell) disperses it, ending the spell.</p><p>Each creature in the Sphere when it appears makes a Wisdom saving throw. On a failed save, a creature takes 5d6 Psychic damage and subtracts 1d6 from its saving throws until the end of its next turn. On a successful save, a creature takes half as much damage only. A creature also makes this save when the Sphere moves into its space, when it enters the Sphere, or when it ends its turn inside the Sphere. A creature makes this save only once per turn.</p><p>The Sphere moves 10 feet away from you at the start of each of your turns.</p><p><strong>Casting as a Circle Spell.</strong> Casting this as a Circle spell requires a minimum of five secondary casters. In addition to the spell's usual components, you must provide a special component (a string of three black pearls from Pandemonium), which the spell consumes. The spell's range increases to 1 mile, and its duration increases to until dispelled (no Concentration required). The spell ends early if any caster who participated in this casting contributes to another casting of Doomtide as a Circle spell. When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "sphere",
+          "size": "20",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "120"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 4,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "materials": {
+        "value": "soot and a dried eel",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh4Doomtide0001": {
+          "type": "save",
+          "_id": "frh4Doomtide0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 5,
+                "denomination": "6",
+                "bonus": "",
+                "types": [ "psychic" ],
+                "scaling": { "mode": "" }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "wis",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "doomtide"
+    },
+    "_id": "frhofDoomtide000",
+    "type": "spell",
+    "img": "icons/magic/water/wave-foam-large-blue-dark.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 900000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Elminster's Effulgent Spheres",
+    "system": {
+      "description": {
+        "value": "<p>Six chromatic spheres orbit you for the duration.</p><p>While the spheres are present, you can expend spheres to create the following effects:</p><p><strong>Absorb Energy.</strong> When you take Acid, Cold, Fire, Lightning, or Thunder damage, you can take a Reaction to expend one sphere and give yourself Resistance to the triggering damage type until the start of your next turn.</p><p><strong>Energy Blast.</strong> As a Bonus Action, you send one sphere hurtling toward a target within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes 3d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice). Regardless of whether you hit, the sphere is expended.</p><p>The spell ends early if you have no more spheres remaining.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The number of spheres increases by 1 for every spell slot level above 6.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "hour"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 6,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "materials": {
+        "value": "an opal worth 1,000+ GP",
+        "consumed": false,
+        "cost": 1000,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh6ElminEff0001": {
+          "type": "utility",
+          "_id": "frh6ElminEff0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "hour",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "elminsters-effulgent-spheres"
+    },
+    "_id": "frhofElminEff000",
+    "type": "spell",
+    "img": "icons/magic/fire/orb-ball-of-spheres.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1000000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Elminster's Elusion",
+    "system": {
+      "description": {
+        "value": "<p>Arcane wards protect you against magic for the duration. You have Advantage on saving throws against spells and magical effects. Additionally, if you succeed on a saving throw against a spell or magical effect and would normally take half as much damage, you instead take no damage.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "bonus",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "10",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 2,
+      "school": "abj",
+      "properties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh2ElminElu0001": {
+          "type": "utility",
+          "_id": "frh2ElminElu0001",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "elminsters-elusion"
+    },
+    "_id": "frhofElminElu000",
+    "type": "spell",
+    "img": "icons/magic/defensive/shield-barrier-deflect-blue.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1100000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Holy Star of Mystra",
+    "system": {
+      "description": {
+        "value": "<p>You create a glowing mote of energy that hovers above you for the duration. The mote sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.</p><p>When you cast this spell and as a Bonus Action on later turns, you can unleash a shining bolt from the mote, targeting one creature within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes Force or Radiant damage (your choice) equal to 4d10 plus your spellcasting ability modifier.</p><p>In addition, while the mote is present, you have Three-Quarters Cover, and if you succeed on a saving throw against a spell of level 7 or lower that targeted only you and didn't create an area of effect, you can take a Reaction to deflect that spell back at the spell's caster; the caster makes a saving throw against that spell using that caster's own spell save DC.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "bonus",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "120"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 8,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh8HolyStar0001": {
+          "type": "attack",
+          "_id": "frh8HolyStar0001",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "attack": {
+            "critical": { "threshold": null },
+            "flat": false,
+            "type": {
+              "value": "ranged",
+              "classification": "spell"
+            }
+          },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 4,
+                "denomination": "10",
+                "bonus": "@mod",
+                "types": [ "force", "radiant" ],
+                "scaling": { "mode": "" }
+              }
+            ]
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "holy-star-of-mystra"
+    },
+    "_id": "frhofHolyStar000",
+    "type": "spell",
+    "img": "icons/magic/holy/projectile-blessed-star-gold.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1200000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Laeral's Silver Lance",
+    "system": {
+      "description": {
+        "value": "<p>Silver energy bursts out from you in a 120-foot-long, 5-foot-wide Line. Each creature of your choice in the Line makes a Strength saving throw. On a failed save, a creature takes 3d10 Force damage and has the Prone condition. On a successful save, a creature takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for every spell slot level above 3.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "line",
+          "size": "120",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 3,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "materials": {
+        "value": "a silver pin worth 250+ GP",
+        "consumed": false,
+        "cost": 250,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh3LaeralSi0001": {
+          "type": "save",
+          "_id": "frh3LaeralSi0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 3,
+                "denomination": "10",
+                "bonus": "",
+                "types": [ "force" ],
+                "scaling": { "mode": "level", "number": 1 }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "str",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "laerals-silver-lance"
+    },
+    "_id": "frhofLaeralSil00",
+    "type": "spell",
+    "img": "icons/magic/light/beam-rays-white-small.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1300000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Simbul's Synostodweomer",
+    "system": {
+      "description": {
+        "value": "<p>You imbue one creature you touch with magical healing energy for the duration. Whenever the target casts a spell using a spell slot, the target can immediately roll a number of unexpended Hit Point Dice equal to the spell slot's level and regain Hit Points equal to the roll's total plus your spellcasting ability modifier; those dice are then expended.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "hour"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "touch",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 7,
+      "school": "trs",
+      "properties": [
+        "vocal",
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh7SimbulSy0001": {
+          "type": "utility",
+          "_id": "frh7SimbulSy0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "hour",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "simbuls-synostodweomer"
+    },
+    "_id": "frhofSimbulSyn00",
+    "type": "spell",
+    "img": "icons/magic/life/heart-glowing-gold.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1400000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Songal's Elemental Suffusion",
+    "system": {
+      "description": {
+        "value": "<p>You imbue yourself with the elemental power of genies. You gain the following benefits until the spell ends:</p><p><strong>Elemental Immunity.</strong> When you cast this spell, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You have Resistance to the chosen damage type.</p><p><strong>Elemental Pulse.</strong> When you cast this spell and at the start of each of your subsequent turns, you release a burst of elemental energy in a 15-foot Emanation originating from yourself. Each creature of your choice in that area makes a Dexterity saving throw. On a failed save, a creature takes 2d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice) and has the Prone condition. On a successful save, a creature takes half as much damage only.</p><p><strong>Flight.</strong> You gain a Fly Speed of 30 feet and can hover.</p><p><strong>Casting as a Circle Spell.</strong> If the spell is cast as a Circle spell, its casting time increases to 1 minute, and its duration increases to Concentration, up to 10 minutes. For each secondary caster who participates in the casting, you can choose one additional creature, to a maximum of nine additional creatures. The chosen creatures also gain the benefits of the spell for its duration. When the spell is cast, each secondary caster must expend a level 2+ spell slot; otherwise, the spell fails.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 5,
+      "school": "trs",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "materials": {
+        "value": "a pearl worth 100+ GP",
+        "consumed": false,
+        "cost": 100,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh5SongalEl0001": {
+          "type": "utility",
+          "_id": "frh5SongalEl0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "songals-elemental-suffusion"
+    },
+    "_id": "frhofSongalEle00",
+    "type": "spell",
+    "img": "icons/magic/elemental/orb-light-purple.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1500000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Spellfire Flare",
+    "system": {
+      "description": {
+        "value": "<p>You unleash a blast of brilliant fire. Make a ranged spell attack against a target within range; a target gains no benefit from Half Cover or Three-Quarters Cover for this attack roll. On a hit, the target takes 2d10 Radiant damage.</p><p><strong>Using a Higher-Level Spell Slot.</strong> You create an additional blast for each spell slot level above 1. You can direct the blasts at the same target or at different ones. Make a separate attack roll for each blast.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh1SpelfFla0001": {
+          "type": "attack",
+          "_id": "frh1SpelfFla0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "attack": {
+            "critical": { "threshold": null },
+            "flat": false,
+            "type": {
+              "value": "ranged",
+              "classification": "spell"
+            }
+          },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 2,
+                "denomination": "10",
+                "bonus": "",
+                "types": [ "radiant" ],
+                "scaling": { "mode": "" }
+              }
+            ]
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "spellfire-flare"
+    },
+    "_id": "frhofSpellfFla00",
+    "type": "spell",
+    "img": "icons/magic/fire/beam-jet-stream-embers-teal.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1600000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Spellfire Storm",
+    "system": {
+      "description": {
+        "value": "<p>You conjure a pillar of spellfire in a 20-foot-radius, 20-foot-high Cylinder centered on a point within range. The area of the Cylinder is Bright Light, and each creature in it when it appears makes a Constitution saving throw, taking 4d10 Radiant damage on a failed save or half as much damage on a successful one. A creature also makes this save when it enters the spell's area for the first time on a turn or ends its turn there. A creature makes this save only once per turn.</p><p>In addition, whenever a creature in the Cylinder casts a spell, that creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p><p>When you cast this spell, you can designate creatures to be unaffected by it.</p><p><strong>Casting as a Circle Spell.</strong> In addition to the spell's usual components, you must provide a special component (a blue star sapphire worth 25,000+ GP), which the spell consumes. The spell's range increases to 1 mile, and it no longer requires Concentration. When the spell is cast, each secondary caster must expend a level 3+ spell slot; otherwise, the spell fails.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d10 for every spell slot level above 4.</p><table><thead><tr><th>Secondary Casters</th><th>Area of Effect</th><th>Duration</th></tr></thead><tbody><tr><td>1–3</td><td>40-foot-radius, 40-foot-high Cylinder</td><td>1 hour</td></tr><tr><td>4–6</td><td>60-foot-radius, 60-foot-high Cylinder</td><td>8 hours</td></tr><tr><td>7+</td><td>100-foot-radius, 100-foot-high Cylinder</td><td>24 hours</td></tr></tbody></table>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "cylinder",
+          "size": "20",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 4,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh4SpelfSto0001": {
+          "type": "save",
+          "_id": "frh4SpelfSto0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 4,
+                "denomination": "10",
+                "bonus": "",
+                "types": [ "radiant" ],
+                "scaling": { "mode": "level", "number": 1 }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "spellfire-storm"
+    },
+    "_id": "frhofSpellfSto00",
+    "type": "spell",
+    "img": "icons/magic/fire/explosion-fireball-large-purple.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1700000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Syluné's Viper",
+    "system": {
+      "description": {
+        "value": "<p>A shimmering, spectral snake encircles your body for the duration. You gain 15 Temporary Hit Points; the spell ends early if you have no Temporary Hit Points left.</p><p>While the spell is active, you gain the following benefits:</p><p><strong>Climbing.</strong> You gain a Climb Speed equal to your Speed.</p><p><strong>Venomous Bite.</strong> As a Magic action, you can make a ranged spell attack using the snake against one creature within 50 feet. On a hit, the target takes 1d6 Force damage and has the Poisoned condition until the start of your next turn. While Poisoned, the target has the Incapacitated condition.</p><p><strong>Using a Higher-Level Spell Slot.</strong> For each spell slot level above 3, the number of Temporary Hit Points you gain from this spell increases by 5, and the damage of Venomous Bite increases by 1d6.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "bonus",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "hour"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 3,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "materials": {
+        "value": "a snake fang",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh3SylunVip0001": {
+          "type": "utility",
+          "_id": "frh3SylunVip0001",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "hour",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "sylunes-viper"
+    },
+    "_id": "frhofSylunVip000",
+    "type": "spell",
+    "img": "icons/creatures/reptiles/snake-poised-white.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1800000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Wardaway",
+    "system": {
+      "description": {
+        "value": "<p>You hurl a disorienting magical force toward one creature within range. The target makes a Constitution saving throw; Constructs and Undead automatically succeed on this save.</p><p>On a failed save, the target takes 2d4 Force damage, its Speed is halved until the start of your next turn, and on its next turn, it can take only an action or a Bonus Action (but not both). On a successful save, the target takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 2d4 for every spell slot level above 1.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Forgotten Realms: Heroes of Faerûn (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 1,
+      "school": "abj",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "materials": {
+        "value": "a miniature clay hand",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "frh1Wardaway0001": {
+          "type": "save",
+          "_id": "frh1Wardaway0001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 2,
+                "denomination": "4",
+                "bonus": "",
+                "types": [ "force" ],
+                "scaling": { "mode": "level", "number": 2 }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "wardaway"
+    },
+    "_id": "frhofWardaway000",
+    "type": "spell",
+    "img": "icons/magic/wind/air-burst-spiral-blue-white.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1900000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  }
+]

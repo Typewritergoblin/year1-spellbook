@@ -1,0 +1,530 @@
+[
+  {
+    "name": "Aundair's Silent Sanctum",
+    "level": 0,
+    "school": "ill",
+    "description": "<p>You surround yourself with an invisible bubble of energy in a 5-foot Emanation. The sphere muffles sound in both directions. Creatures outside of the Emanation have Disadvantage on Wisdom (Perception) checks made to hear any sounds from within the Emanation, and creatures inside the Emanation have Disadvantage on Wisdom (Perception) checks made to hear sounds outside of the Emanation.</p><p>In addition, creatures have Advantage on saving throws against effects that require them to hear a sound from the other side of the Emanation, such as the Command spell.</p>",
+    "source": {
+      "custom": "Eberron: Exploring Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false,
+        "type": "radius",
+        "size": "5",
+        "count": ""
+      }
+    },
+    "components": [
+      "somatic",
+      "concentration"
+    ],
+    "damage": {},
+    "save": {},
+    "scaling": {}
+  },
+  {
+    "name": "Concussive Burst",
+    "level": 1,
+    "school": "evo",
+    "description": "<p>A pulse of energy ripples through the air at a point you choose within range, dealing minor damage over a wide area. Each creature within a 20-foot-radius Sphere centered on that point makes a Constitution saving throw, taking 2d4 Force damage on a failed save and has the Deafened condition until the end of your next turn. On a successful save, a creature takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 2d4 for each spell slot level above 1.</p>",
+    "source": {
+      "custom": "Eberron: Exploring Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "60"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false,
+        "type": "sphere",
+        "size": "20",
+        "count": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic"
+    ],
+    "damage": {},
+    "save": {
+      "ability": "con",
+      "dc": {
+        "calculation": "spellcasting",
+        "formula": ""
+      }
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "2d4"
+    }
+  },
+  {
+    "name": "Earth Tremor",
+    "level": 1,
+    "school": "evo",
+    "description": "<p>You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 Bludgeoning damage and is knocked Prone. If the ground in that area is loose earth or stone, it becomes Difficult Terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p><p><strong>Using a Higher-Level Spell Slot.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>",
+    "source": {
+      "custom": "Eberron: Frontiers of Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "creature",
+        "special": ""
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false,
+        "type": "radius",
+        "size": "10",
+        "count": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic"
+    ],
+    "damage": {},
+    "save": {
+      "ability": "dex",
+      "dc": {
+        "calculation": "spellcasting",
+        "formula": ""
+      }
+    },
+    "scaling": {
+      "mode": "level",
+      "formula": "1d6"
+    }
+  },
+  {
+    "name": "Earthbind",
+    "level": 2,
+    "school": "trs",
+    "description": "<p>Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its Flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends.</p>",
+    "source": {
+      "custom": "Eberron: Frontiers of Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "300"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "creature",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "concentration"
+    ],
+    "damage": {},
+    "save": {
+      "ability": "str",
+      "dc": {
+        "calculation": "spellcasting",
+        "formula": ""
+      }
+    },
+    "scaling": {}
+  },
+  {
+    "name": "Enemies Abound",
+    "level": 3,
+    "school": "enc",
+    "description": "<p>You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is Immune to being Frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</p><p>Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an Opportunity Attack from the affected creature, the creature must make that attack if it is able to.</p>",
+    "source": {
+      "custom": "Eberron: Frontiers of Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "120"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "creature",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "damage": {},
+    "save": {
+      "ability": "int",
+      "dc": {
+        "calculation": "spellcasting",
+        "formula": ""
+      }
+    },
+    "scaling": {}
+  },
+  {
+    "name": "Force Blast",
+    "level": 0,
+    "school": "evo",
+    "description": "<p>You unleash a bolt of mystical power at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Force damage.</p><p><strong>Cantrip Upgrade.</strong> This damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+    "source": {
+      "custom": "Eberron: Exploring Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "180"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "creatureOrObject",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic"
+    ],
+    "damage": {},
+    "save": {},
+    "scaling": {}
+  },
+  {
+    "name": "Gray Gaze",
+    "level": 0,
+    "school": "trs",
+    "description": "<p>You turn your gaze on one creature you can see within range. If the target can see your eyes, their body stiffens and cracks as if it were turning to stone. The target must succeed on a Constitution saving throw or take Necrotic damage equal to your Proficiency Bonus and have Disadvantage on the next Dexterity saving throw it makes before the end of its next turn.</p>",
+    "source": {
+      "custom": "Eberron: Frontiers of Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "20"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "1",
+        "type": "creature",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "damage": {},
+    "save": {
+      "ability": "con",
+      "dc": {
+        "calculation": "spellcasting",
+        "formula": ""
+      }
+    },
+    "scaling": {}
+  },
+  {
+    "name": "Homunculus Servant",
+    "level": 2,
+    "school": "con",
+    "description": "<p>You summon a special homunculus in an unoccupied space within range. This creature uses the <strong>Homunculus Servant</strong> stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus's appearance, such as a mechanical-looking bird, winged vial, or miniature animate cauldron.</p><p><strong>Combat.</strong> The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot's level for the spell's level in the stat block.</p>",
+    "source": {
+      "custom": "Eberron: Forge of the Artificer (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "hour",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "10"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "damage": {},
+    "save": {},
+    "scaling": {}
+  },
+  {
+    "name": "Magecraft",
+    "level": 0,
+    "school": "div",
+    "description": "<p>You channel your arcane talent through a set of tools. Choose an Artisan's Tool or Herbalism Kit. Until the spell ends, you add 1d6 to ability checks you make when you take the Utilize action with the chosen tool.</p>",
+    "source": {
+      "custom": "Eberron: Exploring Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "damage": {},
+    "save": {},
+    "scaling": {}
+  },
+  {
+    "name": "Mold Earth",
+    "level": 0,
+    "school": "trs",
+    "description": "<p>You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:</p><ul><li>If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.</li><li>You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.</li><li>If the dirt or stone you target is on the ground, you cause it to become Difficult Terrain. Alternatively, you can cause the ground to become normal terrain if it is already Difficult Terrain. This change lasts for 1 hour.</li></ul><p>If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an Action.</p>",
+    "source": {
+      "custom": "Eberron: Frontiers of Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "units": "ft",
+      "special": "",
+      "value": "30"
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "space",
+        "special": ""
+      },
+      "template": {
+        "units": "ft",
+        "contiguous": false,
+        "type": "cube",
+        "size": "5",
+        "count": ""
+      }
+    },
+    "components": [
+      "somatic"
+    ],
+    "damage": {},
+    "save": {},
+    "scaling": {}
+  },
+  {
+    "name": "Orien Step",
+    "level": 0,
+    "school": "trs",
+    "description": "<p>You teleport up to five feet to an unoccupied space you can see. You cannot teleport through solid objects or out of manacles and similar restraints.</p>",
+    "source": {
+      "custom": "Eberron: Frontiers of Eberron (2024)",
+      "rules": "2024"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "",
+      "value": null
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "units": "self",
+      "special": ""
+    },
+    "target": {
+      "affects": {
+        "choice": false,
+        "count": "",
+        "type": "self",
+        "special": ""
+      },
+      "template": {
+        "units": "",
+        "contiguous": false,
+        "type": ""
+      }
+    },
+    "components": [
+      "somatic"
+    ],
+    "damage": {},
+    "save": {},
+    "scaling": {}
+  }
+]

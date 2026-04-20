@@ -1,0 +1,1410 @@
+[
+  {
+    "name": "Aundair's Silent Sanctum",
+    "system": {
+      "description": {
+        "value": "<p>You surround yourself with an invisible bubble of energy in a 5-foot Emanation. The sphere muffles sound in both directions. Creatures outside of the Emanation have Disadvantage on Wisdom (Perception) checks made to hear any sounds from within the Emanation, and creatures inside the Emanation have Disadvantage on Wisdom (Perception) checks made to hear sounds outside of the Emanation.</p><p>In addition, creatures have Advantage on saving throws against effects that require them to hear a sound from the other side of the Emanation, such as the Command spell.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Exploring Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "radius",
+          "size": "5",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 0,
+      "school": "ill",
+      "properties": [
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0AundSanct001": {
+          "type": "utility",
+          "_id": "ebr0AundSanct001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "aundairs-silent-sanctum"
+    },
+    "_id": "ebrsplAundSanct0",
+    "type": "spell",
+    "img": "icons/magic/sonic/shout-blast-wave-teal.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 100000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Concussive Burst",
+    "system": {
+      "description": {
+        "value": "<p>A pulse of energy ripples through the air at a point you choose within range, dealing minor damage over a wide area. Each creature within a 20-foot-radius Sphere centered on that point makes a Constitution saving throw, taking 2d4 Force damage on a failed save and has the Deafened condition until the end of your next turn. On a successful save, a creature takes half as much damage only.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 2d4 for each spell slot level above 1.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Exploring Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "round"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "sphere",
+          "size": "20",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "60"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0ConsBurst001": {
+          "type": "save",
+          "_id": "ebr0ConsBurst001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 2,
+                "denomination": "4",
+                "bonus": "",
+                "types": [ "force" ],
+                "scaling": { "mode": "level", "number": 2 }
+              }
+            ],
+            "onSave": "half"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "concussive-burst"
+    },
+    "_id": "ebrsplConsBurst0",
+    "type": "spell",
+    "img": "icons/magic/sonic/explosion-wave-blue-orange.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 200000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Earth Tremor",
+    "system": {
+      "description": {
+        "value": "<p>You cause a tremor in the ground within range. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 Bludgeoning damage and is knocked Prone. If the ground in that area is loose earth or stone, it becomes Difficult Terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p><p><strong>Using a Higher-Level Spell Slot.</strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Frontiers of Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "radius",
+          "size": "10",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 1,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0EarthTrem001": {
+          "type": "save",
+          "_id": "ebr0EarthTrem001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": true },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 1,
+                "denomination": "6",
+                "bonus": "",
+                "types": [ "bludgeoning" ],
+                "scaling": { "mode": "level", "number": 1 }
+              }
+            ],
+            "onSave": "none"
+          },
+          "save": {
+            "ability": "dex",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "earth-tremor"
+    },
+    "_id": "ebrsplEarthTrem0",
+    "type": "spell",
+    "img": "icons/magic/earth/shards-stones-gray.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 300000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Earthbind",
+    "system": {
+      "description": {
+        "value": "<p>Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw, or its Flying speed (if any) is reduced to 0 feet for the spell's duration. An airborne creature affected by this spell safely descends at 60 feet per round until it reaches the ground or the spell ends.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Frontiers of Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "300"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 2,
+      "school": "trs",
+      "properties": [
+        "vocal",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0Earthbind001": {
+          "type": "save",
+          "_id": "ebr0Earthbind001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": { "parts": [], "onSave": "none" },
+          "save": {
+            "ability": "str",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "earthbind"
+    },
+    "_id": "ebrsplEarthbind0",
+    "type": "spell",
+    "img": "icons/magic/earth/projectile-boulder-pillar-yellow.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 400000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Enemies Abound",
+    "system": {
+      "description": {
+        "value": "<p>You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is Immune to being Frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success.</p><p>Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it's using. If an enemy provokes an Opportunity Attack from the affected creature, the creature must make that attack if it is able to.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Frontiers of Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "120"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 3,
+      "school": "enc",
+      "properties": [
+        "vocal",
+        "somatic",
+        "concentration"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0EnemiesAb001": {
+          "type": "save",
+          "_id": "ebr0EnemiesAb001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": { "parts": [], "onSave": "none" },
+          "save": {
+            "ability": "int",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "enemies-abound"
+    },
+    "_id": "ebrsplEnemiesAb0",
+    "type": "spell",
+    "img": "icons/magic/perception/eye-ringed-glow-angry-small-red.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 500000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Force Blast",
+    "system": {
+      "description": {
+        "value": "<p>You unleash a bolt of mystical power at a creature or an object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 Force damage.</p><p><strong>Cantrip Upgrade.</strong> This damage increases by 1d8 when you reach levels 5 (2d8), 11 (3d8), and 17 (4d8).</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Exploring Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creatureOrObject",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "180"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 0,
+      "school": "evo",
+      "properties": [
+        "vocal",
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0ForceBlast01": {
+          "type": "attack",
+          "_id": "ebr0ForceBlast01",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "attack": {
+            "critical": { "threshold": null },
+            "flat": false,
+            "type": {
+              "value": "ranged",
+              "classification": "spell"
+            }
+          },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": false, "formula": "" },
+                "number": 1,
+                "denomination": "8",
+                "bonus": "",
+                "types": [ "force" ],
+                "scaling": { "mode": "whole" }
+              }
+            ]
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "force-blast"
+    },
+    "_id": "ebrsplForceBlast",
+    "type": "spell",
+    "img": "icons/magic/light/beam-strike-impact-explosion-blue.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 600000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Gray Gaze",
+    "system": {
+      "description": {
+        "value": "<p>You turn your gaze on one creature you can see within range. If the target can see your eyes, their body stiffens and cracks as if it were turning to stone. The target must succeed on a Constitution saving throw or take Necrotic damage equal to your Proficiency Bonus and have Disadvantage on the next Dexterity saving throw it makes before the end of its next turn.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Frontiers of Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "bonus",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "1",
+          "type": "creature",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "20"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material"
+      ],
+      "materials": {
+        "value": "a pebble with a hole in it",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0GrayGaze0001": {
+          "type": "save",
+          "_id": "ebr0GrayGaze0001",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": true
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "damage": {
+            "parts": [
+              {
+                "custom": { "enabled": true, "formula": "@prof" },
+                "number": null,
+                "denomination": null,
+                "bonus": "",
+                "types": [ "necrotic" ],
+                "scaling": { "mode": "" }
+              }
+            ],
+            "onSave": "none"
+          },
+          "save": {
+            "ability": "con",
+            "dc": {
+              "calculation": "spellcasting",
+              "formula": ""
+            }
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "gray-gaze"
+    },
+    "_id": "ebrsplGrayGaze00",
+    "type": "spell",
+    "img": "icons/magic/perception/eye-ringed-glow-angry-large-gray.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 700000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Homunculus Servant",
+    "system": {
+      "description": {
+        "value": "<p>You summon a special homunculus in an unoccupied space within range. This creature uses the <strong>Homunculus Servant</strong> stat block. If you already have a homunculus from this spell, the homunculus is replaced by the new one. You determine the homunculus's appearance, such as a mechanical-looking bird, winged vial, or miniature animate cauldron.</p><p><strong>Combat.</strong> The homunculus is an ally to you and your allies. In combat, it shares your Initiative count, but it takes its turn immediately after yours. It obeys your commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.</p><p><strong>Using a Higher-Level Spell Slot.</strong> Use the spell slot's level for the spell's level in the stat block.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Forge of the Artificer (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "hour",
+        "condition": "",
+        "value": 1
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "space",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "10"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 2,
+      "school": "con",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "ritual"
+      ],
+      "materials": {
+        "value": "a gem worth 100+ GP",
+        "consumed": true,
+        "cost": 100,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0HomuncServ01": {
+          "type": "utility",
+          "_id": "ebr0HomuncServ01",
+          "sort": 0,
+          "activation": {
+            "type": "hour",
+            "value": 1,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "homunculus-servant"
+    },
+    "_id": "ebrsplHomuncServ",
+    "type": "spell",
+    "img": "icons/creatures/abilities/bird-flight-wings-blue.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 800000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Magecraft",
+    "system": {
+      "description": {
+        "value": "<p>You channel your arcane talent through a set of tools. Choose an Artisan's Tool or Herbalism Kit. Until the spell ends, you add 1d6 to ability checks you make when you take the Utilize action with the chosen tool.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Exploring Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "1",
+        "units": "minute"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 0,
+      "school": "div",
+      "properties": [
+        "vocal",
+        "somatic",
+        "material",
+        "concentration"
+      ],
+      "materials": {
+        "value": "a set of Artisan's Tools or a Herbalism Kit",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0Magecraft001": {
+          "type": "utility",
+          "_id": "ebr0Magecraft001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "minute",
+            "concentration": true,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "roll": {
+            "prompt": false,
+            "visible": false,
+            "name": "Tool Check Bonus",
+            "formula": "1d6"
+          },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "magecraft"
+    },
+    "_id": "ebrsplMagecraft0",
+    "type": "spell",
+    "img": "icons/tools/smithing/hammer-blue-glowing.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 900000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Mold Earth",
+    "system": {
+      "description": {
+        "value": "<p>You choose a portion of dirt or stone that you can see within range and that fits within a 5-foot cube. You manipulate it in one of the following ways:</p><ul><li>If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.</li><li>You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.</li><li>If the dirt or stone you target is on the ground, you cause it to become Difficult Terrain. Alternatively, you can cause the ground to become normal terrain if it is already Difficult Terrain. This change lasts for 1 hour.</li></ul><p>If you cast this spell multiple times, you can have no more than two of its non-instantaneous effects active at a time, and you can dismiss such an effect as an Action.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Frontiers of Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "action",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "space",
+          "special": ""
+        },
+        "template": {
+          "units": "ft",
+          "contiguous": false,
+          "type": "cube",
+          "size": "5",
+          "count": ""
+        }
+      },
+      "range": {
+        "units": "ft",
+        "special": "",
+        "value": "30"
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0MoldEarth001": {
+          "type": "utility",
+          "_id": "ebr0MoldEarth001",
+          "sort": 0,
+          "activation": {
+            "type": "action",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "mold-earth"
+    },
+    "_id": "ebrsplMoldEarth0",
+    "type": "spell",
+    "img": "icons/magic/earth/projectile-rock-smoke-yellow.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1000000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  },
+  {
+    "name": "Orien Step",
+    "system": {
+      "description": {
+        "value": "<p>You teleport up to five feet to an unoccupied space you can see. You cannot teleport through solid objects or out of manacles and similar restraints.</p>",
+        "chat": ""
+      },
+      "source": {
+        "custom": "Eberron: Frontiers of Eberron (2024)",
+        "rules": "2024"
+      },
+      "activation": {
+        "type": "bonus",
+        "condition": "",
+        "value": null
+      },
+      "duration": {
+        "value": "",
+        "units": "inst"
+      },
+      "target": {
+        "affects": {
+          "choice": false,
+          "count": "",
+          "type": "self",
+          "special": ""
+        },
+        "template": {
+          "units": "",
+          "contiguous": false,
+          "type": ""
+        }
+      },
+      "range": {
+        "units": "self",
+        "special": ""
+      },
+      "uses": {
+        "max": "",
+        "spent": 0,
+        "recovery": []
+      },
+      "level": 0,
+      "school": "trs",
+      "properties": [
+        "somatic"
+      ],
+      "materials": {
+        "value": "",
+        "consumed": false,
+        "cost": 0,
+        "supply": 0
+      },
+      "preparation": {
+        "mode": "always",
+        "prepared": false
+      },
+      "activities": {
+        "ebr0OrienStep001": {
+          "type": "utility",
+          "_id": "ebr0OrienStep001",
+          "sort": 0,
+          "activation": {
+            "type": "bonus",
+            "value": null,
+            "override": false
+          },
+          "consumption": {
+            "scaling": { "allowed": false },
+            "spellSlot": true,
+            "targets": []
+          },
+          "description": { "chatFlavor": "" },
+          "duration": {
+            "units": "inst",
+            "concentration": false,
+            "override": false
+          },
+          "effects": [],
+          "range": { "override": false },
+          "target": {
+            "template": { "contiguous": false, "units": "ft" },
+            "affects": { "choice": false },
+            "override": false,
+            "prompt": false
+          },
+          "uses": { "spent": 0, "recovery": [], "max": "" },
+          "name": "",
+          "img": "",
+          "appliedEffects": []
+        }
+      },
+      "identifier": "orien-step"
+    },
+    "_id": "ebrsplOrienStep0",
+    "type": "spell",
+    "img": "icons/magic/movement/chevrons-forward-blue-gray.webp",
+    "effects": [],
+    "folder": null,
+    "sort": 1100000,
+    "ownership": { "default": 0 },
+    "flags": {
+      "dnd5e": { "riders": { "activity": [], "effect": [] } }
+    },
+    "_stats": {
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "coreVersion": "13.346",
+      "systemId": "dnd5e",
+      "systemVersion": "4.3.5",
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "exportSource": null
+    }
+  }
+]

@@ -18,3 +18,13 @@
   source: AI
 - name: "Astral Adventurer’s Guide"
   source: AAG
+- name: "Player’s Handbook 2024"
+  source: PHB 2024
+- name: "Exploring Eberron (2024)"
+  source: Exploring Eberron 2024
+- name: "Frontiers of Eberron (2024)"
+  source: Frontiers 2024
+- name: "Forge of the Artificer (2024)"
+  source: Forge 2024
+- name: "Heroes of Faerûn (2024)"
+  source: Heroes of Faerun 2024
