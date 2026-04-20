@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Detect Evil and Good"
-date:   2014-08-24
-sources: [PHB.231, SRD.134]
-tags: [cleric, paladin, level1, action, concentration, divination]
-subtags: [warlock: genie-dao, warlock: genie-djinni, warlock: genie-efreeti, warlock: genie-marid]
+sources: [PHB 2024]
+tags: [cleric, paladin, level1, concentration, action, divination]
 ---
 
 **1st-level divination**
@@ -17,6 +15,6 @@ subtags: [warlock: genie-dao, warlock: genie-djinni, warlock: genie-efreeti, war
 
 **Duration**: Concentration, up to 10 minutes
 
-For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place or object within 30 feet of you that has been magically consecrated or desecrated.
+For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself. You also sense whether the *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplHallow0000]{Hallow}* spell is active there and, if so, where.
 
-The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.
+The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.

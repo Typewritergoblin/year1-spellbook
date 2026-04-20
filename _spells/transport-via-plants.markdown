@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Transport via Plants"
-date: 2015-07-30
-sources: [PHB.283, SRD.188]
+title:  "Transport via Plants"
+sources: [PHB 2024]
 tags: [druid, level6, action, conjuration]
 ---
 
@@ -14,6 +13,6 @@ tags: [druid, level6, action, conjuration]
 
 **Components**: V, S
 
-**Duration**: 1 round
+**Duration**: 1 minute
 
 This spell creates a magical link between a Large or larger inanimate plant within range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.

@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Arcane Eye"
-date:   2015-01-01
-sources: [PHB.214, SRD.118]
-tags: [artificer, wizard, level4, action, concentration, divination]
-subtags: [cleric: arcana, cleric: knowledge, ranger: swarmkeeper]
+sources: [PHB 2024]
+tags: [artificer, wizard, level4, concentration, action, divination]
 ---
 
 **4th-level divination**
@@ -17,8 +15,6 @@ subtags: [cleric: arcana, cleric: knowledge, ranger: swarmkeeper]
 
 **Duration**: Concentration, up to 1 hour
 
-You create an invisible, magical eye within range that hovers in the for the duration.
+You create an Invisible, invulnerable eye within range that hovers for the duration. You mentally receive visual information from the eye, which can see in every direction. It also has Darkvision with a range of 30 feet.
 
-You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.
-
-As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.
+As a Bonus Action, you can move the eye up to 30 feet in any direction. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.

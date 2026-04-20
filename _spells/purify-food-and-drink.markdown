@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Purify Food and Drink"
-date:   2014-08-24
-sources: [PHB.270, SRD.173]
-tags: [artificer, cleric, druid, paladin, level1, action, ritual, transmutation]
+sources: [PHB 2024]
+tags: [artificer, cleric, druid, paladin, level1, ritual, action, transmutation]
 ---
 
-**1st-level transmutation (ritual)**
+**1st-level transmutation**
 
 **Casting Time**: 1 action
 
@@ -16,4 +15,4 @@ tags: [artificer, cleric, druid, paladin, level1, action, ritual, transmutation]
 
 **Duration**: Instantaneous
 
-All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.
+You remove poison and rot from nonmagical food and drink in a 5-foot-radius Sphere centered on a point within range.

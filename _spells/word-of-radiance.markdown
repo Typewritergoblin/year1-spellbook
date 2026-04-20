@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Word of Radiance"
-date:   2017-11-14
-sources: [XGE.171]
+sources: [PHB 2024]
 tags: [cleric, cantrip, action, evocation]
 ---
 
@@ -10,12 +9,12 @@ tags: [cleric, cantrip, action, evocation]
 
 **Casting Time**: 1 action
 
-**Range**: 5 feet
+**Range**: Self
 
-**Components**: V, M (a holy symbol)
+**Components**: V, M (a sunburst token)
 
 **Duration**: Instantaneous
 
-You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.
+Burning radiance erupts from you in a 5-foot Emanation. Each creature of your choice that you can see in it must succeed on a Constitution saving throw or take 1d6 Radiant damage.
 
-The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+**Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).

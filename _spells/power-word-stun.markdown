@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Power Word Stun"
-date:   2015-01-10
-sources: [PHB.267, SRD.170]
-tags:   [bard, sorcerer, warlock, wizard, level8, enchantment]
+sources: [PHB 2024]
+tags: [bard, sorcerer, warlock, wizard, level8, action, enchantment]
 ---
 
 **8th-level enchantment**
@@ -16,6 +15,6 @@ tags:   [bard, sorcerer, warlock, wizard, level8, enchantment]
 
 **Duration**: Instantaneous
 
-You speak a word of power that can overwhelm the mind of one creature you can see within range, leaving it dumbfounded. If the target has 150 hit points or fewer, it is stunned. Otherwise, the spell has no effect.
+You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.
 
-The stunned target must make a Constitution saving throw at the end of each of its turns.  On a successful save, this stunning effect ends.
+The &amp;Reference[Stunned apply=false] target makes a [[/save ability=con dc=@attributes.spell.dc]] saving throw at the end of each of its turns, ending the condition on itself on a success.

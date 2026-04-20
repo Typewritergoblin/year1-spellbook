@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Sunburst"
-date: 2015-01-10
-sources: [PHB.279, SRD.184]
+title:  "Sunburst"
+sources: [PHB 2024]
 tags: [cleric, druid, sorcerer, wizard, level8, action, evocation]
 ---
 
@@ -12,12 +11,12 @@ tags: [cleric, druid, sorcerer, wizard, level8, action, evocation]
 
 **Range**: 150 feet
 
-**Components**: V, S, M (fire and a piece of sunstone)
+**Components**: V, S, M (a piece of sunstone)
 
 **Duration**: Instantaneous
 
-Brilliant sunlight flashes in a 60-foot radius centered on a point you choose within range. Each creature in that light must make a Constitution saving throw. On a failed save, a creature takes 12d6 radiant damage and is blinded for 1 minute. On a successful save, it takes half as much damage and isn’t blinded by this spell. Undead and oozes have disadvantage on this saving throw.
+Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the &amp;Reference[Blinded apply=false] condition for 1 minute. On a successful save, it takes half as much damage only.
 
-A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.
+A creature Blinded by this spell makes another [[/save ability=con dc=@attributes.spell.dc format=long]] at the end of each of its turns, ending the effect on itself on a success.
 
-This spell dispels any darkness in its area that was created by a spell.
+This spell dispels &amp;Reference[Darkness] in its area that was created by any spell.

@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Fire Shield"
-date: 2015-07-14
-sources: [PHB.241, SRD.144]
+title:  "Fire Shield"
+sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level4, action, evocation]
-subtags: [artificer: armorer, artificer: battle-smith, warlock: fiend, warlock: genie-efreeti]
 ---
 
 **4th-level evocation**
@@ -13,12 +11,12 @@ subtags: [artificer: armorer, artificer: battle-smith, warlock: fiend, warlock: 
 
 **Range**: Self
 
-**Components**: V, S, M (a bit of phosphorous or a firefly)
+**Components**: V, S, M (a bit of phosphorus or a firefly)
 
 **Duration**: 10 minutes
 
-Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.
+Wispy flames wreathe your body for the duration, shedding Bright Light in a 10-foot radius and Dim Light for an additional 10 feet.
 
-The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.
+The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you Resistance to Cold damage, and the chill shield grants you Resistance to Fire damage.
 
-In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.
+In addition, whenever a creature within 5 feet of you hits you with a melee attack roll, the shield erupts with flame. The attacker takes [[/damage 2d8 type=fire]] damage from a warm shield or [[/damage 2d8 type=cold]] damage from a chill shield.

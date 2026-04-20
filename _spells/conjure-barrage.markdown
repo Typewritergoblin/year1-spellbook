@@ -1,20 +1,20 @@
 ---
 layout: post
 title:  "Conjure Barrage"
-date:   2015-01-01
-sources: [PHB.225]
+sources: [PHB 2024]
 tags: [ranger, level3, action, conjuration]
-subtags: [artificer: battle-smith]
 ---
 
 **3rd-level conjuration**
 
 **Casting Time**: 1 action
 
-**Range**: Self (60-foot cone)
+**Range**: Self
 
-**Components**: V, S, M (one piece of ammunition or a thrown weapon)
+**Components**: V, S, M (a Melee or Ranged weapon worth at least 1 CP)
 
 **Duration**: Instantaneous
 
-You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes 3d8 damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component.
+You brandish the weapon used to cast the spell and conjure similar spectral weapons (or ammunition appropriate to the weapon) that launch forward and then disappear. Each creature of your choice that you can see in a 60-foot Cone makes a Dexterity saving throw, taking 5d8 Force damage on a failed save or half as much damage on a successful one.
+
+**Using a Higher-Level Spell Slot.** The damage increases by 1d8 for each spell slot level above 3.

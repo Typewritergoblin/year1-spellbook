@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Prismatic Wall"
-date:   2015-01-10
-sources: [PHB.267, SRD.171]
-tags:   [bard, wizard, level9, abjuration]
+sources: [PHB 2024]
+tags: [bard, wizard, level9, action, abjuration]
 ---
 
 **9th-level abjuration**
@@ -16,24 +15,12 @@ tags:   [bard, wizard, level9, abjuration]
 
 **Duration**: 10 minutes
 
-A shimmering, multicolored plane of light forms a vertical opaque wall--up to 90 feet long, 30 feet high, and 1 inch thick--centered on a point you can see within range. Alternatively, you can shape the wall into a sphere up to 30 feet in diameter centered on a point you choose within range. The wall remains in place for the duration. If you position the wall so that it passes through a space occupied by a creature, the spell fails, and your action and the spell slot are wasted.
+A shimmering, multicolored plane of light forms a vertical opaque wall—up to 90 feet long, 30 feet high, and 1 inch thick—centered on a point within range. Alternatively, you shape the wall into a globe up to 30 feet in diameter centered on a point within range. The wall lasts for the duration. If you position the wall in a space occupied by a creature, the spell ends instantly without effect.
 
-The wall sheds bright light out to a range of 100 feet and dim light for an additional 100 feet. You and creatures you designate at the time you cast the spell can pass through and remain near the wall without harm. If another creature that can see the wall moves to within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or become blinded for 1 minute.
+The wall sheds &amp;Reference[BrightLight] within 100 feet and &amp;Reference[DimLight] for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the &amp;Reference[Blinded apply=false] condition for 1 minute.
 
-The wall consists of seven layers, each with a different color. When a creature attempts to reach into or pass through the wall, it does so one layer at a time through all the wall’s layers. As it passes or reaches through each layer, the creature must make a Dexterity saving throw or be affected by that layer’s properties as described below.
+The wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer’s properties as described in the Prismatic Layers table.
 
-The wall can be destroyed, also one layer at a time, in order from red to violet, by means specific to each layer. Once a layer is destroyed it remains so for the duration of the spell. An *[Antimagic Field](antimagic-field)* has no effect on a *Prismatic Wall*, and *[Dispel Magic](dispel-magic)* can only dispel the violet layer. 
+The wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplAntimagicF]{Antimagic Field}* has no effect on the wall, and *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}* can affect only the violet layer.
 
-1. **Red.** The creature takes 10d6 fire damage on a failed save, or half as much damage on a successful one. While this layer is in place, nonmagical ranged attacks can’t pass through the wall. The layer can be destroyed by dealing at least 25 cold damage to it.
-
-2. **Orange.** The creature takes 10d6 acid damage on a failed save, or half as much damage on a successful one. While this layer is in place, magic ranged attacks can’t pass through the wall. The layer is destroyed by a strong wind.
-
-3. **Yellow.** The creature takes 10d6 lightning damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 60 force damage to it.
-
-4. **Green.** The creature takes 10d6 poison damage on a failed save, or half as much damage on a successful one. A *[Passwall](passwall)* spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.
-
-5. **Blue.** The creature takes 10d6 cold damage on a failed save, or half as much damage on a successful one. This layer can be destroyed by dealing at least 25 fire damage to it.
-
-6. **Indigo.** On a failed save, the creature is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The success and failures don’t need to be consecutive; keep track of both until the creature collects three of a kind. While this layer is in place, spells can’t be cast through the wall. The layer is destroyed by bright light shed by a *[Daylight](daylight)* spell or a similar spell of equal or higher level.
-
-7. **Violet.** On a failed save, the creature is blinded. It must then make a Wisdom saving throw at the start of your next turn. A successful save ends the blindness. If it fails that save, the creature is transported to another plane of the DM’s choosing and is no longer blinded. (Typically, a creature that is on a plane that isn’t its home plane is banished home, while other creatures are usually cast into the Astral or Ethereal planes.) This layer is destroyed by a *[Dispel Magic](dispel-magic)* spell or a similar spell of equal or higher level that can end spells and magical effects.
+Prismatic LayersOrderEffects1**Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. *Additional Effects*: Nonmagical ranged attacks can’t pass through this layer, which is destroyed if it takes at least 25 Cold damage.2**Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. *Additional Effects:* Magical ranged attacks can’t pass through this layer, which is destroyed by a strong wind (such as the one created by *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGustofWind]{Gust of Wind}*).3**Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 60 Force damage.4**Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. *Additional Effects:* A *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplPasswall00]{Passwall}* spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.5**Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 25 Fire damage.6**Indigo.** *Failed Save:* The target has the &amp;Reference[Restrained apply=false] condition and makes a [[/save ability=con dc=@attributes.spell.dc format=long]] at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the &amp;Reference[Petrified] condition until it is freed by an effect like the *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}* spell. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind. *Additional Effects:* Spells can’t be cast through this layer, which is destroyed by Bright Light shed by the *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDaylight00]{Daylight}* spell.7**Violet.** *Failed Save:* The target has the &amp;Reference[Blinded apply=false] condition and makes a [[/save ability=wis dc=@attributes.spell.dc format=long]] at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (DM’s choice). *Additional Effects:* This layer is destroyed by *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}*.

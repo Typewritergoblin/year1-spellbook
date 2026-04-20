@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Ray of Enfeeblement"
-date: 2015-07-30
-sources: [PHB.271, SRD.174]
-tags: [warlock, wizard, level2, action, concentration, necromancy]
-subtags: [cleric: death, cleric: grave]
+title:  "Ray of Enfeeblement"
+sources: [PHB 2024]
+tags: [warlock, wizard, level2, concentration, action, necromancy]
 ---
 
 **2nd-level necromancy**
@@ -17,6 +15,6 @@ subtags: [cleric: death, cleric: grave]
 
 **Duration**: Concentration, up to 1 minute
 
-A black beam of enervating energy springs from your finger toward a creature within range. Make a ranged spell attack against the target. On a hit, the target deals only half damage with weapon attacks that use Strength until the spell ends.
+A beam of enervating energy shoots from you toward a creature within range. The target must make a Constitution saving throw. On a successful save, the target has Disadvantage on the next attack roll it makes until the start of your next turn.
 
-At the end of each of the target’s turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.
+On a failed save, the target has Disadvantage on Strength-based D20 Tests for the duration. During that time, it also subtracts 1d8 from all its damage rolls. The target repeats the save at the end of each of its turns, ending the spell on a success.

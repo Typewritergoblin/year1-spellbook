@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Crusader’s Mantle"
-date:   2015-01-01
-sources: [PHB.230]
-tags: [paladin, level3, action, concentration, evocation]
-subtags: [cleric: war]
+title:  "Crusader's Mantle"
+sources: [PHB 2024]
+tags: [paladin, level3, concentration, action, evocation]
 ---
 
 **3rd-level evocation**
@@ -13,8 +11,8 @@ subtags: [cleric: war]
 
 **Range**: Self
 
-**Components**: V 
+**Components**: V
 
 **Duration**: Concentration, up to 1 minute
 
-Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.
+You radiate a magical aura in a 30-foot Emanation. While in the aura, you and your allies each deal an extra 1d4 Radiant damage when hitting with a weapon or an Unarmed Strike.

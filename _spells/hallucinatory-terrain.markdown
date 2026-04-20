@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Hallucinatory Terrain"
-date: 2015-07-30
-sources: [PHB.249, SRD.152]
+title:  "Hallucinatory Terrain"
+sources: [PHB 2024]
 tags: [bard, druid, warlock, wizard, level4, long, illusion]
 ---
 
@@ -12,10 +11,10 @@ tags: [bard, druid, warlock, wizard, level4, long, illusion]
 
 **Range**: 300 feet
 
-**Components**: V, S, M (a stone, a twig, and a bit of green plant)
+**Components**: V, S, M (a mushroom)
 
 **Duration**: 24 hours
 
-You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed in appearance.
+You make natural terrain in a 150-foot Cube in range look, sound, and smell like another sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed.
 
-The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn’t obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.
+The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to notice the illusion. If the difference isn’t obvious by touch, a creature examining the illusion can take the Study action to make an [[/check ability=int skill=inv dc=@attributes.spell.dc]] check against your spell save DC to disbelieve it. If a creature discerns that the terrain is illusory, the creature sees a vague image superimposed on the real terrain.

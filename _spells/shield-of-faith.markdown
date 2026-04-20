@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Shield of Faith"
-date: 2014-08-24
-sources: [PHB.275, SRD.179]
-tags: [cleric, paladin, level1, bonus, concentration, abjuration]
+title:  "Shield of Faith"
+sources: [PHB 2024]
+tags: [cleric, paladin, level1, concentration, bonus, abjuration]
 ---
 
 **1st-level abjuration**
@@ -12,8 +11,8 @@ tags: [cleric, paladin, level1, bonus, concentration, abjuration]
 
 **Range**: 60 feet
 
-**Components**: V, S, M (a small parchment with a bit of holy text written on it)
+**Components**: V, S, M (a prayer scroll)
 
 **Duration**: Concentration, up to 10 minutes
 
-A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.
+A shimmering field surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.

@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Beast Sense"
-date:   2015-01-07
-sources: [PHB.217]
-tags: [druid, ranger, level2, action, concentration, ritual, divination]
+sources: [PHB 2024]
+tags: [druid, ranger, level2, ritual, concentration, action, divination]
 ---
 
-**2nd-level divination (ritual)**
+**2nd-level divination**
 
 **Casting Time**: 1 action
 
@@ -16,6 +15,4 @@ tags: [druid, ranger, level2, action, concentration, ritual, divination]
 
 **Duration**: Concentration, up to 1 hour
 
-You touch a willing beast. For the duration of the spell, you can use your action to see through the beast’s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.
-
-While perceiving through the beast’s senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings.
+You touch a willing Beast. For the duration, you can perceive through the Beast’s senses as well as your own. When perceiving through the Beast’s senses, you benefit from any special senses it has.

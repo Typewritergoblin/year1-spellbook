@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Divine Favor"
-date:   2014-08-24
-sources: [PHB.234, SRD.136]
-tags: [paladin, level1, bonus, concentration, evocation]
-subtags: [cleric: war]
+sources: [PHB 2024]
+tags: [paladin, level1, bonus, transmutation]
 ---
 
-**1st-level evocation**
+**1st-level transmutation**
 
 **Casting Time**: 1 bonus action
 
@@ -15,6 +13,6 @@ subtags: [cleric: war]
 
 **Components**: V, S
 
-**Duration**: Concentration, up to 1 minute
+**Duration**: 1 minute
 
-Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit.
+Until the spell ends, your attacks with weapons deal an extra 1d4 Radiant damage on a hit.

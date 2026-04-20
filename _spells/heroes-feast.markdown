@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Heroes’ Feast"
-date: 2015-07-30
-sources: [PHB.251, SRD.154]
+title:  "Heroes' Feast"
+sources: [PHB 2024]
 tags: [bard, cleric, druid, level6, long, conjuration]
 ---
 
@@ -10,12 +9,12 @@ tags: [bard, cleric, druid, level6, long, conjuration]
 
 **Casting Time**: 10 minutes
 
-**Range**: 30 feet
+**Range**: Self
 
-**Components**: V, S, M (a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes)
+**Components**: V, S, M (a gem-encrusted bowl worth 1,000+ GP, which the spell consumes)
 
 **Duration**: Instantaneous
 
-You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve creatures can partake of the feast.
+You conjure a feast that appears on a surface in an unoccupied 10-foot Cube next to you. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve creatures can partake of the feast.
 
-A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.
+A creature that partakes gains several benefits, which last for 24 hours. The creature has &amp;Reference[damageResistance]{Resistance} to Poison damage, and it has Immunity to the &amp;Reference[Frightened] and &amp;Reference[Poisoned] conditions. Its Hit Point maximum also increases by 2d10, and it gains the same number of Hit Points.

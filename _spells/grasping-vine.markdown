@@ -1,22 +1,32 @@
 ---
 layout: post
-title: "Grasping Vine"
-date: 2015-07-30
-sources: [PHB.246]
-tags: [druid, ranger, level4, bonus, concentration, conjuration]
-subtags: [cleric: nature]
+title:  "Grasping Vine"
+sources: [PHB 2024]
+tags: [druid, ranger, level4, concentration, bonus, conjuration]
 ---
 
 **4th-level conjuration**
 
 **Casting Time**: 1 bonus action
 
-**Range**: 30 feet
+**Range**: 60 feet
 
 **Components**: V, S
 
 **Duration**: Concentration, up to 1 minute
 
-You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.
+You conjure a vine that sprouts from a surface in an unoccupied space that you can see within range. The vine lasts for the duration.
 
-Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.
+Make a melee spell attack against a creature within 30 feet of the vine. On a hit, the target takes 4d8 Bludgeoning damage and is pulled up to 30 feet toward the vine; if the target is Huge or smaller, it has the &amp;Reference[Grappled] condition (escape DC equal to your spell save DC). The vine can grapple only one creature at a time, and you can cause the vine to release a Grappled creature (no action required).
+
+As a Bonus Action on your later turns, you can repeat the attack against a creature within 30 feet of the vine.
+
+**Using a Higher-Level Spell Slot.** The number of creatures the vine can grapple increases by one for each spell slot level above 4.
+
+Total number creatures able to be Grappled: [[@item.level - 3]]
+
+Escape Tests
+
+[[/check ability=str skill=ath dc=@attributes.spell.dc]]
+
+[[/check ability=dex skill=acr dc=@attributes.spell.dc]]

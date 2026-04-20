@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Awaken"
-date: 2015-07-14
-sources: [PHB.216, SRD.120]
+title:  "Awaken"
+sources: [PHB 2024]
 tags: [bard, druid, level5, long, transmutation]
 ---
 
@@ -12,10 +11,10 @@ tags: [bard, druid, level5, long, transmutation]
 
 **Range**: Touch
 
-**Components**: V, S, M (an agate worth at least 1000 gp, which the spell consumes)
+**Components**: V, S, M (an agate worth 1,000+ GP, which the spell consumes)
 
 **Duration**: Instantaneous
 
-After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.
+You spend the casting time tracing magical pathways within a precious gemstone, and then touch the target. The target must be either a Beast or Plant creature with an Intelligence of 3 or less or a natural plant that isn’t a creature. The target gains an Intelligence of 10 and the ability to speak one language you know. If the target is a natural plant, it becomes a Plant creature and gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. The DM chooses statistics appropriate for the awakened Plant, such as the statistics for the **@UUID[Compendium.dnd5e.monsters.Actor.gaSTr7DFZJLmgI2J]{Awakened Shrub}** or **@UUID[Compendium.dnd5e.monsters.Actor.UR2gWLFHmFwG7ReH]{Awakened Tree}** in the *Monster Manual*.
 
-The awakened beast or plant is charmed by you for 30 days or until you or your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.
+The awakened target has the &amp;Reference[Charmed] condition for 30 days or until you or your allies deal damage to it. When that condition ends, the awakened creature chooses its attitude toward you.

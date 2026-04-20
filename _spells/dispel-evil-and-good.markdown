@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Dispel Evil and Good"
-date: 2015-07-14
-sources: [PHB.233, SRD.136]
-tags: [cleric, paladin, level5, action, concentration, abjuration]
+title:  "Dispel Evil and Good"
+sources: [PHB 2024]
+tags: [cleric, paladin, level5, concentration, action, abjuration]
 ---
 
 **5th-level abjuration**
@@ -12,14 +11,12 @@ tags: [cleric, paladin, level5, action, concentration, abjuration]
 
 **Range**: Self
 
-**Components**: V, S, M (holy water or powdered silver and iron)
+**Components**: V, S, M (powdered silver and iron)
 
 **Duration**: Concentration, up to 1 minute
 
-Shimmering energy surrounds and protects you from fey, undead, and creatures originating from beyond the Material Plane. For the duration, celestials, elementals, fey, fiends, and undead have disadvantage on attack rolls against you.
+For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.
 
-You can end the spell early by using either of the following special functions.
+**Break Enchantment.** As a Magic action, you touch a creature that is possessed by or has the &amp;Reference[Charmed] or &amp;Reference[Frightened] condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.
 
-**Break Enchantment.** As your action, you touch a creature you can reach that is charmed, frightened, or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer charmed, frightened, or possessed by such creatures.
-
-**Dismissal.** As your action, make a melee spell attack against a celestial, an elemental, a fey, a fiend, or an undead you can reach. On a hit, you attempt to drive the creature back to its home plane. The creature must succeed on a Charisma saving throw or be sent back to its home plane (if it isn’t there already). If they aren’t on their home plane, undead are sent to the Shadowfell, and fey are sent to the Feywild.
+**Dismissal.** As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn’t there already. If they aren’t on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.

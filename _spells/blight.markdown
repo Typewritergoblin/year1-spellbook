@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Blight"
-date:   2015-01-01
-sources: [PHB.219, SRD.122]
+sources: [PHB 2024]
 tags: [druid, sorcerer, warlock, wizard, level4, action, necromancy]
-subtags: [artificer: alchemist, cleric: death, cleric: grave, paladin: oathbreaker]
 ---
 
 **4th-level necromancy**
@@ -17,10 +15,8 @@ subtags: [artificer: alchemist, cleric: death, cleric: grave, paladin: oathbreak
 
 **Duration**: Instantaneous
 
-Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs.
+A creature that you can see within range makes a Constitution saving throw, taking 8d8 Necrotic damage on a failed save or half as much damage on a successful one. A Plant creature automatically fails the save.
 
-If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.
+Alternatively, target a nonmagical plant that isn’t a creature, such as a tree or shrub. It doesn’t make a save; it simply withers and dies.
 
-If you target a nonmagical plant that isn’t a creature, such as a tree or shrub, it doesn’t make a saving throw; it simply withers and dies.
-
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.
+**Using a Higher-Level Spell Slot.** The damage increases by 1d8 for each spell slot level above 4.

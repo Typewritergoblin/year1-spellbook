@@ -1,21 +1,22 @@
 ---
 layout: post
-title:  "Mordenkainen’s Sword"
-date:   2015-01-11
-sources: [PHB.262]
-tags:   [bard, wizard, level7, evocation]
+title:  "Mordenkainen's Sword"
+sources: [PHB 2024]
+tags: [bard, wizard, level7, concentration, action, evocation]
 ---
 
 **7th-level evocation**
 
 **Casting Time**: 1 action
 
-**Range**: 60 feet
+**Range**: 90 feet
 
-**Components**: V, S, M (a miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp)
+**Components**: V, S, M (a miniature sword worth 250+ GP)
 
 **Duration**: Concentration, up to 1 minute
 
-You create a sword-shaped plane of force that hovers within range. It lasts for the duration.
+You create a spectral sword that hovers within range. It lasts for the duration.
 
-When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.
+When the sword appears, you make a melee spell attack against a target within 5 feet of the sword. On a hit, the target takes Force damage equal to 4d12 plus your spellcasting ability modifier.
+
+On your later turns, you can take a Bonus Action to move the sword up to 30 feet to a spot you can see and repeat the attack against the same target or a different one.

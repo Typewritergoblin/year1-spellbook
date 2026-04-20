@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "Heal"
-date: 2015-07-30
-sources: [PHB.250, SRD.153]
-tags: [cleric, druid, level6, action, evocation]
+title:  "Heal"
+sources: [PHB 2024]
+tags: [cleric, druid, level6, action, abjuration]
 ---
 
-**6th-level evocation**
+**6th-level abjuration**
 
 **Casting Time**: 1 action
 
@@ -16,6 +15,6 @@ tags: [cleric, druid, level6, action, evocation]
 
 **Duration**: Instantaneous
 
-Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.
+Choose a creature that you can see within range. Positive energy washes through the target, restoring 70 Hit Points. This spell also ends the &amp;Reference[Blinded], &amp;Reference[Deafened], and &amp;Reference[Poisoned] conditions on the target.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.
+**Using a Higher-Level Spell Slot.** The healing increases by 10 for each spell slot level above 6.

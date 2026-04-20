@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Mass Heal"
-date:   2015-01-10
-sources: [PHB.258, SRD.163]
-tags:   [cleric, level9, evocation]
+sources: [PHB 2024]
+tags: [cleric, level9, action, abjuration]
 ---
 
-**9th-level evocation**
+**9th-level abjuration**
 
 **Casting Time**: 1 action
 
@@ -16,4 +15,8 @@ tags:   [cleric, level9, evocation]
 
 **Duration**: Instantaneous
 
-A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs.
+A flood of healing energy flows from you into creatures around you. You restore up to 700 Hit Points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the &amp;Reference[Blinded], &amp;Reference[Deafened], and &amp;Reference[Poisoned] conditions removed from them.
+
+Foundry Note
+
+The **Heal** activity is configured to restore 700 Hit Points to the selected creature. This spell's healing pool should be divided among the target creatures manually.

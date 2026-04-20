@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Charm Person"
-date:   2014-08-24
-sources: [PHB.221, SRD.124]
+sources: [PHB 2024]
 tags: [bard, druid, sorcerer, warlock, wizard, level1, action, enchantment]
-subtags: [cleric: trickery, ranger: fey-wanderer]
 ---
 
 **1st-level enchantment**
@@ -17,6 +15,6 @@ subtags: [cleric: trickery, ranger: fey-wanderer]
 
 **Duration**: 1 hour
 
-You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.
+One Humanoid you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.
+**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1.

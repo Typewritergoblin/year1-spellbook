@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "Find Steed"
-date: 2015-07-14
-sources: [PHB.240, SRD.143]
-tags: [paladin, level2, long, conjuration]
+title:  "Find Steed"
+sources: [PHB 2024]
+tags: [paladin, level2, action, conjuration]
 ---
 
 **2nd-level conjuration**
 
-**Casting Time**: 10 minutes
+**Casting Time**: 1 action
 
 **Range**: 30 feet
 
@@ -16,12 +15,22 @@ tags: [paladin, level2, long, conjuration]
 
 **Duration**: Instantaneous
 
-You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose, such as a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.
+You summon an otherworldly being that appears as a loyal steed in an unoccupied space of your choice within range. This creature uses the **@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobOtherworld]{Otherworldly Steed}** stat block. If you already have a steed from this spell, the steed is replaced by the new one.
 
-Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.
+The steed resembles a Large, rideable animal of your choice, such as a horse, a camel, a dire wolf, or an elk. Whenever you cast the spell, choose the steed’s creature type—Celestial, Fey, or Fiend—which determines certain traits in the stat block.
 
-When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.
+**Combat.** The steed is an ally to you and your allies. In combat, it shares your Initiative count, and it functions as a &amp;Reference[controllingamount]{controlled mount} while you ride it (as defined in the rules on mounted combat). If you have the Incapacitated condition, the steed takes its turn immediately after yours and acts independently, focusing on protecting you.
 
-While your steed is within 1 mile of you, you can communicate with each other telepathically.
+**Disappearance of the Steed.** The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.
 
-You can’t have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear.
+**Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
+
+In addition to the noted usage of the spell's level in the steed's Traits and Actions, the following attributes are also affected.
+
+Otherworldly Steed**AC**10 + 1 per spell level**HP**5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell’s level)**Speed**60 ft., Fly 60 ft. (requires level 4+ spell)**PB**equals your Proficiency Bonus
+
+**Foundry Note**
+
+The **Summon Flying Steed** activity should be used when consuming a fourth level or higher spell slot and is configured to apply the Fly Speed.
+
+When using a second or third level spell slot, the **Summon Steed** activity should be used instead.

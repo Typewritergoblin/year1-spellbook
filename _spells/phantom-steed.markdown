@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Phantom Steed"
-date:   2015-01-02
-sources: [PHB.265, SRD.167]
-tags: [wizard, level3, long, ritual, illusion]
-subtags: [warlock: undead]
+sources: [PHB 2024]
+tags: [wizard, level3, ritual, long, illusion]
 ---
 
-**3rd-level illusion (ritual)**
+**3rd-level illusion**
 
 **Casting Time**: 1 minute
 
@@ -17,6 +15,6 @@ subtags: [warlock: undead]
 
 **Duration**: 1 hour
 
-A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature’s appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
+A Large, quasi-real, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbsumPhantomSte]{horselike creature} appears on the ground in an unoccupied space of your choice within range. You decide the creature’s appearance, and it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
 
-For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage.
+For the duration, you or a creature you choose can ride the steed. The steed uses the **@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobRidingHors]{Riding Horse}** stat block (see appendix B), except it has a Speed of 100 feet and can travel 13 miles in an hour. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends early if the steed takes any damage.

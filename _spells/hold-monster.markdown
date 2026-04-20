@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Hold Monster"
-date: 2015-07-30
-sources: [PHB.251, SRD.154]
-tags: [bard, sorcerer, warlock, wizard, level5, action, concentration, enchantment]
-subtags: [cleric: war, paladin: ancients, paladin: redemption, paladin: watchers, ranger: monster-slayer]
+title:  "Hold Monster"
+sources: [PHB 2024]
+tags: [bard, sorcerer, warlock, wizard, level5, concentration, action, enchantment]
 ---
 
 **5th-level enchantment**
@@ -13,10 +11,10 @@ subtags: [cleric: war, paladin: ancients, paladin: redemption, paladin: watchers
 
 **Range**: 90 feet
 
-**Components**: V, S, M (a small, straight piece of iron)
+**Components**: V, S, M (a straight piece of iron)
 
 **Duration**: Concentration, up to 1 minute
 
-Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.
+Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or have the Paralyzed condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.
+**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 5.

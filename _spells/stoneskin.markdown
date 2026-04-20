@@ -1,20 +1,18 @@
 ---
 layout: post
-title: "Stoneskin"
-date: 2015-07-30
-sources: [PHB.278, SRD.183]
-tags: [artificer, druid, sorcerer, ranger, wizard, level4, action, concentration, abjuration]
-subtags: [cleric: war, paladin: ancients, paladin: conquest, paladin: redemption]
+title:  "Stoneskin"
+sources: [PHB 2024]
+tags: [artificer, druid, ranger, sorcerer, wizard, level4, concentration, action, transmutation]
 ---
 
-**4th-level abjuration**
+**4th-level transmutation**
 
 **Casting Time**: 1 action
 
 **Range**: Touch
 
-**Components**: V, S, M (diamond dust worth 100 gp, which the spell consumes)
+**Components**: V, S, M (diamond dust worth 100+ GP, which the spell consumes)
 
 **Duration**: Concentration, up to 1 hour
 
-This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical bludgeoning, piercing, and slashing damage.
+Until the spell ends, one willing creature you touch has &amp;Reference[damageresistance]{Resistance} to Bludgeoning, Piercing, and Slashing damage.

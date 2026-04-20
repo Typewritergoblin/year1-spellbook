@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Evard’s Black Tentacles"
-date:   2015-07-14
-sources: [PHB.238]
-tags: [wizard, level4, action, concentration, conjuration]
-subtags: [sorcerer: aberrant-mind, warlock: great-old-one]
+title:  "Evard's Black Tentacles"
+sources: [PHB 2024]
+tags: [wizard, level4, concentration, action, conjuration]
 ---
 
 **4th-level conjuration**
@@ -13,12 +11,12 @@ subtags: [sorcerer: aberrant-mind, warlock: great-old-one]
 
 **Range**: 90 feet
 
-**Components**: V, S, M (a piece of tentacle from a giant octopus or a giant squid)
+**Components**: V, S, M (a tentacle)
 
 **Duration**: Concentration, up to 1 minute
 
-Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.
+Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in that area into &amp;Reference[DifficultTerrain].
 
-When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage.
+Each creature in that area makes a Strength saving throw. On a failed save, it takes 3d6 Bludgeoning damage, and it has the &amp;Reference[Restrained apply=false] condition until the spell ends. A creature also makes that save if it enters the area or ends it turn there. A creature makes that save only once per turn.
 
-A creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself.
+A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC, ending the condition on itself on a success.

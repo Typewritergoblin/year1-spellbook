@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Calm Emotions"
-date:   2014-12-31
-sources: [PHB.221, SRD.123]
-tags: [bard, cleric, level2, action, concentration, enchantment]
-subtags: [paladin: redemption, sorcerer: aberrant-mind, warlock: fey]
+sources: [PHB 2024]
+tags: [bard, cleric, level2, concentration, action, enchantment]
 ---
 
 **2nd-level enchantment**
@@ -17,6 +15,6 @@ subtags: [paladin: redemption, sorcerer: aberrant-mind, warlock: fey]
 
 **Duration**: Concentration, up to 1 minute
 
-You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects. You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.
+Each Humanoid in a 20-foot-radius Sphere centered on a point you choose within range must succeed on a Charisma saving throw or be affected by one of the following effects (choose for each creature):
 
-Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the DM rules otherwise.
+The creature has Immunity to the Charmed and Frightened conditions until the spell ends. If the creature was already Charmed or Frightened, those conditions are suppressed for the duration.The creature becomes Indifferent about creatures of your choice that it’s Hostile toward. This indifference ends if the target takes damage or witnesses its allies taking damage. When the spell ends, the creature’s attitude returns to normal.

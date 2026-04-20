@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Protection from Poison"
-date: 2015-07-30
-sources: [PHB.270, SRD.173]
-tags: [artificer, cleric, ranger, paladin, druid, level2, action, abjuration]
+title:  "Protection from Poison"
+sources: [PHB 2024]
+tags: [artificer, cleric, druid, paladin, ranger, level2, action, abjuration]
 ---
 
 **2nd-level abjuration**
@@ -16,4 +15,4 @@ tags: [artificer, cleric, ranger, paladin, druid, level2, action, abjuration]
 
 **Duration**: 1 hour
 
-You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random. For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.
+You touch a creature and end the &amp;Reference[poisoned] condition on it. For the duration, the target has Advantage on saving throws to avoid or end the Poisoned condition, and it has Resistance to Poison damage.

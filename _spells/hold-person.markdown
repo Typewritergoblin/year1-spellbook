@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Hold Person"
-date:   2014-12-31
-sources: [PHB.251, SRD.154]
-tags: [bard, cleric, druid, sorcerer, warlock, wizard, level2, action, concentration, enchantment]
-subtags: [paladin: conquest, paladin: redemption, paladin: vengeance]
+sources: [PHB 2024]
+tags: [bard, cleric, druid, sorcerer, warlock, wizard, level2, concentration, action, enchantment]
 ---
 
 **2nd-level enchantment**
@@ -13,10 +11,10 @@ subtags: [paladin: conquest, paladin: redemption, paladin: vengeance]
 
 **Range**: 60 feet
 
-**Components**: V, S, M (a small, straight piece of iron)
+**Components**: V, S, M (a straight piece of iron)
 
 **Duration**: Concentration, up to 1 minute
 
-Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target. 
+Choose a Humanoid that you can see within range. The target must succeed on a Wisdom saving throw or have the &amp;Reference[paralyzed apply=false] condition for the duration. At the end of each of its turns, the target repeats the save, ending the spell on itself on a success.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.
+**Using a Higher-Level Spell Slot.** You can target one additional Humanoid for each spell slot level above 2.

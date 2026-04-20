@@ -1,25 +1,26 @@
 ---
 layout: post
-title:  "Drawmij’s Instant Summons"
-date:   2015-07-14
-sources: [PHB.235]
-tags: [wizard, level6, long, ritual, conjuration]
+title:  "Drawmij's Instant Summons"
+sources: [PHB 2024]
+tags: [wizard, level6, ritual, long, conjuration]
 ---
 
-**6th-level conjuration (ritual)**
+**6th-level conjuration**
 
 **Casting Time**: 1 minute
 
 **Range**: Touch
 
-**Components**: V, S, M (sapphire worth 1000 gp)
+**Components**: V, S, M (a sapphire worth 1,000+ GP)
 
 **Duration**: Until dispelled
 
-You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.
+You touch the sapphire used in the casting and an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an Invisible mark on that object and invisibly inscribes the object’s name on the sapphire. Each time you cast this spell, you must use a different sapphire.
 
-At any time thereafter, you can use your action to speak the item’s name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.
+Thereafter, you can take a Magic action to speak the object’s name and crush the sapphire. The object instantly appears in your hand regardless of physical or planar distances, and the spell ends.
 
-If another creature is holding or carrying the item, crushing the sapphire doesn’t transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.
+If another creature is holding or carrying the object, crushing the sapphire doesn’t transport it, but instead you learn who that creature is and where that creature is currently located.
 
-*[Dispel Magic](dispel-magic)* or a similar effect successfully applied to the sapphire ends this spell’s effect.
+**Foundry Note**
+
+This spell's Limited Uses are configured to track the number of inscribed objects, with the "Inscribe" and "Recall" activities restoring and consuming uses as appropriate.

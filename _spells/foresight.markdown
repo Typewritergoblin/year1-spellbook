@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Foresight"
-date:   2015-01-10
-sources: [PHB.244, SRD.147]
-tags:   [bard, druid, warlock, wizard, level9, divination]
+sources: [PHB 2024]
+tags: [bard, druid, warlock, wizard, level9, long, divination]
 ---
 
 **9th-level divination**
@@ -16,6 +15,4 @@ tags:   [bard, druid, warlock, wizard, level9, divination]
 
 **Duration**: 8 hours
 
-You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can’t be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.
-
-This spell immediately ends if you cast it again before its duration ends.
+You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target has Advantage on D20 Tests, and other creatures have Disadvantage on attack rolls against it. The spell ends early if you cast it again.

@@ -1,20 +1,18 @@
 ---
 layout: post
 title:  "Barkskin"
-date:   2015-01-02
-sources: [PHB.217, SRD.121]
-tags: [druid, ranger, level2, action, concentration, transmutation]
-subtags: [cleric: nature]
+sources: [PHB 2024]
+tags: [druid, ranger, level2, bonus, transmutation]
 ---
 
 **2nd-level transmutation**
 
-**Casting Time**: 1 action
+**Casting Time**: 1 bonus action
 
 **Range**: Touch
 
-**Components**: V, S, M (a handful of oak bark)
+**Components**: V, S, M (a handful of bark)
 
-**Duration**: Concentration, up to 1 hour
+**Duration**: 1 hour
 
-You touch a willing creature. Until the spell ends, the target’s skin has a rough, bark-like appearance, and the target’s AC can’t be less than 16, regardless of what kind of armor it is wearing.
+You touch a willing creature. Until the spell ends, the target’s skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.

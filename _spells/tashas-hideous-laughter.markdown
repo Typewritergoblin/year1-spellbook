@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Tasha’s Hideous Laughter"
-date:   2014-08-24
-sources: [PHB.280]
-tags: [bard, wizard, level1, action, concentration, enchantment]
-subtags: [warlock: great-old-one]
+title:  "Tasha's Hideous Laughter"
+sources: [PHB 2024]
+tags: [bard, warlock, wizard, level1, concentration, action, enchantment]
 ---
 
 **1st-level enchantment**
@@ -13,10 +11,12 @@ subtags: [warlock: great-old-one]
 
 **Range**: 30 feet
 
-**Components**: V, S, M (tiny tarts and a feather that is waved in the air)
+**Components**: V, S, M (a tart and a feather)
 
 **Duration**: Concentration, up to 1 minute
 
-A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn’t affected.
+One creature of your choice that you can see within range makes a Wisdom saving throw. On a failed save, it has the &amp;Reference[prone apply=false] and &amp;Reference[incapacitated apply=false] conditions for the duration. During that time, it laughs uncontrollably if it’s capable of laughter, and it can’t end the Prone condition on itself.
 
-At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target had advantage on the saving throw if it’s triggered by damage. On a success, the spell ends.
+At the end of each of its turns and each time it takes damage, it makes another [[/save ability=wis dc=@attributes.spell.dc]] saving throw. The target has Advantage on the save if the save is triggered by damage. On a successful save, the spell ends.
+
+**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level about 1.

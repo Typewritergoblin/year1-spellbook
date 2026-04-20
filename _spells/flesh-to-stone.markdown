@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Flesh to Stone"
-date: 2015-07-14
-sources: [PHB.243, SRD.145]
-tags: [druid, sorcerer, warlock, wizard, level6, action, concentration, transmutation]
+title:  "Flesh to Stone"
+sources: [PHB 2024]
+tags: [druid, sorcerer, wizard, level6, concentration, action, transmutation]
 ---
 
 **6th-level transmutation**
@@ -12,14 +11,12 @@ tags: [druid, sorcerer, warlock, wizard, level6, action, concentration, transmut
 
 **Range**: 60 feet
 
-**Components**: V, S, M (a pinch of lime, water, and earth)
+**Components**: V, S, M (a cockatrice feather)
 
 **Duration**: Concentration, up to 1 minute
 
-You attempt to turn one creature that you can see within range into stone. If the target’s body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn’t affected.
+You attempt to turn one creature that you can see within range into stone. The target makes a Constitution saving throw. On a failed save, it has the &amp;Reference[Restrained apply=false] condition for the duration. On a successful save, its Speed is 0 until the start of your next turn. Constructs automatically succeed on the save.
 
-A creature restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.
+A Restrained target makes another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and has the &amp;Reference[Petrified] condition for the duration. The successes and failures needn’t be consecutive; keep track of both until the target collects three of a kind.
 
-If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state.
-
-If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.
+If you maintain your Concentration on this spell for the entire possible duration, the target is Petrified until the condition is ended by *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}* or similar magic.

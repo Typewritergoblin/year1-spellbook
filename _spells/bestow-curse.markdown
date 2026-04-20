@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Bestow Curse"
-date:   2015-01-01
-sources: [PHB.218, SRD.121]
-tags: [bard, cleric, wizard, level3, action, concentration, necromancy]
-subtags: [paladin: conquest, paladin: oathbreaker]
+sources: [PHB 2024]
+tags: [bard, cleric, wizard, level3, concentration, action, necromancy]
 ---
 
 **3rd-level necromancy**
@@ -17,13 +15,8 @@ subtags: [paladin: conquest, paladin: oathbreaker]
 
 **Duration**: Concentration, up to 1 minute
 
-You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:
+You touch a creature, which must succeed on a Wisdom saving throw or become cursed for the duration. Until the curse ends, the target suffers one of the following effects of your choice:
 
-* Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.
-* While cursed, the target has disadvantage on attack rolls against you.
-* While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.
-* While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.
+Choose one ability. The target has Disadvantage on ability checks and saving throws made with that ability (**Curse Ability** activity).The target has Disadvantage on attack rolls against you (**Curse Attacks** activity).In combat, the target must succeed on a Wisdom saving throw at the start of each of its turns or be forced to take the &amp;Reference[Dodge] action on that turn (**Curse Actions** activity).If you deal damage to the target with an attack roll or a spell, the target takes an extra 1d8 Necrotic damage (**Curse Resilience** activity).
 
-A *[Remove Curse](remove-curse)* spell ends this effect. At the DM’s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse’s effect.
-
-**At Higher Levels.** If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn’t require concentration.
+**Using a Higher-Level Spell Slot.** If you cast this spell using a level 4 spell slot, you can maintain Concentration on it for up to 10 minutes. If you use a level 5+ spell slot, the spell doesn’t require Concentration, and the duration becomes 8 hours (level 5–6 slot) or 24 hours (level 7–8 slot). If you use a level 9 spell slot, the spell lasts until dispelled.

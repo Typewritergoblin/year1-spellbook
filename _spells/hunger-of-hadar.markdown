@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Hunger of Hadar"
-date:   2015-01-01
-sources: [PHB.251]
-tags: [warlock, level3, action, concentration, conjuration]
-subtags: [sorcerer: aberrant-mind]
+sources: [PHB 2024]
+tags: [warlock, level3, concentration, action, conjuration]
 ---
 
 **3rd-level conjuration**
@@ -13,10 +11,12 @@ subtags: [sorcerer: aberrant-mind]
 
 **Range**: 150 feet
 
-**Components**: V, S, M (a pickled octopus tentacle)
+**Components**: V, S, M (a pickled tentacle)
 
 **Duration**: Concentration, up to 1 minute
 
-You open a gateway to the dark between the stars, a region infested with unknown horrors. A 20-foot-radius sphere of blackness and bitter cold appears, centered on a point with range and lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within the area are blinded.
+You open a gateway to the Far Realm, a region infested with unspeakable horrors. A 20-foot-radius Sphere of &amp;Reference[Darkness] appears, centered on a point with range and lasting for the duration. The Sphere is &amp;Reference[DifficultTerrain], and it is filled with strange whispers and slurping noises, which can be heard up to 30 feet away. No light, magical or otherwise, can illuminate the area, and creatures fully within it have the &amp;Reference[Blinded] condition.
 
-The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area takes 2d6 cold damage. Any creature that ends its turn in the area must succeed on a Dexterity saving throw or take 2d6 acid damage as milky, otherworldly tentacles rub against it.
+Any creature that starts its turn in the area takes 2d6 Cold damage. Any creature that ends its turn there must succeed on a Dexterity saving throw or take 2d6 Acid damage from otherworldly tentacles.
+
+**Using a Higher-Level Spell Slot. **The Cold or Acid damage (your choice) increases by 1d6 for each spell slot level above 3.

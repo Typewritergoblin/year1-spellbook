@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Conjure Animals"
-date:   2015-01-01
-sources: [PHB.225, SRD.127]
-tags: [druid, ranger, level3, action, concentration, conjuration]
+sources: [PHB 2024]
+tags: [druid, ranger, level3, concentration, action, conjuration]
 ---
 
 **3rd-level conjuration**
@@ -14,19 +13,12 @@ tags: [druid, ranger, level3, action, concentration, conjuration]
 
 **Components**: V, S
 
-**Duration**: Concentration, up to 1 hour
+**Duration**: Concentration, up to 10 minutes
 
-You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:
+You conjure nature spirits that appear as a Large pack of spectral, intangible animals in an unoccupied space you can see within range. The pack lasts for the duration, and you choose the spirits’ animal form, such as wolves, serpents, or birds.
 
-* One beast of challenge rating 2 or lower
-* Two beasts of challenge rating 1 or lower
-* Four beasts of challenge rating 1/2 or lower
-* Eight beasts of challenge rating 1/4 or lower
+You have Advantage on Strength saving throws while you’re within 5 feet of the pack, and when you move on your turn, you can also move the pack up to 30 feet to an unoccupied space you can see.
 
-Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.
+Whenever the pack moves within 10 feet of a creature you can see and whenever a creature you can see enters a space within 10 feet of the pack or ends its turn there, you can force that creature to make a Dexterity saving throw. On a failed save, the creature takes 3d10 Slashing damage. A creature makes this save only once per turn.
 
-The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
-
-The DM has the creatures’ statistics.
-
-**At Higher Levels.** When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level
+**Using a Higher-Level Spell Slot.** The damage increases by 1d10 for each spell slot level above 3.

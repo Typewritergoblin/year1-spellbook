@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Speak with Plants"
-date:   2015-01-02
-sources: [PHB.277, SRD.181]
+sources: [PHB 2024]
 tags: [bard, druid, ranger, level3, action, transmutation]
 ---
 
@@ -10,18 +9,16 @@ tags: [bard, druid, ranger, level3, action, transmutation]
 
 **Casting Time**: 1 action
 
-**Range**: Self (30-foot radius)
+**Range**: Self
 
 **Components**: V, S
 
 **Duration**: 10 minutes
 
-You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell’s area within the past day, gaining information about creatures that have passed, weather, and other circumstances.
+You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell’s area within the past day, gaining information about creatures that have passed, weather, and other circumstances.
 
-You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.
+You can also turn &amp;Reference[difficultterrain] caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration.
 
-Plants might be able to perform other tasks on your behalf, at the DM’s discretion. The spell doesn’t enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.
+The spell doesn’t enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you.
 
-If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
-
-This spell can cause the plants created by the entangle spell to release a restrained creature.
+If a Plant creature is in the area, you can communicate with it as if you shared a common language.

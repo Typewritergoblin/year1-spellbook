@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Hex"
-date:   2014-08-24
-sources: [PHB.251]
-tags: [warlock, level1, bonus, concentration, enchantment]
+sources: [PHB 2024]
+tags: [warlock, level1, concentration, bonus, enchantment]
 ---
 
 **1st-level enchantment**
@@ -16,10 +15,8 @@ tags: [warlock, level1, bonus, concentration, enchantment]
 
 **Duration**: Concentration, up to 1 hour
 
-You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.
+You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 Necrotic damage to the target whenever you hit it with an attack roll. Also, choose one ability when you cast the spell. The target has Disadvantage on ability checks made with the chosen ability.
 
-If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.
+If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action on a later turn to curse a new creature.
 
-A *[remove curse](remove-curse)* cast on the target ends this spell early.
-
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.
+**Using a Higher-Level Spell Slot.** Your Concentration can last longer with a spell slot of level 2 (up to 4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).

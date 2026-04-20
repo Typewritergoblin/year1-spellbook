@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Moonbeam"
-date: 2015-07-30
-sources: [PHB.261, SRD.166]
-tags: [druid, level2, action, concentration, evocation]
-subtags: [cleric: twilight, paladin: ancients, paladin: watchers]
+title:  "Moonbeam"
+sources: [PHB 2024]
+tags: [druid, level2, concentration, action, evocation]
 ---
 
 **2nd-level evocation**
@@ -13,16 +11,12 @@ subtags: [cleric: twilight, paladin: ancients, paladin: watchers]
 
 **Range**: 120 feet
 
-**Components**: V, S, M (several seeds of any moonseed plant and a piece of opalescent feldspar)
+**Components**: V, S, M (a moonseed leaf)
 
 **Duration**: Concentration, up to 1 minute
 
-A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, dim light fills the cylinder.
+A silvery beam of pale light shines down in a 5-foot-radius, 40-foot-high Cylinder centered on a point within range. Until the spell ends, Dim Light fills the Cylinder, and you can take a Magic action on later turns to move the Cylinder up to 60 feet.
 
-When a creature enters the spell’s area for the first time on a turn or starts its turn there, it is engulfed in ghostly flames that cause searing pain, and it must make a Constitution saving throw. It takes 2d10 radiant damage on a failed save, or half as much on a successful one.
+When the Cylinder appears, each creature in it makes a Constitution saving throw. On a failed save, a creature takes 2d10 Radiant damage, and if the creature is shape-shifted (as a result of the *Polymorph* spell, for example), it reverts to its true form and can’t shape-shift until it leaves the Cylinder. On a successful save, a creature takes half as much damage only. A creature also makes this save when the spell’s area moves into its space and when it enters the spell’s area or ends its turn there. A creature makes this save only once per turn.
 
-A shapechanger makes its saving throw with disadvantage. If it fails, it also instantly reverts to its original form and can’t assume a different form until it leaves the spells light.
-
-On each of your turns after you cast this spell use can use an action to move the beam up to 60 feet in any direction.
-
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd.
+**Using a Higher-Level Spell Slot.**The damage increases by 1d10 for each spell slot level above 2.

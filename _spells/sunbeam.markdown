@@ -1,23 +1,22 @@
 ---
 layout: post
-title: "Sunbeam"
-date: 2015-07-30
-sources: [PHB.279, SRD.184]
-tags: [cleric, druid, sorcerer, wizard, level6, action, concentration, evocation]
+title:  "Sunbeam"
+sources: [PHB 2024]
+tags: [cleric, druid, sorcerer, wizard, level6, concentration, action, evocation]
 ---
 
 **6th-level evocation**
 
 **Casting Time**: 1 action
 
-**Range**: Self (60-foot line)
+**Range**: Self
 
 **Components**: V, S, M (a magnifying glass)
 
 **Duration**: Concentration, up to 1 minute
 
-A beam of brilliant light flashes out from your hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a Constitution saving throw. On a failed save, a creature takes 6d8 radiant damage and is blinded until your next turn. On a successful save, it takes half as much damage and isn’t blinded by this spell. Undead and oozes have disadvantage on this saving throw.
+You launch a sunbeam in a 5-foot-wide, 60-foot-long Line. Each creature in the Line makes a Constitution saving throw. On a failed save, a creature takes 6d8 Radiant damage and has the Blinded condition until the start of your next turn. On a successful save, it takes half as much damage only.
 
-You can create a new line of radiance as your action on any turn until the spell ends.
+Until the spell ends, you can take a Magic action to create a new Line of radiance.
 
-For the duration, a mote of brilliant radiance shines in your hand. It sheds bright light in a 30-foot radius and dim light for an additional 30 feet. This light is sunlight.
+For the duration, a mote of brilliant radiance shines above you. It sheds Bright Light in a 30-foot radius and Dim Light for an additional 30 feet. This light is sunlight.

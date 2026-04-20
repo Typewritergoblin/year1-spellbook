@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Power Word Kill"
-date:   2015-01-10
-sources: [PHB.266, SRD.170]
-tags:   [bard, sorcerer, warlock, wizard, level9, enchantment]
+sources: [PHB 2024]
+tags: [bard, sorcerer, warlock, wizard, level9, action, enchantment]
 ---
 
 **9th-level enchantment**
@@ -16,4 +15,4 @@ tags:   [bard, sorcerer, warlock, wizard, level9, enchantment]
 
 **Duration**: Instantaneous
 
-You utter a word of power that can compel one creature you can see within range to die instantly.  If the creature you choose has 100 hit points or fewer, it dies. Otherwise, the spell has no effect.
+You compel one creature you can see within range to die. If the target has 100 Hit Points or fewer, it dies. Otherwise, it takes 12d12 Psychic damage.

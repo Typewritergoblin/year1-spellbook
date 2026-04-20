@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Web"
-date: 2015-07-30
-sources: [PHB.287, SRD.192]
-tags: [artificer, sorcerer, wizard, level2, action, concentration, conjuration]
-subtags: [druid: underdark, ranger: swarmkeeper]
+title:  "Web"
+sources: [PHB 2024]
+tags: [artificer, sorcerer, wizard, level2, concentration, action, conjuration]
 ---
 
 **2nd-level conjuration**
@@ -17,12 +15,12 @@ subtags: [druid: underdark, ranger: swarmkeeper]
 
 **Duration**: Concentration, up to 1 hour
 
-You conjure a mass of thick, sticky webbing at a point of your choice within range. The webs fill a 20-foot cube from that point for the duration. The webs are difficult terrain and lightly obscure their area.
+You conjure a mass of sticky webbing at a point within range. The webs fill a 20-foot Cube there for the duration. The webs are &amp;Reference[difficultterrain], and the area within them is &amp;Reference[lightlyobscured].
 
-If the webs aren’t anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the conjured web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.
+If the webs aren’t anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.
 
-Each creature that starts its turn in the webs or that enters them during its turn must make a Dexterity saving throw. On a failed save, the creature is restrained as long as it remains in the webs or until it breaks free.
+The first time a creature enters the webs on a turn or starts its turn there, it must succeed on a Dexterity saving throw or have the &amp;Reference[restrained] condition while in the webs or until it breaks free.
 
-A creature restrained by the webs can use its action to make a Strength check against your spell save DC. If it succeeds, it is no longer restrained.
+A creature Restrained by the webs can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. If it succeeds, it is no longer Restrained.
 
-The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing 2d4 fire damage to any creature that starts its turn in the fire.
+The webs are flammable. Any 5-foot Cube of webs exposed to fire burns away in 1 round, dealing [[/damage 2d4 type=fire]] damage to any creature that starts its turn in the fire.

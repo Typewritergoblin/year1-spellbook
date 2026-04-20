@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Continual Flame"
-date: 2015-07-14
-sources: [PHB.227, SRD.130]
+title:  "Continual Flame"
+sources: [PHB 2024]
 tags: [artificer, cleric, druid, wizard, level2, action, evocation]
 ---
 
@@ -10,10 +9,10 @@ tags: [artificer, cleric, druid, wizard, level2, action, evocation]
 
 **Casting Time**: 1 action
 
-**Range**: Self
+**Range**: Touch
 
-**Components**: V, S, M (ruby dust worth 50 gp, which the spell consumes)
+**Components**: V, S, M (ruby dust worth 50+ GP, which the spell consumes)
 
 **Duration**: Until dispelled
 
-A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A *continual flame* can be covered or hidden but not smothered or quenched.
+A flame springs from an object that you touch. The effect casts &amp;Reference[brightlight] in a 20-foot radius and &amp;Reference[dimlight] for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.

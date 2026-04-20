@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Legend Lore"
-date: 2015-07-30
-sources: [PHB.254, SRD.158]
+title:  "Legend Lore"
+sources: [PHB 2024]
 tags: [bard, cleric, wizard, level5, long, divination]
-subtags: [warlock: undying]
 ---
 
 **5th-level divination**
@@ -13,10 +11,12 @@ subtags: [warlock: undying]
 
 **Range**: Self
 
-**Components**: V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)
+**Components**: V, S, M (incense worth 250+ GP, which the spell consumes, and four ivory strips worth 50+ GP each)
 
 **Duration**: Instantaneous
 
-Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn’t of legendary importance, you gain no information. The more information you already have about the thing, the more precise and detailed the information you receive is.
+Name or describe a famous person, place, or object. The spell brings to your mind a brief summary of the significant lore about that famous thing, as described by the DM.
 
-The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: “Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word *Rudnogg* on the lips.”
+The lore might consist of important details, amusing revelations, or even secret lore that has never been widely known. The more information you already know about the thing, the more precise and detailed the information you receive is. That information is accurate but might be couched in figurative language or poetry, as determined by the DM.
+
+If the famous thing you chose isn’t actually famous, you hear sad musical notes played on a trombone, and the spell fails.

@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Dragon’s Breath"
-date: 2017-11-13
-sources: [XGE.154]
-tags: [sorcerer, wizard, level2, bonus, concentration, transmutation]
+title:  "Dragon's Breath"
+sources: [PHB 2024]
+tags: [artificer, sorcerer, wizard, level2, concentration, bonus, transmutation]
 ---
 
 **2nd-level transmutation**
@@ -12,10 +11,10 @@ tags: [sorcerer, wizard, level2, bonus, concentration, transmutation]
 
 **Range**: Touch
 
-**Components**: V, S, M (a hot pepper)
+**Components**: V, S, M
 
 **Duration**: Concentration, up to 1 minute
 
-You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.
+You touch one willing creature, and choose Acid, Cold, Fire, Lightning, or Poison. Until the spell ends, the target can take a Magic action to exhale a 15-foot Cone. Each creature in that area makes a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save or half as much damage on a successful one.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
+**Using a Higher-Level Spell Slot. **The damage increases by 1d6 for each spell slot level above 2.

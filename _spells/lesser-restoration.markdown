@@ -1,15 +1,13 @@
 ---
 layout: post
 title:  "Lesser Restoration"
-date:   2014-12-31
-sources: [PHB.255, SRD.158]
-tags: [artificer, bard, cleric, druid, paladin, ranger, level2, action, abjuration]
-subtags: [sorcerer: clockwork-soul, warlock: celestial]
+sources: [PHB 2024]
+tags: [artificer, bard, cleric, druid, paladin, ranger, level2, bonus, abjuration]
 ---
 
 **2nd-level abjuration**
 
-**Casting Time**: 1 action
+**Casting Time**: 1 bonus action
 
 **Range**: Touch
 
@@ -17,4 +15,4 @@ subtags: [sorcerer: clockwork-soul, warlock: celestial]
 
 **Duration**: Instantaneous
 
-You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.
+You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed], or &amp;Reference[poisoned].

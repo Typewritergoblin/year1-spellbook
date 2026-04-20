@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Staggering Smite"
-date: 2015-07-30
-sources: [PHB.278]
-tags: [paladin, level4, bonus, concentration, evocation]
-subtags: [warlock: hexblade]
+title:  "Staggering Smite"
+sources: [PHB 2024]
+tags: [paladin, level4, bonus, enchantment]
 ---
 
-**4th-level evocation**
+**4th-level enchantment**
 
 **Casting Time**: 1 bonus action
 
@@ -15,6 +13,8 @@ subtags: [warlock: hexblade]
 
 **Components**: V
 
-**Duration**: Concentration, up to 1 minute
+**Duration**: Instantaneous
 
-The next time you hit a creature with a melee weapon attack during this spell’s duration, your weapon pierces both body and mind, and the attack deals an extra 4d6 psychic damage to the target. The target must make a Wisdom saving throw. On a failed save, it has disadvantage on attack rolls and ability checks, and can’t take reactions, until the end of its next turn.
+The target takes an extra 4d6 Psychic damage from the attack, and the target must succeed on a Wisdom saving throw or have the &amp;Reference[Stunned] condition until the end of your next turn.
+
+**Using a Higher-Level Spell Slot.** The extra damage increases by 1d6 for each spell slot level above 4.

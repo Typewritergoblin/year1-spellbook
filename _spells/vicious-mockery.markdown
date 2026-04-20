@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Vicious Mockery"
-date:   2014-08-24
-sources: [PHB.285, SRD.189]
+sources: [PHB 2024]
 tags: [bard, cantrip, action, enchantment]
 ---
 
@@ -16,6 +15,6 @@ tags: [bard, cantrip, action, enchantment]
 
 **Duration**: Instantaneous
 
-You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
+You unleash a string of insults laced with subtle enchantments at one creature you can see or hear within range. The target must succeed on a Wisdom saving throw or take 1d6 Psychic damage and have Disadvantage on the next attack roll it makes before the end of its next turn.
 
-This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+**Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).

@@ -1,15 +1,13 @@
 ---
 layout: post
 title:  "Hellish Rebuke"
-date:   2014-08-24
-sources: [PHB.250, SRD.154]
+sources: [PHB 2024]
 tags: [warlock, level1, reaction, evocation]
-subtags: [paladin: oathbreaker]
 ---
 
 **1st-level evocation**
 
-**Casting Time**: 1 reaction, which you take in response to being damaged by a creature within 60 feet of you that you can see.
+**Casting Time**: 1 reaction, taking damage from a creature that you can see within 60 feet of yourself
 
 **Range**: 60 feet
 
@@ -17,6 +15,6 @@ subtags: [paladin: oathbreaker]
 
 **Duration**: Instantaneous
 
-You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. The creature must make a Dexterity saving throw. It takes 2d10 fire damage on a failed save, or half as much damage on a successful one.
+The creature that damaged you is momentarily surrounded by green flames. It makes a Dexterity saving throw, taking 2d10 Fire damage on a failed save or half as much damage on a successful one.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.
+**Using a Higher-Level Spell Slot.** The damage increases by 1d10 for each spell slot level above 1.

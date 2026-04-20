@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Faerie Fire"
-date:   2014-08-24
-sources: [PHB.239, SRD.141]
-tags: [artificer, bard, druid, level1, action, concentration, evocation]
-subtags: [cleric: light, cleric: twilight, ranger: swarmkeeper, warlock: fey]
+sources: [PHB 2024]
+tags: [artificer, bard, druid, level1, concentration, action, evocation]
 ---
 
 **1st-level evocation**
@@ -17,6 +15,6 @@ subtags: [cleric: light, cleric: twilight, ranger: swarmkeeper, warlock: fey]
 
 **Duration**: Concentration, up to 1 minute
 
-Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.
+Objects in a 20-foot Cube within range are outlined in blue, green, or violet light (your choice). Each creature in the Cube is also outlined if it fails a Dexterity saving throw. For the duration, objects and affected creatures shed &amp;Reference[dimlight] in a 10-foot radius and can’t benefit from the Invisible condition.
 
-Any attack roll against an affected creature or object has advantage if the attacker can see it, and the affected creature or object can’t benefit from being invisible.
+Attack rolls against an affected creature or object have Advantage if the attacker can see it.

@@ -1,15 +1,13 @@
 ---
 layout: post
 title:  "Shield"
-date:   2014-08-24
-sources: [PHB.275, SRD.179]
+sources: [PHB 2024]
 tags: [sorcerer, wizard, level1, reaction, abjuration]
-subtags: [artificer: artillerist, artificer: battle-smith, warlock: hexblade]
 ---
 
 **1st-level abjuration**
 
-**Casting Time**: 1 reaction, which you take when you are hit by an attack or targeted by the magic missile spell
+**Casting Time**: 1 reaction, when you are hit by an attack roll or targeted by the Magic Missile spell
 
 **Range**: Self
 
@@ -17,4 +15,4 @@ subtags: [artificer: artillerist, artificer: battle-smith, warlock: hexblade]
 
 **Duration**: 1 round
 
-An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.
+An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}*.

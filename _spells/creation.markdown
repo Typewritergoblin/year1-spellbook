@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Creation"
-date: 2015-07-14
-sources: [PHB.229, SRD.132]
+title:  "Creation"
+sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level5, long, illusion]
-subtags: [cleric: forge, warlock: genie-dao, warlock: genie-djinni, warlock: genie-efreeti, warlock: genie-marid]
 ---
 
 **5th-level illusion**
@@ -13,22 +11,14 @@ subtags: [cleric: forge, warlock: genie-dao, warlock: genie-djinni, warlock: gen
 
 **Range**: 30 feet
 
-**Components**: V, S, M (a tiny piece of matter of the same type of the item you plan to create)
+**Components**: V, S, M (a paintbrush)
 
 **Duration**: Special
 
-You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.
+You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.
 
-The duration depends on the object’s material. If the object is composed of multiple materials, use the shortest duration.
+The spell’s duration depends on the object’s material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell’s Material component causes the other spell to fail.
 
-| Material              | Duration   |
-| --------------------- |:----------:|
-| Vegetable matter      | 1 day      |
-| Stone or crystal      | 12 hours   |
-| Precious metals       | 1 hour     |
-| Gems                  | 10 minutes |
-| Adamantine or mithral | 1 minute   |
+MaterialDurationVegetable matter24 hoursStone or crystal12 hoursPrecious metals1 hourGems10 minutesAdamantine or mithral1 minute
 
-Using any material created by this spell as another spell’s material component causes that spell to fail.
-
-**At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.
+**Using a Higher-Level Spell Slot.** The Cube increases by 5 feet for each spell slot level above 5.

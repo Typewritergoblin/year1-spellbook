@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Charm Monster"
-date:   2017-11-14
-sources: [XGE.151]
+sources: [PHB 2024]
 tags: [bard, druid, sorcerer, warlock, wizard, level4, action, enchantment]
 ---
 
@@ -16,6 +15,6 @@ tags: [bard, druid, sorcerer, warlock, wizard, level4, action, enchantment]
 
 **Duration**: 1 hour
 
-You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature is friendly to you. When the spell ends, the creature knows it was charmed by you. 
+One creature you can see within range makes a Wisdom saving throw. It does so with Advantage if you or your allies are fighting it. On a failed save, the target has the &amp;Reference[Charmed apply=false] condition until the spell ends or until you or your allies damage it. The Charmed creature is Friendly to you. When the spell ends, the target knows it was Charmed by you.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.
+**Using a Higher-Level Spell Slot.**You can target one additional creature for each spell slot level above 4.

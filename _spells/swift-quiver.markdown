@@ -1,21 +1,24 @@
 ---
 layout: post
-title: "Swift Quiver"
-date: 2015-07-30
-sources: [PHB.279]
-tags: [ranger, level5, bonus, concentration, transmutation]
+title:  "Swift Quiver"
+sources: [PHB 2024]
+tags: [ranger, level5, concentration, bonus, transmutation]
 ---
 
 **5th-level transmutation**
 
 **Casting Time**: 1 bonus action
 
-**Range**: Touch
+**Range**: Self
 
-**Components**: V, S, M (a quiver containing at least one piece of ammunition)
+**Components**: V, S, M (a Quiver worth 1+ GP)
 
 **Duration**: Concentration, up to 1 minute
 
-You transmute your quiver so it produces an endless supply of nonmagical ammunition, which seems to leap into your hand when you reach for it.
+When you cast the spell and as a Bonus Action until it ends, you can make two attacks with a weapon that fires Arrows or Bolts, such as a Longbow or a Light Crossbow. The spell magically creates the ammunition needed for each attack. Each Arrow or Bolt created by the spell deals damage like a nonmagical piece of ammunition of its kind and disintegrates immediately after it hits or misses.
 
-On each of your turns until the spell ends, you can use a bonus action to make two attacks with a weapon that uses ammunition from the quiver. Each time you make such a ranged attack, your quiver magically replaces the piece of ammunition you used with a similar piece of nonmagical ammunition. Any pieces of ammunition created by this spell disintegrate when the spell ends. If the quiver leaves your possession, the spell ends.
+**Foundry Note**
+
+The default **Cast** activity simply consumes a spell slot with no other effects.
+
+The optional **Cast and Enchant** activity is configured to also apply an enchantment to a given weapon which removes its ammunition consumption.

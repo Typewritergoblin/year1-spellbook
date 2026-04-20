@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Healing Word"
-date:   2014-08-24
-sources: [PHB.250, SRD.153]
-tags: [bard, cleric, druid, level1, bonus, evocation]
-subtags: [artificer: alchemist]
+sources: [PHB 2024]
+tags: [bard, cleric, druid, level1, bonus, abjuration]
 ---
 
-**1st-level evocation**
+**1st-level abjuration**
 
 **Casting Time**: 1 bonus action
 
@@ -17,6 +15,6 @@ subtags: [artificer: alchemist]
 
 **Duration**: Instantaneous
 
-A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.
+A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.
+**Using a Higher-Level Spell Slot.** The healing increases by 2d4 for each spell slot level above 1.

@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Thunderclap"
-date: 2015-08-31
-sources: [EE.22, XGE.168]
+sources: [PHB 2024]
 tags: [artificer, bard, druid, sorcerer, warlock, wizard, cantrip, action, evocation]
 ---
 
@@ -10,12 +9,12 @@ tags: [artificer, bard, druid, sorcerer, warlock, wizard, cantrip, action, evoca
 
 **Casting Time**: 1 action
 
-**Range**: 5 feet
+**Range**: Self
 
 **Components**: S
 
 **Duration**: Instantaneous
 
-You create a burst of thunderous sound that can be heard up to 100 feet away. Each creature within range, other than you, must make a Constitution saving throw or take 1d6 thunder damage.
+Each creature in a 5-foot Emanation originating from you must succeed on a Constitution saving throw or take 1d6 Thunder damage. The spell’s thunderous sound can be heard up to 100 feet away.
 
-The spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
+**Cantrip Upgrade.** The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).

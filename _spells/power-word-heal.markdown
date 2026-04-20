@@ -1,19 +1,22 @@
 ---
 layout: post
-title: "Power Word Heal"
-date: 2015-01-10
-sources: [PHB.266]
-tags: [cleric, bard, level9, action, evocation]
+title:  "Power Word Heal"
+sources: [PHB 2024]
+tags: [bard, cleric, level9, action, enchantment]
 ---
 
-**9th-level evocation**
+**9th-level enchantment**
 
 **Casting Time**: 1 action
 
-**Range**: Touch
+**Range**: 60 feet
 
-**Components**: V, S
+**Components**: V
 
 **Duration**: Instantaneous
 
-A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.
+A wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the &amp;Reference[Charmed], &amp;Reference[Frightened], &amp;Reference[Paralyzed], &amp;Reference[Poisoned], or &amp;Reference[Stunned] condition, the condition ends. If the creature has the &amp;Reference[Prone] condition, it can use its Reaction to stand up.
+
+Foundry Note
+
+The **Heal Fully** activity is configured to heal 1,000 Hit Points such that any single creature can be healed fully.

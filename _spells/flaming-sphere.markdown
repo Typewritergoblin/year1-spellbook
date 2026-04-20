@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Flaming Sphere"
-date: 2015-07-14
-sources: [PHB.242, SRD.145]
-tags: [druid, sorcerer, wizard, level2, action, concentration, conjuration]
-subtags: [artificer: alchemist, cleric: light, warlock: celestial]
+title:  "Flaming Sphere"
+sources: [PHB 2024]
+tags: [druid, sorcerer, wizard, level2, concentration, action, conjuration]
 ---
 
 **2nd-level conjuration**
@@ -13,14 +11,14 @@ subtags: [artificer: alchemist, cleric: light, warlock: celestial]
 
 **Range**: 60 feet
 
-**Components**: V, S, M (a bit of tallow, a pinch of brimstone, and a dusting of powdered iron)
+**Components**: V, S, M (a ball of wax)
 
 **Duration**: Concentration, up to 1 minute
 
-A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.
+You create a 5-foot-diameter sphere of fire in an unoccupied space on the ground within range. It lasts for the duration. Any creature that ends its turn within 5 feet of the sphere makes a [[/save ability=dex dc=@attributes.spell.dc]] saving throw, taking 2d6 Fire damage on a failed save or half as much damage on a successful one.
 
-As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.
+As a Bonus Action, you can move the sphere up to 30 feet, rolling it along the ground. If you move the sphere into a creature’s space, that creature makes the save against the sphere, and the sphere stops moving for the turn.
 
-When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.
+When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. Flammable objects that aren’t being worn or carried start burning if touched by the sphere, and it sheds Bright Light in a 20-foot radius and Dim Light for an additional 20 feet.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.
+**Using a Higher-Level Spell Slot.** The damage increases by 1d6 for each spell slot level above 2.

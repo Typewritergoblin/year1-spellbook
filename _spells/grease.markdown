@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Grease"
-date:   2014-08-24
-sources: [PHB.246, SRD.150]
+sources: [PHB 2024]
 tags: [artificer, sorcerer, wizard, level1, action, conjuration]
 ---
 
@@ -16,6 +15,6 @@ tags: [artificer, sorcerer, wizard, level1, action, conjuration]
 
 **Duration**: 1 minute
 
-Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.
+Nonflammable grease covers the ground in a 10-foot square centered on a point within range and turns it into &amp;Reference[difficultterrain] for the duration.
 
-When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.
+When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or have the &amp;Reference[prone] condition. A creature that enters the area or ends its turn there must also succeed on that save or fall Prone.

@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "See Invisibility"
-date: 2015-07-30
-sources: [PHB.274, SRD.177]
+title:  "See Invisibility"
+sources: [PHB 2024]
 tags: [artificer, bard, sorcerer, wizard, level2, action, divination]
-subtags: [cleric: twilight, paladin: watchers]
 ---
 
 **2nd-level divination**
@@ -13,8 +11,8 @@ subtags: [cleric: twilight, paladin: watchers]
 
 **Range**: Self
 
-**Components**: V, S, M (a pinch of tale and a small sprinkling of powdered silver)
+**Components**: V, S, M (a pinch of talc)
 
 **Duration**: 1 hour
 
-For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.
+For the duration, you see creatures and objects that have the &amp;Reference[invisible apply=false] condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.

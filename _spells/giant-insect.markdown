@@ -1,25 +1,26 @@
 ---
 layout: post
-title: "Giant Insect"
-date: 2015-07-30
-sources: [PHB.245, SRD.149]
-tags: [druid, level4, action, concentration, transmutation]
+title:  "Giant Insect"
+sources: [PHB 2024]
+tags: [druid, level4, concentration, action, conjuration]
 ---
 
-**4th-level transmutation**
+**4th-level conjuration**
 
 **Casting Time**: 1 action
 
-**Range**: 30 feet
+**Range**: 60 feet
 
 **Components**: V, S
 
 **Duration**: Concentration, up to 10 minutes
 
-You transform up to ten centipedes, three spiders, five wasps, or one scorpion within range into versions of their natural forms for the duration. A centipede becomes a giant centipede, a spider becomes a giant spider, a wasp becomes a giant wasp, and a scorpion becomes a giant scorpion. 
+You summon a giant centipede, spider, or wasp (chosen when you cast the spell). It manifests in an unoccupied space you can see within range and uses the **@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobGiantInsec]{Giant Insect}** stat block. The form you choose determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.
 
-Each creature obeys your verbal commands, and in combat they act on your turn each round. The DM has the statistics for these creatures and resolves their actions and moment.
+The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the &amp;Reference[Dodge] action and uses its movement to avoid danger.
 
-A creature remains in its giant size for the duration until it drops to 0 hit points, or until you use an action to dismiss the effect on it.
+**Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-The DM might allow you to choose different targets. for example, if you transform a bee, its giant version might have the same stats as a giant wasp.
+In addition to the noted usage of the spell's level in the insect's Traits and Actions, the following attributes are also affected.
+
+Giant Insect**AC**11 + the spell’s level**HP**30 + 10 for each spell level above 4**Speed**40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)**PB**equals your Proficiency Bonus

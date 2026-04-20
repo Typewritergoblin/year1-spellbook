@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Pass Without Trace"
-date: 2015-07-30
-sources: [PHB.264, SRD.167]
-tags: [druid, ranger, level2, action, concentration, abjuration]
-subtags: [cleric: trickery]
+title:  "Pass without Trace"
+sources: [PHB 2024]
+tags: [druid, ranger, level2, concentration, action, abjuration]
 ---
 
 **2nd-level abjuration**
@@ -13,8 +11,8 @@ subtags: [cleric: trickery]
 
 **Range**: Self
 
-**Components**: V, S, M (ashes from a burned leaf of mistletoe and a sprig of spruce)
+**Components**: V, S, M (ashes from burned mistletoe)
 
 **Duration**: Concentration, up to 1 hour
 
-A veil of shadows and silence radiates from you, masking you and your companions from detection. For the duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.
+You radiate a concealing aura in a 30-foot Emanation for the duration. While in the aura, you and each creature you choose have a +10 bonus to [[/check ability=dex skill=ste]] checks and leave no tracks.

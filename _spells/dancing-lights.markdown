@@ -1,19 +1,20 @@
 ---
 layout: post
 title:  "Dancing Lights"
-date:   2014-08-24
-sources: [PHB.230, SRD.133]
-tags: [artificer, bard, sorcerer, wizard, cantrip, action, concentration, evocation]
+sources: [PHB 2024]
+tags: [artificer, bard, sorcerer, wizard, cantrip, concentration, action, illusion]
 ---
 
-**Evocation cantrip**
+**Illusion cantrip**
 
 **Casting Time**: 1 action
 
 **Range**: 120 feet
 
-**Components**: V, S, M (a bit of phosphorus or wychwood, or a glowworm)
+**Components**: V, S, M (a bit of phosphorus)
 
 **Duration**: Concentration, up to 1 minute
 
-You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius. As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell’s range.
+You create up to four torch-size lights within range, making them appear as torches, lanterns, or glowing orbs that hover for the duration. Alternatively, you combine the four lights into one glowing Medium form that is vaguely humanlike. Whichever form you choose, each light sheds Dim Light in a 10-foot radius.
+
+As a Bonus Action, you can move the lights up to 60 feet to a space within range. A light must be within 20 feet of another light created by this spell, and a light vanishes if it exceeds the spell’s range.

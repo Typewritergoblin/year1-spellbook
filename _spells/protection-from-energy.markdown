@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Protection from Energy"
-date:   2015-01-02
-sources: [PHB.270, SRD.173]
-tags: [artificer, cleric, druid, ranger, sorcerer, wizard, level3, action, concentration, abjuration]
-subtags: [paladin: ancients, paladin: glory, paladin: vengeance]
+sources: [PHB 2024]
+tags: [artificer, cleric, druid, ranger, sorcerer, wizard, level3, concentration, action, abjuration]
 ---
 
 **3rd-level abjuration**
@@ -15,6 +13,6 @@ subtags: [paladin: ancients, paladin: glory, paladin: vengeance]
 
 **Components**: V, S
 
-**Duration**: Concentration, up to 1 minute
+**Duration**: Concentration, up to 1 hour
 
-For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.
+For the duration, the willing creature you touch has Resistance to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.

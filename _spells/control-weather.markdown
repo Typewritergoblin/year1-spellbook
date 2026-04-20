@@ -1,54 +1,24 @@
 ---
 layout: post
 title:  "Control Weather"
-date:   2015-01-10
-sources: [PHB.228, SRD.131]
-tags:   [cleric, druid, wizard, level8, transmutation]
+sources: [PHB 2024]
+tags: [cleric, druid, wizard, level8, concentration, long, transmutation]
 ---
 
 **8th-level transmutation**
 
 **Casting Time**: 10 minutes
 
-**Range**: Self (5-mile radius)
+**Range**: Self
 
-**Components**: V, S, M (burning incense and bits of earth and wood mixed in water)
+**Components**: V, S, M (burning incense)
 
 **Duration**: Concentration, up to 8 hours
 
-You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early.
+You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.
 
-When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
+When you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
 
 When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.
 
-**Precipitation**
-
-|Stage|Condition|
-|-|-|
-| 1 | Clear |
-| 2 | Light clouds |
-| 3 | Overcast or ground fog |
-| 4 | Rain, hail, or snow |
-| 5 | Torrential rain, driving hail, or blizzard |
-
-**Temperature**
-
-|Stage|Condition|
-|-|-|
-| 1 | Unbearable heat |
-| 2 | Hot |
-| 3 | Warm |
-| 4 | Cool |
-| 5 | Cold |
-| 6 | Arctic cold |
-
-**Wind**
-
-|Stage|Condition|
-|-|-|
-| 1 | Calm |
-| 2 | Moderate wind |
-| 3 | Strong wind |
-| 4 | Gale |
-| 5 | Storm |
+**Precipitation**StageCondition1Clear2Light clouds3Overcast or ground fog4Rain, hail, or snow5Torrential rain, driving hail, or blizzard**Temperature**StageCondition1Heat wave2Hot3Warm4Cool5Cold6Freezing**Wind**StageCondition1Calm2Moderate wind3Strong wind4Gale5Storm

@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  "Jump"
-date:   2014-08-24
-sources: [PHB.254, SRD.158]
-tags: [artificer, druid, ranger, sorcerer, wizard, level1, action, transmutation]
+sources: [PHB 2024]
+tags: [artificer, druid, ranger, sorcerer, wizard, level1, bonus, transmutation]
 ---
 
 **1st-level transmutation**
 
-**Casting Time**: 1 action
+**Casting Time**: 1 bonus action
 
 **Range**: Touch
 
@@ -16,4 +15,6 @@ tags: [artificer, druid, ranger, sorcerer, wizard, level1, action, transmutation
 
 **Duration**: 1 minute
 
-You touch a creature. The creature’s jump distance is tripled until the spell ends.
+You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.
+
+**Using a Higher-Level Spell Slot.**You can target one additional creature for each spell slot level above 1.

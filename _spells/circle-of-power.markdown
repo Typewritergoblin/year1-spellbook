@@ -1,20 +1,18 @@
 ---
 layout: post
-title: "Circle of Power"
-date: 2015-07-14
-sources: [PHB.221]
-tags: [paladin, level5, action, concentration, abjuration]
-subtags: [cleric: twilight]
+title:  "Circle of Power"
+sources: [PHB 2024]
+tags: [artificer, cleric, paladin, wizard, level5, concentration, action, abjuration]
 ---
 
 **5th-level abjuration**
 
 **Casting Time**: 1 action
 
-**Range**: Self (30-foot radius)
+**Range**: Self
 
 **Components**: V
 
 **Duration**: Concentration, up to 10 minutes
 
-Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw.
+An aura radiates from you in a 30-foot Emanation for the duration. While in the aura, you and your allies have Advantage on saving throws against spells and other magical effects. When an affected creature makes a saving throw against a spell or magical effect that allows a save to take only half damage, it takes no damage if it succeeds on the save.

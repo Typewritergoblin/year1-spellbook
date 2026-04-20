@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Longstrider"
-date:   2014-08-24
-sources: [PHB.256, SRD.160]
+sources: [PHB 2024]
 tags: [artificer, bard, druid, ranger, wizard, level1, action, transmutation]
 ---
 
@@ -16,6 +15,6 @@ tags: [artificer, bard, druid, ranger, wizard, level1, action, transmutation]
 
 **Duration**: 1 hour
 
-You touch a creature. The target’s speed increases by 10 feet until the spell ends.
+You touch a creature. The target’s Speed increases by 10 feet until the spell ends.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st.
+**Using a Higher-Level Spell Slot.** You can target one additional creature for each spell slot level above 1.

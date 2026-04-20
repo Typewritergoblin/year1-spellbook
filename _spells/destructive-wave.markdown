@@ -1,20 +1,18 @@
 ---
 layout: post
-title: "Destructive Wave"
-date: 2015-07-14
-sources: [PHB.231]
+title:  "Destructive Wave"
+sources: [PHB 2024]
 tags: [paladin, level5, action, evocation]
-subtags: [cleric: tempest]
 ---
 
 **5th-level evocation**
 
 **Casting Time**: 1 action
 
-**Range**: Self (30-foot radius)
+**Range**: Self
 
 **Components**: V
 
 **Duration**: Instantaneous
 
-You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take 5d6 thunder damage, as well as 5d6 radiant or necrotic damage (your choice), and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone.
+Destructive energy ripples outward from you in a 30-foot Emanation. Each creature you choose in the Emanation makes a Constitution saving throw. On a failed save, a target takes 5d6 Thunder damage and 5d6 Radiant or Necrotic damage (your choice) and has the Prone condition. On a successful save, a target takes half as much damage only.

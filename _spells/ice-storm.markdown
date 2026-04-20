@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Ice Storm"
-date: 2015-07-30
-sources: [PHB.252, SRD.155]
+title:  "Ice Storm"
+sources: [PHB 2024]
 tags: [druid, sorcerer, wizard, level4, action, evocation]
-subtags: [artificer: artillerist, cleric: tempest, paladin: ancients]
 ---
 
 **4th-level evocation**
@@ -13,12 +11,12 @@ subtags: [artificer: artillerist, cleric: tempest, paladin: ancients]
 
 **Range**: 300 feet
 
-**Components**: V, S, M (a pinch of dust and a few drops of water)
+**Components**: V, S, M (a mitten)
 
 **Duration**: Instantaneous
 
-A hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.
+Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.
 
-Hailstones turn the storm’s area of effect into difficult terrain until the end of your next turn.
+Hailstones turn ground in the Cylinder into &amp;Reference[DifficultTerrain] until the end of your next turn.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th.
+**Using a Higher-Level Spell Slot.** The Bludgeoning damage increases by 1d10 for each spell slot level above 4.

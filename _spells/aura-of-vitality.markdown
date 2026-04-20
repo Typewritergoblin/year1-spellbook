@@ -1,20 +1,18 @@
 ---
 layout: post
-title:  "Aura Of Vitality"
-date:   2015-01-01
-sources: [PHB.216]
-tags: [cleric, druid, paladin, level3, action, concentration, evocation]
-subtags: [artificer: battle-smith]
+title:  "Aura of Vitality"
+sources: [PHB 2024]
+tags: [cleric, druid, paladin, level3, concentration, action, abjuration]
 ---
 
-**3rd-level evocation**
+**3rd-level abjuration**
 
 **Casting Time**: 1 action
 
-**Range**: Self (30-foot radius)
+**Range**: Self
 
 **Components**: V
 
 **Duration**: Concentration, up to 1 minute
 
-Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.
+An aura radiates from you in a 30-foot Emanation for the duration. When you create the aura and at the start of each of your turns while it persists, you can restore 2d6 Hit Points to one creature in it.

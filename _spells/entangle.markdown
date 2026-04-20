@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Entangle"
-date:   2014-08-24
-sources: [PHB.238, SRD.140]
-tags: [druid, ranger, level1, action, concentration, conjuration]
+sources: [PHB 2024]
+tags: [druid, ranger, level1, concentration, action, conjuration]
 ---
 
 **1st-level conjuration**
@@ -16,8 +15,6 @@ tags: [druid, ranger, level1, action, concentration, conjuration]
 
 **Duration**: Concentration, up to 1 minute
 
-Grasping weeds and vines sprout from the ground in a 20-foot square starting form a point within range. For the duration, these plants turn the ground in the area into difficult terrain.
+Grasping plants sprout from the ground in a 20-foot square within range. For the duration, these plants turn the ground in the area into &amp;Reference[difficultterrain]. They disappear when the spell ends.
 
-A creature in the area when you cast the spell must succeed on a Strength saving throw or be restrained by the entangling plants until the spell ends. A creature restrained by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.
-
-When the spell ends, the conjured plants wilt away.
+Each creature (other than you) in the area when you cast the spell must succeed on a Strength saving throw or have the &amp;Reference[restrained apply=false] condition until the spell ends. A Restrained creature can take an action to make a [[/check ability=str skill=ath dc=@attributes.spell.dc]] check against your spell save DC. On a success, it frees itself from the grasping plants and is no longer Restrained by them.

@@ -1,25 +1,22 @@
 ---
 layout: post
 title:  "Illusory Script"
-date:   2014-08-24
-sources: [PHB.252, SRD.156]
-tags: [bard, warlock, wizard, level1, long, ritual, illusion]
+sources: [PHB 2024]
+tags: [bard, warlock, wizard, level1, ritual, long, illusion]
 ---
 
-**1st-level illusion (ritual)**
+**1st-level illusion**
 
 **Casting Time**: 1 minute
 
 **Range**: Touch
 
-**Components**: S, M (a lead-based ink worth at least 10gp, which this spell consumes)
+**Components**: S, M (ink worth 10+ GP, which the spell consumes)
 
 **Duration**: 10 days
 
-You write on parchment, paper, or some other suitable writing material and imbue it with a potent illusion that lasts for the duration.
+You write on parchment, paper, or another suitable material and imbue it with an illusion that lasts for the duration. To you and any creatures you designate when you cast the spell, the writing appears normal, seems to be written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, the illusion can alter the meaning, handwriting, and language of the text, though the language must be one you know.
 
-To you and any creatures you designate when you cast the spell, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown or magical script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.
+If the spell is dispelled, the original script and the illusion both disappear.
 
-Should the spell be dispelled, the original script and the illusion both disappear.
-
-A creature with truesight can read the hidden message.
+A creature that has &amp;Reference[truesight] can read the hidden message.

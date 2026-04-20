@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Resistance"
-date:   2014-08-24
-sources: [PHB.272, SRD.175]
-tags: [artificer, cleric, druid, cantrip, action, concentration, abjuration]
+sources: [PHB 2024]
+tags: [artificer, cleric, druid, cantrip, concentration, action, abjuration]
 ---
 
 **Abjuration cantrip**
@@ -12,8 +11,8 @@ tags: [artificer, cleric, druid, cantrip, action, concentration, abjuration]
 
 **Range**: Touch
 
-**Components**: V, S, M (a miniature cloak)
+**Components**: V, S
 
 **Duration**: Concentration, up to 1 minute
 
-You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.
+You touch a willing creature and choose a damage type: Acid, Bludgeoning, Cold, Fire, Lightning, Necrotic, Piercing, Poison, Radiant, Slashing, or Thunder. When the creature takes damage of the chosen type before the spell ends, the creature reduces the total damage taken by 1d4. A creature can benefit from this spell only once per turn.

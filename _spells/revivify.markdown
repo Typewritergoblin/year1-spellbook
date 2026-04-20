@@ -1,10 +1,8 @@
 ---
 layout: post
 title:  "Revivify"
-date:   2015-01-02
-sources: [PHB.272, SRD.175]
+sources: [PHB 2024]
 tags: [artificer, cleric, druid, paladin, ranger, level3, action, necromancy]
-subtags: [warlock: celestial]
 ---
 
 **3rd-level necromancy**
@@ -13,8 +11,8 @@ subtags: [warlock: celestial]
 
 **Range**: Touch
 
-**Components**: V, S, M (diamonds worth 300 gp, which the spell consumes)
+**Components**: V, S, M (a diamond worth 300+ GP, which the spell consumes)
 
 **Duration**: Instantaneous
 
-You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.
+You touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can’t revive a creature that has died of old age, nor does it restore any missing body parts.

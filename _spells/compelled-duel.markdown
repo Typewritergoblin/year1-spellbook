@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Compelled Duel"
-date:   2014-08-24
-sources: [PHB.224]
-tags: [paladin, level1, bonus, concentration, enchantment]
+sources: [PHB 2024]
+tags: [paladin, level1, concentration, bonus, enchantment]
 ---
 
 **1st-level enchantment**
@@ -16,6 +15,6 @@ tags: [paladin, level1, bonus, concentration, enchantment]
 
 **Duration**: Concentration, up to 1 minute
 
-You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move into a space that is more than 30 feet away from you; if it succeeds on this saving throw, the spell doesn’t restrict the target’s movement for that turn.
+You try to compel a creature into a duel. One creature that you can see within range makes a Wisdom saving throw. On a failed save, the target has Disadvantage on attack rolls against creatures other than you, and it can’t willingly move to a space that is more than 30 feet away from you.
 
-The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target.
+The spell ends if you make an attack roll against a creature other than the target, if you cast a spell on an enemy other than the target, if an ally of yours damages the target, or if you end your turn more than 30 feet away from the target.

@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  "Glibness"
-date:   2015-01-10
-sources: [PHB.245, SRD.149]
-tags:   [bard, warlock, level8, transmutation]
+sources: [PHB 2024]
+tags: [bard, warlock, level8, action, enchantment]
 ---
 
-**8th-level transmutation**
+**8th-level enchantment**
 
 **Casting Time**: 1 action
 

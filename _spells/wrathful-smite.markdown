@@ -1,13 +1,11 @@
 ---
 layout: post
 title:  "Wrathful Smite"
-date:   2014-08-24
-sources: [PHB.289]
-tags: [paladin, level1, bonus, concentration, evocation]
-subtags: [warlock: hexblade]
+sources: [PHB 2024]
+tags: [paladin, level1, bonus, necromancy]
 ---
 
-**1st-level evocation**
+**1st-level necromancy**
 
 **Casting Time**: 1 bonus action
 
@@ -15,6 +13,8 @@ subtags: [warlock: hexblade]
 
 **Components**: V
 
-**Duration**: Concentration, up to 1 minute
+**Duration**: 1 minute
 
-The next time you hit with a melee weapon attack during this spell’s duration, your attack deals an extra 1d6 psychic damage. Additionally, if the target is a creature, it must make a Wisdom saving throw or be frightened of you until the spell ends. As an action, the creature can make a Wisdom check against your spell save DC to steel its resolve and end this spell.
+The target takes an extra 1d6 Necrotic damage from the attack, and it must succeed on a Wisdom saving throw or have the &amp;Reference[frightened apply=false] condition until the spell ends. At the end of each of its turns, the Frightened target repeats the save, ending the spell on itself on a success.
+
+**Using a Higher-Level Spell Slot. **The damage increases by 1d6 for each spell slot level above 1.

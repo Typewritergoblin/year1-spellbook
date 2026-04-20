@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Cloud of Daggers"
-date:   2015-01-01
-sources: [PHB.222]
-tags: [bard, sorcerer, warlock, wizard, level2, action, concentration, conjuration]
+sources: [PHB 2024]
+tags: [bard, sorcerer, warlock, wizard, level2, concentration, action, conjuration]
 ---
 
 **2nd-level conjuration**
@@ -16,6 +15,8 @@ tags: [bard, sorcerer, warlock, wizard, level2, action, concentration, conjurati
 
 **Duration**: Concentration, up to 1 minute
 
-You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes 4d4 slashing damage when it enters the spell’s area for the first time on a turn or starts its turn there. 
+You conjure spinning daggers in a 5-foot Cube centered on a point within range. Each creature in that area takes 4d4 Slashing damage. A creature also takes this damage if it enters the Cube or ends its turn there or if the Cube moves into its space. A creature takes this damage only once per turn.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd. 
+On your later turns, you can take a Magic action to teleport the Cube up to 30 feet.
+
+**Using a Higher-Level Spell Slot.** The damage increases by 2d4 for each spell slot level above 2.

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Geas"
-date: 2015-07-30
-sources: [PHB.245, SRD.148]
-tags: [cleric, wizard, paladin, druid, bard, level5, long, enchantment]
+title:  "Geas"
+sources: [PHB 2024]
+tags: [bard, cleric, druid, paladin, wizard, level5, long, enchantment]
 ---
 
 **5th-level enchantment**
@@ -16,10 +15,12 @@ tags: [cleric, wizard, paladin, druid, bard, level5, long, enchantment]
 
 **Duration**: 30 days
 
-You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed by you, it takes 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can’t understand you is unaffected by the spell.
+You give a verbal command to a creature that you can see within range, ordering it to carry out some service or refrain from an action or a course of activity as you decide. The target must succeed on a Wisdom saving throw or have the &amp;Reference[Charmed apply=false] condition for the duration. The target automatically succeeds if it can’t understand your command.
 
-You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. 
+While Charmed, the creature takes [[/damage 5d10 type=psychic]] damage if it acts in a manner directly counter to your command. It takes this damage no more than once each day.
 
-You can end the spell early by using an action to dismiss it. A *[Remove Curse](remove-curse)*, *[Greater Restoration](greater-restoration)*, or *[Wish](wish)* spell also ends it.
+You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.
 
-**At Higher Levels.** When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level, the spell lasts until it is ended by one of the spells mentioned above.
+A *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplRemoveCurs]{Remove Curse}*, *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplGreaterRes]{Greater Restoration}*, or *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplWish000000]{Wish}* spell ends this spell.
+
+**Using a Higher-Level Spell Slot.** If you use a level 7 or 8 spell slot, the duration is 365 days. If you use a level 9 spell slot, the spell lasts until it is ended by one of the spells mentioned above.
