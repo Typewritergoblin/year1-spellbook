@@ -1,0 +1,68 @@
+<head>
+    <link rel="preload" as="style" href="/fonts/libertinus.css">
+    <link rel="preload" as="style" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/fonts/libertinus/LibertinusSerif-Regular.woff2">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/fonts/libertinus/LibertinusSerifDisplay-Regular.woff2">
+    <link rel="preload" as="script" href="{{ '/js/jets@0.14.1.min.js' | prepend: site.baseurl }}">
+    <link rel="preload" as="script" href="{{ '/js/tagsearch.js' | prepend: site.baseurl }}">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="icon" href="{{ '/images/calibre-viewer.png?v=1' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="/fonts/libertinus.css">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.baseurl | prepend: site.url }}">
+    <meta property="og:description" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} - {{ site.description }}">
+    <meta property="og:image" content="{{ '/images/calibre-viewer.png' | prepend: site.baseurl }}">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+    <meta property="og:image:alt" content="A book with a magnifying glass">
+    <script defer src="{{ '/js/jets@0.14.1.min.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ '/js/tagsearch.js' | prepend: site.baseurl }}"></script>
+    <script defer type="text/javascript">
+        var jets = null;
+        const menuClick = () => {
+            const menu = document.getElementById('menu');
+            if (menu.className.match(/(?:^|\s)show(?!\S)/)) {
+                menu.className = menu.className.replace( /(?:^|\s)show(?!\S)/g, '');
+            } else {
+                menu.className += ' show';
+            }
+            const menu2 = document.getElementById('menu2');
+            if (menu2.className.match(/(?:^|\s)show(?!\S)/)) {
+                menu2.className = menu2.className.replace(/(?:^|\s)show(?!\S)/g, '');
+            } else {
+                menu2.className += ' show';
+            }
+        };
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('menuIcon').addEventListener('click', menuClick);
+            if (document.getElementById('jetsSearch')) {
+                jets = new Jets({
+                    searchTag: '#jetsSearch',
+                    contentTag: '.jetsContent',
+                    didSearch: (search_phrase) => {
+                        const elements = document.getElementsByClassName('jetsHide');
+                        if (!search_phrase.trim()) {
+                            for (let i = 0; i < elements.length; i++) {
+                                elements[i].classList.remove('searchHide');
+                            }
+                        } else {
+                            for (let i = 0; i < elements.length; i++) {
+                                elements[i].classList.add('searchHide');
+                            }
+                        }
+                    },
+                });
+            }
+        });
+    </script>   
+</head>

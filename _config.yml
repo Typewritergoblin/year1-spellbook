@@ -1,0 +1,30 @@
+# Site settings
+title: "Year1 5.5ish Spellbook"
+author: "Typewriter Goblin"
+description:
+  "A searchable 5.5ish spell list for the Year1 campaign, sorted by class and level."
+
+baseurl: "/year1-spellbook" # the subpath of your site, e.g. /blog/
+url: "https://typewritergoblin.github.io" # the base hostname & protocol for your site
+source-url: "https://github.com/Typewritergoblin/year1-spellbook/"
+website: 
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+# Collections
+collections:
+  spells:
+    output: true
+    permalink: /spells/:name
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Site defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "spells"
+    values:
+      layout: "post"

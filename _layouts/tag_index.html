@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body class="class-list">
+	{% include header.html %}
+	<div class="page-content">
+		<div class="wrapper">
+			<h1 class="page-heading">{{page.title}}</h1>
+			<p id="spellSearch">Search by name: <input type="search" id="jetsSearch" class="jetsSearch"></p>
+			<p id="tagSearch">Search by tag: <input type="search" name="tagSearch" id="tagSearchBar" class="jetsSearch"></p>
+			<p id="sourceSearch">Search by source: <input type="search" name="sourceSearch" id="sourceSearchBar" class="jetsSearch"></p>
+			<dl class="tag-list">
+				<dt>Spell tier:</dt>
+				{% for level in site.data.levels %}
+				<dd>
+					<a href="#{{level.tag}}">{{level.name}}</a>
+				</dd>
+				{% endfor %}
+			</dl>
+			{% if page.subtags %}
+				<dl class="tag-list">
+					<dt>Subtags:</dt>
+					{% for subtag in page.subtags %}
+						<dd>
+							<a href="{{site.baseurl}}/tags/{{page.tag}}-{{subtag.subtag}}.html">{{subtag.subtag}}</a>
+						</dd>
+					{% endfor %}
+				</dl>
+			{% endif %}
+			{% if page.subtag %}
+				<dl class="tag-list">
+					<dt>Parent Tag:</dt>
+					<dd><a href="{{site.baseurl}}/tags/{{page.tag}}.html">{{page.parent}}</a></dd>
+				</dl>
+			{% endif %}
+			{% for level in site.data.levels %}
+			<a id="{{level.tag}}"></a>
+			<h2 class="post-list-head jetsHide">{{level.title}}</h2>
+			{% assign post_list = site.spells | where_exp: "spell", "spell.tags contains level.tag" | sort: 'title' %}
+			<ul class="post-list jetsContent">
+				{% for post in post_list %}
+					{% assign found = false %}
+					{% if page.subtag %}
+						{% for subtag in post.subtags %}
+						{% for item in subtag %}
+							{% if item[0] == page.tag and item[1] == page.subtag %}
+								{% assign found = true %}
+							{% endif %}
+						{% endfor %}
+						{% endfor %}
+					{% else %}
+						{% for tag in post.tags %}
+							{% if tag == page.tag %}
+								{% assign found = true %}
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+					{% if found %}
+					<li class="post-link-container" data-tags="{{ post.tags | join: ',' }}" data-sources="{{ post.sources | join: ',' }}">
+						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+					</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			<a class="post-meta jetsHide" href="#top">Back to top &#8593;</a>
+			{% endfor %}
+		</div>
+	</div>
+	{% include footer.html %}
+</body>
+</html>
