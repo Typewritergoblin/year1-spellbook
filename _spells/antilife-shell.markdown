@@ -2,7 +2,7 @@
 layout: post
 title:  "Antilife Shell"
 sources: [PHB 2024]
-tags: [druid, level5, concentration, action, abjuration]
+tags: [druid, level5, concentration, action, abjuration, dragonmark]
 subtags: [{dragonmark: warding}]
 ---
 

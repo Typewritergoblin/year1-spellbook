@@ -2,7 +2,7 @@
 layout: post
 title:  "Levitate"
 sources: [PHB 2024]
-tags: [artificer, sorcerer, wizard, level2, concentration, action, transmutation]
+tags: [artificer, sorcerer, wizard, level2, concentration, action, transmutation, dragonmark]
 subtags: [{dragonmark: storm}]
 ---
 

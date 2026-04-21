@@ -2,7 +2,7 @@
 layout: post
 title:  "Blink"
 sources: [PHB 2024]
-tags: [artificer, sorcerer, wizard, level3, action, transmutation]
+tags: [artificer, sorcerer, wizard, level3, action, transmutation, dragonmark]
 subtags: [{warlock: patron-archfey}, {dragonmark: passage}]
 ---
 

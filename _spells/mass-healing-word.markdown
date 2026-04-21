@@ -2,7 +2,7 @@
 layout: post
 title:  "Mass Healing Word"
 sources: [PHB 2024]
-tags: [bard, cleric, level3, bonus, abjuration]
+tags: [bard, cleric, level3, bonus, abjuration, dragonmark]
 subtags: [{cleric: domain-life}, {artificer: alchemist}, {dragonmark: healing}]
 ---
 

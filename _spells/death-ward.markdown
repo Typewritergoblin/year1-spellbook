@@ -2,7 +2,7 @@
 layout: post
 title:  "Death Ward"
 sources: [PHB 2024]
-tags: [cleric, paladin, level4, action, abjuration]
+tags: [cleric, paladin, level4, action, abjuration, dragonmark]
 subtags: [{cleric: domain-life}, {artificer: alchemist}, {dragonmark: sentinel}]
 ---
 

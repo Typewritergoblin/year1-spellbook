@@ -2,7 +2,7 @@
 layout: post
 title:  "Silence"
 sources: [PHB 2024]
-tags: [bard, cleric, ranger, level2, ritual, concentration, action, illusion]
+tags: [bard, cleric, ranger, level2, ritual, concentration, action, illusion, dragonmark]
 subtags: [{dragonmark: scribing}]
 ---
 

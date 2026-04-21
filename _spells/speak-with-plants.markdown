@@ -2,7 +2,7 @@
 layout: post
 title:  "Speak with Plants"
 sources: [PHB 2024]
-tags: [bard, druid, ranger, level3, action, transmutation]
+tags: [bard, druid, ranger, level3, action, transmutation, dragonmark]
 subtags: [{dragonmark: finding}]
 ---
 

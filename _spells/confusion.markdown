@@ -2,7 +2,7 @@
 layout: post
 title:  "Confusion"
 sources: [PHB 2024]
-tags: [bard, druid, sorcerer, wizard, level4, concentration, action, enchantment]
+tags: [bard, druid, sorcerer, wizard, level4, concentration, action, enchantment, dragonmark]
 subtags: [{cleric: domain-trickery}, {cleric: domain-knowledge}, {cleric: domain-mind}, {warlock: patron-great-old-one}, {dragonmark: scribing}]
 ---
 

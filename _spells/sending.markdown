@@ -2,7 +2,7 @@
 layout: post
 title:  "Sending"
 sources: [PHB 2024]
-tags: [bard, cleric, wizard, level3, action, divination]
+tags: [bard, cleric, wizard, level3, action, divination, dragonmark]
 subtags: [{sorcerer: aberrant}, {dragonmark: scribing}]
 ---
 

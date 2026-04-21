@@ -2,7 +2,7 @@
 layout: post
 title:  "Invisibility"
 sources: [PHB 2024]
-tags: [artificer, bard, sorcerer, warlock, wizard, level2, concentration, action, illusion]
+tags: [artificer, bard, sorcerer, warlock, wizard, level2, concentration, action, illusion, dragonmark]
 subtags: [{cleric: domain-trickery}, {dragonmark: shadow}]
 ---
 

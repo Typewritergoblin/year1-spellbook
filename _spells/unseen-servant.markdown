@@ -2,7 +2,7 @@
 layout: post
 title:  "Unseen Servant"
 sources: [PHB 2024]
-tags: [bard, warlock, wizard, level1, ritual, action, conjuration]
+tags: [bard, warlock, wizard, level1, ritual, action, conjuration, dragonmark]
 subtags: [{dragonmark: hospitality}]
 ---
 

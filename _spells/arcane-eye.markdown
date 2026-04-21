@@ -2,7 +2,7 @@
 layout: post
 title:  "Arcane Eye"
 sources: [PHB 2024]
-tags: [artificer, wizard, level4, concentration, action, divination]
+tags: [artificer, wizard, level4, concentration, action, divination, dragonmark]
 subtags: [{cleric: domain-light}, {cleric: domain-knowledge}, {sorcerer: draconic}, {dragonmark: detection}, {dragonmark: scribing}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Sleep"
 sources: [PHB 2024]
-tags: [bard, sorcerer, wizard, level1, concentration, action, enchantment]
+tags: [bard, sorcerer, wizard, level1, concentration, action, enchantment, dragonmark]
 subtags: [{druid: circle-land-temperate}, {warlock: patron-archfey}, {dragonmark: hospitality}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Find Familiar"
 sources: [PHB 2024]
-tags: [wizard, level1, ritual, long, conjuration]
+tags: [wizard, level1, ritual, long, conjuration, dragonmark]
 subtags: [{dragonmark: handling}]
 ---
 

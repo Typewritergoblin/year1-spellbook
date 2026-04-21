@@ -2,7 +2,7 @@
 layout: post
 title:  "Aura of Life"
 sources: [PHB 2024]
-tags: [cleric, paladin, level4, concentration, action, abjuration]
+tags: [cleric, paladin, level4, concentration, action, abjuration, dragonmark]
 subtags: [{cleric: domain-life}, {dragonmark: handling}, {dragonmark: healing}]
 ---
 

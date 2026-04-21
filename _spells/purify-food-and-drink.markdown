@@ -2,7 +2,7 @@
 layout: post
 title:  "Purify Food and Drink"
 sources: [PHB 2024]
-tags: [artificer, cleric, druid, paladin, level1, ritual, action, transmutation]
+tags: [artificer, cleric, druid, paladin, level1, ritual, action, transmutation, dragonmark]
 subtags: [{dragonmark: hospitality}]
 ---
 

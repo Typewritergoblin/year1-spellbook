@@ -2,7 +2,7 @@
 layout: post
 title:  "Fog Cloud"
 sources: [PHB 2024]
-tags: [druid, ranger, sorcerer, wizard, level1, concentration, action, conjuration]
+tags: [druid, ranger, sorcerer, wizard, level1, concentration, action, conjuration, dragonmark]
 subtags: [{druid: circle-land-polar}, {druid: circle-sea}, {dragonmark: storm}]
 ---
 

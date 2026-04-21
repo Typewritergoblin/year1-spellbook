@@ -2,7 +2,7 @@
 layout: post
 title:  "Hallucinatory Terrain"
 sources: [PHB 2024]
-tags: [bard, druid, warlock, wizard, level4, long, illusion]
+tags: [bard, druid, warlock, wizard, level4, long, illusion, dragonmark]
 subtags: [{dragonmark: shadow}]
 ---
 

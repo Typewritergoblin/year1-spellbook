@@ -2,7 +2,7 @@
 layout: post
 title:  "Gust of Wind"
 sources: [PHB 2024]
-tags: [druid, ranger, sorcerer, wizard, level2, concentration, action, evocation]
+tags: [druid, ranger, sorcerer, wizard, level2, concentration, action, evocation, dragonmark]
 subtags: [{cleric: domain-tempest}, {druid: circle-sea}, {dragonmark: storm}]
 ---
 

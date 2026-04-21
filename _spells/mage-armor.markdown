@@ -2,7 +2,7 @@
 layout: post
 title:  "Mage Armor"
 sources: [PHB 2024]
-tags: [sorcerer, wizard, level1, action, abjuration]
+tags: [sorcerer, wizard, level1, action, abjuration, dragonmark]
 subtags: [{dragonmark: warding}]
 ---
 

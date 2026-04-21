@@ -2,7 +2,7 @@
 layout: post
 title:  "Alarm"
 sources: [PHB 2024]
-tags: [artificer, ranger, wizard, level1, ritual, long, abjuration]
+tags: [artificer, ranger, wizard, level1, ritual, long, abjuration, dragonmark]
 subtags: [{ranger: bloodhound}, {sorcerer: clockwork}, {dragonmark: warding}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Locate Animals or Plants"
 sources: [PHB 2024]
-tags: [bard, druid, ranger, level2, ritual, action, divination]
+tags: [bard, druid, ranger, level2, ritual, action, divination, dragonmark]
 subtags: [{dragonmark: finding}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Mordenkainen's Private Sanctum"
 sources: [PHB 2024]
-tags: [artificer, wizard, level4, long, abjuration]
+tags: [artificer, wizard, level4, long, abjuration, dragonmark]
 subtags: [{dragonmark: hospitality}]
 ---
 

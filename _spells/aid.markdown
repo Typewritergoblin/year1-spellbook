@@ -2,7 +2,7 @@
 layout: post
 title:  "Aid"
 sources: [PHB 2024]
-tags: [artificer, bard, cleric, druid, paladin, ranger, level2, action, abjuration]
+tags: [artificer, bard, cleric, druid, paladin, ranger, level2, action, abjuration, dragonmark]
 subtags: [{cleric: domain-life}, {paladin: oath-devotion}, {sorcerer: clockwork}, {warlock: patron-celestial}, {dragonmark: hospitality}]
 ---
 

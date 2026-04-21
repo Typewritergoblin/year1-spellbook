@@ -2,7 +2,7 @@
 layout: post
 title:  "Glyph of Warding"
 sources: [PHB 2024]
-tags: [artificer, bard, cleric, wizard, level3, long, abjuration]
+tags: [artificer, bard, cleric, wizard, level3, long, abjuration, dragonmark]
 subtags: [{cleric: domain-commerce}, {dragonmark: warding}]
 ---
 

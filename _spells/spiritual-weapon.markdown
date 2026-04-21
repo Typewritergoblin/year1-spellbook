@@ -2,7 +2,7 @@
 layout: post
 title:  "Spiritual Weapon"
 sources: [PHB 2024]
-tags: [cleric, level2, concentration, bonus, evocation]
+tags: [cleric, level2, concentration, bonus, evocation, dragonmark]
 subtags: [{cleric: domain-war}, {dragonmark: making}]
 ---
 

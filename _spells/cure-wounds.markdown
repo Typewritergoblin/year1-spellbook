@@ -2,7 +2,7 @@
 layout: post
 title:  "Cure Wounds"
 sources: [PHB 2024]
-tags: [artificer, bard, cleric, druid, paladin, ranger, level1, action, abjuration]
+tags: [artificer, bard, cleric, druid, paladin, ranger, level1, action, abjuration, dragonmark]
 subtags: [{cleric: domain-life}, {druid: circle-moon}, {sorcerer: spellfire}, {warlock: patron-celestial}, {dragonmark: healing}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Warding Bond"
 sources: [PHB 2024]
-tags: [cleric, paladin, level2, action, abjuration]
+tags: [cleric, paladin, level2, action, abjuration, dragonmark]
 subtags: [{artificer: battle-smith}, {dragonmark: sentinel}]
 ---
 

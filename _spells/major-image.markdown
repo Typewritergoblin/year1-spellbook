@@ -2,7 +2,7 @@
 layout: post
 title:  "Major Image"
 sources: [PHB 2024]
-tags: [bard, sorcerer, warlock, wizard, level3, concentration, action, illusion]
+tags: [bard, sorcerer, warlock, wizard, level3, concentration, action, illusion, dragonmark]
 subtags: [{dragonmark: shadow}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Detect Thoughts"
 sources: [PHB 2024]
-tags: [bard, sorcerer, wizard, level2, concentration, action, divination]
+tags: [bard, sorcerer, wizard, level2, concentration, action, divination, dragonmark]
 subtags: [{cleric: domain-knowledge}, {cleric: domain-mind}, {sorcerer: aberrant}, {warlock: patron-great-old-one}, {dragonmark: detection}]
 ---
 

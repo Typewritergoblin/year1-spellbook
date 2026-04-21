@@ -2,7 +2,7 @@
 layout: post
 title:  "Darkness"
 sources: [PHB 2024]
-tags: [sorcerer, warlock, wizard, level2, concentration, action, evocation]
+tags: [sorcerer, warlock, wizard, level2, concentration, action, evocation, dragonmark]
 subtags: [{dragonmark: shadow}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Conjure Elemental"
 sources: [PHB 2024]
-tags: [druid, wizard, level5, concentration, action, conjuration]
+tags: [druid, wizard, level5, concentration, action, conjuration, dragonmark]
 subtags: [{druid: circle-sea}, {dragonmark: storm}]
 ---
 

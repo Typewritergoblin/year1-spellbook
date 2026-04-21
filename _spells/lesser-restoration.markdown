@@ -2,7 +2,7 @@
 layout: post
 title:  "Lesser Restoration"
 sources: [PHB 2024]
-tags: [artificer, bard, cleric, druid, paladin, ranger, level2, bonus, abjuration]
+tags: [artificer, bard, cleric, druid, paladin, ranger, level2, bonus, abjuration, dragonmark]
 subtags: [{cleric: domain-life}, {sorcerer: clockwork}, {sorcerer: spellfire}, {warlock: patron-celestial}, {dragonmark: healing}]
 ---
 

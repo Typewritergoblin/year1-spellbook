@@ -2,7 +2,7 @@
 layout: post
 title:  "Hallow"
 sources: [PHB 2024]
-tags: [cleric, level5, long, abjuration]
+tags: [cleric, level5, long, abjuration, dragonmark]
 subtags: [{dragonmark: hospitality}]
 ---
 

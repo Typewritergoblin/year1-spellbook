@@ -2,7 +2,7 @@
 layout: post
 title:  "Magic Weapon"
 sources: [PHB 2024]
-tags: [artificer, paladin, ranger, sorcerer, wizard, level2, bonus, transmutation]
+tags: [artificer, paladin, ranger, sorcerer, wizard, level2, bonus, transmutation, dragonmark]
 subtags: [{cleric: domain-war}, {paladin: oath-glory}, {dragonmark: making}]
 ---
 

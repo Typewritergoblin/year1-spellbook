@@ -2,7 +2,7 @@
 layout: post
 title:  "Hunter's Mark"
 sources: [PHB 2024]
-tags: [ranger, level1, concentration, bonus, divination]
+tags: [ranger, level1, concentration, bonus, divination, dragonmark]
 subtags: [{paladin: oath-vengeance}, {dragonmark: finding}]
 ---
 

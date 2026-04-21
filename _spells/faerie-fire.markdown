@@ -2,7 +2,7 @@
 layout: post
 title:  "Faerie Fire"
 sources: [PHB 2024]
-tags: [artificer, bard, druid, level1, concentration, action, evocation]
+tags: [artificer, bard, druid, level1, concentration, action, evocation, dragonmark]
 subtags: [{cleric: domain-light}, {warlock: patron-archfey}, {dragonmark: finding}]
 ---
 

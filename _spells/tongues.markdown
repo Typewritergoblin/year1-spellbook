@@ -2,7 +2,7 @@
 layout: post
 title:  "Tongues"
 sources: [PHB 2024]
-tags: [bard, cleric, sorcerer, warlock, wizard, level3, action, divination]
+tags: [bard, cleric, sorcerer, warlock, wizard, level3, action, divination, dragonmark]
 subtags: [{cleric: domain-commerce}, {cleric: domain-knowledge}, {dragonmark: scribing}]
 ---
 

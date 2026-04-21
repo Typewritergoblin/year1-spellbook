@@ -2,7 +2,7 @@
 layout: post
 title:  "Clairvoyance"
 sources: [PHB 2024]
-tags: [bard, cleric, sorcerer, wizard, level3, concentration, long, divination]
+tags: [bard, cleric, sorcerer, wizard, level3, concentration, long, divination, dragonmark]
 subtags: [{cleric: domain-mind}, {ranger: bloodhound}, {warlock: patron-great-old-one}, {dragonmark: detection}, {dragonmark: finding}, {dragonmark: shadow}]
 ---
 

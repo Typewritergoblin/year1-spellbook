@@ -2,7 +2,7 @@
 layout: post
 title:  "Detect Poison and Disease"
 sources: [PHB 2024]
-tags: [cleric, druid, paladin, ranger, level1, ritual, concentration, action, divination]
+tags: [cleric, druid, paladin, ranger, level1, ritual, concentration, action, divination, dragonmark]
 subtags: [{dragonmark: detection}]
 ---
 

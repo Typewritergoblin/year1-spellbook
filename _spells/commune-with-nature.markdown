@@ -2,7 +2,7 @@
 layout: post
 title:  "Commune with Nature"
 sources: [PHB 2024]
-tags: [druid, ranger, level5, ritual, long, divination]
+tags: [druid, ranger, level5, ritual, long, divination, dragonmark]
 subtags: [{paladin: oath-ancients}, {dragonmark: finding}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Silent Image"
 sources: [PHB 2024]
-tags: [bard, sorcerer, wizard, level1, concentration, action, illusion]
+tags: [bard, sorcerer, wizard, level1, concentration, action, illusion, dragonmark]
 subtags: [{dragonmark: shadow}]
 ---
 

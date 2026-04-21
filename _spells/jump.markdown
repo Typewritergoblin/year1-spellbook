@@ -2,7 +2,7 @@
 layout: post
 title:  "Jump"
 sources: [PHB 2024]
-tags: [artificer, druid, ranger, sorcerer, wizard, level1, bonus, transmutation]
+tags: [artificer, druid, ranger, sorcerer, wizard, level1, bonus, transmutation, dragonmark]
 subtags: [{dragonmark: passage}]
 ---
 

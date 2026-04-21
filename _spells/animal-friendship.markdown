@@ -2,7 +2,7 @@
 layout: post
 title:  "Animal Friendship"
 sources: [PHB 2024]
-tags: [bard, druid, ranger, level1, action, enchantment]
+tags: [bard, druid, ranger, level1, action, enchantment, dragonmark]
 subtags: [{dragonmark: handling}]
 ---
 

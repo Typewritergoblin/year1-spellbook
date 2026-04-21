@@ -2,7 +2,7 @@
 layout: post
 title:  "Awaken"
 sources: [PHB 2024]
-tags: [bard, druid, level5, long, transmutation]
+tags: [bard, druid, level5, long, transmutation, dragonmark]
 subtags: [{dragonmark: handling}]
 ---
 

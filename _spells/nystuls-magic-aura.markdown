@@ -2,7 +2,7 @@
 layout: post
 title:  "Nystul's Magic Aura"
 sources: [PHB 2024]
-tags: [wizard, level2, action, illusion]
+tags: [wizard, level2, action, illusion, dragonmark]
 subtags: [{dragonmark: warding}]
 ---
 

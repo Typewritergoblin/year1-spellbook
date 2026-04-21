@@ -2,7 +2,7 @@
 layout: post
 title:  "Illusory Script"
 sources: [PHB 2024]
-tags: [bard, warlock, wizard, level1, ritual, long, illusion]
+tags: [bard, warlock, wizard, level1, ritual, long, illusion, dragonmark]
 subtags: [{dragonmark: scribing}]
 ---
 

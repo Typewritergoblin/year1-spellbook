@@ -2,7 +2,7 @@
 layout: post
 title:  "Comprehend Languages"
 sources: [PHB 2024]
-tags: [bard, sorcerer, warlock, wizard, level1, ritual, action, divination]
+tags: [bard, sorcerer, warlock, wizard, level1, ritual, action, divination, dragonmark]
 subtags: [{cleric: domain-commerce}, {cleric: domain-knowledge}, {dragonmark: scribing}]
 ---
 

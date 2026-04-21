@@ -2,7 +2,7 @@
 layout: post
 title:  "Dream"
 sources: [PHB 2024]
-tags: [bard, warlock, wizard, level5, long, illusion]
+tags: [bard, warlock, wizard, level5, long, illusion, dragonmark]
 subtags: [{dragonmark: scribing}]
 ---
 

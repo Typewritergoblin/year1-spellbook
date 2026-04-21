@@ -2,7 +2,7 @@
 layout: post
 title:  "Detect Evil and Good"
 sources: [PHB 2024]
-tags: [cleric, paladin, level1, concentration, action, divination]
+tags: [cleric, paladin, level1, concentration, action, divination, dragonmark]
 subtags: [{dragonmark: detection}]
 ---
 

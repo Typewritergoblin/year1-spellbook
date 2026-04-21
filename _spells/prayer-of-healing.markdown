@@ -2,7 +2,7 @@
 layout: post
 title:  "Prayer of Healing"
 sources: [PHB 2024]
-tags: [cleric, paladin, level2, long, abjuration]
+tags: [cleric, paladin, level2, long, abjuration, dragonmark]
 subtags: [{dragonmark: healing}]
 ---
 

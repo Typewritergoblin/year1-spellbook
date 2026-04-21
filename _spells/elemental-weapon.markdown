@@ -2,7 +2,7 @@
 layout: post
 title:  "Elemental Weapon"
 sources: [PHB 2024]
-tags: [artificer, druid, paladin, ranger, level3, concentration, action, transmutation]
+tags: [artificer, druid, paladin, ranger, level3, concentration, action, transmutation, dragonmark]
 subtags: [{dragonmark: making}]
 ---
 

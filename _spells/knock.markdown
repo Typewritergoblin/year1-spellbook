@@ -2,7 +2,7 @@
 layout: post
 title:  "Knock"
 sources: [PHB 2024]
-tags: [bard, sorcerer, wizard, level2, action, transmutation]
+tags: [bard, sorcerer, wizard, level2, action, transmutation, dragonmark]
 subtags: [{dragonmark: warding}]
 ---
 

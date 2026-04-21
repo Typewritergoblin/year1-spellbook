@@ -2,7 +2,7 @@
 layout: post
 title:  "Create Food and Water"
 sources: [PHB 2024]
-tags: [artificer, cleric, paladin, level3, action, conjuration]
+tags: [artificer, cleric, paladin, level3, action, conjuration, dragonmark]
 subtags: [{dragonmark: hospitality}]
 ---
 

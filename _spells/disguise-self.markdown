@@ -2,7 +2,7 @@
 layout: post
 title:  "Disguise Self"
 sources: [PHB 2024]
-tags: [artificer, bard, sorcerer, wizard, level1, action, illusion]
+tags: [artificer, bard, sorcerer, wizard, level1, action, illusion, dragonmark]
 subtags: [{cleric: domain-trickery}, {ranger: gloom-stalker}, {dragonmark: shadow}]
 ---
 

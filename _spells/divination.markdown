@@ -2,7 +2,7 @@
 layout: post
 title:  "Divination"
 sources: [PHB 2024]
-tags: [cleric, druid, wizard, level4, ritual, action, divination]
+tags: [cleric, druid, wizard, level4, ritual, action, divination, dragonmark]
 subtags: [{cleric: domain-commerce}, {dragonmark: detection}, {dragonmark: finding}]
 ---
 

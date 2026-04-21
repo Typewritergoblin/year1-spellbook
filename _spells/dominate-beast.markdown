@@ -2,7 +2,7 @@
 layout: post
 title:  "Dominate Beast"
 sources: [PHB 2024]
-tags: [druid, ranger, sorcerer, level4, concentration, action, enchantment]
+tags: [druid, ranger, sorcerer, level4, concentration, action, enchantment, dragonmark]
 subtags: [{warlock: patron-archfey}, {dragonmark: handling}]
 ---
 

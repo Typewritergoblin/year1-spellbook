@@ -2,7 +2,7 @@
 layout: post
 title:  "Calm Emotions"
 sources: [PHB 2024]
-tags: [bard, cleric, level2, concentration, action, enchantment]
+tags: [bard, cleric, level2, concentration, action, enchantment, dragonmark]
 subtags: [{sorcerer: aberrant}, {warlock: patron-archfey}, {dragonmark: handling}, {dragonmark: hospitality}]
 ---
 

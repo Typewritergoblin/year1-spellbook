@@ -2,7 +2,7 @@
 layout: post
 title:  "Mordenkainen's Faithful Hound"
 sources: [PHB 2024]
-tags: [artificer, wizard, level4, action, conjuration]
+tags: [artificer, wizard, level4, action, conjuration, dragonmark]
 subtags: [{dragonmark: warding}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Phantom Steed"
 sources: [PHB 2024]
-tags: [wizard, level3, ritual, long, illusion]
+tags: [wizard, level3, ritual, long, illusion, dragonmark]
 subtags: [{dragonmark: passage}]
 ---
 

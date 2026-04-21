@@ -2,7 +2,7 @@
 layout: post
 title:  "Conjure Minor Elementals"
 sources: [PHB 2024]
-tags: [druid, wizard, level4, concentration, action, conjuration]
+tags: [druid, wizard, level4, concentration, action, conjuration, dragonmark]
 subtags: [{paladin: oath-noble-genies}, {dragonmark: storm}]
 ---
 

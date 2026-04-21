@@ -2,7 +2,7 @@
 layout: post
 title:  "Teleportation Circle"
 sources: [PHB 2024]
-tags: [bard, sorcerer, warlock, wizard, level5, long, conjuration]
+tags: [bard, sorcerer, warlock, wizard, level5, long, conjuration, dragonmark]
 subtags: [{dragonmark: passage}]
 ---
 

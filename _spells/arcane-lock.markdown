@@ -2,7 +2,7 @@
 layout: post
 title:  "Arcane Lock"
 sources: [PHB 2024]
-tags: [artificer, wizard, level2, action, abjuration]
+tags: [artificer, wizard, level2, action, abjuration, dragonmark]
 subtags: [{dragonmark: warding}]
 ---
 

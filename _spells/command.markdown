@@ -2,7 +2,7 @@
 layout: post
 title:  "Command"
 sources: [PHB 2024]
-tags: [bard, cleric, paladin, level1, action, enchantment]
+tags: [bard, cleric, paladin, level1, action, enchantment, dragonmark]
 subtags: [{cleric: domain-knowledge}, {cleric: domain-mind}, {sorcerer: draconic}, {warlock: patron-fiend}, {dragonmark: handling}, {dragonmark: scribing}]
 ---
 

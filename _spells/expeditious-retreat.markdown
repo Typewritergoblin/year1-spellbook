@@ -2,7 +2,7 @@
 layout: post
 title:  "Expeditious Retreat"
 sources: [PHB 2024]
-tags: [artificer, sorcerer, warlock, wizard, level1, concentration, bonus, transmutation]
+tags: [artificer, sorcerer, warlock, wizard, level1, concentration, bonus, transmutation, dragonmark]
 subtags: [{dragonmark: passage}]
 ---
 

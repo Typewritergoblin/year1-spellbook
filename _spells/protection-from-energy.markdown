@@ -2,7 +2,7 @@
 layout: post
 title:  "Protection from Energy"
 sources: [PHB 2024]
-tags: [artificer, cleric, druid, ranger, sorcerer, wizard, level3, concentration, action, abjuration]
+tags: [artificer, cleric, druid, ranger, sorcerer, wizard, level3, concentration, action, abjuration, dragonmark]
 subtags: [{paladin: oath-glory}, {paladin: oath-ancients}, {paladin: oath-vengeance}, {sorcerer: clockwork}, {dragonmark: sentinel}]
 ---
 

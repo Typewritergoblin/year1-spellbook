@@ -2,7 +2,7 @@
 layout: post
 title:  "Identify"
 sources: [PHB 2024]
-tags: [artificer, bard, wizard, level1, ritual, long, divination]
+tags: [artificer, bard, wizard, level1, ritual, long, divination, dragonmark]
 subtags: [{cleric: domain-knowledge}, {druid: circle-forged}, {dragonmark: detection}, {dragonmark: making}]
 ---
 

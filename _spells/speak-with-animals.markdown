@@ -2,7 +2,7 @@
 layout: post
 title:  "Speak with Animals"
 sources: [PHB 2024]
-tags: [bard, druid, ranger, warlock, level1, ritual, action, divination]
+tags: [bard, druid, ranger, warlock, level1, ritual, action, divination, dragonmark]
 subtags: [{paladin: oath-ancients}, {dragonmark: handling}]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Leomund's Tiny Hut"
 sources: [PHB 2024]
-tags: [bard, wizard, level3, ritual, long, evocation]
+tags: [bard, wizard, level3, ritual, long, evocation, dragonmark]
 subtags: [{dragonmark: hospitality}]
 ---
 
