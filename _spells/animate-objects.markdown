@@ -26,4 +26,4 @@ Until the spell ends, you can take a Bonus Action to mentally command any creatu
 
 Animated Object Sizes
 
-@UUID[Compendium.dnd-players-handbook.actors.Actor.phbtaoAnimatedOb]{Tiny}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbsaoAnimatedOb]{Small}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbmaoAnimatedOb]{Medium}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phblaoAnimatedOb]{Large}, @UUID[Compendium.dnd-players-handbook.actors.Actor.phbhaoAnimatedOb]{Huge}
+Tiny, Small, Medium, Large, Huge

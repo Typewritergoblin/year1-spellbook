@@ -16,4 +16,4 @@ subtags: [{sorcerer: nemesis}, {artificer: artillerist}, {artificer: battle-smit
 
 **Duration**: 1 round
 
-An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplMagicMissi]{Magic Missile}*.
+An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from *Magic Missile*.

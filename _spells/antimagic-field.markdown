@@ -21,4 +21,4 @@ Areas of effect created by spells or other magic can’t extend into the aura, a
 
 Ongoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn’t function, but the time it spends suppressed counts against its duration.
 
-*@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}* has no effect on the aura, and the auras created by different *Antimagic Field* spells don’t nullify each other.
+*Dispel Magic* has no effect on the aura, and the auras created by different *Antimagic Field* spells don’t nullify each other.

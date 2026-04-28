@@ -16,7 +16,7 @@ subtags: [{paladin: oath-noble-genies}]
 
 **Duration**: Concentration, up to 1 hour
 
-You call forth an Elemental spirit. It manifests in an unoccupied space that you can see within range and uses the **@UUID[Compendium.dnd-players-handbook.actors.Actor.phbmobElementalS]{Elemental Spirit}** stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.
+You call forth an Elemental spirit. It manifests in an unoccupied space that you can see within range and uses the **Elemental Spirit** stat block. When you cast the spell, choose an element: Air, Earth, Fire, or Water. The creature resembles a bipedal form wreathed in the chosen element, which determines certain details in its stat block. The creature disappears when it drops to 0 Hit Points or when the spell ends.
 
 The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don’t issue any, it takes the Dodge action and uses its movement to avoid danger.
 
