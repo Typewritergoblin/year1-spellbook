@@ -17,7 +17,7 @@ tags: [bard, sorcerer, wizard, level7, action, conjuration]
 
 This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can’t be held or carried by an unwilling creature.
 
-The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls [[/gmr 1d100]] and consults the Teleportation Outcome table and the explanations after it.
+The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls 1d100 and consults the Teleportation Outcome table and the explanations after it.
 
 **@UUID[Compendium.dnd-players-handbook.tables.RollTable.phbsplTeleportMi]{Teleportation Outcome}**FamiliarityMishapSimilar AreaOff TargetOn TargetPermanent circle———01–00Linked object———01–00Very familiar01–0506–1314–2425–00Seen casually01–3334–4344–5354–00Viewed once or described01–4344–5354–7374–00False destination01–5051–00——
 
@@ -25,10 +25,10 @@ The destination you choose must be known to you, and it must be on the same plan
 
 “Permanent circle” means a permanent teleportation circle whose sigil sequence you know.“Linked object” means you possess an object taken from the desired destination within the last six months, such as a book from a wizard’s library.“Very familiar” is a place you have visited often, a place you have carefully studied, or a place you can see when you cast the spell.“Seen casually” is a place you have seen more than once but with which you aren’t very familiar.“Viewed once or described” is a place you have seen once, possibly using magic, or a place you know through someone else’s description, perhaps from a map.“False destination” is a place that doesn’t exist. Perhaps you tried to scry an enemy’s sanctum but instead viewed an illusion, or you are attempting to teleport to a location that no longer exists.
 
-**Mishap.** The spell’s unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes [[/damage 3d10 type=force]] damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).
+**Mishap.** The spell’s unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 Force damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time).
 
 **Similar Area.** You and your group (or the target object) appear in a different area that’s visually or thematically similar to the target area. You appear in the closest similar place. If you are heading for your home laboratory, for example, you might appear in another person’s laboratory in the same city.
 
-**Off Target.** You and your group (or the target object) appear [[/r 2d12]] miles away from the destination in a random direction. Roll [[/r 1d8]] for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.
+**Off Target.** You and your group (or the target object) appear 2d12 miles away from the destination in a random direction. Roll 1d8 for the direction: 1, east; 2, southeast; 3, south; 4, southwest; 5, west; 6, northwest; 7, north; or 8, northeast.
 
 **On Target.** You and your group (or the target object) appear where you intended.

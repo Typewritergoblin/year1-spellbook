@@ -18,4 +18,4 @@ subtags: [{cleric: domain-life}, {sorcerer: clockwork}, {sorcerer: spellfire}, {
 
 You touch a creature and magically remove one of the following effects from it:
 
-1 &amp;Reference[Exhaustion] levelThe &amp;Reference[Charmed] or &amp;Reference[Petrified] conditionA curse, including the target’s Attunement to a cursed magic itemAny reduction to one of the target’s ability scoresAny reduction to the target’s Hit Point maximum
+1 Exhaustion levelThe Charmed or Petrified conditionA curse, including the target’s Attunement to a cursed magic itemAny reduction to one of the target’s ability scoresAny reduction to the target’s Hit Point maximum

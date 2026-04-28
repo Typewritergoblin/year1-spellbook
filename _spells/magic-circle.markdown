@@ -20,7 +20,7 @@ You create a 10-foot-radius, 20-foot-tall Cylinder of magical energy centered on
 
 Choose one or more of the following types of creatures: Celestials, Elementals, Fey, Fiends, or Undead. The circle affects a creature of the chosen type in the following ways:
 
-The creature can’t willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.The creature has Disadvantage on attack rolls against targets within the Cylinder.Targets within the Cylinder can’t be possessed by or gain the &amp;Reference[charmed apply=false] or &amp;reference[frightened apply=false] condition from the creature.
+The creature can’t willingly enter the Cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.The creature has Disadvantage on attack rolls against targets within the Cylinder.Targets within the Cylinder can’t be possessed by or gain the Charmed or &amp;reference[frightened apply=false] condition from the creature.
 
 Each time you cast this spell, you can cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the Cylinder and protecting targets outside it.
 

@@ -17,6 +17,6 @@ tags: [bard, cleric, druid, wizard, level3, ritual, action, necromancy]
 
 You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.
 
-For the duration, the target appears dead to outward inspection and to spells used to determine the target’s status. The target has the &amp;Reference[blinded apply=false] and &amp;Reference[incapacitated apply=false] conditions, and its Speed is 0.
+For the duration, the target appears dead to outward inspection and to spells used to determine the target’s status. The target has the Blinded and Incapacitated conditions, and its Speed is 0.
 
 The target also has Resistance to all damage except Psychic damage, and it has Immunity to the Poisoned condition.

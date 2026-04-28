@@ -15,7 +15,7 @@ tags: [cleric, level9, action, abjuration]
 
 **Duration**: Instantaneous
 
-A flood of healing energy flows from you into creatures around you. You restore up to 700 Hit Points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the &amp;Reference[Blinded], &amp;Reference[Deafened], and &amp;Reference[Poisoned] conditions removed from them.
+A flood of healing energy flows from you into creatures around you. You restore up to 700 Hit Points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell also have the Blinded, Deafened, and Poisoned conditions removed from them.
 
 Foundry Note
 

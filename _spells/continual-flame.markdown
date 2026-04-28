@@ -16,4 +16,4 @@ subtags: [{dragonmark: making}]
 
 **Duration**: Until dispelled
 
-A flame springs from an object that you touch. The effect casts &amp;Reference[brightlight] in a 20-foot radius and &amp;Reference[dimlight] for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.
+A flame springs from an object that you touch. The effect casts Brightlight in a 20-foot radius and Dimlight for an additional 20 feet. It looks like a regular flame, but it creates no heat and consumes no fuel. The flame can be covered or hidden but not smothered or quenched.

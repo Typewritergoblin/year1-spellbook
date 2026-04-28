@@ -21,7 +21,7 @@ When you cast this spell, you can specify individuals that are unaffected by the
 
 The spell creates the effects below within the warded area. *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplDispelMagi]{Dispel Magic}* has no effect on *Guards and Wards* itself, but each of the following effects can be dispelled. If all four are dispelled, *Guards and Wards* ends. If you cast the spell every day for 365 days on the same area, the spell thereafter lasts until all its effects are dispelled.
 
-**Corridors.** Fog fills all the warded corridors, making them &amp;Reference[HeavilyObscured]. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.
+**Corridors.** Fog fills all the warded corridors, making them Heavilyobscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you believes it is going in the opposite direction from the one it chooses.
 
 **Doors.** All doors in the warded area are magically locked, as if sealed by the *@UUID[Compendium.dnd-players-handbook.spells.Item.phbsplArcaneLock]{Arcane Lock}* spell. In addition, you can cover up to ten doors with an illusion to make them appear as plain sections of wall.
 

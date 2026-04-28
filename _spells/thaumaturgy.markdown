@@ -19,7 +19,7 @@ You manifest a minor wonder within range. You create one of the effects below wi
 
 **Altered Eyes.** You alter the appearance of your eyes for 1 minute.
 
-**Booming Voice.** Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.
+**Booming Voice.** Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on Charisma (Intimidation) checks.
 
 **Fire Play.** You cause flames to flicker, brighten, dim, or change color for 1 minute.
 

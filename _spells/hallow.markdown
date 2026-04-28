@@ -22,7 +22,7 @@ You touch a point and infuse an area around it with holy or unholy power. The ar
 
 **Extra Effect.** You bind an extra effect to the area from the list below:
 
-**Courage.** Creatures of any types you choose can’t gain the &amp;Reference[Frightened] condition while in the area.
+**Courage.** Creatures of any types you choose can’t gain the Frightened condition while in the area.
 
 **Darkness.** Darkness fills the area. Normal light, as well as magical light created by spells of a level lower than this spell, can’t illuminate the area.
 
@@ -32,12 +32,12 @@ You touch a point and infuse an area around it with holy or unholy power. The ar
 
 **Extradimensional Interference.** Creatures of any types you choose can’t enter or exit the area using teleportation or interplanar travel.
 
-**Fear.** Creatures of any types you choose have the &amp;Reference[Frightened] condition while in the area.
+**Fear.** Creatures of any types you choose have the Frightened condition while in the area.
 
-**Resistance.** Creatures of any types you choose have &amp;Reference[damageresistance]{Resistance} to one damage type of your choice while in the area.
+**Resistance.** Creatures of any types you choose have Resistance to one damage type of your choice while in the area.
 
 **Silence.** No sound can emanate from within the area, and no sound can reach into it.
 
 **Tongues.** Creatures of any types you choose can communicate with any other creature in the area even if they don’t share a common language.
 
-**Vulnerability.** Creatures of any types you choose have &amp;Reference[damagevulnerability]{Vulnerability} to one damage type of your choice while in the area.
+**Vulnerability.** Creatures of any types you choose have Vulnerability to one damage type of your choice while in the area.

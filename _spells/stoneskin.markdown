@@ -16,4 +16,4 @@ subtags: [{paladin: oath-ancients}, {warlock: patron-stone-sovereign}]
 
 **Duration**: Concentration, up to 1 hour
 
-Until the spell ends, one willing creature you touch has &amp;Reference[damageresistance]{Resistance} to Bludgeoning, Piercing, and Slashing damage.
+Until the spell ends, one willing creature you touch has Resistance to Bludgeoning, Piercing, and Slashing damage.

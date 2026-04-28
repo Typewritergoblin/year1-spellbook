@@ -15,4 +15,4 @@ tags: [artificer, druid, ranger, sorcerer, wizard, level2, action, transmutation
 
 **Duration**: 8 hours
 
-For the duration, a willing creature you touch has &amp;Reference[darkvision] with a range of 150 feet.
+For the duration, a willing creature you touch has Darkvision with a range of 150 feet.

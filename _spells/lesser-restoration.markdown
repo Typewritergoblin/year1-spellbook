@@ -16,4 +16,4 @@ subtags: [{cleric: domain-life}, {sorcerer: clockwork}, {sorcerer: spellfire}, {
 
 **Duration**: Instantaneous
 
-You touch a creature and end one condition on it: &amp;Reference[blinded], &amp;Reference[deafened], &amp;Reference[paralyzed], or &amp;Reference[poisoned].
+You touch a creature and end one condition on it: Blinded, Deafened, Paralyzed, or Poisoned.

@@ -16,7 +16,7 @@ subtags: [{paladin: oath-vengeance}, {dragonmark: finding}]
 
 **Duration**: Concentration, up to 1 hour
 
-You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra [[/damage]] damage to the target whenever you hit it with an attack roll. You also have Advantage on any [[/check ability=wis skill=prc]] or [[/check ability=wis skill=sur]] check you make to find it.
+You magically mark one creature you can see within range as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with an attack roll. You also have Advantage on any Wisdom (Perception) check or Wisdom (Survival) check you make to find it.
 
 If the target drops to 0 Hit Points before this spell ends, you can take a Bonus Action to move the mark to a new creature you can see within range.
 

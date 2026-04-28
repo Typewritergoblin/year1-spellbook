@@ -15,7 +15,7 @@ tags: [druid, level9, concentration, action, conjuration]
 
 **Duration**: Concentration, up to 1 minute
 
-A churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the &amp;Reference[Deafened apply=false] condition for the duration.
+A churning storm cloud forms for the duration, centered on a point within range and spreading to a radius of 300 feet. Each creature under the cloud when it appears must succeed on a Constitution saving throw or take 2d6 Thunder damage and have the Deafened condition for the duration.
 
 At the start of each of your later turns, the storm produces different effects, as detailed below.
 
@@ -25,4 +25,4 @@ At the start of each of your later turns, the storm produces different effects, 
 
 **Turn 4.** Hailstones rain down. Each creature under the cloud takes 2d6 Bludgeoning damage.
 
-**Turns 5–10.** Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is &amp;Reference[DifficultTerrain] and &amp;Reference[HeavilyObscured], ranged attacks with weapons are impossible there, and strong wind blows through the area.
+**Turns 5–10.** Gusts and freezing rain assail the area under the cloud. Each creature there takes 1d6 Cold damage. Until the spell ends, the area is Difficultterrain and Heavilyobscured, ranged attacks with weapons are impossible there, and strong wind blows through the area.

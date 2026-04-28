@@ -16,4 +16,4 @@ subtags: [{cleric: domain-light}, {sorcerer: nemesis}, {dragonmark: detection}]
 
 **Duration**: 1 hour
 
-For the duration, you see creatures and objects that have the &amp;Reference[invisible apply=false] condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.
+For the duration, you see creatures and objects that have the Invisible condition as if they were visible, and you can see into the Ethereal Plane. Creatures and objects there appear ghostly.

@@ -16,4 +16,4 @@ subtags: [{druid: circle-land-arid}]
 
 **Duration**: Concentration, up to 1 minute
 
-Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with &amp;Reference[blindsight] or &amp;Reference[truesight].
+Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.

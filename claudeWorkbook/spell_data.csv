@@ -1,0 +1,422 @@
+name,level,school,concentration,casting_time,duration,save_type,damage_dice,healing_dice,effect_dice,targets,aoe_size,conditions,buffs,effect
+Acid Splash,0,Evocation,No,1 action,Instantaneous,Dexterity,1d6 Acid; 1d6; 2d6; 3d6; 4d6,,,AoE (Sphere),5-foot-radius Sphere,,,Conjure/Create
+Aid,2,Abjuration,No,1 action,8 hours,,,,,Multi-target,,,Max HP increase,Healing
+Alarm,1,Abjuration,No,1 minute,8 hours,,,,,AoE (Cube),20-foot Cube,,,
+Alter Self,2,Transmutation,Yes,1 action,"Concentration, up to 1 hour",,1d6,,,Self,,,,
+Alustriel's Mooncloak,5,Abjuration,Yes,1 action,"Concentration, 1 minute",,,4d10,,AoE (Emanation),20-foot emanation,Frightened; Grappled; Restrained,,Healing
+Animal Friendship,1,Enchantment,No,1 action,24 hours,Wisdom,,,,Single target,,Charmed,,
+Animal Messenger,2,Enchantment,No,1 action,Special,Charisma,,,,Single target,,,,Flight
+Animal Shapes,8,Transmutation,No,1 action,24 hours,,,,,Single target,,,Temp HP,
+Animate Dead,3,Necromancy,No,1 minute,Instantaneous,,,,,Multi-target,,,,
+Animate Objects,5,Transmutation,Yes,1 action,"Concentration, up to 1 minute",,,,,All creatures in area,,,,
+Antilife Shell,5,Abjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,AoE (Emanation),10-foot Emanation,,,
+Antimagic Field,8,Abjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,AoE (Emanation),10-foot Emanation,,,Teleport
+Antipathy/Sympathy,8,Enchantment,No,1 hour,10 days,Wisdom,,,,Single target,,Charmed; Frightened,,
+Arcane Eye,4,Divination,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,Invisible,,Invisibility; Divination/Scrying
+Arcane Gate,6,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,Single target,,,,Teleport
+Arcane Lock,2,Abjuration,No,1 action,Until dispelled,,,,,Single target,,,,
+Arcane Vigor,2,Abjuration,No,1 bonus action,Instantaneous,,,,,Self,,,,Healing
+Armor of Agathys,1,Abjuration,No,1 bonus action,1 hour,,,,,Self,,,Temp HP,
+Arms of Hadar,1,Conjuration,No,1 action,Instantaneous,Strength,2d6 Necrotic,,,AoE (Emanation),10-foot Emanation,,,
+Astral Projection,9,Necromancy,No,1 hour,Until dispelled,,,,,Single target,,Unconscious,,
+Augury,2,Divination,No,1 minute,Instantaneous,,,,,Self,,,,Divination/Scrying
+Aundair's Silent Sanctum,0,Illusion,Yes,1 action,"Concentration, 1 minute",,,,,AoE (Emanation),5-foot emanation,Invisible,,Invisibility; Advantage on saves
+Aura of Life,4,Abjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Emanation),30-foot Emanation,,,Healing
+Aura of Purity,4,Abjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Emanation),30-foot Emanation,Blinded; Charmed; Deafened; Frightened; Paralyzed; Poisoned; Stunned,,Advantage on saves
+Aura of Vitality,3,Abjuration,Yes,1 action,"Concentration, up to 1 minute",,,2d6,,AoE (Emanation),30-foot Emanation,,,Healing; Conjure/Create
+Awaken,5,Transmutation,No,8 hours,Instantaneous,,,,,Single target,,Charmed,,
+Backlash,4,Abjuration,No,1 reaction,Instantaneous,Constitution,4d6; 4d6 Force,,,Single target,,,,
+Bane,1,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Charisma,1d4,,,Multi-target,,,,
+Banishing Smite,5,Conjuration,Yes,1 bonus action,"Concentration, up to 1 minute",Charisma,5d10 Force,,,Self,,Incapacitated,,
+Banishment,4,Abjuration,Yes,1 action,"Concentration, up to 1 minute",Charisma,,,,Single target,,Incapacitated,,
+Barkskin,2,Transmutation,No,1 bonus action,1 hour,,,,,Single target,,,,
+Beacon of Hope,3,Abjuration,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,,,Healing; Advantage on saves
+Beast Sense,2,Divination,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,Divination/Scrying
+Befuddlement,8,Enchantment,No,1 action,Instantaneous,Intelligence,10d12 Psychic,,,Single target,,,,Healing
+Bestow Curse,3,Necromancy,Yes,1 action,"Concentration, up to 1 minute",Wisdom,1d8 Necrotic,,,Single target,,Cursed,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks); Impose Disadvantage (saves); Curse
+Bigby's Hand,5,Evocation,Yes,1 action,"Concentration, up to 1 minute",,,,,Single target,,,,
+Blade Barrier,6,Evocation,Yes,1 action,"Concentration, up to 10 minutes",Dexterity,6d10 Force,,,Single target,,,,
+Blade of Disaster,9,Conjuration,Yes,1 bonus action,"Concentration, 1 minute",Melee Attack,10d6 Force,,,Single target,,,,Conjure/Create
+Blade Ward,0,Abjuration,Yes,1 action,"Concentration, up to 1 minute",,1d4,,,Self,,,,
+Bless,1,Enchantment,Yes,1 action,"Concentration, up to 1 minute",,,,1d4,Multi-target,,,+1d4 to attack rolls,
+Blight,4,Necromancy,No,1 action,Instantaneous,Constitution,8d8 Necrotic,,,Single target,,,,
+Blinding Smite,3,Evocation,No,1 bonus action,1 minute,,3d8 Radiant,,,Self,,Blinded,,
+Blindness/Deafness,2,Transmutation,No,1 action,1 minute,Constitution,,,,Single target,,Blinded; Deafened,,
+Blink,3,Transmutation,No,1 action,1 minute,,1d6,,,Self,,,,
+Blur,2,Illusion,Yes,1 action,"Concentration, up to 1 minute",,,,,Self,,,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks)
+Burning Hands,1,Evocation,No,1 action,Instantaneous,Dexterity,3d6 Fire,,,AoE (Cone),15-foot Cone,,,
+Cacophonic Shield,3,Evocation,Yes,1 action,"Concentration, 10 minutes",Constitution,3d6 Thunder,,,AoE (Emanation),10-foot emanation,Deafened,,
+Call Lightning,3,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Dexterity,3d10 Lightning; 1d10,,,All creatures in area,,,,
+Calm Emotions,2,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Charisma,,,,AoE (Sphere),20-foot-radius Sphere,Charmed; Frightened,Immunity,
+Chain Lightning,6,Evocation,No,1 action,Instantaneous,Dexterity,10d8 Lightning,,,Single target,,,,
+Charm Monster,4,Enchantment,No,1 action,1 hour,Wisdom,,,,Single target,,Charmed,,
+Charm Person,1,Enchantment,No,1 action,1 hour,Wisdom,,,,Single target,,Charmed,,
+Chill Touch,0,Necromancy,No,1 action,Instantaneous,Melee Attack,1d10; 2d10; 3d10; 4d10,,,Single target,,,,Healing
+Chromatic Orb,1,Evocation,No,1 action,Instantaneous,Ranged Attack,3d8,,,Single target,,,,
+Circle of Death,6,Necromancy,No,1 action,Instantaneous,Constitution,8d8 Necrotic,,,AoE (Sphere),60-foot-radius Sphere,,,
+Circle of Power,5,Abjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Emanation),30-foot Emanation,,,Advantage on saves; Negate damage
+Clairvoyance,3,Divination,Yes,10 minutes,Instantaneous,,,,,Single target,,Invisible,,Invisibility; Divination/Scrying
+Clone,8,Necromancy,No,1 hour,Instantaneous,,,,,Single target,,,,
+Cloud of Daggers,2,Conjuration,Yes,1 action,"Concentration, up to 1 minute",,4d4 Slashing,,,AoE (Cube),5-foot Cube,,,Teleport; Conjure/Create
+Cloudkill,5,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Constitution,5d8 Poison,,,AoE (Sphere),20-foot-radius Sphere,,,
+Color Spray,1,Illusion,No,1 action,Instantaneous,Constitution,,,,AoE (Cone),15-foot Cone,Blinded,,
+Command,1,Enchantment,No,1 action,Instantaneous,Wisdom,,,,Single target,,Prone,,
+Commune with Nature,5,Divination,No,1 minute,Instantaneous,,,,,Self,,,,Divination/Scrying
+Commune,5,Divination,No,1 minute,1 minute,,,,,Self,,,,Divination/Scrying
+Compelled Duel,1,Enchantment,Yes,1 bonus action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks)
+Comprehend Languages,1,Divination,No,1 action,1 hour,,,,,Self,,,,Divination/Scrying
+Compulsion,4,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,All creatures in area,,Charmed,,
+Concussive Burst,1,Evocation,No,1 action,Instantaneous,Constitution,2d4 Force,,,AoE (Sphere),20-foot-radius Sphere,Deafened,,
+Cone of Cold,5,Evocation,No,1 action,Instantaneous,Constitution,8d8 Cold,,,AoE (Cone),60-foot Cone,,,
+Confusion,4,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,1d10,,,AoE (Sphere),10-foot-radius Sphere,,,
+Conjure Animals,3,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Strength; Dexterity,3d10 Slashing,,,Single target,,,,Advantage on saves; Conjure/Create
+Conjure Barrage,3,Conjuration,No,1 action,Instantaneous,Dexterity,5d8 Force,,,AoE (Cone),60-foot Cone,,,Conjure/Create
+Conjure Celestial,7,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Dexterity,6d12 Radiant,4d12,,All creatures in area,,,,Healing; Conjure/Create
+Conjure Constructs,3,Conjuration,Yes,1 action,"Concentration, 10 minutes",Dexterity,3d6 Force,,,Single target,,,Temp HP,Conjure/Create
+Conjure Elemental,5,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Dexterity,8d8; 4d8,,,Single target,,Restrained,,Conjure/Create
+Conjure Fey,6,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Melee Attack,3d12,,,Single target,,Frightened,,Teleport; Conjure/Create
+Conjure Minor Elementals,4,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",,2d8,,,AoE (Emanation),15-foot Emanation,,,Conjure/Create
+Conjure Volley,5,Conjuration,No,1 action,Instantaneous,Dexterity,8d8 Force,,,All creatures in area,,,,
+Conjure Woodland Beings,4,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Wisdom,5d8 Force,,,AoE (Emanation),10-foot Emanation,,,Conjure/Create
+Contact Other Plane,5,Divination,No,1 minute,1 minute,Intelligence,6d6 Psychic,,,Self,,Incapacitated,,Divination/Scrying
+Contagion,5,Necromancy,No,1 action,7 days,Constitution,11d8 Necrotic,,,Single target,,Poisoned,,Impose Disadvantage (saves)
+Contingency,6,Abjuration,No,10 minutes,10 days,,,,,Self,,,,
+Continual Flame,2,Evocation,No,1 action,Until dispelled,,,,,Single target,,,,
+Control Water,4,Transmutation,Yes,1 action,"Concentration, up to 10 minutes",Strength,1d100; 2d8 Bludgeoning,,,Single target,,,,
+Control Weather,8,Transmutation,Yes,10 minutes,"Concentration, up to 8 hours",,1d4,,,Self,,,,
+Cordon of Arrows,2,Transmutation,No,1 action,8 hours,Dexterity,2d4 Piercing,,,Single target,,,,
+Counterspell,3,Abjuration,No,1 reaction,Instantaneous,Constitution,,,,Single target,,,,
+Create Food and Water,3,Conjuration,No,1 action,Instantaneous,,,,,Single target,,,,
+Create or Destroy Water,1,Transmutation,No,1 action,Instantaneous,,,,,AoE (Cube),30-foot Cube,,,
+Create Undead,6,Necromancy,No,1 minute,Instantaneous,,,,,Multi-target,,,,
+Creation,5,Illusion,No,1 minute,Special,,,,,AoE (Cube),5-foot Cube,,,
+Crown of Madness,2,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Charmed,,
+Crusader's Mantle,3,Evocation,Yes,1 action,"Concentration, up to 1 minute",,1d4 Radiant,,,AoE (Emanation),30-foot Emanation,,,
+Cure Wounds,1,Abjuration,No,1 action,Instantaneous,,,2d8,,Single target,,,,Healing
+Dancing Lights,0,Illusion,Yes,1 action,"Concentration, up to 1 minute",,,,,Single target,,,,
+Darkness,2,Evocation,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Sphere),15-foot-radius Sphere,,,
+Darkvision,2,Transmutation,No,1 action,8 hours,,,,,Single target,,,,
+Daylight,3,Evocation,No,1 action,1 hour,,,,,AoE (Sphere),60-foot-radius Sphere,,,
+Death Armor,2,Necromancy,No,1 action,1 hour,,2d4 Necrotic,,,Single target,,,,Advantage on saves
+Death Ward,4,Abjuration,No,1 action,8 hours,,,,,Single target,,,,
+Delayed Blast Fireball,7,Evocation,Yes,1 action,"Concentration, up to 1 minute",Dexterity,12d6; 1d6,,,AoE (Sphere),20-foot-radius Sphere,,,
+Demiplane,8,Conjuration,No,1 action,1 hour,,,,,Single target,,Prone,,Conjure/Create
+Deryan's Helpful Homunculi,2,Conjuration,No,1 action,8 hours,,,,,Self,,,,Summon
+Destructive Wave,5,Evocation,No,1 action,Instantaneous,Constitution,5d6 Thunder; 5d6 Radiant,,,AoE (Emanation),30-foot Emanation,Prone,,
+Detect Evil and Good,1,Divination,Yes,1 action,"Concentration, up to 10 minutes",,,,,Self,,,,Divination/Scrying
+Detect Magic,1,Divination,Yes,1 action,"Concentration, up to 10 minutes",,,,,Self,,,,Divination/Scrying
+Detect Poison and Disease,1,Divination,Yes,1 action,"Concentration, up to 10 minutes",,,,,Self,,,,Divination/Scrying
+Detect Thoughts,2,Divination,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Self,,,,Divination/Scrying
+Dimension Door,4,Conjuration,No,1 action,Instantaneous,,4d6 Force,,,Multi-target,,,,Teleport
+Dirge,6,Enchantment,Yes,1 action,"Concentration, 1 minute",Constitution,3d10 Necrotic,,,AoE (Emanation),60-foot emanation,Exhaustion; Prone,,Healing; Healing
+Disguise Self,1,Illusion,No,1 action,1 hour,,,,,Self,,,,
+Disintegrate,6,Transmutation,No,1 action,Instantaneous,Dexterity,,,,Single target,,,,
+Dispel Evil and Good,5,Abjuration,Yes,1 action,"Concentration, up to 1 minute",Charisma,,,,Multi-target,,Charmed; Frightened,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks)
+Dispel Magic,3,Abjuration,No,1 action,Instantaneous,,,,,Single target,,,,
+Dissonant Whispers,1,Enchantment,No,1 action,Instantaneous,Wisdom,3d6 Psychic,,,Single target,,,,
+Divination,4,Divination,No,1 action,Instantaneous,,,,,Self,,,,Divination/Scrying
+Divine Favor,1,Transmutation,No,1 bonus action,1 minute,,1d4 Radiant,,,Self,,,,
+Divine Smite,1,Evocation,No,1 bonus action,Instantaneous,,2d8 Radiant; 1d8,,,Self,,,,
+Divine Word,7,Evocation,No,1 bonus action,Instantaneous,Charisma,,,,All creatures in area,,Blinded; Deafened; Stunned,,
+Dominate Beast,4,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Charmed,,
+Dominate Monster,8,Enchantment,Yes,1 action,Special,Wisdom,,,,Single target,,Charmed,,
+Dominate Person,5,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Charmed,,
+Doomtide,4,Conjuration,Yes,1 action,"Concentration, 1 minute",Wisdom,5d6 Psychic; 1d6,,,AoE (Sphere),20-foot-radius Sphere,,,
+Dragon's Breath,2,Transmutation,Yes,1 bonus action,"Concentration, up to 1 minute",Dexterity,3d6,,,AoE (Cone),15-foot Cone,,,
+Drawmij's Instant Summons,6,Conjuration,No,1 minute,Until dispelled,,,,,Single target,,Invisible,,Invisibility
+Dream,5,Illusion,No,1 minute,8 hours,Wisdom,3d6 Psychic,,,Single target,,Incapacitated,,
+Druidcraft,0,Transmutation,No,1 action,Instantaneous,,,,,AoE (Cube),5-foot Cube,,,
+Earth Tremor,1,Evocation,No,1 action,Instantaneous,Dexterity,1d6 Bludgeoning,,,All creatures in area,,Prone,,
+Earthbind,2,Transmutation,Yes,1 action,"Concentration, 1 minute",Strength,,,,Single target,,,,Flight
+Earthquake,8,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Dexterity,1d6; 1d10; 12d6 Bludgeoning,,,AoE (Circle),100-foot-radius circle,Prone,,
+Eldritch Blast,0,Evocation,No,1 action,Instantaneous,Ranged Attack,1d10 Force,,,Single target,,,,
+Elemental Weapon,3,Transmutation,Yes,1 action,"Concentration, up to 1 hour",,1d4,,,Single target,,,,
+Elementalism,0,Transmutation,No,1 action,Instantaneous,,,,,AoE (Cube),5-foot Cube,,,Conjure/Create
+Elminster's Effulgent Spheres,6,Evocation,No,1 action,1 hour,Ranged Attack,3d6 Acid,,,Self,,,,
+Elminster's Elusion,2,Abjuration,Yes,1 bonus action,"Concentration, 10 minutes",,,,,Self,,,,Advantage on saves; Negate damage
+Enemies Abound,3,Enchantment,Yes,1 action,"Concentration, 1 minute",Intelligence,,,,Single target,,Frightened,,
+Enhance Ability,2,Transmutation,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Enlarge/Reduce,2,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Strength; Constitution,1d4,,,Single target,,,,Impose Disadvantage (saves); Advantage on saves
+Ensnaring Strike,1,Conjuration,Yes,1 bonus action,"Concentration, up to 1 minute",Strength,1d6 Piercing,,,Self,,Restrained,,
+Entangle,1,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Strength,,,,All creatures in area,,Restrained,,
+Enthrall,2,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,,,
+Etherealness,7,Conjuration,No,1 action,8 hours,,,,,Self,,,,
+Evard's Black Tentacles,4,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Strength,3d6 Bludgeoning,,,All creatures in area,,Restrained,,
+Expeditious Retreat,1,Transmutation,Yes,1 bonus action,"Concentration, up to 10 minutes",,,,,Self,,,,
+Eyebite,6,Necromancy,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Frightened; Poisoned; Unconscious,,
+Fabricate,4,Transmutation,No,10 minutes,Instantaneous,,,,,AoE (Cube),10-foot Cube,,,
+Faerie Fire,1,Evocation,Yes,1 action,"Concentration, up to 1 minute",Dexterity,,,,AoE (Cube),20-foot Cube,Invisible,,Invisibility
+False Life,1,Necromancy,No,1 action,Instantaneous,,,,,Self,,,Temp HP,
+Fear,3,Illusion,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,AoE (Cone),30-foot Cone,Frightened,,
+Feather Fall,1,Transmutation,No,1 reaction,1 minute,,,,,Single target,,,,Negate damage
+Feign Death,3,Necromancy,No,1 action,1 hour,,,,,Single target,,Blinded; Incapacitated; Poisoned,Immunity,
+Find Familiar,1,Conjuration,No,1 hour,Instantaneous,,,,,Single target,,,,
+Find Steed,2,Conjuration,No,1 action,Instantaneous,,,,,Single target,,Incapacitated,,Flight; Summon
+Find the Path,6,Divination,Yes,1 minute,"Concentration, up to 1 day",,,,,Self,,,,Divination/Scrying
+Find Traps,2,Divination,No,1 action,Instantaneous,,,,,Single target,,,,Divination/Scrying
+Finger of Death,7,Necromancy,No,1 action,Instantaneous,Constitution,7d8 + 30 Necrotic,,,Single target,,,,
+Fire Bolt,0,Evocation,No,1 action,Instantaneous,Ranged Attack,1d10 Fire; 1d10; 2d10; 3d10; 4d10,,,Single target,,,,
+Fire Shield,4,Evocation,No,1 action,10 minutes,,2d8,,,Self,,,,
+Fire Storm,7,Evocation,No,1 action,Instantaneous,Dexterity,7d10 Fire,,,AoE (Cube),10-foot Cube,,,
+Fireball,3,Evocation,No,1 action,Instantaneous,Dexterity,8d6 Fire,,,AoE (Sphere),20-foot-radius Sphere,,,
+Flame Blade,2,Evocation,Yes,1 bonus action,"Concentration, up to 10 minutes",Melee Attack,3d6,,,Self,,,,
+Flame Strike,5,Evocation,No,1 action,Instantaneous,Dexterity,5d6 Fire; 5d6 Radiant,,,All creatures in area,,,,
+Flaming Sphere,2,Conjuration,Yes,1 action,"Concentration, up to 1 minute",,2d6 Fire,,,Single target,,,,Conjure/Create
+Flesh to Stone,6,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Constitution,,,,Single target,,Petrified; Restrained,,
+Fly,3,Transmutation,Yes,1 action,"Concentration, up to 10 minutes",,,,,Single target,,,,Flight
+Fog Cloud,1,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,AoE (Sphere),20-foot-radius Sphere,,,
+Forbiddance,6,Abjuration,No,10 minutes,1 day,,5d10 Radiant,,,Multi-target,,,,Teleport; Conjure/Create; Negate damage
+Force Blast,0,Evocation,No,1 action,Instantaneous,Ranged Attack,1d8 Force; 1d8; 2d8; 3d8; 4d8,,,Single target,,,,
+Forcecage,7,Evocation,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,Invisible,,Invisibility; Teleport
+Foresight,9,Divination,No,1 minute,8 hours,,,,,Single target,,,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks); Divination/Scrying
+Fount of Moonlight,4,Evocation,Yes,1 action,"Concentration, up to 10 minutes",,2d6 Radiant,,,Self,,Blinded,,
+Freedom of Movement,4,Abjuration,No,1 action,1 hour,,,,,Single target,,Grappled; Paralyzed; Restrained,,
+Friends,0,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Charmed,,
+Gaseous Form,3,Transmutation,Yes,1 action,"Concentration, up to 1 hour",Constitution,,,,Single target,,Prone,Immunity,Flight; Advantage on saves
+Gate,9,Conjuration,Yes,1 action,"Concentration, up to 1 minute",,,,,Single target,,,,Conjure/Create
+Geas,5,Enchantment,No,1 minute,30 days,Wisdom,5d10,,,Single target,,Charmed,,Curse
+Gentle Repose,2,Necromancy,No,1 action,10 days,,,,,Single target,,,,
+Giant Insect,4,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,Single target,,,,Flight; Summon
+Glibness,8,Enchantment,No,1 action,1 hour,,,,,Self,,,,
+Globe of Invulnerability,6,Abjuration,Yes,1 action,"Concentration, up to 1 minute",,,,,AoE (Emanation),10-foot Emanation,,,
+Glyph of Warding,3,Abjuration,No,1 hour,Until dispelled or triggered,,5d8,,,AoE (Sphere),20-foot-radius Sphere,,,
+Goodberry,1,Conjuration,No,1 action,24 hours,,,,,Self,,,,Healing
+Grasping Vine,4,Conjuration,Yes,1 bonus action,"Concentration, up to 1 minute",Melee Attack,4d8 Bludgeoning,,,Single target,,Grappled,,Conjure/Create
+Gray Gaze,0,Transmutation,No,1 bonus action,Instantaneous,Dexterity; Constitution,,,,Single target,,,,Impose Disadvantage (saves)
+Grease,1,Conjuration,No,1 action,1 minute,Dexterity,,,,All creatures in area,,Prone,,
+Greater Invisibility,4,Illusion,Yes,1 action,"Concentration, up to 1 minute",,,,,Single target,,Invisible,,Invisibility
+Greater Restoration,5,Abjuration,No,1 action,Instantaneous,,,,,Single target,,Charmed; Cursed; Exhaustion; Petrified,,Curse
+Guardian of Faith,4,Conjuration,No,1 action,8 hours,Dexterity,,,,Single target,,,,
+Guards and Wards,6,Abjuration,No,1 hour,24 hours,,,,,Single target,,,,
+Guidance,0,Divination,Yes,1 action,"Concentration, up to 1 minute",,,,1d4,Single target,,,,Divination/Scrying
+Guiding Bolt,1,Evocation,No,1 action,1 round,Ranged Attack,4d6 Radiant,,,Single target,,,,
+Gust of Wind,2,Evocation,Yes,1 action,"Concentration, up to 1 minute",Strength,,,,All creatures in area,,,,Forced movement
+Hail of Thorns,1,Conjuration,No,1 bonus action,Instantaneous,Dexterity,1d10 Piercing,,,All creatures in area,,,,
+Hallow,5,Abjuration,No,24 hours,Until dispelled,,,,,Single target,,Charmed; Frightened,,Teleport
+Hallucinatory Terrain,4,Illusion,No,10 minutes,24 hours,,,,,AoE (Cube),150-foot Cube,,,
+Harm,6,Necromancy,No,1 action,Instantaneous,Constitution,,,,Single target,,,,
+Haste,3,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Dexterity,,,,Single target,,Incapacitated,,Advantage on saves
+Heal,6,Abjuration,No,1 action,Instantaneous,,,,,Single target,,Blinded; Deafened; Poisoned,,
+Healing Word,1,Abjuration,No,1 bonus action,Instantaneous,,,2d4,,Single target,,,,Healing
+Heat Metal,2,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Constitution,2d8 Fire,,,Single target,,,Advantage on attacks,Impose Disadvantage (attacks)
+Hellish Rebuke,1,Evocation,No,1 reaction,Instantaneous,Dexterity,2d10 Fire,,,Single target,,,,
+Heroes' Feast,6,Conjuration,No,10 minutes,Instantaneous,,,,,AoE (Cube),10-foot Cube,Frightened; Poisoned,Immunity; Max HP increase,Conjure/Create
+Heroism,1,Enchantment,Yes,1 action,"Concentration, up to 1 minute",,,,,Single target,,Frightened,Temp HP,
+Hex,1,Enchantment,Yes,1 bonus action,"Concentration, up to 1 hour",,1d6 Necrotic,,,Single target,,Petrified,,Curse
+Hold Monster,5,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Paralyzed,,
+Hold Person,2,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Paralyzed,,
+Holy Aura,8,Abjuration,Yes,1 action,"Concentration, up to 1 minute",Constitution,,,,AoE (Emanation),30-foot Emanation,Blinded,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks); Impose Disadvantage (saves); Advantage on saves
+Holy Star of Mystra,8,Evocation,Yes,1 bonus action,"Concentration, 1 minute",Ranged Attack,4d10,,,Single target,,,,
+Homunculus Servant,2,Conjuration,No,1 hour,Instantaneous,,,,,Single target,,,,Summon
+Hunger of Hadar,3,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Dexterity,2d6 Cold; 2d6 Acid,,,AoE (Sphere),20-foot-radius Sphere,Blinded,,
+Hunter's Mark,1,Divination,Yes,1 bonus action,"Concentration, up to 1 hour",,,,,Single target,,,,Divination/Scrying
+Hypnotic Pattern,3,Illusion,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,AoE (Cube),30-foot Cube,Charmed; Incapacitated,,Conjure/Create
+Ice Knife,1,Conjuration,No,1 action,Instantaneous,Ranged Attack,1d10 Piercing; 2d6 Cold,,,All creatures in area,,,,Conjure/Create
+Ice Storm,4,Evocation,No,1 action,Instantaneous,Dexterity,2d10 Bludgeoning; 4d6 Cold,,,All creatures in area,,,,
+Identify,1,Divination,No,1 minute,Instantaneous,,,,,Single target,,,,Divination/Scrying
+Illusory Script,1,Illusion,No,1 minute,10 days,,,,,Single target,,,,
+Imprisonment,9,Abjuration,No,1 minute,Until dispelled,Wisdom,,,,Single target,,Restrained; Unconscious,,Teleport; Divination/Scrying; Conjure/Create
+Incendiary Cloud,8,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Dexterity,10d8 Fire,,,AoE (Sphere),20-foot-radius Sphere,,,
+Inflict Wounds,1,Necromancy,No,1 action,Instantaneous,Constitution,2d10 Necrotic,,,Single target,,,,
+Insect Plague,5,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Constitution,4d10 Piercing,,,AoE (Sphere),20-foot-radius Sphere,,,
+Invisibility,2,Illusion,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,Invisible,,Invisibility
+Jallarzi's Storm of Radiance,5,Evocation,Yes,1 action,"Concentration, up to 1 minute",Constitution,2d10 Radiant; 2d10 Thunder,,,All creatures in area,,Blinded; Deafened,,
+Jump,1,Transmutation,No,1 bonus action,1 minute,,,,,Single target,,,,
+Knock,2,Transmutation,No,1 action,Instantaneous,,,,,Single target,,,,
+Laeral's Silver Lance,3,Evocation,No,1 action,Instantaneous,Strength,3d10 Force,,,AoE (Line),120-foot line,Prone,,
+Legend Lore,5,Divination,No,10 minutes,Instantaneous,,,,,Self,,,,Divination/Scrying
+Leomund's Secret Chest,4,Conjuration,No,1 action,Until dispelled,,,,,Single target,,,,
+Leomund's Tiny Hut,3,Evocation,No,1 minute,8 hours,,,,,AoE (Emanation),10-foot Emanation,,,
+Lesser Restoration,2,Abjuration,No,1 bonus action,Instantaneous,,,,,Single target,,Blinded; Deafened; Paralyzed; Poisoned,,
+Levitate,2,Transmutation,Yes,1 action,"Concentration, up to 10 minutes",Constitution,,,,Single target,,,,
+Light,0,Evocation,No,1 action,1 hour,,,,,Single target,,,,
+Lightning Arrow,3,Transmutation,No,1 bonus action,Instantaneous,Dexterity,4d8 Lightning; 2d8 Lightning,,,All creatures in area,,,,
+Lightning Bolt,3,Evocation,No,1 action,Instantaneous,Dexterity,8d6 Lightning,,,All creatures in area,,,,
+Locate Animals or Plants,2,Divination,No,1 action,Instantaneous,,,,,Self,,,,Divination/Scrying
+Locate Creature,4,Divination,Yes,1 action,"Concentration, up to 1 hour",,,,,Self,,,,Polymorph; Divination/Scrying
+Locate Object,2,Divination,Yes,1 action,"Concentration, up to 10 minutes",,,,,Self,,,,Divination/Scrying
+Longstrider,1,Transmutation,No,1 action,1 hour,,,,,Single target,,,,
+Mage Armor,1,Abjuration,No,1 action,8 hours,,,,,Single target,,,,
+Mage Hand,0,Conjuration,No,1 action,1 minute,,,,,Single target,,,,
+Magecraft,0,Divination,Yes,1 action,"Concentration, 1 minute",,,,1d6,Self,,,,Divination/Scrying
+Magic Circle,3,Abjuration,No,1 minute,Special,Charisma,,,,Multi-target,,Charmed; Frightened,Attackers have Disadvantage; Advantage on attacks,Teleport; Impose Disadvantage (attacks)
+Magic Jar,6,Necromancy,No,1 minute,Until dispelled,Charisma,,,,Self,,Incapacitated,,
+Magic Missile,1,Evocation,No,1 action,Instantaneous,,1d4 + 1 Force,,,Single target,,,,Conjure/Create
+Magic Mouth,2,Illusion,No,1 minute,Until dispelled,,,,,Single target,,,,
+Magic Weapon,2,Transmutation,No,1 bonus action,1 hour,,,,,Single target,,,,
+Major Image,3,Illusion,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Cube),20-foot Cube,,,Conjure/Create
+Mass Cure Wounds,5,Abjuration,No,1 action,Instantaneous,,,5d8,,AoE (Sphere),30-foot-radius Sphere,,,Healing
+Mass Heal,9,Abjuration,No,1 action,Instantaneous,,,,,Single target,,Blinded; Deafened; Poisoned,,Healing; Healing
+Mass Healing Word,3,Abjuration,No,1 bonus action,Instantaneous,,,2d4,,Single target,,,,Healing
+Mass Suggestion,6,Enchantment,No,1 action,24 hours,Wisdom,,,,Single target,,Charmed,,
+Maze,8,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,Single target,,,,
+Meld into Stone,3,Transmutation,No,1 action,8 hours,,6d6,,,Single target,,Prone,,
+Melf's Acid Arrow,2,Evocation,No,1 action,Instantaneous,Ranged Attack,4d4 Acid; 2d4 Acid,,,Single target,,,,
+Mending,0,Transmutation,No,1 minute,Instantaneous,,,,,Single target,,,,
+Message,0,Transmutation,No,1 action,1 round,,,,,Single target,,,,
+Meteor Swarm,9,Evocation,No,1 action,Instantaneous,Dexterity,20d6 Fire; 20d6 Bludgeoning,,,AoE (Sphere),40-foot-radius Sphere,,,
+Mind Blank,8,Abjuration,No,1 action,24 hours,,,,,Single target,,Charmed,Immunity,
+Mind Sliver,0,Enchantment,No,1 action,1 round,Intelligence,1d6 Psychic; 1d4; 1d6; 2d6; 3d6; 4d6,,,Single target,,,,
+Mind Spike,2,Divination,Yes,1 action,"Concentration, up to 1 hour",Wisdom,3d8 Psychic,,,Single target,,Invisible,,Invisibility; Divination/Scrying
+Minor Illusion,0,Illusion,No,1 action,1 minute,,,,,AoE (Cube),5-foot Cube,,,
+Mirage Arcane,7,Illusion,No,10 minutes,10 days,,,,,Single target,,,,
+Mirror Image,2,Illusion,No,1 action,1 minute,,,,,Self,,Blinded,,
+Mislead,5,Illusion,Yes,1 action,"Concentration, up to 1 hour",,,,,Self,,Invisible,,Invisibility
+Misty Step,2,Conjuration,No,1 bonus action,Instantaneous,,,,,Self,,,,Teleport
+Modify Memory,5,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Charmed; Incapacitated,,Curse
+Mold Earth,0,Transmutation,No,1 action,Instantaneous or 1 hour,,,,,AoE (Cube),5-foot cube,,,
+Moonbeam,2,Evocation,Yes,1 action,"Concentration, up to 1 minute",Constitution,2d10 Radiant,,,All creatures in area,,,,Polymorph
+Mordenkainen's Faithful Hound,4,Conjuration,No,1 action,8 hours,Dexterity,4d8 Force,,,Single target,,,,Conjure/Create
+Mordenkainen's Magnificent Mansion,7,Conjuration,No,1 minute,24 hours,,,,,AoE (Cube),10-foot Cube,,,Conjure/Create
+Mordenkainen's Private Sanctum,4,Abjuration,No,10 minutes,24 hours,,,,,Single target,,,,Teleport; Divination/Scrying
+Mordenkainen's Sword,7,Evocation,Yes,1 action,"Concentration, up to 1 minute",Melee Attack,4d12,,,Single target,,,,
+Move Earth,6,Transmutation,Yes,1 action,"Concentration, up to 2 hours",,,,,Single target,,,,Conjure/Create
+Nondetection,3,Abjuration,No,1 action,8 hours,,,,,Single target,,,,Divination/Scrying
+Nystul's Magic Aura,2,Illusion,No,1 action,24 hours,,,,,Single target,,,,
+Orien Step,0,Transmutation,No,1 bonus action,Instantaneous,,,,,Self,,,,Teleport
+Otiluke's Freezing Sphere,6,Evocation,No,1 action,Instantaneous,Constitution,10d6 Cold,,,AoE (Sphere),60-foot-radius Sphere,Restrained,,
+Otiluke's Resilient Sphere,4,Abjuration,Yes,1 action,"Concentration, up to 1 minute",Dexterity,,,,Single target,,,,
+Otto's Irresistible Dance,6,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Dexterity; Wisdom,,,,Single target,,Charmed,Advantage on attacks,Impose Disadvantage (saves)
+Pass without Trace,2,Abjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,AoE (Emanation),30-foot Emanation,,,
+Passwall,5,Transmutation,No,1 action,1 hour,,,,,Single target,,,,
+Phantasmal Force,2,Illusion,Yes,1 action,"Concentration, up to 1 minute",Intelligence,2d8 Psychic,,,AoE (Cube),10-foot Cube,,,Conjure/Create
+Phantasmal Killer,4,Illusion,Yes,1 action,"Concentration, up to 1 minute",Wisdom,4d10 Psychic,,,Single target,,,Advantage on attacks,Impose Disadvantage (attacks); Conjure/Create
+Phantom Steed,3,Illusion,No,1 minute,1 hour,,,,,Single target,,,,
+Planar Ally,6,Conjuration,No,10 minutes,Instantaneous,,,,,Single target,,,,Flight
+Planar Binding,5,Abjuration,No,1 hour,24 hours,Charisma,,,,Single target,,,,
+Plane Shift,7,Conjuration,No,1 action,Instantaneous,,,,,Single target,,,,Teleport
+Plant Growth,3,Transmutation,No,special,Instantaneous,,,,,AoE (Sphere),100-foot-radius Sphere,,,
+Poison Spray,0,Necromancy,No,1 action,Instantaneous,Ranged Attack,1d12 Poison; 1d12; 2d12; 3d12; 4d12,,,Single target,,,,
+Polymorph,4,Transmutation,Yes,1 action,"Concentration, up to 1 hour",Wisdom,,,,Single target,,,Temp HP,
+Power Word Fortify,7,Enchantment,No,1 action,Instantaneous,,,,,Single target,,,Temp HP,
+Power Word Heal,9,Enchantment,No,1 action,Instantaneous,,,,,Single target,,Charmed; Frightened; Paralyzed; Poisoned; Prone; Stunned,,Healing
+Power Word Kill,9,Enchantment,No,1 action,Instantaneous,,,,,Single target,,,,
+Power Word Stun,8,Enchantment,No,1 action,Instantaneous,,,,,Single target,,Stunned,,
+Prayer of Healing,2,Abjuration,No,10 minutes,Instantaneous,,,2d8,,Multi-target,,,,Healing
+Prestidigitation,0,Transmutation,No,1 action,1 hour,,,,,Single target,,,,Negate damage
+Prismatic Spray,7,Evocation,No,1 action,Instantaneous,Dexterity,1d8,,,AoE (Cone),60-foot Cone,,,
+Prismatic Wall,9,Abjuration,No,1 action,10 minutes,Dexterity; Constitution,12d6 Fire; 12d6 Acid; 12d6 Lightning; 12d6 Poison; 12d6 Cold,,,Single target,,Blinded; Petrified; Restrained,,Teleport
+Produce Flame,0,Conjuration,No,1 bonus action,10 minutes,Ranged Attack,1d8 Fire; 1d8; 2d8; 3d8; 4d8,,,Self,,,,
+Programmed Illusion,6,Illusion,No,1 action,Until dispelled,,,,,AoE (Cube),30-foot Cube,,,Conjure/Create
+Project Image,7,Illusion,Yes,1 action,"Concentration, up to 1 day",,,,,Single target,,,,
+Protection from Energy,3,Abjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Protection from Evil and Good,1,Abjuration,Yes,1 action,"Concentration, up to 10 minutes",,,,,Single target,,Charmed; Frightened,Attackers have Disadvantage; Advantage on attacks,Impose Disadvantage (attacks); Impose Disadvantage (saves); Advantage on saves
+Protection from Poison,2,Abjuration,No,1 action,1 hour,,,,,Single target,,Poisoned,,Advantage on saves
+Purify Food and Drink,1,Transmutation,No,1 action,Instantaneous,,,,,AoE (Sphere),5-foot-radius Sphere,,,
+Raise Dead,5,Necromancy,No,1 hour,Instantaneous,,,,,Self,,,,
+Rary's Telepathic Bond,5,Divination,No,1 action,1 hour,,,,,All creatures in area,,,,Divination/Scrying
+Ray of Enfeeblement,2,Necromancy,Yes,1 action,"Concentration, up to 1 minute",Constitution,1d8,,,Single target,,,,
+Ray of Frost,0,Evocation,No,1 action,Instantaneous,Ranged Attack,1d8 Cold; 1d8; 2d8; 3d8; 4d8,,,Single target,,,,
+Ray of Sickness,1,Necromancy,No,1 action,Instantaneous,Ranged Attack,2d8 Poison,,,Single target,,Poisoned,,
+Regenerate,7,Transmutation,No,1 minute,1 hour,,,,,Single target,,,,Healing
+Reincarnate,5,Necromancy,No,1 hour,Instantaneous,,,,,Single target,,,,
+Remove Curse,3,Abjuration,No,1 action,Instantaneous,,,,,Single target,,Cursed,,Curse
+Resistance,0,Abjuration,Yes,1 action,"Concentration, up to 1 minute",,1d4,,,Single target,,,,
+Resurrection,7,Necromancy,No,1 hour,Instantaneous,,,,,Single target,,,,Healing
+Reverse Gravity,7,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Dexterity,,,,Single target,,,,
+Revivify,3,Necromancy,No,1 action,Instantaneous,,,,,Single target,,,,Healing
+Rope Trick,2,Transmutation,No,1 action,1 hour,,,,,Single target,,Invisible,,Invisibility
+Sacred Flame,0,Evocation,No,1 action,Instantaneous,Dexterity,1d8 Radiant; 1d8; 2d8; 3d8; 4d8,,,Single target,,,,
+Sanctuary,1,Abjuration,No,1 bonus action,1 minute,,,,,Single target,,,,
+Scorching Ray,2,Evocation,No,1 action,Instantaneous,Ranged Attack,2d6 Fire,,,Single target,,,,
+Scrying,5,Divination,Yes,10 minutes,"Concentration, up to 10 minutes",Wisdom,,,,Self,,Invisible,,Invisibility; Divination/Scrying
+Searing Smite,1,Evocation,No,1 bonus action,1 minute,Constitution,1d6 Fire,,,Self,,,,
+See Invisibility,2,Divination,No,1 action,1 hour,,,,,Self,,Invisible,,Invisibility; Divination/Scrying
+Seeming,5,Illusion,No,1 action,8 hours,Charisma,,,,All creatures in area,,,,
+Sending,3,Divination,No,1 action,Instantaneous,,,,,Single target,,,,Divination/Scrying
+Sequester,7,Transmutation,No,1 action,Until dispelled,,,,,Single target,,Invisible; Unconscious,,Invisibility; Divination/Scrying
+Shapechange,9,Transmutation,Yes,1 action,"Concentration, up to 1 hour",,,,,Self,,,Temp HP,
+Shatter,2,Evocation,No,1 action,Instantaneous,Constitution,3d8 Thunder,,,AoE (Sphere),10-foot-radius Sphere,,,
+Shield of Faith,1,Abjuration,Yes,1 bonus action,"Concentration, up to 10 minutes",,,,,Single target,,,+2 AC,
+Shield,1,Abjuration,No,1 reaction,1 round,,,,,Self,,,+5 AC,Negate damage
+Shillelagh,0,Transmutation,No,1 bonus action,1 minute,,2d6,,,Self,,,,
+Shining Smite,2,Transmutation,Yes,1 bonus action,"Concentration, up to 1 minute",,2d6 Radiant,,,Self,,Invisible,,Invisibility
+Shocking Grasp,0,Evocation,No,1 action,Instantaneous,Melee Attack,1d8 Lightning; 1d8; 2d8; 3d8; 4d8,,,Single target,,,,
+Silence,2,Illusion,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Sphere),20-foot-radius Sphere,Deafened,Immunity,
+Silent Image,1,Illusion,Yes,1 action,"Concentration, up to 10 minutes",,,,,AoE (Cube),15-foot Cube,,,Conjure/Create
+Simbul's Synostodweomer,7,Transmutation,No,1 action,1 hour,,,,,Single target,,,,Healing
+Simulacrum,7,Illusion,No,12 hours,Until dispelled,,,,,Single target,,,,Healing; Healing; Conjure/Create
+Sleep,1,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,AoE (Sphere),5-foot-radius Sphere,Exhaustion; Incapacitated; Unconscious,Immunity,
+Sleet Storm,3,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Dexterity,,,,AoE (Cylinder),20-foot-radius Cylinder,Prone,,
+Slow,3,Transmutation,Yes,1 action,"Concentration, up to 1 minute",Dexterity; Wisdom,1d100,,,AoE (Cube),40-foot Cube,,,
+Songal's Elemental Suffusion,5,Transmutation,Yes,1 action,"Concentration, 1 minute",Dexterity,2d6 Acid,,,AoE (Emanation),15-foot Emanation,Prone,,Flight
+Sorcerous Burst,0,Evocation,No,1 action,Instantaneous,,1d8; 2d8; 3d8; 4d8,,,Single target,,,,
+Spare the Dying,0,Necromancy,No,1 action,Instantaneous,,,,,Single target,,,,
+Speak with Animals,1,Divination,No,1 action,10 minutes,,,,,Self,,,,Divination/Scrying
+Speak with Dead,3,Necromancy,No,1 action,10 minutes,,,,,Single target,,,,
+Speak with Plants,3,Transmutation,No,1 action,10 minutes,,,,,AoE (Emanation),30-foot Emanation,,,
+Spellfire Flare,1,Evocation,No,1 action,Instantaneous,Ranged Attack,2d10 Radiant,,,Single target,,,,
+Spellfire Storm,4,Evocation,Yes,1 action,"Concentration, 1 minute",Constitution,4d10 Radiant,,,All creatures in area,,,,Conjure/Create
+Spider Climb,2,Transmutation,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Spike Growth,2,Transmutation,Yes,1 action,"Concentration, up to 10 minutes",,2d4,,,AoE (Sphere),20-foot-radius Sphere,,,
+Spirit Guardians,3,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Wisdom,3d8 Radiant; 3d8 Necrotic,,,AoE (Emanation),15-foot Emanation,,,
+Spiritual Weapon,2,Evocation,Yes,1 bonus action,"Concentration, up to 1 minute",Melee Attack,1d8,,,Single target,,,,Conjure/Create
+Staggering Smite,4,Enchantment,No,1 bonus action,Instantaneous,Wisdom,4d6 Psychic,,,Self,,Stunned,,
+Starry Wisp,0,Evocation,No,1 action,Instantaneous,Ranged Attack,1d8 Radiant; 1d8; 2d8; 3d8; 4d8,,,Single target,,Invisible,,Invisibility
+Steel Wind Strike,5,Conjuration,No,1 action,Instantaneous,Melee Attack,6d10 Force,,,Multi-target,,,,Teleport
+Stinking Cloud,3,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Constitution,,,,AoE (Sphere),20-foot-radius Sphere,Poisoned,,
+Stone Shape,4,Transmutation,No,1 action,Instantaneous,,,,,Single target,,,,
+Stoneskin,4,Transmutation,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Storm of Vengeance,9,Conjuration,Yes,1 action,"Concentration, up to 1 minute",Dexterity; Constitution,2d6 Thunder; 4d6 Acid; 10d6 Lightning; 2d6 Bludgeoning; 1d6 Cold,,,All creatures in area,,Deafened,,
+Suggestion,2,Enchantment,Yes,1 action,"Concentration, up to 8 hours",Wisdom,,,,Single target,,Charmed,,
+Summon Aberration,4,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,Flight
+Summon Beast,2,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,Flight
+Summon Celestial,5,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Summon Construct,4,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Summon Dragon,5,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Summon Elemental,4,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,Flight
+Summon Fey,3,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,
+Summon Fiend,6,Conjuration,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,Flight
+Summon Undead,3,Necromancy,Yes,1 action,"Concentration, up to 1 hour",,,,,Single target,,,,Flight
+Sunbeam,6,Evocation,Yes,1 action,"Concentration, up to 1 minute",Constitution,6d8 Radiant,,,All creatures in area,,Blinded,,
+Sunburst,8,Evocation,No,1 action,Instantaneous,Constitution,12d6 Radiant,,,AoE (Sphere),60-foot-radius Sphere,Blinded,,
+Swift Quiver,5,Transmutation,Yes,1 bonus action,"Concentration, up to 1 minute",,,,,Self,,,,
+Syluné's Viper,3,Conjuration,No,1 bonus action,1 hour,Ranged Attack,1d6 Force,,,Self,,Incapacitated; Poisoned,Temp HP,
+Symbol,7,Abjuration,No,1 minute,Until dispelled or triggered,Constitution; Wisdom,10d10 Necrotic,,,AoE (Sphere),60-foot-radius Sphere,Frightened; Incapacitated; Stunned; Unconscious,Advantage on attacks,Impose Disadvantage (attacks)
+Synaptic Static,5,Enchantment,No,1 action,Instantaneous,Constitution; Intelligence,8d6 Psychic; 1d6,,,AoE (Sphere),20-foot-radius Sphere,,,
+Tasha's Bubbling Cauldron,6,Conjuration,No,1 action,10 minutes,,,,,Single target,,,,Conjure/Create
+Tasha's Hideous Laughter,1,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,,,,Single target,,Incapacitated; Prone,,
+Telekinesis,5,Transmutation,Yes,1 action,"Concentration, up to 10 minutes",Strength,,,,Single target,,Restrained,,
+Telepathy,8,Divination,No,1 action,24 hours,,,,,Single target,,,,Divination/Scrying; Conjure/Create
+Teleport,7,Conjuration,No,1 action,Instantaneous,,1d100; 3d10; 2d12; 1d8,,,Single target,,,,Teleport; Divination/Scrying
+Teleportation Circle,5,Conjuration,No,1 minute,1 round,,,,,AoE (Circle),5-foot-radius circle,,,Teleport
+Tenser's Floating Disk,1,Conjuration,No,1 action,1 hour,,,,,Single target,,,,
+Thaumaturgy,0,Transmutation,No,1 action,1 minute,,,,,Single target,,Invisible,,Invisibility; Flight
+Thorn Whip,0,Transmutation,No,1 action,Instantaneous,Melee Attack,1d6 Piercing; 1d6; 2d6; 3d6; 4d6,,,Single target,,,,Conjure/Create
+Thunderclap,0,Evocation,No,1 action,Instantaneous,Constitution,1d6 Thunder; 1d6; 2d6; 3d6; 4d6,,,AoE (Emanation),5-foot Emanation,,,
+Thunderous Smite,1,Evocation,No,1 bonus action,Instantaneous,Strength,2d6 Thunder,,,Self,,Prone,,Forced movement
+Thunderwave,1,Evocation,No,1 action,Instantaneous,Constitution,2d8 Thunder,,,AoE (Cube),15-foot Cube,,,Forced movement
+Time Stop,9,Transmutation,No,1 action,Instantaneous,,1d4 + 1,,,Self,,,,Conjure/Create
+Toll the Dead,0,Necromancy,No,1 action,Instantaneous,Wisdom,1d8 Necrotic; 2d8; 2d12; 3d8; 3d12; 4d8; 4d12,,,Single target,,,,
+Tongues,3,Divination,No,1 action,1 hour,,,,,Single target,,,,Divination/Scrying
+Transport via Plants,6,Conjuration,No,1 action,1 minute,,,,,Single target,,,,
+Tree Stride,5,Conjuration,Yes,1 action,"Concentration, up to 1 minute",,,,,Self,,,,
+True Polymorph,9,Transmutation,Yes,1 action,"Concentration, up to 1 hour",Wisdom,,,,Single target,,,Temp HP,
+True Resurrection,9,Necromancy,No,1 hour,Instantaneous,,,,,Single target,,,,
+True Seeing,6,Divination,No,1 action,1 hour,,,,,Single target,,,,Divination/Scrying
+True Strike,0,Divination,No,1 action,Instantaneous,,1d6; 2d6; 3d6,,,Self,,,,Divination/Scrying
+Tsunami,8,Conjuration,Yes,1 minute,1 round,Strength,6d10 Bludgeoning; 5d10 Bludgeoning; 1d10,,,All creatures in area,,,,
+Unseen Servant,1,Conjuration,No,1 action,1 hour,,,,,Single target,,Invisible,,Invisibility
+Vampiric Touch,3,Necromancy,Yes,1 action,"Concentration, up to 1 minute",Melee Attack,,,,Self,,,,Healing
+Vicious Mockery,0,Enchantment,No,1 action,Instantaneous,Wisdom,1d6 Psychic; 1d6; 2d6; 3d6; 4d6,,,Single target,,,,
+Vitriolic Sphere,4,Evocation,No,1 action,Instantaneous,Dexterity,10d4 Acid; 5d4,,,AoE (Sphere),20-foot-radius Sphere,,,
+Wall of Fire,4,Evocation,Yes,1 action,"Concentration, up to 1 minute",Dexterity,5d8 Fire,,,All creatures in area,,,,Negate damage
+Wall of Force,5,Evocation,Yes,1 action,"Concentration, up to 10 minutes",,,,,Single target,,Invisible,,Invisibility
+Wall of Ice,6,Evocation,Yes,1 action,"Concentration, up to 10 minutes",Dexterity; Constitution,10d6 Cold; 5d6 Cold,,,Single target,,,Immunity,
+Wall of Stone,5,Evocation,Yes,1 action,"Concentration, up to 10 minutes",Dexterity,,,,Single target,,,Immunity,
+Wall of Thorns,6,Conjuration,Yes,1 action,"Concentration, up to 10 minutes",Dexterity,7d8 Piercing; 7d8 Slashing,,,All creatures in area,,,,
+Wardaway,1,Abjuration,No,1 action,Instantaneous,Constitution,2d4 Force,,,Single target,,,,
+Warding Bond,2,Abjuration,No,1 action,1 hour,,,,,Single target,,,+1 AC,
+Water Breathing,3,Transmutation,No,1 action,24 hours,,,,,Single target,,,,
+Water Walk,3,Transmutation,No,1 action,1 hour,,,,,Single target,,,,
+Web,2,Conjuration,Yes,1 action,"Concentration, up to 1 hour",Dexterity,2d4,,,AoE (Cube),20-foot Cube,Restrained,,Conjure/Create
+Weird,9,Illusion,Yes,1 action,"Concentration, up to 1 minute",Wisdom,10d10 Psychic; 5d10,,,AoE (Sphere),30-foot-radius Sphere,Frightened,,Conjure/Create
+Wind Walk,6,Transmutation,No,1 minute,8 hours,,,,,Single target,,Prone; Stunned,Immunity,Flight
+Wind Wall,3,Evocation,Yes,1 action,"Concentration, up to 1 minute",Strength,4d8 Bludgeoning,,,All creatures in area,,,,Flight
+Wish,9,Conjuration,No,1 action,Instantaneous,,1d10 Necrotic; 2d4; 1d3,,,Self,,,Immunity,Healing
+Witch Bolt,1,Evocation,Yes,1 action,"Concentration, up to 1 minute",Ranged Attack,2d12 Lightning; 1d12 Lightning,,,Single target,,,,
+Word of Radiance,0,Evocation,No,1 action,Instantaneous,Constitution,1d6 Radiant; 1d6; 2d6; 3d6; 4d6,,,AoE (Emanation),5-foot Emanation,,,
+Word of Recall,6,Conjuration,No,1 action,Instantaneous,,,,,Single target,,,,Teleport
+Wrathful Smite,1,Necromancy,No,1 bonus action,1 minute,Wisdom,1d6 Necrotic,,,Self,,Frightened,,
+Yolande's Regal Presence,5,Enchantment,Yes,1 action,"Concentration, up to 1 minute",Wisdom,4d6 Psychic,,,AoE (Emanation),10-foot Emanation,Prone,,
+Zone of Truth,2,Enchantment,No,1 action,10 minutes,Charisma,,,,AoE (Sphere),15-foot-radius Sphere,,,Conjure/Create

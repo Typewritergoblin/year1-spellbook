@@ -18,15 +18,7 @@ subtags: [{cleric: domain-commerce}, {dragonmark: warding}]
 
 You inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor) or within an object that can be closed (such as a book or chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.
 
-The glyph is nearly imperceptible and requires a successful [[/check ability=wis skill=prc dc=@attributes.spell.dc]] check against your spell save DC to notice.
-
-When you inscribe the glyph, you set its trigger and choose whether it’s an explosive rune or a spell glyph, as explained below.
-
-**Set the Trigger.** You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. Once a glyph is triggered, this spell ends.
-
-You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don’t trigger the glyph, such as those who say a certain password.
-
-**Explosive Rune.** When triggered, the glyph erupts with magical energy in a 20-foot-radius Sphere centered on the glyph. Each creature in the area makes a [[/save ability=dex dc=@attributes.spell.dc]] saving throw. A creature takes 5d8 [[/damage (@item.level + 2)d8 type=acid]]{Acid}, [[/damage (@item.level + 2)d8 type=acid]]{Cold}, [[/damage (@item.level + 2)d8 type=acid]]{Fire}, [[/damage (@item.level + 2)d8 type=acid]]{Lightning}, or [[/damage (@item.level + 2)d8 type=acid]]{Thunder} damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.
+The glyph is nearly imperceptible and requires a successful Thunder damage (your choice when you create the glyph) on a failed save or half as much damage on a successful one.
 
 **Spell Glyph.** You can store a prepared spell of level 3 or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way.
 

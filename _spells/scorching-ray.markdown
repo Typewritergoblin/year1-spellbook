@@ -20,4 +20,4 @@ You hurl three fiery rays. You can hurl them at one target within range or at se
 
 **Using a Higher-Level Spell Slot.** You create one additional ray for each spell slot level above 2.
 
-[[@item.level + 1]]{Total Rays}
+(spell slot level + 1){Total Rays}

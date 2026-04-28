@@ -15,7 +15,7 @@ tags: [bard, cleric, level9, action, enchantment]
 
 **Duration**: Instantaneous
 
-A wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the &amp;Reference[Charmed], &amp;Reference[Frightened], &amp;Reference[Paralyzed], &amp;Reference[Poisoned], or &amp;Reference[Stunned] condition, the condition ends. If the creature has the &amp;Reference[Prone] condition, it can use its Reaction to stand up.
+A wave of healing energy washes over one creature you can see within range. The target regains all its Hit Points. If the creature has the Charmed, Frightened, Paralyzed, Poisoned, or Stunned condition, the condition ends. If the creature has the Prone condition, it can use its Reaction to stand up.
 
 Foundry Note
 
