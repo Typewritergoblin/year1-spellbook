@@ -14,7 +14,7 @@ subtags: [{cleric: domain-mind}, {ranger: bloodhound}, {warlock: patron-great-ol
 
 **Components**: V, S, M (a focus worth 100+ GP, either a jeweled horn for hearing or a glass eye for seeing)
 
-**Duration**: Instantaneous
+**Duration**: Concentration, up to 10 minutes
 
 You create an Invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The intangible, invulnerable sensor remains in place for the duration.
 

@@ -8,7 +8,7 @@ subtags: [{dragonmark: handling}]
 
 **1st-level conjuration**
 
-**Casting Time**: 1 hour
+**Casting Time**: 1 hour (Ritual)
 
 **Range**: 10 feet
 

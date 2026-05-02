@@ -8,7 +8,7 @@ subtags: [{paladin: oath-ancients}]
 
 **1st-level conjuration**
 
-**Casting Time**: 1 bonus action
+**Casting Time**: Bonus Action, which you take immediately after hitting a creature with a weapon
 
 **Range**: Self
 

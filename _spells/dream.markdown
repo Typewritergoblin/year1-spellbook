@@ -10,7 +10,7 @@ subtags: [{dragonmark: scribing}]
 
 **Casting Time**: 1 minute
 
-**Range**: spec
+**Range**: Special
 
 **Components**: V, S, M (a handful of sand)
 

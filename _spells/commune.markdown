@@ -8,7 +8,7 @@ subtags: [{paladin: oath-devotion}]
 
 **5th-level divination**
 
-**Casting Time**: 1 minute
+**Casting Time**: 1 minute (Ritual)
 
 **Range**: Self
 

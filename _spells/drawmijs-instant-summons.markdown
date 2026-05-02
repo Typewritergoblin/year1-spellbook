@@ -7,7 +7,7 @@ tags: [wizard, level6, ritual, long, conjuration]
 
 **6th-level conjuration**
 
-**Casting Time**: 1 minute
+**Casting Time**: 1 minute (Ritual)
 
 **Range**: Touch
 
@@ -21,6 +21,3 @@ Thereafter, you can take a Magic action to speak the object’s name and crush t
 
 If another creature is holding or carrying the object, crushing the sapphire doesn’t transport it, but instead you learn who that creature is and where that creature is currently located.
 
-**Foundry Note**
-
-This spell's Limited Uses are configured to track the number of inscribed objects, with the "Inscribe" and "Recall" activities restoring and consuming uses as appropriate.
