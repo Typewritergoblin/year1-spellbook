@@ -21,6 +21,43 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.
+## Fiendish Spirit
 
-Fiendish Spirit**AC**12 + the spell’s level**HP**50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6**Speed**40 ft.; Climb 40 ft. (Demon only); Fly 60 ft. (Devil only)**PB**equals your Proficiency Bonus
+*Large Fiend, Neutral*
+
+**AC** 12 + the spell's level
+**HP** 50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6
+**Speed** 40 ft., Climb 40 ft. (Demon only); Fly 60 ft. (Devil only)
+
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 13 | +1 | +1 |
+| Dex | 16 | +3 | +3 |
+| Con | 15 | +2 | +2 |
+| Int | 10 | +0 | +0 |
+| Wis | 10 | +0 | +0 |
+| Cha | 16 | +3 | +3 |
+
+**Resistances** Fire
+**Immunities** Poison; Poisoned
+**Senses** Darkvision 60 ft., Passive Perception 10
+**Languages** Abyssal, Infernal, Telepathy 60 ft.
+**CR** None (XP 0; PB equals your Proficiency Bonus)
+
+### Traits
+
+**Death Throes (Demon Only).** When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. *Dexterity Saving Throw:* DC equals your spell save DC, each creature in a 10-foot Emanation originating from the spirit. *Failure:* 2d10 plus this spell's level Fire damage. *Success:* Half damage.
+
+**Devil's Sight (Devil Only).** Magical Darkness doesn't impede the spirit's Darkvision.
+
+**Magic Resistance.** The spirit has Advantage on saving throws against spells and other magical effects.
+
+### Actions
+
+**Multiattack.** The spirit makes a number of attacks equal to half this spell's level (round down).
+
+**Bite (Demon Only).** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d12 + 3 + the spell's level Necrotic damage.
+
+**Claws (Yugoloth Only).** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + the spell's level Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see.
+
+**Fiery Strike (Devil Only).** *Melee or Ranged Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. or range 150 ft. *Hit:* 2d6 + 3 + the spell's level Fire damage.

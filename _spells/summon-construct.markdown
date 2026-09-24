@@ -22,6 +22,41 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.
+## Construct Spirit
 
-Construct Spirit**AC**13 + the spell’s level**HP**40 + 15 for each spell level above 4**PB**equals your Proficiency Bonus
+*Medium Construct, Neutral*
+
+**AC** 13 + the spell's level
+**HP** 40 + 15 for each spell level above 4
+**Speed** 30 ft.
+
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 18 | +4 | +4 |
+| Dex | 10 | +0 | +0 |
+| Con | 18 | +4 | +4 |
+| Int | 14 | +2 | +2 |
+| Wis | 11 | +0 | +0 |
+| Cha | 5 | −3 | −3 |
+
+**Resistances** Poison
+**Immunities** Charmed, Exhaustion, Frightened, Paralyzed, Poisoned
+**Senses** Darkvision 60 ft., Passive Perception 10
+**Languages** Understands the languages you know
+**CR** None (XP 0; PB equals your Proficiency Bonus)
+
+### Traits
+
+**Heated Body (Metal Only).** A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage.
+
+**Stony Lethargy (Stone Only).** When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. *Wisdom Saving Throw:* DC equals your spell save DC, the target. *Failure:* Until the start of its next turn, the target can't make Opportunity Attacks, and its Speed is halved.
+
+### Actions
+
+**Multiattack.** The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+
+**Slam.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + the spell's level Bludgeoning damage.
+
+### Reactions
+
+**Berserk Lashing (Clay Only).** *Trigger:* The spirit takes damage from a creature. *Response:* The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attacks.

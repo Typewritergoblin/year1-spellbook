@@ -22,6 +22,35 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.
+## Elemental Spirit
 
-Elemental Spirit**AC**11 + the spell’s level**HP**50 + 10 for each spell level above 4**Speed**40 ft.; Burrow 40 ft. (Earth only); Fly 40 ft. (hover; Air only); Swim 40 ft. (Water only)**PB**equals your Proficiency Bonus
+*Medium Elemental, Neutral*
+
+**AC** 11 + the spell's level
+**HP** 50 + 10 for each spell level above 4
+**Speed** 40 ft., Burrow 40 ft. (Earth only); Fly 40 ft. (hover; Air only); Swim 40 ft. (Water only)
+
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 18 | +4 | +4 |
+| Dex | 15 | +2 | +2 |
+| Con | 17 | +3 | +3 |
+| Int | 4 | −3 | −3 |
+| Wis | 10 | +0 | +0 |
+| Cha | 16 | +3 | +3 |
+
+**Resistances** Acid (Water only), Lightning and Thunder (Air only), Piercing and Slashing (Earth only)
+**Immunities** Fire (Fire only), Poison; Exhaustion, Paralyzed, Petrified, Poisoned
+**Senses** Darkvision 60 ft., Passive Perception 10
+**Languages** Primordial, understands the languages you know
+**CR** None (XP 0; PB equals your Proficiency Bonus)
+
+### Traits
+
+**Amorphous Form (Air, Fire, and Water Only).** The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain.
+
+### Actions
+
+**Multiattack.** The spirit makes a number of Slam attacks equal to half this spell's level (round down).
+
+**Slam.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 4 + the spell's level Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage.

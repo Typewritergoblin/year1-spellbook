@@ -21,46 +21,38 @@ You summon a special homunculus in an unoccupied space within range. This creatu
 
 **Using a Higher-Level Spell Slot.** Use the spell slot's level for the spell's level in the stat block.
 
-#### Homunculus Servant
+## Homunculus Servant
 
-Tiny Construct, Neutral
+*Tiny Construct, Neutral*
 
 **AC** 13
-
-**HP** 5 + 5 per spell level (the homunculus has a number of Hit Dice \[d4s\] equal to the spell’s level)
-
+**HP** 5 + 5 per spell level (the homunculus has a number of Hit Dice [d4s] equal to the spell’s level)
 **Speed** 20 ft., Fly 30 ft.
 
-|  |  | Mod | Save |
+| Ability | Score | Mod | Save |
 | --- | --- | --- | --- |
-| STR | 4 | −3 | −3 |
-| DEX | 15 | +2 | +2 |
-| CON | 12 | +1 | +1 |
-
-|  |  | Mod | Save |
-| --- | --- | --- | --- |
-| INT | 10 | +0 | +0 |
-| WIS | 10 | +0 | +0 |
-| CHA | 7 | −2 | −2 |
+| Str | 4 | −3 | −3 |
+| Dex | 15 | +2 | +2 |
+| Con | 12 | +1 | +1 |
+| Int | 10 | +0 | +0 |
+| Wis | 10 | +0 | +0 |
+| Cha | 7 | −2 | −2 |
 
 **Immunities** Poison; Exhaustion, Poisoned
-
-**Senses** Darkvision 60 ft.; Passive Perception
-
+**Senses** Darkvision 60 ft.; Passive Perception 10
 **Languages** Telepathy 1 mile (works only with you)
-
 **CR** None (XP 0; PB equals your Proficiency Bonus)
 
-Traits
+### Traits
 
-***Evasion.*** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can’t use this trait if it has the Incapacitated condition.
+**Evasion.** If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the homunculus instead takes no damage if it succeeds on the save and only half damage if it fails. It can’t use this trait if it has the Incapacitated condition.
 
-***Magic Bond.*** Add the spell’s level to any ability check or saving throw the homunculus makes.
+**Magic Bond.** Add the spell’s level to any ability check or saving throw the homunculus makes.
 
-Actions
+### Actions
 
 **Force Strike.** *Melee or Ranged Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. or range 30 ft. *Hit:* 1d6 plus the spell’s level Force damage.
 
-Reactions
+### Reactions
 
 **Channel Magic.** *Trigger:* You cast a spell that has a range of touch while the homunculus is within 120 feet of you. *Response:* The homunculus delivers the spell through its touch.

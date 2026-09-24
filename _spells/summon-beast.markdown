@@ -21,6 +21,37 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.
+## Bestial Spirit
 
-Bestial Spirit**AC**11 + the spell’s level**HP**20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2**Speed**30 ft.; Climb 30 ft. (Land only); Fly 60 ft. (Air only); Swim 30 ft. (Water only)**PB**equals your Proficiency Bonus
+*Small Beast, Neutral*
+
+**AC** 11 + the spell's level
+**HP** 20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2
+**Speed** 30 ft., Climb 30 ft. (Land only); Fly 60 ft. (Air only); Swim 30 ft. (Water only)
+
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 18 | +4 | +4 |
+| Dex | 11 | +0 | +0 |
+| Con | 16 | +3 | +3 |
+| Int | 4 | −3 | −3 |
+| Wis | 14 | +2 | +2 |
+| Cha | 5 | −3 | −3 |
+
+**Senses** Darkvision 60 ft., Passive Perception 12
+**Languages** Understands the languages you know
+**CR** None (XP 0; PB equals your Proficiency Bonus)
+
+### Traits
+
+**Flyby (Air Only).** The spirit doesn't provoke Opportunity Attacks when it flies out of an enemy's reach.
+
+**Pack Tactics (Land and Water Only).** The spirit has Advantage on an attack roll against a creature if at least one of the spirit's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition.
+
+**Water Breathing (Water Only).** The spirit can breathe only underwater.
+
+### Actions
+
+**Multiattack.** The spirit makes a number of Rend attacks equal to half this spell's level (round down).
+
+**Rend.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + the spell's level Piercing damage.

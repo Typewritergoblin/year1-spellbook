@@ -22,6 +22,38 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.
+## Fey Spirit
 
-Fey Spirit**AC**12 + the spell’s level**HP**30 + 10 for each spell level above 3**PB**equals your Proficiency Bonus
+*Small Fey, Neutral*
+
+**AC** 12 + the spell's level
+**HP** 30 + 10 for each spell level above 3
+**Speed** 30 ft., Fly 30 ft.
+
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 13 | +1 | +1 |
+| Dex | 16 | +3 | +3 |
+| Con | 14 | +2 | +2 |
+| Int | 14 | +2 | +2 |
+| Wis | 11 | +0 | +0 |
+| Cha | 16 | +3 | +3 |
+
+**Immunities** Charmed
+**Senses** Darkvision 60 ft., Passive Perception 10
+**Languages** Sylvan, understands the languages you know
+**CR** None (XP 0; PB equals your Proficiency Bonus)
+
+### Actions
+
+**Multiattack.** The spirit makes a number of Fey Blade attacks equal to half this spell's level (round down).
+
+**Fey Blade.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 2d6 + 3 + the spell's level Force damage.
+
+### Bonus Actions
+
+**Fey Step.** The spirit magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the spirit's chosen mood:
+
+- **Fuming.** The spirit has Advantage on the next attack roll it makes before the end of this turn.
+- **Mirthful.** *Wisdom Saving Throw:* DC equals your spell save DC, one creature the spirit can see within 10 feet of itself. *Failure:* The target is Charmed by you and the spirit for 1 minute or until the target takes any damage.
+- **Tricksy.** The spirit fills a 10-foot Cube within 5 feet of it with magical Darkness, which lasts until the end of its next turn.

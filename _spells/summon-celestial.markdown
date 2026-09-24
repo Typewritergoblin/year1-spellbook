@@ -22,6 +22,35 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-In addition to the noted usage of the spell's level in the spirit's Traits and Actions, the following attributes are also affected.
+## Celestial Spirit
 
-Celestial Spirit**AC**11 + the spell’s level + 2 (Defender only)**HP**40 + 10 for each spell level above 5**PB**equals your Proficiency Bonus
+*Large Celestial, Neutral*
+
+**AC** 11 + the spell's level + 2 (Defender only)
+**HP** 40 + 10 for each spell level above 5
+**Speed** 30 ft., Fly 40 ft.
+
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 16 | +3 | +3 |
+| Dex | 14 | +2 | +2 |
+| Con | 16 | +3 | +3 |
+| Int | 10 | +0 | +0 |
+| Wis | 14 | +2 | +2 |
+| Cha | 16 | +3 | +3 |
+
+**Resistances** Radiant
+**Immunities** Charmed, Frightened
+**Senses** Darkvision 60 ft., Passive Perception 12
+**Languages** Celestial, understands the languages you know
+**CR** None (XP 0; PB equals your Proficiency Bonus)
+
+### Actions
+
+**Multiattack.** The spirit makes a number of attacks equal to half this spell's level (round down).
+
+**Radiant Bow (Avenger Only).** *Ranged Attack Roll:* Bonus equals your spell attack modifier, range 600 ft. *Hit:* 2d6 + 2 + the spell's level Radiant damage.
+
+**Radiant Mace (Defender Only).** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + the spell's level Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points.
+
+**Healing Touch (1/Day).** The spirit touches another creature. The target regains Hit Points equal to 2d8 + the spell's level.

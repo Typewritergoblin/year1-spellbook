@@ -21,7 +21,7 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 
 **Using a Higher-Level Spell Slot.** Use the spell slot’s level for the spell’s level in the stat block.
 
-#### Giant Insect
+## Giant Insect
 
 *Large Beast, Unaligned*
 
@@ -29,20 +29,29 @@ The creature is an ally to you and your allies. In combat, the creature shares y
 **HP** 30 + 10 for each spell level above 4
 **Speed** 40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)
 
-| STR | DEX | CON | INT | WIS | CHA |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 17 (+3) | 13 (+1) | 15 (+2) | 4 (−3) | 14 (+2) | 3 (−4) |
+| Ability | Score | Mod | Save |
+| --- | --- | --- | --- |
+| Str | 17 | +3 | +3 |
+| Dex | 13 | +1 | +1 |
+| Con | 15 | +2 | +2 |
+| Int | 4 | −3 | −3 |
+| Wis | 14 | +2 | +2 |
+| Cha | 3 | −4 | −4 |
 
 **Senses** Darkvision 60 ft.; Passive Perception 12
 **Languages** Understands the languages you know
 **CR** None (XP 0; PB equals your Proficiency Bonus)
 
-***Spider Climb.*** The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.
+### Traits
 
-***Multiattack.*** The insect makes a number of attacks equal to half this spell’s level (round down).
+**Spider Climb.** The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check.
 
-***Poison Jab.*** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 10 ft. *Hit:* 1d6 + 3 plus the spell’s level Piercing damage plus 1d4 Poison damage.
+### Actions
 
-***Web Bolt (Spider Only).*** *Ranged Attack Roll:* Bonus equals your spell attack modifier, range 60 ft. *Hit:* 1d10 + 3 plus the spell’s level Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.
+**Multiattack.** The insect makes a number of attacks equal to half this spell’s level (round down).
 
-***Venomous Spew (Centipede Only).*** *Constitution Saving Throw:* Your spell save DC, one creature the insect can see within 10 feet. *Failure:* The target has the Poisoned condition until the start of the insect’s next turn.
+**Poison Jab.** *Melee Attack Roll:* Bonus equals your spell attack modifier, reach 10 ft. *Hit:* 1d6 + 3 plus the spell’s level Piercing damage plus 1d4 Poison damage.
+
+**Web Bolt (Spider Only).** *Ranged Attack Roll:* Bonus equals your spell attack modifier, range 60 ft. *Hit:* 1d10 + 3 plus the spell’s level Bludgeoning damage, and the target’s Speed is reduced to 0 until the start of the insect’s next turn.
+
+**Venomous Spew (Centipede Only).** *Constitution Saving Throw:* Your spell save DC, one creature the insect can see within 10 feet. *Failure:* The target has the Poisoned condition until the start of the insect’s next turn.
