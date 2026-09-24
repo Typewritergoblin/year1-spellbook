@@ -4,3 +4,6 @@ _drafts/
 grimoire.sublime*
 .sass-cache/
 .jekyll-cache/
+__pycache__/
+2024spells/
+claudeWorkbook/

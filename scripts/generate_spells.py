@@ -1,10 +1,17 @@
 """
 Generate _spells/ markdown files from 2024 JSON data + class spell list.
 
-Usage: py scripts/generate_spells.py
-Run from the repo root.
+Usage:
+    py scripts/generate_spells.py --source arcana-unleashed
+    py scripts/generate_spells.py --source phb2024 --source arcana-unleashed
+    py scripts/generate_spells.py --all   # regenerates every sourcebook
+
+--all (or --source phb2024) overwrites every file for that sourcebook,
+including any manual edits made to _spells/*.markdown since it was last
+generated. Run from the repo root.
 """
 
+import argparse
 import json
 import os
 import re
@@ -48,10 +55,10 @@ def format_activation(activation):
     v = activation.get("value")
     if t == "action":
         return "1 action"
-    if t == "bonus":
+    if t in ("bonus", "bonus action"):
         return "1 bonus action"
-    if t == "reaction":
-        cond = activation.get("condition", "")
+    if t == "reaction" or t.startswith("reaction,"):
+        cond = activation.get("condition", "") or t[len("reaction,"):].strip()
         return f"1 reaction{', ' + cond if cond else ''}"
     if t == "minute":
         n = v or 1
@@ -59,6 +66,7 @@ def format_activation(activation):
     if t == "hour":
         n = v or 1
         return f"{n} hour" if n == 1 else f"{n} hours"
+    # Free-text casting times (e.g. "10 minutes", "10 minutes or ritual")
     return t
 
 
@@ -159,9 +167,9 @@ def casting_time_tag(activation):
     t = activation.get("type", "")
     if t == "action":
         return "action"
-    if t == "bonus":
+    if t in ("bonus", "bonus action"):
         return "bonus"
-    if t == "reaction":
+    if t == "reaction" or t.startswith("reaction,"):
         return "reaction"
     return "long"
 
@@ -224,12 +232,26 @@ def parse_class_list(path):
     return class_map
 
 
-def main():
-    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    condensed_path = os.path.join(repo_root, "2024spells", "dnd2024-spells-condensed.json")
-    full_path      = os.path.join(repo_root, "2024spells", "dnd2024-spells-full.json")
-    class_list_path = os.path.join(repo_root, "claudeWorkbook", "classSpellLists.md")
-    output_dir     = os.path.join(repo_root, "_spells")
+# ── Sourcebooks to generate, in order ────────────────────────────────────────
+SOURCEBOOKS = [
+    {
+        "key": "phb2024",
+        "condensed": "dnd2024-spells-condensed.json",
+        "full": "dnd2024-spells-full.json",
+        "source_tag": "PHB 2024",
+    },
+    {
+        "key": "arcana-unleashed",
+        "condensed": "arcanaunleashed2024-spells-condensed.json",
+        "full": "arcanaunleashed2024-spells-full.json",
+        "source_tag": "Arcana Unleashed 2024",
+    },
+]
+
+
+def process_sourcebook(repo_root, condensed_name, full_name, source_tag, class_map, output_dir):
+    condensed_path = os.path.join(repo_root, "2024spells", condensed_name)
+    full_path      = os.path.join(repo_root, "2024spells", full_name)
 
     with open(condensed_path, "r", encoding="utf-8") as f:
         condensed = json.load(f)
@@ -246,11 +268,9 @@ def main():
         if mat:
             material_map[raw_name] = mat
 
-    class_map = parse_class_list(class_list_path)
-
-    skipped = []
     written = []
     no_classes = []
+    sources_yaml = f"[{source_tag}]"
 
     for spell in condensed:
         raw_name = spell["name"]
@@ -275,7 +295,6 @@ def main():
 
         tags = build_tags(classes, level, is_ritual, is_concentration, activation, school_full)
         tags_yaml = "[" + ", ".join(tags) + "]"
-        sources_yaml = "[PHB 2024]"
 
         subtags_yaml = ""
         if subclass_tags:
@@ -318,15 +337,43 @@ tags: {tags_yaml}
             f.write(content)
         written.append(filename)
 
-    print(f"Written: {len(written)} spell files")
+    print(f"[{source_tag}] Written: {len(written)} spell files")
     if no_classes:
-        print(f"\nSpells with no class tags ({len(no_classes)}) — supplement spells or unmatched names:")
+        print(f"[{source_tag}] Spells with no class tags ({len(no_classes)}) — supplement spells or unmatched names:")
         for name in sorted(no_classes):
             print(f"  {name}")
-    if skipped:
-        print(f"\nSkipped ({len(skipped)}):")
-        for name in sorted(skipped):
-            print(f"  {name}")
+
+
+def main():
+    keys = [sb["key"] for sb in SOURCEBOOKS]
+
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument(
+        "--source", action="append", metavar="KEY", choices=keys,
+        help=f"Sourcebook to (re)generate. Repeatable. Choices: {', '.join(keys)}.",
+    )
+    parser.add_argument(
+        "--all", action="store_true",
+        help="Regenerate every sourcebook (overwrites manual edits in _spells/).",
+    )
+    args = parser.parse_args()
+
+    if not args.source and not args.all:
+        parser.error(
+            "no sourcebook selected - pass --source KEY (one or more) or --all.\n"
+            f"Available keys: {', '.join(keys)}"
+        )
+
+    selected = SOURCEBOOKS if args.all else [sb for sb in SOURCEBOOKS if sb["key"] in args.source]
+
+    repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    class_list_path = os.path.join(repo_root, "claudeWorkbook", "classSpellLists.md")
+    output_dir = os.path.join(repo_root, "_spells")
+
+    class_map = parse_class_list(class_list_path)
+
+    for sb in selected:
+        process_sourcebook(repo_root, sb["condensed"], sb["full"], sb["source_tag"], class_map, output_dir)
 
 
 if __name__ == "__main__":
